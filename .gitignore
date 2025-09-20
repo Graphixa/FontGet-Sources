@@ -3,6 +3,8 @@
 .env.local
 .env.test
 
+.github/workflows
+
 # Python
 __pycache__/
 *.py[cod]
