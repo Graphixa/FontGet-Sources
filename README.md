@@ -1,52 +1,38 @@
 # FontGet Sources
 
-This repository contains standardized font source data for the FontGet CLI tool. Each source provides a consistent JSON format that FontGet can consume for font discovery and installation.
+This repository provides font data for the [Fontget](https://github.com/Graphixa/FontGet) CLI tool. It contains standardized information about fonts from popular sources, automatically updated daily.
 
-## Repository Structure
+A GitHub Actions workflow runs daily to fetch, transform, and sanitize data from each font API into [Fontget](https://github.com/Graphixa/FontGet) compatible source files.
 
-```
-fontget-sources/
-├── .github/
-│   └── workflows/          # GitHub Actions for automated updates
-├── sources/                # Source JSON files
-│   ├── google-fonts.json
-│   ├── nerd-fonts.json
-│   └── font-squirrel.json
-├── scripts/                # Source translators
-│   ├── google-fonts-translator.py
-│   ├── nerd-fonts-translator.py
-│   └── font-squirrel-translator.py
-├── schemas/                # JSON schemas and validation
-│   ├── font-source-schema.json
-│   ├── font-variant-schema.json
-│   └── validate-sources.py
-├── docs/                   # Documentation
-│   ├── source-creation-guide.md
-│   └── api-reference.md
-└── examples/               # Example source files
-    ├── minimal-source.json
-    └── complete-source.json
-```
+## Font Sources
 
-## Source Format
+- **[Google Fonts](sources/google-fonts.json)**
+- **[Nerd Fonts](sources/nerd-fonts.json)**
+- **[Font Squirrel](sources/font-squirrel.json)**
 
-Each source file follows the FontGet Source Schema (see `schemas/font-source-schema.json`). The schema ensures consistency across all sources and makes it easy for contributors to create new sources.
+## What's Inside
 
-## Adding New Sources
+Each source file contains font information like:
+- Font names and families
+- Download URLs (direct files or archives)
+- Font weights and styles
+- License info
+- Designer and foundry details
 
-1. Create a new translator script in `scripts/`
-2. Add a GitHub Actions workflow in `.github/workflows/`
-3. Follow the schema validation guidelines
-4. Test your source with the validation tool
+## For FontGet Users
 
-## Validation
+[Fontget](https://github.com/Graphixa/FontGet) CLI tool automatically uses this data to find and install fonts. You can also fork this repository or use the data directly for your own font lookup needs.
 
-All source files are validated against the JSON schema before being committed. Use the validation tool:
+## For Developers
 
-```bash
-python schemas/validate-sources.py sources/your-source.json
-```
+- **[Schemas](schemas/)** - JSON validation rules
+- **[Scripts](scripts/)** - Data update automation
+- **[Sources](sources/)** - The actual font data files
 
-## Contributing
+Want to create a FontGet-compatible source to import into [Fontget](https://github.com/Graphixa/FontGet)? Check out the [JSON Schema](schemas/font-source-schema.json) and examine the [translator scripts](scripts/) for examples.
 
-See `docs/source-creation-guide.md` for detailed instructions on creating new font sources.
+## Special Thanks
+
+- **[Google Fonts](https://fonts.google.com/)** - For providing the Google Fonts API
+- **[Font Squirrel](https://www.fontsquirrel.com/)** - For their free font collection and API
+- **[Nerd Fonts](https://www.nerdfonts.com/)** - Created by [Ryan L McIntyre](https://github.com/ryanoasis) for developer-focused fonts

@@ -9,6 +9,7 @@ Requires GOOGLE_FONTS_API_KEY environment variable.
 import json
 import os
 import requests
+import re
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 
@@ -37,19 +38,37 @@ class GoogleFontsTranslator:
         """Transform Google Fonts data to FontGet format."""
         # Extract basic info
         family = font_data["family"]
-        font_id = f"google.{family.lower().replace(' ', '-')}"
+        # Clean font name for ID: lowercase, replace spaces/special chars with hyphens
+        clean_name = re.sub(r'[^a-z0-9-]', '-', family.lower())
+        clean_name = re.sub(r'-+', '-', clean_name).strip('-')
+        font_id = clean_name
         
         # Transform variants
         variants = []
         for variant in font_data.get("variants", []):
-            variant_data = self._parse_variant(variant, family)
+            variant_data = self._parse_variant(variant, family, font_data)
             if variant_data:
                 variants.append(variant_data)
         
         # Extract categories
         categories = []
         if "category" in font_data:
-            categories.append(font_data["category"])
+            # Map Google Fonts categories to schema format
+            category = font_data["category"]
+            category_mapping = {
+                "sans-serif": "Sans Serif",
+                "serif": "Serif", 
+                "display": "Display",
+                "handwriting": "Handwriting",
+                "monospace": "Monospace",
+                "script": "Script",
+                "decorative": "Decorative",
+                "symbol": "Symbol",
+                "icon": "Icon",
+                "other": "Other"
+            }
+            mapped_category = category_mapping.get(category, category.capitalize())
+            categories.append(mapped_category)
         
         # Calculate popularity score (0-100)
         popularity = self._calculate_popularity(font_data)
@@ -57,8 +76,8 @@ class GoogleFontsTranslator:
         return {
             "name": family,
             "family": family,
-            "license": "OFL",  # Google Fonts are typically OFL
-            "license_url": "https://scripts.sil.org/OFL",
+            "license": "See Google Fonts website",  # License info not provided by API
+            "license_url": f"https://fonts.google.com/specimen/{family.replace(' ', '+')}",
             "designer": font_data.get("designer", ""),
             "foundry": "Google",
             "version": font_data.get("version", "1.0"),
@@ -75,7 +94,7 @@ class GoogleFontsTranslator:
             "sample_text": "The quick brown fox jumps over the lazy dog"
         }
     
-    def _parse_variant(self, variant: str, family: str) -> Optional[Dict[str, Any]]:
+    def _parse_variant(self, variant: str, family: str, font_data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         """Parse Google Fonts variant string into FontGet format."""
         # Google Fonts variants are like "regular", "700", "italic", "700italic"
         if variant == "regular":
@@ -98,8 +117,8 @@ class GoogleFontsTranslator:
             # Skip unsupported variants
             return None
         
-        # Generate file URLs
-        files = self._generate_file_urls(family, variant)
+        # Generate file URLs using actual Google Fonts API data
+        files = self._generate_file_urls(font_data, variant)
         
         return {
             "name": name,
@@ -124,23 +143,23 @@ class GoogleFontsTranslator:
         }
         return weight_names.get(weight, str(weight))
     
-    def _generate_file_urls(self, family: str, variant: str) -> Dict[str, str]:
-        """Generate file URLs for a font variant."""
-        # Google Fonts files are hosted on GitHub
-        family_path = family.lower().replace(' ', '')
-        variant_file = f"{family.replace(' ', '')}-{variant.title()}"
-        
-        base_url = f"https://raw.githubusercontent.com/google/fonts/main/ofl/{family_path}"
-        
+    def _generate_file_urls(self, font_data: Dict[str, Any], variant: str) -> Dict[str, str]:
+        """Generate file URLs for a font variant using actual Google Fonts API data."""
         files = {}
         
-        # Try to construct TTF URL (most common)
-        ttf_url = f"{base_url}/{variant_file}.ttf"
-        files["ttf"] = ttf_url
-        
-        # Try to construct OTF URL if available
-        otf_url = f"{base_url}/{variant_file}.otf"
-        files["otf"] = otf_url
+        # Get the actual file URL from Google Fonts API
+        font_files = font_data.get("files", {})
+        if variant in font_files:
+            # Google Fonts provides direct download URLs
+            file_url = font_files[variant]
+            # Determine file type from URL or default to ttf
+            if file_url.endswith('.ttf'):
+                files["ttf"] = file_url
+            elif file_url.endswith('.otf'):
+                files["otf"] = file_url
+            else:
+                # Default to ttf for Google Fonts
+                files["ttf"] = file_url
         
         return files
     
@@ -243,7 +262,10 @@ class GoogleFontsTranslator:
         for font_data in raw_data.get("items", []):
             try:
                 transformed = self.transform_font(font_data)
-                font_id = f"google.{font_data['family'].lower().replace(' ', '-')}"
+                # Clean font name for ID: lowercase, replace spaces/special chars with hyphens
+                clean_name = re.sub(r'[^a-z0-9-]', '-', font_data['family'].lower())
+                clean_name = re.sub(r'-+', '-', clean_name).strip('-')
+                font_id = clean_name
                 fonts[font_id] = transformed
             except Exception as e:
                 print(f"Warning: Failed to transform font {font_data.get('family', 'unknown')}: {e}")

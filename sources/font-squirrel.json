@@ -1,0 +1,2061 @@
+{
+  "source_info": {
+    "name": "Font Squirrel",
+    "description": "Free fonts from Font Squirrel",
+    "url": "https://www.fontsquirrel.com",
+    "api_endpoint": "https://www.fontsquirrel.com/api/fontlist/all",
+    "version": "1.0",
+    "last_updated": "2025-09-20T05:18:56.425024Z",
+    "total_fonts": 50
+  },
+  "fonts": {
+    "1942-report": {
+      "name": "1942 report",
+      "family": "1942 report",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/1942-report",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "typewriter"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/1942-report",
+      "source_url": "https://www.fontsquirrel.com/fonts/1942-report",
+      "variants": [
+        {
+          "name": "1942 report Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/1942-report"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "20db": {
+      "name": "20db",
+      "family": "20db",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/20-db",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/20-db",
+      "source_url": "https://www.fontsquirrel.com/fonts/20-db",
+      "variants": [
+        {
+          "name": "20db Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/20-db"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "3dumb": {
+      "name": "3Dumb",
+      "family": "3Dumb",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/3dumb",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "novelty"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/3dumb",
+      "source_url": "https://www.fontsquirrel.com/fonts/3dumb",
+      "variants": [
+        {
+          "name": "3Dumb Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/3dumb"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "aaargh": {
+      "name": "Aaargh",
+      "family": "Aaargh",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/Aaargh",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/Aaargh",
+      "source_url": "https://www.fontsquirrel.com/fonts/Aaargh",
+      "variants": [
+        {
+          "name": "Aaargh Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/Aaargh"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "abeezee": {
+      "name": "ABeeZee",
+      "family": "ABeeZee",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/abeezee",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/abeezee",
+      "source_url": "https://www.fontsquirrel.com/fonts/abeezee",
+      "variants": [
+        {
+          "name": "ABeeZee Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/abeezee"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "abel": {
+      "name": "Abel",
+      "family": "Abel",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/abel",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/abel",
+      "source_url": "https://www.fontsquirrel.com/fonts/abel",
+      "variants": [
+        {
+          "name": "Abel Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/abel"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "abhaya-libre": {
+      "name": "Abhaya Libre",
+      "family": "Abhaya Libre",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/abhaya-libre",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [
+        "serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/abhaya-libre",
+      "source_url": "https://www.fontsquirrel.com/fonts/abhaya-libre",
+      "variants": [
+        {
+          "name": "Abhaya Libre Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/abhaya-libre"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "abril-fatface": {
+      "name": "Abril Fatface",
+      "family": "Abril Fatface",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/abril-fatface",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/abril-fatface",
+      "source_url": "https://www.fontsquirrel.com/fonts/abril-fatface",
+      "variants": [
+        {
+          "name": "Abril Fatface Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/abril-fatface"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "acknowledgement": {
+      "name": "Acknowledgement",
+      "family": "Acknowledgement",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/Acknowledgement",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/Acknowledgement",
+      "source_url": "https://www.fontsquirrel.com/fonts/Acknowledgement",
+      "variants": [
+        {
+          "name": "Acknowledgement Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/Acknowledgement"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "acme": {
+      "name": "Acme",
+      "family": "Acme",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/acme",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/acme",
+      "source_url": "https://www.fontsquirrel.com/fonts/acme",
+      "variants": [
+        {
+          "name": "Acme Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/acme"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "action-man": {
+      "name": "Action Man",
+      "family": "Action Man",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/Action-Man",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "comic"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/Action-Man",
+      "source_url": "https://www.fontsquirrel.com/fonts/Action-Man",
+      "variants": [
+        {
+          "name": "Action Man Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/Action-Man"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "adhesive-nr-seven": {
+      "name": "Adhesive Nr. Seven",
+      "family": "Adhesive Nr. Seven",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/Adhesive-Nr.-Seven",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "dingbat"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/Adhesive-Nr.-Seven",
+      "source_url": "https://www.fontsquirrel.com/fonts/Adhesive-Nr.-Seven",
+      "variants": [
+        {
+          "name": "Adhesive Nr. Seven Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/Adhesive-Nr.-Seven"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "advent-pro": {
+      "name": "Advent Pro",
+      "family": "Advent Pro",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/advent-pro",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/advent-pro",
+      "source_url": "https://www.fontsquirrel.com/fonts/advent-pro",
+      "variants": [
+        {
+          "name": "Advent Pro Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/advent-pro"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "afta-sans": {
+      "name": "Afta Sans",
+      "family": "Afta Sans",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/afta-sans",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/afta-sans",
+      "source_url": "https://www.fontsquirrel.com/fonts/afta-sans",
+      "variants": [
+        {
+          "name": "Afta Sans Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/afta-sans"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "afta-serif": {
+      "name": "Afta Serif",
+      "family": "Afta Serif",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/afta-serif",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [
+        "serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/afta-serif",
+      "source_url": "https://www.fontsquirrel.com/fonts/afta-serif",
+      "variants": [
+        {
+          "name": "Afta Serif Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/afta-serif"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "after-shok": {
+      "name": "After Shok",
+      "family": "After Shok",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/After-Shok",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/After-Shok",
+      "source_url": "https://www.fontsquirrel.com/fonts/After-Shok",
+      "variants": [
+        {
+          "name": "After Shok Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/After-Shok"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "agan": {
+      "name": "Aganè",
+      "family": "Aganè",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/agane",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/agane",
+      "source_url": "https://www.fontsquirrel.com/fonts/agane",
+      "variants": [
+        {
+          "name": "Aganè Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/agane"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "aguafina-script": {
+      "name": "Aguafina Script",
+      "family": "Aguafina Script",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/aguafina-script",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Script"
+      ],
+      "tags": [
+        "script"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/aguafina-script",
+      "source_url": "https://www.fontsquirrel.com/fonts/aguafina-script",
+      "variants": [
+        {
+          "name": "Aguafina Script Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/aguafina-script"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "aileron": {
+      "name": "Aileron",
+      "family": "Aileron",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/aileron",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/aileron",
+      "source_url": "https://www.fontsquirrel.com/fonts/aileron",
+      "variants": [
+        {
+          "name": "Aileron Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/aileron"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "air-america": {
+      "name": "Air America",
+      "family": "Air America",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/air-america",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/air-america",
+      "source_url": "https://www.fontsquirrel.com/fonts/air-america",
+      "variants": [
+        {
+          "name": "Air America Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/air-america"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "airstream": {
+      "name": "Airstream",
+      "family": "Airstream",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/Airstream",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "retro"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/Airstream",
+      "source_url": "https://www.fontsquirrel.com/fonts/Airstream",
+      "variants": [
+        {
+          "name": "Airstream Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/Airstream"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "alata": {
+      "name": "Alata",
+      "family": "Alata",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/alata",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/alata",
+      "source_url": "https://www.fontsquirrel.com/fonts/alata",
+      "variants": [
+        {
+          "name": "Alata Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/alata"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "alatsi": {
+      "name": "Alatsi",
+      "family": "Alatsi",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/alatsi",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/alatsi",
+      "source_url": "https://www.fontsquirrel.com/fonts/alatsi",
+      "variants": [
+        {
+          "name": "Alatsi Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/alatsi"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "alef": {
+      "name": "Alef",
+      "family": "Alef",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/alef",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/alef",
+      "source_url": "https://www.fontsquirrel.com/fonts/alef",
+      "variants": [
+        {
+          "name": "Alef Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/alef"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "alegreya": {
+      "name": "Alegreya",
+      "family": "Alegreya",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/alegreya",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [
+        "serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/alegreya",
+      "source_url": "https://www.fontsquirrel.com/fonts/alegreya",
+      "variants": [
+        {
+          "name": "Alegreya Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/alegreya"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "alegreya-sans": {
+      "name": "Alegreya Sans",
+      "family": "Alegreya Sans",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/alegreya-sans",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/alegreya-sans",
+      "source_url": "https://www.fontsquirrel.com/fonts/alegreya-sans",
+      "variants": [
+        {
+          "name": "Alegreya Sans Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/alegreya-sans"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "aleo": {
+      "name": "Aleo",
+      "family": "Aleo",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/aleo",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "slab-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/aleo",
+      "source_url": "https://www.fontsquirrel.com/fonts/aleo",
+      "variants": [
+        {
+          "name": "Aleo Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/aleo"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "alex-brush": {
+      "name": "Alex Brush",
+      "family": "Alex Brush",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/alex-brush",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Script"
+      ],
+      "tags": [
+        "script"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/alex-brush",
+      "source_url": "https://www.fontsquirrel.com/fonts/alex-brush",
+      "variants": [
+        {
+          "name": "Alex Brush Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/alex-brush"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "alfa-slab": {
+      "name": "Alfa Slab",
+      "family": "Alfa Slab",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/alfa-slab",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/alfa-slab",
+      "source_url": "https://www.fontsquirrel.com/fonts/alfa-slab",
+      "variants": [
+        {
+          "name": "Alfa Slab Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/alfa-slab"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "alice": {
+      "name": "Alice",
+      "family": "Alice",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/alice",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [
+        "serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/alice",
+      "source_url": "https://www.fontsquirrel.com/fonts/alice",
+      "variants": [
+        {
+          "name": "Alice Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/alice"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "allura": {
+      "name": "Allura",
+      "family": "Allura",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/allura",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Script"
+      ],
+      "tags": [
+        "script"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/allura",
+      "source_url": "https://www.fontsquirrel.com/fonts/allura",
+      "variants": [
+        {
+          "name": "Allura Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/allura"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "almendra": {
+      "name": "Almendra",
+      "family": "Almendra",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/almendra",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/almendra",
+      "source_url": "https://www.fontsquirrel.com/fonts/almendra",
+      "variants": [
+        {
+          "name": "Almendra Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/almendra"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "alpha-echo": {
+      "name": "Alpha Echo",
+      "family": "Alpha Echo",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/Alpha-Echo",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/Alpha-Echo",
+      "source_url": "https://www.fontsquirrel.com/fonts/Alpha-Echo",
+      "variants": [
+        {
+          "name": "Alpha Echo Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/Alpha-Echo"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "amadeus": {
+      "name": "Amadeus",
+      "family": "Amadeus",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/Amadeus",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/Amadeus",
+      "source_url": "https://www.fontsquirrel.com/fonts/Amadeus",
+      "variants": [
+        {
+          "name": "Amadeus Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/Amadeus"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "amagro": {
+      "name": "Amagro",
+      "family": "Amagro",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/amagro",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [
+        "serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/amagro",
+      "source_url": "https://www.fontsquirrel.com/fonts/amagro",
+      "variants": [
+        {
+          "name": "Amagro Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/amagro"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "amaranth": {
+      "name": "Amaranth",
+      "family": "Amaranth",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/amaranth",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/amaranth",
+      "source_url": "https://www.fontsquirrel.com/fonts/amaranth",
+      "variants": [
+        {
+          "name": "Amaranth Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/amaranth"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "amatic": {
+      "name": "Amatic",
+      "family": "Amatic",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/amatic",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "handdrawn"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/amatic",
+      "source_url": "https://www.fontsquirrel.com/fonts/amatic",
+      "variants": [
+        {
+          "name": "Amatic Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/amatic"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "amble": {
+      "name": "Amble",
+      "family": "Amble",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/amble",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/amble",
+      "source_url": "https://www.fontsquirrel.com/fonts/amble",
+      "variants": [
+        {
+          "name": "Amble Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/amble"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "amerika": {
+      "name": "Amerika",
+      "family": "Amerika",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/Amerika",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/Amerika",
+      "source_url": "https://www.fontsquirrel.com/fonts/Amerika",
+      "variants": [
+        {
+          "name": "Amerika Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/Amerika"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "amiko": {
+      "name": "Amiko",
+      "family": "Amiko",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/amiko",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/amiko",
+      "source_url": "https://www.fontsquirrel.com/fonts/amiko",
+      "variants": [
+        {
+          "name": "Amiko Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/amiko"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "amita": {
+      "name": "Amita",
+      "family": "Amita",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/amita",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Script"
+      ],
+      "tags": [
+        "script"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/amita",
+      "source_url": "https://www.fontsquirrel.com/fonts/amita",
+      "variants": [
+        {
+          "name": "Amita Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/amita"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "anagram": {
+      "name": "Anagram",
+      "family": "Anagram",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/Anagram",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "retro"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/Anagram",
+      "source_url": "https://www.fontsquirrel.com/fonts/Anagram",
+      "variants": [
+        {
+          "name": "Anagram Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/Anagram"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "andada": {
+      "name": "Andada",
+      "family": "Andada",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/andada",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [
+        "serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/andada",
+      "source_url": "https://www.fontsquirrel.com/fonts/andada",
+      "variants": [
+        {
+          "name": "Andada Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/andada"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "andika-basic": {
+      "name": "Andika Basic",
+      "family": "Andika Basic",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/andika-basic",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/andika-basic",
+      "source_url": "https://www.fontsquirrel.com/fonts/andika-basic",
+      "variants": [
+        {
+          "name": "Andika Basic Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/andika-basic"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "anonymous": {
+      "name": "Anonymous",
+      "family": "Anonymous",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/Anonymous",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "monospaced"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/Anonymous",
+      "source_url": "https://www.fontsquirrel.com/fonts/Anonymous",
+      "variants": [
+        {
+          "name": "Anonymous Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/Anonymous"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "anonymous-pro": {
+      "name": "Anonymous Pro",
+      "family": "Anonymous Pro",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/Anonymous-Pro",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [],
+      "tags": [
+        "monospaced"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/Anonymous-Pro",
+      "source_url": "https://www.fontsquirrel.com/fonts/Anonymous-Pro",
+      "variants": [
+        {
+          "name": "Anonymous Pro Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/Anonymous-Pro"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "antic": {
+      "name": "Antic",
+      "family": "Antic",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/antic",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [
+        "serif"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/antic",
+      "source_url": "https://www.fontsquirrel.com/fonts/antic",
+      "variants": [
+        {
+          "name": "Antic Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/antic"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "antonio": {
+      "name": "Antonio",
+      "family": "Antonio",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/antonio",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/antonio",
+      "source_url": "https://www.fontsquirrel.com/fonts/antonio",
+      "variants": [
+        {
+          "name": "Antonio Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/antonio"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "anudaw": {
+      "name": "AnuDaw",
+      "family": "AnuDaw",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/AnuDaw",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/AnuDaw",
+      "source_url": "https://www.fontsquirrel.com/fonts/AnuDaw",
+      "variants": [
+        {
+          "name": "AnuDaw Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/AnuDaw"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "aquiline-two": {
+      "name": "Aquiline Two",
+      "family": "Aquiline Two",
+      "license": "See license page",
+      "license_url": "https://www.fontsquirrel.com/license/Aquiline-two",
+      "designer": "",
+      "foundry": "Font Squirrel",
+      "version": "1.0",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 50,
+      "last_modified": "",
+      "metadata_url": "https://www.fontsquirrel.com/fonts/Aquiline-two",
+      "source_url": "https://www.fontsquirrel.com/fonts/Aquiline-two",
+      "variants": [
+        {
+          "name": "Aquiline Two Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "ttf": "https://www.fontsquirrel.com/fontfacekit/Aquiline-two"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    }
+  }
+}

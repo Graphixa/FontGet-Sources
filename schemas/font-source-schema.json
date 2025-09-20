@@ -54,7 +54,7 @@
       "type": "object",
       "description": "Dictionary of fonts indexed by font_id",
       "patternProperties": {
-        "^[a-z0-9]+\\.[a-z0-9-]+$": {
+        "^[a-z0-9-]+$": {
           "$ref": "#/definitions/font"
         }
       },

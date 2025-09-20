@@ -106,7 +106,7 @@ def print_results(results: List[Dict[str, Any]]):
     print()
     
     for result in results:
-        status = "✅ VALID" if result["valid"] else "❌ INVALID"
+        status = "[VALID]" if result["valid"] else "[INVALID]"
         print(f"{status} {result['file']}")
         
         if result["errors"]:
@@ -117,7 +117,7 @@ def print_results(results: List[Dict[str, Any]]):
         if result["warnings"]:
             print("  Warnings:")
             for warning in result["warnings"]:
-                print(f"    ⚠️  {warning}")
+                print(f"    [WARNING] {warning}")
         
         print()
 
