@@ -112,16 +112,48 @@ class FontSquirrelTranslator:
         }
     
     def _extract_license(self, font_data: Dict[str, Any], details: Dict[str, Any]) -> Dict[str, str]:
-        """Extract license information."""
-        # Font Squirrel API doesn't provide license information
-        # We need to use the individual license page for each font
-        family_urlname = font_data.get("family_urlname", "")
+        """Extract license information from Font Squirrel license page."""
+        family_urlname = font_data.get('family_urlname', '')
         
-        if family_urlname:
-            license_url = f"https://www.fontsquirrel.com/license/{family_urlname}"
-        else:
-            license_url = ""
+        if not family_urlname:
+            return {
+                "type": "Unknown",
+                "url": ""
+            }
         
+        license_url = f"https://www.fontsquirrel.com/license/{family_urlname}"
+        
+        # Try to parse license page for license type
+        try:
+            response = requests.get(license_url, timeout=5)
+            if response.status_code == 200:
+                content = response.text.lower()
+                
+                # Look for common license types in the HTML
+                if 'open font license' in content or 'ofl' in content:
+                    return {
+                        "type": "OFL",
+                        "url": license_url
+                    }
+                elif 'mit license' in content or 'mit' in content:
+                    return {
+                        "type": "MIT",
+                        "url": license_url
+                    }
+                elif 'apache' in content:
+                    return {
+                        "type": "Apache-2.0",
+                        "url": license_url
+                    }
+                elif 'creative commons' in content or 'cc' in content:
+                    return {
+                        "type": "CC",
+                        "url": license_url
+                    }
+        except Exception as e:
+            print(f"Warning: Could not parse license page for {family_urlname}: {e}")
+        
+        # Fallback: Generic license page reference
         return {
             "type": "See license page",
             "url": license_url

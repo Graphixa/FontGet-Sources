@@ -119,7 +119,7 @@ class NerdFontsTranslator:
                 fonts[font_id] = {
                     "name": font_name,
                     "family": font_name,
-                    "license": "Mixed",  # Nerd Fonts uses various licenses
+                    "license": "Mixed",  # Nerd Fonts uses various licenses from original fonts
                     "license_url": "https://github.com/ryanoasis/nerd-fonts/blob/master/LICENSE",
                     "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
                     "foundry": "Nerd Fonts",
@@ -263,6 +263,8 @@ def main():
         return 1
     
     return 0
+
+
 
 
 if __name__ == "__main__":

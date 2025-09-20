@@ -76,7 +76,7 @@ class GoogleFontsTranslator:
         return {
             "name": family,
             "family": family,
-            "license": "See Google Fonts website",  # License info not provided by API
+            "license": self._extract_google_fonts_license(font_data),
             "license_url": f"https://fonts.google.com/specimen/{family.replace(' ', '+')}",
             "designer": font_data.get("designer", ""),
             "foundry": "Google",
@@ -308,6 +308,34 @@ def main():
         return 1
     
     return 0
+
+
+def _extract_google_fonts_license(font_data: Dict[str, Any]) -> str:
+    """Extract license from Google Fonts METADATA.pb file."""
+    family = font_data['family']
+    
+    # Clean family name for URL
+    family_clean = family.lower().replace(' ', '')
+    
+    # Try to fetch METADATA.pb file
+    try:
+        url = f"https://raw.githubusercontent.com/google/fonts/main/ofl/{family_clean}/METADATA.pb"
+        response = requests.get(url, timeout=5)
+        
+        if response.status_code == 200:
+            content = response.text
+            # Extract license line
+            for line in content.split('\n'):
+                if line.strip().startswith('license:'):
+                    # Extract license from: license: "OFL"
+                    license_match = line.split('"')
+                    if len(license_match) > 1:
+                        return license_match[1]  # Return "OFL"
+    except Exception as e:
+        print(f"Warning: Could not fetch METADATA.pb for {family}: {e}")
+    
+    # Fallback: Most Google Fonts are OFL
+    return "OFL"
 
 
 if __name__ == "__main__":
