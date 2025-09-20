@@ -401,8 +401,8 @@ def main():
     """Main function."""
     try:
         translator = FontSquirrelTranslator()
-        # Limit to 50 fonts for testing - remove limit for production
-        source_data = translator.translate(limit=50)
+        # Process all available fonts
+        source_data = translator.translate()
         
         # Write to file
         output_file = "sources/font-squirrel.json"
