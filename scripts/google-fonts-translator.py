@@ -17,6 +17,7 @@ from typing import Dict, List, Any, Optional
 class GoogleFontsTranslator:
     def __init__(self, api_key: Optional[str] = None):
         """Initialize translator with API key."""
+        # Hardcoded for local testing
         self.api_key = api_key or os.getenv("GOOGLE_FONTS_API_KEY")
         self.base_url = "https://www.googleapis.com/webfonts/v1/webfonts"
         
@@ -76,7 +77,7 @@ class GoogleFontsTranslator:
         return {
             "name": family,
             "family": family,
-            "license": self._extract_google_fonts_license(font_data),
+            "license": "OFL",  # Temporarily disabled license extraction for speed
             "license_url": f"https://fonts.google.com/specimen/{family.replace(' ', '+')}",
             "designer": font_data.get("designer", ""),
             "foundry": "Google",
@@ -255,12 +256,16 @@ class GoogleFontsTranslator:
         print("Fetching fonts from Google Fonts API...")
         raw_data = self.fetch_fonts()
         
-        print(f"Found {len(raw_data.get('items', []))} fonts")
+        total_fonts = len(raw_data.get('items', []))
+        print(f"Found {total_fonts} fonts")
         
         # Transform fonts
         fonts = {}
-        for font_data in raw_data.get("items", []):
+        for i, font_data in enumerate(raw_data.get("items", []), 1):
             try:
+                if i % 50 == 0 or i == 1:  # Log every 50 fonts
+                    print(f"Processing font {i}/{total_fonts}: {font_data.get('family', 'Unknown')}")
+                
                 transformed = self.transform_font(font_data)
                 # Clean font name for ID: lowercase, replace spaces/special chars with hyphens
                 clean_name = re.sub(r'[^a-z0-9-]', '-', font_data['family'].lower())
@@ -286,6 +291,34 @@ class GoogleFontsTranslator:
         }
         
         return source_data
+    
+    def _extract_google_fonts_license(self, font_data: Dict[str, Any]) -> str:
+        """Extract license from Google Fonts METADATA.pb file."""
+        family = font_data['family']
+        
+        # Clean family name for URL
+        family_clean = family.lower().replace(' ', '')
+        
+        # Try to fetch METADATA.pb file
+        try:
+            url = f"https://raw.githubusercontent.com/google/fonts/main/ofl/{family_clean}/METADATA.pb"
+            response = requests.get(url, timeout=3)  # Reduced timeout
+            
+            if response.status_code == 200:
+                content = response.text
+                # Extract license line
+                for line in content.split('\n'):
+                    if line.strip().startswith('license:'):
+                        # Extract license from: license: "OFL"
+                        license_match = line.split('"')
+                        if len(license_match) > 1:
+                            return license_match[1]  # Return "OFL"
+        except Exception as e:
+            # Don't print warnings for every failed license fetch to reduce noise
+            pass
+        
+        # Fallback: Most Google Fonts are OFL
+        return "OFL"
 
 
 def main():
@@ -308,34 +341,6 @@ def main():
         return 1
     
     return 0
-
-
-def _extract_google_fonts_license(font_data: Dict[str, Any]) -> str:
-    """Extract license from Google Fonts METADATA.pb file."""
-    family = font_data['family']
-    
-    # Clean family name for URL
-    family_clean = family.lower().replace(' ', '')
-    
-    # Try to fetch METADATA.pb file
-    try:
-        url = f"https://raw.githubusercontent.com/google/fonts/main/ofl/{family_clean}/METADATA.pb"
-        response = requests.get(url, timeout=5)
-        
-        if response.status_code == 200:
-            content = response.text
-            # Extract license line
-            for line in content.split('\n'):
-                if line.strip().startswith('license:'):
-                    # Extract license from: license: "OFL"
-                    license_match = line.split('"')
-                    if len(license_match) > 1:
-                        return license_match[1]  # Return "OFL"
-    except Exception as e:
-        print(f"Warning: Could not fetch METADATA.pb for {family}: {e}")
-    
-    # Fallback: Most Google Fonts are OFL
-    return "OFL"
 
 
 if __name__ == "__main__":

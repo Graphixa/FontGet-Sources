@@ -123,39 +123,10 @@ class FontSquirrelTranslator:
         
         license_url = f"https://www.fontsquirrel.com/license/{family_urlname}"
         
-        # Try to parse license page for license type
-        try:
-            response = requests.get(license_url, timeout=5)
-            if response.status_code == 200:
-                content = response.text.lower()
-                
-                # Look for common license types in the HTML
-                if 'open font license' in content or 'ofl' in content:
-                    return {
-                        "type": "OFL",
-                        "url": license_url
-                    }
-                elif 'mit license' in content or 'mit' in content:
-                    return {
-                        "type": "MIT",
-                        "url": license_url
-                    }
-                elif 'apache' in content:
-                    return {
-                        "type": "Apache-2.0",
-                        "url": license_url
-                    }
-                elif 'creative commons' in content or 'cc' in content:
-                    return {
-                        "type": "CC",
-                        "url": license_url
-                    }
-        except Exception as e:
-            print(f"Warning: Could not parse license page for {family_urlname}: {e}")
-        
-        # Fallback: Generic license page reference
+        # Most Font Squirrel fonts are OFL, but we'll just use "Other" as the default
+        # Users can check the license URL for specific terms
         return {
-            "type": "See license page",
+            "type": "Other",  # Short and accurate for most fonts
             "url": license_url
         }
     

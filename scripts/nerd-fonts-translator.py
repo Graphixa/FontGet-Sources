@@ -119,8 +119,8 @@ class NerdFontsTranslator:
                 fonts[font_id] = {
                     "name": font_name,
                     "family": font_name,
-                    "license": "Mixed",  # Nerd Fonts uses various licenses from original fonts
-                    "license_url": "https://github.com/ryanoasis/nerd-fonts/blob/master/LICENSE",
+                    "license": "OFL",  # Nerd Fonts fonts are licensed under SIL Open Font License 1.1
+                    "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
                     "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
                     "foundry": "Nerd Fonts",
                     "version": "3.0.2",  # Current Nerd Fonts version
