@@ -1,0 +1,27 @@
+{
+  "source_info": {
+    "name": "Minimal Font Source",
+    "description": "Example minimal source with required fields only",
+    "url": "https://example.com",
+    "version": "1.0",
+    "last_updated": "2024-01-15T10:30:00Z",
+    "total_fonts": 1
+  },
+  "fonts": {
+    "example.opensans": {
+      "name": "Open Sans",
+      "family": "Open Sans",
+      "license": "Apache License 2.0",
+      "variants": [
+        {
+          "name": "Open Sans Regular",
+          "weight": 400,
+          "style": "normal",
+          "files": {
+            "ttf": "https://example.com/fonts/OpenSans-Regular.ttf"
+          }
+        }
+      ]
+    }
+  }
+}

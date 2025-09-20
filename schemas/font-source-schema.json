@@ -1,0 +1,252 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FontGet Source Schema",
+  "description": "Schema for FontGet font source files",
+  "type": "object",
+  "required": ["source_info", "fonts"],
+  "properties": {
+    "source_info": {
+      "type": "object",
+      "description": "Metadata about the font source",
+      "required": ["name", "description", "url", "version", "last_updated"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Human-readable name of the source",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "description": {
+          "type": "string",
+          "description": "Brief description of the source",
+          "minLength": 1,
+          "maxLength": 500
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Main URL of the source website"
+        },
+        "api_endpoint": {
+          "type": "string",
+          "format": "uri",
+          "description": "API endpoint used to fetch data (optional)"
+        },
+        "version": {
+          "type": "string",
+          "description": "Schema version used by this source",
+          "pattern": "^\\d+\\.\\d+$"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of last update"
+        },
+        "total_fonts": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total number of fonts in this source"
+        }
+      },
+      "additionalProperties": false
+    },
+    "fonts": {
+      "type": "object",
+      "description": "Dictionary of fonts indexed by font_id",
+      "patternProperties": {
+        "^[a-z0-9]+\\.[a-z0-9-]+$": {
+          "$ref": "#/definitions/font"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "font": {
+      "type": "object",
+      "description": "Individual font information",
+      "required": ["name", "family", "license", "variants"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Display name of the font",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "family": {
+          "type": "string",
+          "description": "Font family name",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "license": {
+          "type": "string",
+          "description": "License type (e.g., 'OFL', 'Apache License 2.0')",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "license_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to full license text"
+        },
+        "designer": {
+          "type": "string",
+          "description": "Font designer name",
+          "maxLength": 200
+        },
+        "foundry": {
+          "type": "string",
+          "description": "Font foundry or publisher",
+          "maxLength": 100
+        },
+        "version": {
+          "type": "string",
+          "description": "Font version number",
+          "maxLength": 50
+        },
+        "description": {
+          "type": "string",
+          "description": "Brief description of the font",
+          "maxLength": 1000
+        },
+        "categories": {
+          "type": "array",
+          "description": "Font categories",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Sans Serif", "Serif", "Display", "Handwriting", "Monospace",
+              "Script", "Decorative", "Symbol", "Icon", "Other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "tags": {
+          "type": "array",
+          "description": "Searchable tags",
+          "items": {
+            "type": "string",
+            "maxLength": 50
+          },
+          "uniqueItems": true
+        },
+        "popularity": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Popularity score (0-100, optional)"
+        },
+        "last_modified": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the font was last modified"
+        },
+        "metadata_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to detailed metadata"
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to source page"
+        },
+        "variants": {
+          "type": "array",
+          "description": "Available font variants",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/variant"
+          }
+        },
+        "unicode_ranges": {
+          "type": "array",
+          "description": "Supported Unicode ranges",
+          "items": {
+            "type": "string",
+            "pattern": "^U\\+[0-9A-F]{4,6}(?:-[0-9A-F]{4,6})?$"
+          }
+        },
+        "languages": {
+          "type": "array",
+          "description": "Supported languages",
+          "items": {
+            "type": "string",
+            "maxLength": 50
+          },
+          "uniqueItems": true
+        },
+        "sample_text": {
+          "type": "string",
+          "description": "Sample text to showcase the font",
+          "maxLength": 200
+        }
+      },
+      "additionalProperties": false
+    },
+    "variant": {
+      "type": "object",
+      "description": "Font variant information",
+      "required": ["name", "weight", "style", "files"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Variant name (e.g., 'Regular', 'Bold Italic')",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "weight": {
+          "type": "integer",
+          "description": "Font weight (100-900)",
+          "minimum": 100,
+          "maximum": 900,
+          "multipleOf": 100
+        },
+        "style": {
+          "type": "string",
+          "description": "Font style",
+          "enum": ["normal", "italic", "oblique"]
+        },
+        "subsets": {
+          "type": "array",
+          "description": "Supported character subsets",
+          "items": {
+            "type": "string",
+            "enum": [
+              "latin", "latin-ext", "cyrillic", "cyrillic-ext", "greek", "greek-ext",
+              "vietnamese", "arabic", "devanagari", "hebrew", "thai", "chinese-simplified",
+              "chinese-traditional", "japanese", "korean", "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "files": {
+          "type": "object",
+          "description": "Font files by format",
+          "minProperties": 1,
+          "properties": {
+            "ttf": {
+              "type": "string",
+              "format": "uri",
+              "description": "TrueType font file URL"
+            },
+            "otf": {
+              "type": "string",
+              "format": "uri",
+              "description": "OpenType font file URL"
+            },
+            "fon": {
+              "type": "string",
+              "format": "uri",
+              "description": "Windows font file URL"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
