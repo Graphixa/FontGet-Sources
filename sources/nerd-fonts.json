@@ -5,14 +5,14 @@
     "url": "https://www.nerdfonts.com",
     "api_endpoint": "https://api.github.com/repos/ryanoasis/nerd-fonts/releases",
     "version": "1.0",
-    "last_updated": "2025-09-20T12:34:48.033580Z",
+    "last_updated": "2025-09-20T12:40:17.948812Z",
     "total_fonts": 67
   },
   "fonts": {
     "0xproto": {
       "name": "0Xproto",
       "family": "0Xproto",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -29,7 +29,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032076Z",
+      "last_modified": "2025-09-20T12:40:17.947293Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -73,7 +73,7 @@
     "3270": {
       "name": "3270",
       "family": "3270",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -90,7 +90,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032122Z",
+      "last_modified": "2025-09-20T12:40:17.947357Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -134,7 +134,7 @@
     "adwaitamono": {
       "name": "Adwaitamono",
       "family": "Adwaitamono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -151,7 +151,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032154Z",
+      "last_modified": "2025-09-20T12:40:17.947389Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -195,7 +195,7 @@
     "agave": {
       "name": "Agave",
       "family": "Agave",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -212,7 +212,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032177Z",
+      "last_modified": "2025-09-20T12:40:17.947413Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -256,7 +256,7 @@
     "anonymouspro": {
       "name": "Anonymouspro",
       "family": "Anonymouspro",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -273,7 +273,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032199Z",
+      "last_modified": "2025-09-20T12:40:17.947437Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -317,7 +317,7 @@
     "arimo": {
       "name": "Arimo",
       "family": "Arimo",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -334,7 +334,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032221Z",
+      "last_modified": "2025-09-20T12:40:17.947460Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -378,7 +378,7 @@
     "atkinsonhyperlegiblemono": {
       "name": "Atkinsonhyperlegiblemono",
       "family": "Atkinsonhyperlegiblemono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -395,7 +395,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032247Z",
+      "last_modified": "2025-09-20T12:40:17.947486Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -439,7 +439,7 @@
     "aurulent-sans-mono": {
       "name": "Aurulent Sans Mono",
       "family": "Aurulent Sans Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -456,7 +456,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032275Z",
+      "last_modified": "2025-09-20T12:40:17.947513Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -500,7 +500,7 @@
     "big-blue-terminal": {
       "name": "Big Blue Terminal",
       "family": "Big Blue Terminal",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -517,7 +517,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032294Z",
+      "last_modified": "2025-09-20T12:40:17.947532Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -561,7 +561,7 @@
     "bitstream-vera-sans-mono": {
       "name": "Bitstream Vera Sans Mono",
       "family": "Bitstream Vera Sans Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -578,7 +578,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032314Z",
+      "last_modified": "2025-09-20T12:40:17.947550Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -622,7 +622,7 @@
     "cascadia-code": {
       "name": "Cascadia Code",
       "family": "Cascadia Code",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -639,7 +639,7 @@
         "programming"
       ],
       "popularity": 85,
-      "last_modified": "2025-09-20T12:34:48.032329Z",
+      "last_modified": "2025-09-20T12:40:17.947565Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -683,7 +683,7 @@
     "cascadiamono": {
       "name": "Cascadiamono",
       "family": "Cascadiamono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -700,7 +700,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032351Z",
+      "last_modified": "2025-09-20T12:40:17.947587Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -744,7 +744,7 @@
     "code-new-roman": {
       "name": "Code New Roman",
       "family": "Code New Roman",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -761,7 +761,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032375Z",
+      "last_modified": "2025-09-20T12:40:17.947611Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -805,7 +805,7 @@
     "comic-shanns-mono": {
       "name": "Comic Shanns Mono",
       "family": "Comic Shanns Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -822,7 +822,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032393Z",
+      "last_modified": "2025-09-20T12:40:17.947629Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -866,7 +866,7 @@
     "commitmono": {
       "name": "Commitmono",
       "family": "Commitmono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -883,7 +883,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032417Z",
+      "last_modified": "2025-09-20T12:40:17.947653Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -927,7 +927,7 @@
     "cousine": {
       "name": "Cousine",
       "family": "Cousine",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -944,7 +944,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032440Z",
+      "last_modified": "2025-09-20T12:40:17.947675Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -988,7 +988,7 @@
     "d2coding": {
       "name": "D2Coding",
       "family": "D2Coding",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1005,7 +1005,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032462Z",
+      "last_modified": "2025-09-20T12:40:17.947697Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1049,7 +1049,7 @@
     "daddytime-mono": {
       "name": "DaddyTime Mono",
       "family": "DaddyTime Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1066,7 +1066,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032486Z",
+      "last_modified": "2025-09-20T12:40:17.947720Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1110,7 +1110,7 @@
     "dejavu-sans-mono": {
       "name": "DejaVu Sans Mono",
       "family": "DejaVu Sans Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1127,7 +1127,7 @@
         "programming"
       ],
       "popularity": 60,
-      "last_modified": "2025-09-20T12:34:48.032501Z",
+      "last_modified": "2025-09-20T12:40:17.947736Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1171,7 +1171,7 @@
     "departuremono": {
       "name": "Departuremono",
       "family": "Departuremono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1188,7 +1188,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032523Z",
+      "last_modified": "2025-09-20T12:40:17.947757Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1232,7 +1232,7 @@
     "droid-sans-mono": {
       "name": "Droid Sans Mono",
       "family": "Droid Sans Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1249,7 +1249,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032544Z",
+      "last_modified": "2025-09-20T12:40:17.947779Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1293,7 +1293,7 @@
     "envycoder": {
       "name": "Envycoder",
       "family": "Envycoder",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1310,7 +1310,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032565Z",
+      "last_modified": "2025-09-20T12:40:17.947800Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1354,7 +1354,7 @@
     "fantasque-sans-mono": {
       "name": "Fantasque Sans Mono",
       "family": "Fantasque Sans Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1371,7 +1371,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032589Z",
+      "last_modified": "2025-09-20T12:40:17.947825Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1415,7 +1415,7 @@
     "fira-code": {
       "name": "Fira Code",
       "family": "Fira Code",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1432,7 +1432,7 @@
         "programming"
       ],
       "popularity": 95,
-      "last_modified": "2025-09-20T12:34:48.032604Z",
+      "last_modified": "2025-09-20T12:40:17.947840Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1476,7 +1476,7 @@
     "firamono": {
       "name": "Firamono",
       "family": "Firamono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1493,7 +1493,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032623Z",
+      "last_modified": "2025-09-20T12:40:17.947859Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1537,7 +1537,7 @@
     "fontpatcher": {
       "name": "Fontpatcher",
       "family": "Fontpatcher",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1554,7 +1554,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032652Z",
+      "last_modified": "2025-09-20T12:40:17.947888Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1586,7 +1586,7 @@
     "geistmono": {
       "name": "Geistmono",
       "family": "Geistmono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1603,7 +1603,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032667Z",
+      "last_modified": "2025-09-20T12:40:17.947904Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1647,7 +1647,7 @@
     "go-mono": {
       "name": "Go Mono",
       "family": "Go Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1664,7 +1664,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032713Z",
+      "last_modified": "2025-09-20T12:40:17.947933Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1708,7 +1708,7 @@
     "gohu": {
       "name": "Gohu",
       "family": "Gohu",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1725,7 +1725,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032746Z",
+      "last_modified": "2025-09-20T12:40:17.947956Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1769,7 +1769,7 @@
     "hack": {
       "name": "Hack",
       "family": "Hack",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1786,7 +1786,7 @@
         "programming"
       ],
       "popularity": 75,
-      "last_modified": "2025-09-20T12:34:48.032759Z",
+      "last_modified": "2025-09-20T12:40:17.947969Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1830,7 +1830,7 @@
     "hasklig": {
       "name": "Hasklig",
       "family": "Hasklig",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1847,7 +1847,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032780Z",
+      "last_modified": "2025-09-20T12:40:17.947988Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1891,7 +1891,7 @@
     "heavy-data": {
       "name": "Heavy Data",
       "family": "Heavy Data",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1908,7 +1908,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032803Z",
+      "last_modified": "2025-09-20T12:40:17.948011Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1952,7 +1952,7 @@
     "hermit": {
       "name": "Hermit",
       "family": "Hermit",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -1969,7 +1969,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032820Z",
+      "last_modified": "2025-09-20T12:40:17.948028Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2013,7 +2013,7 @@
     "ia-writer-mono": {
       "name": "iA Writer Mono",
       "family": "iA Writer Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2030,7 +2030,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032837Z",
+      "last_modified": "2025-09-20T12:40:17.948046Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2074,7 +2074,7 @@
     "ibm-plex-mono": {
       "name": "IBM Plex Mono",
       "family": "IBM Plex Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2091,7 +2091,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032856Z",
+      "last_modified": "2025-09-20T12:40:17.948065Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2135,7 +2135,7 @@
     "inconsolata": {
       "name": "Inconsolata",
       "family": "Inconsolata",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2152,7 +2152,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032875Z",
+      "last_modified": "2025-09-20T12:40:17.948083Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2244,7 +2244,7 @@
     "intel-one-mono": {
       "name": "Intel One Mono",
       "family": "Intel One Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2261,7 +2261,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032925Z",
+      "last_modified": "2025-09-20T12:40:17.948135Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2305,7 +2305,7 @@
     "iosevka": {
       "name": "Iosevka",
       "family": "Iosevka",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2322,7 +2322,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032941Z",
+      "last_modified": "2025-09-20T12:40:17.948152Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2414,7 +2414,7 @@
     "jetbrains-mono": {
       "name": "JetBrains Mono",
       "family": "JetBrains Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2431,7 +2431,7 @@
         "programming"
       ],
       "popularity": 90,
-      "last_modified": "2025-09-20T12:34:48.032974Z",
+      "last_modified": "2025-09-20T12:40:17.948186Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2475,7 +2475,7 @@
     "lekton": {
       "name": "Lekton",
       "family": "Lekton",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2492,7 +2492,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.032989Z",
+      "last_modified": "2025-09-20T12:40:17.948200Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2536,7 +2536,7 @@
     "liberation-mono": {
       "name": "Liberation Mono",
       "family": "Liberation Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2553,7 +2553,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033010Z",
+      "last_modified": "2025-09-20T12:40:17.948220Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2597,7 +2597,7 @@
     "lilex": {
       "name": "Lilex",
       "family": "Lilex",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2614,7 +2614,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033028Z",
+      "last_modified": "2025-09-20T12:40:17.948236Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2658,7 +2658,7 @@
     "martianmono": {
       "name": "Martianmono",
       "family": "Martianmono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2675,7 +2675,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033050Z",
+      "last_modified": "2025-09-20T12:40:17.948258Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2719,7 +2719,7 @@
     "meslo": {
       "name": "Meslo",
       "family": "Meslo",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2736,7 +2736,7 @@
         "programming"
       ],
       "popularity": 30,
-      "last_modified": "2025-09-20T12:34:48.033071Z",
+      "last_modified": "2025-09-20T12:40:17.948280Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2780,7 +2780,7 @@
     "monaspace": {
       "name": "Monaspace",
       "family": "Monaspace",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2797,7 +2797,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033093Z",
+      "last_modified": "2025-09-20T12:40:17.948300Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2841,7 +2841,7 @@
     "monofur": {
       "name": "Monofur",
       "family": "Monofur",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2858,7 +2858,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033121Z",
+      "last_modified": "2025-09-20T12:40:17.948339Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2902,7 +2902,7 @@
     "monoid": {
       "name": "Monoid",
       "family": "Monoid",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2919,7 +2919,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033148Z",
+      "last_modified": "2025-09-20T12:40:17.948368Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2963,7 +2963,7 @@
     "mononoki": {
       "name": "Mononoki",
       "family": "Mononoki",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2980,7 +2980,7 @@
         "programming"
       ],
       "popularity": 55,
-      "last_modified": "2025-09-20T12:34:48.033167Z",
+      "last_modified": "2025-09-20T12:40:17.948388Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3024,7 +3024,7 @@
     "m": {
       "name": "M+",
       "family": "M+",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3041,7 +3041,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033183Z",
+      "last_modified": "2025-09-20T12:40:17.948405Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3085,7 +3085,7 @@
     "symbolsonly": {
       "name": "Symbolsonly",
       "family": "Symbolsonly",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3102,7 +3102,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033212Z",
+      "last_modified": "2025-09-20T12:40:17.948434Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3146,7 +3146,7 @@
     "noto-sans-mono": {
       "name": "Noto Sans Mono",
       "family": "Noto Sans Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3163,7 +3163,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2025-09-20T12:34:48.033238Z",
+      "last_modified": "2025-09-20T12:40:17.948459Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3207,7 +3207,7 @@
     "opendyslexic": {
       "name": "Opendyslexic",
       "family": "Opendyslexic",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3224,7 +3224,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033260Z",
+      "last_modified": "2025-09-20T12:40:17.948483Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3268,7 +3268,7 @@
     "overpass-mono": {
       "name": "Overpass Mono",
       "family": "Overpass Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3285,7 +3285,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033286Z",
+      "last_modified": "2025-09-20T12:40:17.948509Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3329,7 +3329,7 @@
     "profont": {
       "name": "ProFont",
       "family": "ProFont",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3346,7 +3346,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033306Z",
+      "last_modified": "2025-09-20T12:40:17.948530Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3390,7 +3390,7 @@
     "proggyclean": {
       "name": "ProggyClean",
       "family": "ProggyClean",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3407,7 +3407,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033326Z",
+      "last_modified": "2025-09-20T12:40:17.948550Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3451,7 +3451,7 @@
     "recursive": {
       "name": "Recursive",
       "family": "Recursive",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3468,7 +3468,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033351Z",
+      "last_modified": "2025-09-20T12:40:17.948576Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3512,7 +3512,7 @@
     "roboto-mono": {
       "name": "Roboto Mono",
       "family": "Roboto Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3529,7 +3529,7 @@
         "programming"
       ],
       "popularity": 70,
-      "last_modified": "2025-09-20T12:34:48.033371Z",
+      "last_modified": "2025-09-20T12:40:17.948597Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3573,7 +3573,7 @@
     "sharetechmono": {
       "name": "Sharetechmono",
       "family": "Sharetechmono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3590,7 +3590,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033393Z",
+      "last_modified": "2025-09-20T12:40:17.948620Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3634,7 +3634,7 @@
     "source-code-pro": {
       "name": "Source Code Pro",
       "family": "Source Code Pro",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3651,7 +3651,7 @@
         "programming"
       ],
       "popularity": 80,
-      "last_modified": "2025-09-20T12:34:48.033414Z",
+      "last_modified": "2025-09-20T12:40:17.948642Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3695,7 +3695,7 @@
     "space-mono": {
       "name": "Space Mono",
       "family": "Space Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3712,7 +3712,7 @@
         "programming"
       ],
       "popularity": 45,
-      "last_modified": "2025-09-20T12:34:48.033427Z",
+      "last_modified": "2025-09-20T12:40:17.948655Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3756,7 +3756,7 @@
     "terminus": {
       "name": "Terminus",
       "family": "Terminus",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3773,7 +3773,7 @@
         "programming"
       ],
       "popularity": 40,
-      "last_modified": "2025-09-20T12:34:48.033441Z",
+      "last_modified": "2025-09-20T12:40:17.948668Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3817,7 +3817,7 @@
     "tinos": {
       "name": "Tinos",
       "family": "Tinos",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3834,7 +3834,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033457Z",
+      "last_modified": "2025-09-20T12:40:17.948685Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3878,7 +3878,7 @@
     "ubuntu": {
       "name": "Ubuntu",
       "family": "Ubuntu",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3895,7 +3895,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033481Z",
+      "last_modified": "2025-09-20T12:40:17.948709Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3939,7 +3939,7 @@
     "ubuntu-mono": {
       "name": "Ubuntu Mono",
       "family": "Ubuntu Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -3956,7 +3956,7 @@
         "programming"
       ],
       "popularity": 65,
-      "last_modified": "2025-09-20T12:34:48.033501Z",
+      "last_modified": "2025-09-20T12:40:17.948731Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -4000,7 +4000,7 @@
     "ubuntusans": {
       "name": "Ubuntusans",
       "family": "Ubuntusans",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -4017,7 +4017,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033522Z",
+      "last_modified": "2025-09-20T12:40:17.948753Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -4061,7 +4061,7 @@
     "victor-mono": {
       "name": "Victor Mono",
       "family": "Victor Mono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -4078,7 +4078,7 @@
         "programming"
       ],
       "popularity": 35,
-      "last_modified": "2025-09-20T12:34:48.033543Z",
+      "last_modified": "2025-09-20T12:40:17.948774Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -4122,7 +4122,7 @@
     "zedmono": {
       "name": "Zedmono",
       "family": "Zedmono",
-      "license": "OFL",
+      "license": "Mixed",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -4139,7 +4139,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-09-20T12:34:48.033563Z",
+      "last_modified": "2025-09-20T12:40:17.948795Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
