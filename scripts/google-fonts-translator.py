@@ -120,7 +120,7 @@ class GoogleFontsTranslator:
             "name": family,
             "family": family,
             "license": "OFL",  # Temporarily disabled license extraction for speed
-            "license_url": f"https://fonts.google.com/specimen/{family.replace(' ', '+')}",
+            "license_url": f"https://fonts.google.com/specimen/{family.replace(' ', '+')}/license",
             "designer": font_data.get("designer", ""),
             "foundry": "Google",
             "version": font_data.get("version", "1.0"),
