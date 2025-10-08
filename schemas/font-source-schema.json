@@ -116,8 +116,18 @@
           "description": "Font categories",
           "items": {
             "type": "string",
-            "minLength": 1,
-            "maxLength": 50
+            "enum": [
+              "Sans Serif",
+              "Serif", 
+              "Slab Serif",
+              "Display",
+              "Monospace",
+              "Script",
+              "Handwriting",
+              "Decorative",
+              "Symbol",
+              "Blackletter"
+            ]
           },
           "uniqueItems": true
         },
