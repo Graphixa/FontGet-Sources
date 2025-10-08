@@ -5,7 +5,7 @@
     "url": "https://www.nerdfonts.com",
     "api_endpoint": "https://api.github.com/repos/ryanoasis/nerd-fonts/releases",
     "version": "1.0",
-    "last_updated": "2025-10-08T15:07:07.281075Z",
+    "last_updated": "2025-10-08T15:36:05.587735Z",
     "total_fonts": 67
   },
   "fonts": {
@@ -19,7 +19,7 @@
       "version": "3.0.2",
       "description": "Patched version of 0Xproto with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -29,7 +29,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279044Z",
+      "last_modified": "2025-10-08T15:36:05.584556Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -80,7 +80,7 @@
       "version": "3.0.2",
       "description": "Patched version of 3270 with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -90,7 +90,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279112Z",
+      "last_modified": "2025-10-08T15:36:05.584890Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -141,7 +141,7 @@
       "version": "3.0.2",
       "description": "Patched version of Adwaitamono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -151,7 +151,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279153Z",
+      "last_modified": "2025-10-08T15:36:05.584957Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -202,7 +202,7 @@
       "version": "3.0.2",
       "description": "Patched version of Agave with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -212,7 +212,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279182Z",
+      "last_modified": "2025-10-08T15:36:05.585111Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -263,7 +263,7 @@
       "version": "3.0.2",
       "description": "Patched version of Anonymouspro with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -273,7 +273,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279209Z",
+      "last_modified": "2025-10-08T15:36:05.585209Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -324,7 +324,7 @@
       "version": "3.0.2",
       "description": "Patched version of Arimo with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -334,7 +334,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279235Z",
+      "last_modified": "2025-10-08T15:36:05.585447Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -385,7 +385,7 @@
       "version": "3.0.2",
       "description": "Patched version of Atkinsonhyperlegiblemono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -395,7 +395,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279265Z",
+      "last_modified": "2025-10-08T15:36:05.585508Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -446,7 +446,7 @@
       "version": "3.0.2",
       "description": "Patched version of Aurulent Sans Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -456,7 +456,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279298Z",
+      "last_modified": "2025-10-08T15:36:05.585548Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -507,7 +507,7 @@
       "version": "3.0.2",
       "description": "Patched version of Big Blue Terminal with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -517,7 +517,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279323Z",
+      "last_modified": "2025-10-08T15:36:05.585597Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -568,7 +568,7 @@
       "version": "3.0.2",
       "description": "Patched version of Bitstream Vera Sans Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -578,7 +578,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279345Z",
+      "last_modified": "2025-10-08T15:36:05.585642Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -629,7 +629,7 @@
       "version": "3.0.2",
       "description": "Patched version of Cascadia Code with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -639,7 +639,7 @@
         "programming"
       ],
       "popularity": 85,
-      "last_modified": "2025-10-08T15:07:07.279364Z",
+      "last_modified": "2025-10-08T15:36:05.585674Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -690,7 +690,7 @@
       "version": "3.0.2",
       "description": "Patched version of Cascadiamono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -700,7 +700,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279390Z",
+      "last_modified": "2025-10-08T15:36:05.585710Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -751,7 +751,7 @@
       "version": "3.0.2",
       "description": "Patched version of Code New Roman with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -761,7 +761,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279418Z",
+      "last_modified": "2025-10-08T15:36:05.585748Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -812,7 +812,7 @@
       "version": "3.0.2",
       "description": "Patched version of Comic Shanns Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -822,7 +822,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279440Z",
+      "last_modified": "2025-10-08T15:36:05.585780Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -873,7 +873,7 @@
       "version": "3.0.2",
       "description": "Patched version of Commitmono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -883,7 +883,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279490Z",
+      "last_modified": "2025-10-08T15:36:05.585819Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -934,7 +934,7 @@
       "version": "3.0.2",
       "description": "Patched version of Cousine with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -944,7 +944,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279517Z",
+      "last_modified": "2025-10-08T15:36:05.585855Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -995,7 +995,7 @@
       "version": "3.0.2",
       "description": "Patched version of D2Coding with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1005,7 +1005,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279542Z",
+      "last_modified": "2025-10-08T15:36:05.585890Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1056,7 +1056,7 @@
       "version": "3.0.2",
       "description": "Patched version of DaddyTime Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1066,7 +1066,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279569Z",
+      "last_modified": "2025-10-08T15:36:05.585924Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1117,7 +1117,7 @@
       "version": "3.0.2",
       "description": "Patched version of DejaVu Sans Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1127,7 +1127,7 @@
         "programming"
       ],
       "popularity": 60,
-      "last_modified": "2025-10-08T15:07:07.279589Z",
+      "last_modified": "2025-10-08T15:36:05.585950Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1178,7 +1178,7 @@
       "version": "3.0.2",
       "description": "Patched version of Departuremono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1188,7 +1188,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279615Z",
+      "last_modified": "2025-10-08T15:36:05.585981Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1239,7 +1239,7 @@
       "version": "3.0.2",
       "description": "Patched version of Droid Sans Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1249,7 +1249,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279641Z",
+      "last_modified": "2025-10-08T15:36:05.586013Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1300,7 +1300,7 @@
       "version": "3.0.2",
       "description": "Patched version of Envycoder with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1310,7 +1310,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279694Z",
+      "last_modified": "2025-10-08T15:36:05.586045Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1361,7 +1361,7 @@
       "version": "3.0.2",
       "description": "Patched version of Fantasque Sans Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1371,7 +1371,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279731Z",
+      "last_modified": "2025-10-08T15:36:05.586082Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1422,7 +1422,7 @@
       "version": "3.0.2",
       "description": "Patched version of Fira Code with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1432,7 +1432,7 @@
         "programming"
       ],
       "popularity": 95,
-      "last_modified": "2025-10-08T15:07:07.279754Z",
+      "last_modified": "2025-10-08T15:36:05.586107Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1483,7 +1483,7 @@
       "version": "3.0.2",
       "description": "Patched version of Firamono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1493,7 +1493,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279781Z",
+      "last_modified": "2025-10-08T15:36:05.586136Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1544,7 +1544,7 @@
       "version": "3.0.2",
       "description": "Patched version of Fontpatcher with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1554,7 +1554,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279818Z",
+      "last_modified": "2025-10-08T15:36:05.586177Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1593,7 +1593,7 @@
       "version": "3.0.2",
       "description": "Patched version of Geistmono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1603,7 +1603,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279840Z",
+      "last_modified": "2025-10-08T15:36:05.586204Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1654,7 +1654,7 @@
       "version": "3.0.2",
       "description": "Patched version of Go Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1664,7 +1664,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279878Z",
+      "last_modified": "2025-10-08T15:36:05.586247Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1715,7 +1715,7 @@
       "version": "3.0.2",
       "description": "Patched version of Gohu with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1725,7 +1725,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279906Z",
+      "last_modified": "2025-10-08T15:36:05.586284Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1776,7 +1776,7 @@
       "version": "3.0.2",
       "description": "Patched version of Hack with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1786,7 +1786,7 @@
         "programming"
       ],
       "popularity": 75,
-      "last_modified": "2025-10-08T15:07:07.279924Z",
+      "last_modified": "2025-10-08T15:36:05.586308Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1837,7 +1837,7 @@
       "version": "3.0.2",
       "description": "Patched version of Hasklig with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1847,7 +1847,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279949Z",
+      "last_modified": "2025-10-08T15:36:05.586339Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1898,7 +1898,7 @@
       "version": "3.0.2",
       "description": "Patched version of Heavy Data with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1908,7 +1908,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279978Z",
+      "last_modified": "2025-10-08T15:36:05.586373Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1959,7 +1959,7 @@
       "version": "3.0.2",
       "description": "Patched version of Hermit with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -1969,7 +1969,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.279999Z",
+      "last_modified": "2025-10-08T15:36:05.586401Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2020,7 +2020,7 @@
       "version": "3.0.2",
       "description": "Patched version of iA Writer Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2030,7 +2030,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280022Z",
+      "last_modified": "2025-10-08T15:36:05.586432Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2081,7 +2081,7 @@
       "version": "3.0.2",
       "description": "Patched version of IBM Plex Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2091,7 +2091,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280046Z",
+      "last_modified": "2025-10-08T15:36:05.586465Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2142,7 +2142,7 @@
       "version": "3.0.2",
       "description": "Patched version of Inconsolata with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2152,7 +2152,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280068Z",
+      "last_modified": "2025-10-08T15:36:05.586496Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2251,7 +2251,7 @@
       "version": "3.0.2",
       "description": "Patched version of Intel One Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2261,7 +2261,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280123Z",
+      "last_modified": "2025-10-08T15:36:05.586571Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2312,7 +2312,7 @@
       "version": "3.0.2",
       "description": "Patched version of Iosevka with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2322,7 +2322,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280144Z",
+      "last_modified": "2025-10-08T15:36:05.586600Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2421,7 +2421,7 @@
       "version": "3.0.2",
       "description": "Patched version of JetBrains Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2431,7 +2431,7 @@
         "programming"
       ],
       "popularity": 90,
-      "last_modified": "2025-10-08T15:07:07.280185Z",
+      "last_modified": "2025-10-08T15:36:05.586677Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2482,7 +2482,7 @@
       "version": "3.0.2",
       "description": "Patched version of Lekton with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2492,7 +2492,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280203Z",
+      "last_modified": "2025-10-08T15:36:05.586760Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2543,7 +2543,7 @@
       "version": "3.0.2",
       "description": "Patched version of Liberation Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2553,7 +2553,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280227Z",
+      "last_modified": "2025-10-08T15:36:05.586803Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2604,7 +2604,7 @@
       "version": "3.0.2",
       "description": "Patched version of Lilex with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2614,7 +2614,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280248Z",
+      "last_modified": "2025-10-08T15:36:05.586837Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2665,7 +2665,7 @@
       "version": "3.0.2",
       "description": "Patched version of Martianmono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2675,7 +2675,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280276Z",
+      "last_modified": "2025-10-08T15:36:05.586879Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2726,7 +2726,7 @@
       "version": "3.0.2",
       "description": "Patched version of Meslo with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2736,7 +2736,7 @@
         "programming"
       ],
       "popularity": 30,
-      "last_modified": "2025-10-08T15:07:07.280302Z",
+      "last_modified": "2025-10-08T15:36:05.586941Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2787,7 +2787,7 @@
       "version": "3.0.2",
       "description": "Patched version of Monaspace with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2797,7 +2797,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280326Z",
+      "last_modified": "2025-10-08T15:36:05.586981Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2848,7 +2848,7 @@
       "version": "3.0.2",
       "description": "Patched version of Monofur with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2858,7 +2858,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280357Z",
+      "last_modified": "2025-10-08T15:36:05.587022Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2909,7 +2909,7 @@
       "version": "3.0.2",
       "description": "Patched version of Monoid with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2919,7 +2919,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280389Z",
+      "last_modified": "2025-10-08T15:36:05.587061Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2970,7 +2970,7 @@
       "version": "3.0.2",
       "description": "Patched version of Mononoki with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -2980,7 +2980,7 @@
         "programming"
       ],
       "popularity": 55,
-      "last_modified": "2025-10-08T15:07:07.280412Z",
+      "last_modified": "2025-10-08T15:36:05.587091Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3031,7 +3031,7 @@
       "version": "3.0.2",
       "description": "Patched version of M+ with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3041,7 +3041,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280432Z",
+      "last_modified": "2025-10-08T15:36:05.587119Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3092,7 +3092,7 @@
       "version": "3.0.2",
       "description": "Patched version of Symbolsonly with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3102,7 +3102,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280537Z",
+      "last_modified": "2025-10-08T15:36:05.587159Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3153,7 +3153,7 @@
       "version": "3.0.2",
       "description": "Patched version of Noto Sans Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3163,7 +3163,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2025-10-08T15:07:07.280579Z",
+      "last_modified": "2025-10-08T15:36:05.587195Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3214,7 +3214,7 @@
       "version": "3.0.2",
       "description": "Patched version of Opendyslexic with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3224,7 +3224,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280610Z",
+      "last_modified": "2025-10-08T15:36:05.587229Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3275,7 +3275,7 @@
       "version": "3.0.2",
       "description": "Patched version of Overpass Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3285,7 +3285,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280642Z",
+      "last_modified": "2025-10-08T15:36:05.587266Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3336,7 +3336,7 @@
       "version": "3.0.2",
       "description": "Patched version of ProFont with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3346,7 +3346,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280690Z",
+      "last_modified": "2025-10-08T15:36:05.587295Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3397,7 +3397,7 @@
       "version": "3.0.2",
       "description": "Patched version of ProggyClean with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3407,7 +3407,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280718Z",
+      "last_modified": "2025-10-08T15:36:05.587324Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3458,7 +3458,7 @@
       "version": "3.0.2",
       "description": "Patched version of Recursive with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3468,7 +3468,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280748Z",
+      "last_modified": "2025-10-08T15:36:05.587357Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3519,7 +3519,7 @@
       "version": "3.0.2",
       "description": "Patched version of Roboto Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3529,7 +3529,7 @@
         "programming"
       ],
       "popularity": 70,
-      "last_modified": "2025-10-08T15:07:07.280772Z",
+      "last_modified": "2025-10-08T15:36:05.587386Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3580,7 +3580,7 @@
       "version": "3.0.2",
       "description": "Patched version of Sharetechmono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3590,7 +3590,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280798Z",
+      "last_modified": "2025-10-08T15:36:05.587417Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3641,7 +3641,7 @@
       "version": "3.0.2",
       "description": "Patched version of Source Code Pro with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3651,7 +3651,7 @@
         "programming"
       ],
       "popularity": 80,
-      "last_modified": "2025-10-08T15:07:07.280824Z",
+      "last_modified": "2025-10-08T15:36:05.587448Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3702,7 +3702,7 @@
       "version": "3.0.2",
       "description": "Patched version of Space Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3712,7 +3712,7 @@
         "programming"
       ],
       "popularity": 45,
-      "last_modified": "2025-10-08T15:07:07.280841Z",
+      "last_modified": "2025-10-08T15:36:05.587469Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3763,7 +3763,7 @@
       "version": "3.0.2",
       "description": "Patched version of Terminus with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3773,7 +3773,7 @@
         "programming"
       ],
       "popularity": 40,
-      "last_modified": "2025-10-08T15:07:07.280857Z",
+      "last_modified": "2025-10-08T15:36:05.587490Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3824,7 +3824,7 @@
       "version": "3.0.2",
       "description": "Patched version of Tinos with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3834,7 +3834,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280877Z",
+      "last_modified": "2025-10-08T15:36:05.587513Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3885,7 +3885,7 @@
       "version": "3.0.2",
       "description": "Patched version of Ubuntu with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3895,7 +3895,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280904Z",
+      "last_modified": "2025-10-08T15:36:05.587544Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3946,7 +3946,7 @@
       "version": "3.0.2",
       "description": "Patched version of Ubuntu Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -3956,7 +3956,7 @@
         "programming"
       ],
       "popularity": 65,
-      "last_modified": "2025-10-08T15:07:07.280927Z",
+      "last_modified": "2025-10-08T15:36:05.587571Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -4007,7 +4007,7 @@
       "version": "3.0.2",
       "description": "Patched version of Ubuntusans with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -4017,7 +4017,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.280951Z",
+      "last_modified": "2025-10-08T15:36:05.587599Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -4068,7 +4068,7 @@
       "version": "3.0.2",
       "description": "Patched version of Victor Mono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -4078,7 +4078,7 @@
         "programming"
       ],
       "popularity": 35,
-      "last_modified": "2025-10-08T15:07:07.280985Z",
+      "last_modified": "2025-10-08T15:36:05.587628Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -4129,7 +4129,7 @@
       "version": "3.0.2",
       "description": "Patched version of Zedmono with additional icon glyphs",
       "categories": [
-        "Monospace"
+        "Nerd Font"
       ],
       "tags": [
         "nerd-fonts",
@@ -4139,7 +4139,7 @@
         "programming"
       ],
       "popularity": 25,
-      "last_modified": "2025-10-08T15:07:07.281009Z",
+      "last_modified": "2025-10-08T15:36:05.587656Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
