@@ -21,18 +21,71 @@ class FontSquirrelTranslator:
         self.fontlist_url = f"{self.base_url}/fontlist/all"
         self.familyinfo_url = f"{self.base_url}/familyinfo"
         
-        # Font Squirrel categories mapping
-        self.category_mapping = {
-            "sans-serif": "Sans Serif",
-            "serif": "Serif", 
-            "display": "Display",
-            "handwriting": "Handwriting",
-            "monospace": "Monospace",
-            "script": "Script",
-            "decorative": "Decorative",
-            "symbol": "Symbol",
-            "icon": "Icon"
+        # No category mapping needed - use direct categories
+    
+    def _normalize_category(self, category: str) -> str:
+        """Normalize category with comprehensive enum mapping and fallback."""
+        if not category or not category.strip():
+            return "Other"
+        
+        # First normalize: replace hyphens/underscores with spaces, title case
+        cleaned = category.replace("-", " ").replace("_", " ").strip()
+        words = cleaned.split()
+        normalized = " ".join(word.capitalize() for word in words)
+        
+        # 10-category mapping with intelligent fallback
+        category_mapping = {
+            # Core 10 categories
+            "Sans Serif": "Sans Serif",
+            "Serif": "Serif", 
+            "Slab Serif": "Slab Serif",
+            "Display": "Display",
+            "Monospace": "Monospace",
+            "Script": "Script",
+            "Handwriting": "Handwriting",
+            "Decorative": "Decorative",
+            "Symbol": "Symbol",
+            "Blackletter": "Blackletter",
+            
+            # Additional re-mappings to core 10 categories
+            "Typewriter": "Display",           # Typewriter → Display
+            "Novelty": "Decorative",           # Novelty → Decorative
+            "Comic": "Decorative",             # Comic → Decorative
+            "Dingbat": "Symbol",               # Dingbat → Symbol
+            "Handdrawn": "Handwriting",        # Handdrawn → Handwriting
+            "Calligraphic": "Script",          # Calligraphic → Script
+            "Cursive": "Script",               # Cursive → Script
+            "Programming": "Monospace",        # Programming → Monospace
+            "Retro": "Decorative",             # Retro → Decorative
+            "Grunge": "Decorative",            # Grunge → Decorative
+            "Pixel": "Decorative",             # Pixel → Decorative
+            "Stencil": "Decorative",           # Stencil → Decorative
+            "Monospaced": "Monospace",         # Monospaced → Monospace
+            "Cursive": "Script",               # Cursive → Script
         }
+        
+        # Check for exact match after normalization
+        if normalized in category_mapping:
+            return category_mapping[normalized]
+        
+        # Check for case-insensitive match
+        normalized_lower = normalized.lower()
+        for key, value in category_mapping.items():
+            if key.lower() == normalized_lower:
+                return value
+        
+        # Fallback: return normalized (title case) for unknown categories
+        # This allows custom sources to add new categories like "Graffiti", "Halloween", etc.
+        return normalized
+    
+    def _map_category(self, classification: str) -> str:
+        """Return normalized classification, with fallback to 'Other'."""
+        if classification and classification.strip():
+            return self._normalize_category(classification)
+        
+        # Log empty/missing category
+        print(f"INFO: Empty Font Squirrel category - mapping to 'Other'")
+        return "Other"
     
     def fetch_fonts(self) -> List[Dict[str, Any]]:
         """Fetch all fonts from Font Squirrel API."""
@@ -69,14 +122,14 @@ class FontSquirrelTranslator:
         
         # Extract basic info
         family = font_name
-        font_get_id = f"squirrel.{font_name.lower().replace(' ', '-')}"
+        font_get_id = font_name.lower().replace(' ', '-')
         
-        # Transform categories
+        # Transform categories from classification
         categories = []
         if "classification" in font_data:
-            classification = font_data["classification"].lower()
-            if classification in self.category_mapping:
-                categories.append(self.category_mapping[classification])
+            classification = font_data["classification"]
+            mapped_category = self._map_category(classification)
+            categories.append(mapped_category)
         
         # Extract license information
         license_info = self._extract_license(font_data, details)
@@ -96,7 +149,7 @@ class FontSquirrelTranslator:
             "license": license_info["type"],
             "license_url": license_info["url"],
             "designer": font_data.get("designer", ""),
-            "foundry": font_data.get("foundry", "Font Squirrel"),
+            "foundry": font_data.get("foundry_name", "Unknown"),
             "version": font_data.get("version", "1.0"),
             "description": font_data.get("description", ""),
             "categories": categories,

@@ -24,6 +24,61 @@ class GoogleFontsTranslator:
         if not self.api_key:
             raise ValueError("Google Fonts API key is required. Set GOOGLE_FONTS_API_KEY environment variable.")
     
+    def _normalize_category(self, category: str) -> str:
+        """Normalize category with comprehensive enum mapping and fallback."""
+        if not category or not category.strip():
+            return "Other"
+        
+        # First normalize: replace hyphens/underscores with spaces, title case
+        cleaned = category.replace("-", " ").replace("_", " ").strip()
+        words = cleaned.split()
+        normalized = " ".join(word.capitalize() for word in words)
+        
+        # 10-category mapping with intelligent fallback
+        category_mapping = {
+            # Core 10 categories
+            "Sans Serif": "Sans Serif",
+            "Serif": "Serif", 
+            "Slab Serif": "Slab Serif",
+            "Display": "Display",
+            "Monospace": "Monospace",
+            "Script": "Script",
+            "Handwriting": "Handwriting",
+            "Decorative": "Decorative",
+            "Symbol": "Symbol",
+            "Blackletter": "Blackletter",
+            
+            #Additional re-mappings to core 10 categories
+            "Typewriter": "Display",           # Typewriter → Display
+            "Novelty": "Decorative",           # Novelty → Decorative
+            "Comic": "Decorative",             # Comic → Decorative
+            "Dingbat": "Symbol",               # Dingbat → Symbol
+            "Handdrawn": "Handwriting",        # Handdrawn → Handwriting
+            "Calligraphic": "Script",          # Calligraphic → Script
+            "Cursive": "Script",               # Cursive → Script
+            "Programming": "Monospace",        # Programming → Monospace
+            "Retro": "Decorative",             # Retro → Decorative
+            "Grunge": "Decorative",            # Grunge → Decorative
+            "Pixel": "Decorative",             # Pixel → Decorative
+            "Stencil": "Decorative",           # Stencil → Decorative
+            "Monospaced": "Monospace",         # Monospaced → Monospace
+            "Cursive": "Script",               # Cursive → Script
+        }
+        
+        # Check for exact match after normalization
+        if normalized in category_mapping:
+            return category_mapping[normalized]
+        
+        # Check for case-insensitive match
+        normalized_lower = normalized.lower()
+        for key, value in category_mapping.items():
+            if key.lower() == normalized_lower:
+                return value
+        
+        # Fallback: return normalized (title case) for unknown categories
+        # This allows custom sources to add new categories like "Graffiti", "Halloween", etc.
+        return normalized
+    
     def fetch_fonts(self) -> Dict[str, Any]:
         """Fetch all fonts from Google Fonts API."""
         params = {
@@ -51,25 +106,12 @@ class GoogleFontsTranslator:
             if variant_data:
                 variants.append(variant_data)
         
-        # Extract categories
+        # Extract categories (normalize to title case)
         categories = []
         if "category" in font_data:
-            # Map Google Fonts categories to schema format
             category = font_data["category"]
-            category_mapping = {
-                "sans-serif": "Sans Serif",
-                "serif": "Serif", 
-                "display": "Display",
-                "handwriting": "Handwriting",
-                "monospace": "Monospace",
-                "script": "Script",
-                "decorative": "Decorative",
-                "symbol": "Symbol",
-                "icon": "Icon",
-                "other": "Other"
-            }
-            mapped_category = category_mapping.get(category, category.capitalize())
-            categories.append(mapped_category)
+            normalized_category = self._normalize_category(category)
+            categories.append(normalized_category)
         
         # Calculate popularity score (0-100)
         popularity = self._calculate_popularity(font_data)
