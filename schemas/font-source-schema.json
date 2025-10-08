@@ -126,7 +126,8 @@
               "Handwriting",
               "Decorative",
               "Symbol",
-              "Blackletter"
+              "Blackletter",
+              "Nerd Font"
             ]
           },
           "uniqueItems": true
