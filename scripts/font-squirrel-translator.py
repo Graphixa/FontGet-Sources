@@ -89,14 +89,43 @@ class FontSquirrelTranslator:
     
     def fetch_fonts(self) -> List[Dict[str, Any]]:
         """Fetch all fonts from Font Squirrel API."""
-        response = requests.get(self.fontlist_url)
-        response.raise_for_status()
-        return response.json()
+        try:
+            # Add User-Agent header to avoid being blocked
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (compatible; FontGet/1.0; +https://github.com/Graphixa/FontGet-Sources)'
+            }
+            response = requests.get(self.fontlist_url, headers=headers, timeout=30)
+            response.raise_for_status()
+            
+            # Check if response is empty
+            if not response.text or not response.text.strip():
+                raise ValueError(f"Empty response from Font Squirrel API: {self.fontlist_url}")
+            
+            # Check if response is valid JSON
+            try:
+                data = response.json()
+            except json.JSONDecodeError as e:
+                # Print first 500 chars of response for debugging
+                preview = response.text[:500] if len(response.text) > 500 else response.text
+                raise ValueError(
+                    f"Invalid JSON response from Font Squirrel API. "
+                    f"Status: {response.status_code}, "
+                    f"Content-Type: {response.headers.get('Content-Type', 'unknown')}, "
+                    f"Response preview: {preview}"
+                ) from e
+            
+            return data
+        except requests.exceptions.RequestException as e:
+            raise RuntimeError(f"Failed to fetch fonts from Font Squirrel API: {e}") from e
     
     def fetch_font_details(self, font_urlname: str) -> Dict[str, Any]:
         """Fetch detailed information for a specific font using familyinfo API."""
         try:
-            response = requests.get(f"{self.familyinfo_url}/{font_urlname}", timeout=10)
+            # Add User-Agent header to avoid being blocked
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (compatible; FontGet/1.0; +https://github.com/Graphixa/FontGet-Sources)'
+            }
+            response = requests.get(f"{self.familyinfo_url}/{font_urlname}", headers=headers, timeout=10)
             response.raise_for_status()
             
             # Check if response is valid JSON
@@ -470,7 +499,10 @@ def main():
         print(f"Successfully generated {output_file} with {len(source_data['fonts'])} fonts")
         
     except Exception as e:
+        import traceback
         print(f"Error: {e}")
+        print(f"Error type: {type(e).__name__}")
+        traceback.print_exc()
         return 1
     
     return 0
