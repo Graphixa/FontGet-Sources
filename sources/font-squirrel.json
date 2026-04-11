@@ -5,8 +5,8 @@
     "url": "https://www.fontsquirrel.com",
     "api_endpoint": "https://www.fontsquirrel.com/api/fontlist/all",
     "version": "1.0",
-    "last_updated": "2026-04-10T05:57:47.799336Z",
-    "total_fonts": 1037
+    "last_updated": "2026-04-11T05:25:16.612708Z",
+    "total_fonts": 1036
   },
   "fonts": {
     "1942-report": {
@@ -17594,48 +17594,6 @@
           ],
           "files": {
             "ttf": "https://www.fontsquirrel.com/fontfacekit/hvd-poster"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF",
-        "U+0100-017F"
-      ],
-      "languages": [
-        "Latin",
-        "Latin Extended"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "hvd-rowdy": {
-      "name": "HVD Rowdy",
-      "family": "HVD Rowdy",
-      "license": "Other",
-      "license_url": "https://www.fontsquirrel.com/license/hvd-rowdy",
-      "designer": "",
-      "foundry": "HVD Fonts",
-      "version": "1.0",
-      "description": "",
-      "categories": [
-        "Decorative"
-      ],
-      "tags": [
-        "grunge"
-      ],
-      "popularity": 50,
-      "last_modified": "",
-      "metadata_url": "https://www.fontsquirrel.com/fonts/hvd-rowdy",
-      "source_url": "https://www.fontsquirrel.com/fonts/hvd-rowdy",
-      "variants": [
-        {
-          "name": "HVD Rowdy Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "ttf": "https://www.fontsquirrel.com/fontfacekit/hvd-rowdy"
           }
         }
       ],
