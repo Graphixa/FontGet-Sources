@@ -1,0 +1,26 @@
+## Normalize line endings in-repo to LF.
+## Developers can use any OS/editor; git will convert to LF on commit.
+* text=auto eol=lf
+
+# Common text formats
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.gitignore text eol=lf
+*.example text eol=lf
+
+# Treat these as binary (no line ending conversions)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.zip binary

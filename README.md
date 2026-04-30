@@ -25,7 +25,8 @@ Each source file contains font information like:
 
 ## For Developers
 
-Install script dependencies: `pip install -r requirements.txt` (or `python3 -m pip install -r requirements.txt`).
+- Install script dependencies: `pip install -r requirements.txt` (or `python3 -m pip install -r requirements.txt`).
+- Environment variables for translators (and what to configure as **GitHub Actions** repository secrets) are listed in [`env.example`](env.example). Forks running workflows need secrets such as `GOOGLE_FONTS_API_KEY` where applicable.
 
 - **[Schemas](schemas/)** - JSON validation rules
 - **[Scripts](scripts/)** - Data update automation
