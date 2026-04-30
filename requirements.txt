@@ -1,0 +1,2 @@
+# Translators (scripts/) — HTTP fetches from Google Fonts, Font Squirrel, Nerd Fonts, Open Foundry, etc.
+requests>=2.28.0

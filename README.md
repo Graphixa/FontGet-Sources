@@ -25,6 +25,8 @@ Each source file contains font information like:
 
 ## For Developers
 
+Install script dependencies: `pip install -r requirements.txt` (or `python3 -m pip install -r requirements.txt`).
+
 - **[Schemas](schemas/)** - JSON validation rules
 - **[Scripts](scripts/)** - Data update automation
 - **[Sources](sources/)** - The actual font data files
