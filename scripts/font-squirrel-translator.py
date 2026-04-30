@@ -4,6 +4,9 @@ Font Squirrel Translator for FontGet
 
 Fetches font data from Font Squirrel API and transforms it to FontGet format.
 Uses Font Squirrel's public API to get font information.
+
+``/fontfacekit/{family_urlname}`` responses are ZIP webfont kits (CSS plus fonts);
+variant ``files`` use a ``zip`` key for those URLs. Direct file URLs use extension keys.
 """
 
 import json
@@ -11,10 +14,15 @@ import os
 import requests
 from datetime import datetime
 from typing import Dict, List, Any, Optional
+from urllib.parse import urlparse
 import re
 
 
 class FontSquirrelTranslator:
+    """Font Squirrel kit downloads use ``/fontfacekit/{slug}`` and are ZIP archives, not raw TTF."""
+
+    FONTFACEKIT_PATH = "/fontfacekit/"
+
     def __init__(self):
         """Initialize translator."""
         self.base_url = "https://www.fontsquirrel.com/api"
@@ -22,6 +30,40 @@ class FontSquirrelTranslator:
         self.familyinfo_url = f"{self.base_url}/familyinfo"
         
         # No category mapping needed - use direct categories
+
+    @staticmethod
+    def _fontfacekit_download_url(family_urlname: str) -> str:
+        """Webfont kit download URL (HTTP body is a ZIP archive)."""
+        if not family_urlname or not str(family_urlname).strip():
+            return ""
+        return f"https://www.fontsquirrel.com/fontfacekit/{family_urlname.strip()}"
+
+    def _is_zip_bundle_url(self, url: str) -> bool:
+        """True when the URL points at a ZIP bundle (Font Squirrel kit or explicit ``.zip`` path)."""
+        if not url or not url.strip():
+            return False
+        if self.FONTFACEKIT_PATH in url.lower():
+            return True
+        path = urlparse(url).path.lower()
+        return path.endswith(".zip")
+
+    def _files_dict_for_download_url(self, url: str) -> Dict[str, str]:
+        """
+        Build variant ``files`` from the actual download URL.
+
+        Font Squirrel ``fontfacekit`` endpoints always serve a ZIP (CSS + webfonts, etc.).
+        Direct asset URLs are keyed by extension (``ttf``, ``woff2``, …).
+        """
+        if not url or not url.strip():
+            return {}
+        url = url.strip()
+        if self._is_zip_bundle_url(url):
+            return {"zip": url}
+        path = urlparse(url).path.lower()
+        for ext in (".woff2", ".woff", ".ttf", ".otf", ".eot", ".svg", ".fon"):
+            if path.endswith(ext):
+                return {ext[1:]: url}
+        return {"download": url}
     
     def _normalize_category(self, category: str) -> str:
         """Normalize category with comprehensive enum mapping and fallback."""
@@ -220,20 +262,18 @@ class FontSquirrelTranslator:
         font_files = details.get("font_files", []) if details and isinstance(details, dict) else []
         
         if not font_files:
-            # Fallback: create basic variants from font data
-            # Use the fontfacekit download URL for the font
+            # Fallback: one variant pointing at the webfont kit ZIP (not a raw TTF URL).
             family_urlname = font_data.get("family_urlname", "")
-            download_url = f"https://www.fontsquirrel.com/fontfacekit/{family_urlname}" if family_urlname else ""
-            
-            variants.append({
-                "name": f"{font_data.get('family_name', 'Font')} Regular",
-                "weight": 400,
-                "style": "normal",
-                "subsets": ["latin"],
-                "files": {
-                    "ttf": download_url
-                }
-            })
+            download_url = self._fontfacekit_download_url(family_urlname)
+            files = self._files_dict_for_download_url(download_url)
+            if files:
+                variants.append({
+                    "name": f"{font_data.get('family_name', 'Font')} Regular",
+                    "weight": 400,
+                    "style": "normal",
+                    "subsets": ["latin"],
+                    "files": files,
+                })
         else:
             # Process actual font files from familyinfo API
             for file_info in font_files:
@@ -244,10 +284,10 @@ class FontSquirrelTranslator:
         return variants
     
     def _create_variant_from_file(self, file_info: Dict[str, Any], family_name: str, family_urlname: str = "") -> Optional[Dict[str, Any]]:
-        """Create variant from file information."""
-        filename = file_info.get("filename", "")
-        download_url = file_info.get("download_url", "")
-        style_name = file_info.get("style_name", "")
+        """Create variant from familyinfo ``font_files`` row (URL drives ``files`` keys, not filename alone)."""
+        filename = (file_info.get("filename") or "").strip()
+        download_url = (file_info.get("download_url") or "").strip()
+        style_name = (file_info.get("style_name") or "").strip()
         
         if not filename:
             return None
@@ -258,29 +298,21 @@ class FontSquirrelTranslator:
         else:
             weight, style = self._parse_weight_style(filename)
         
-        # Determine file format
-        file_format = "ttf"  # Default
-        if filename.endswith(".otf"):
-            file_format = "otf"
-        elif filename.endswith(".fon"):
-            file_format = "fon"
-        
         variant_name = self._generate_variant_name(family_name, weight, style)
         
-        # Use download_url if available, otherwise use fontfacekit URL
         if not download_url and family_urlname:
-            # Font Squirrel files are available via fontfacekit:
-            # https://www.fontsquirrel.com/fontfacekit/{family_urlname}
-            download_url = f"https://www.fontsquirrel.com/fontfacekit/{family_urlname}"
+            download_url = self._fontfacekit_download_url(family_urlname)
+        
+        files = self._files_dict_for_download_url(download_url)
+        if not files:
+            return None
         
         return {
             "name": variant_name,
             "weight": weight,
             "style": style,
             "subsets": ["latin", "latin-ext"],
-            "files": {
-                file_format: download_url
-            }
+            "files": files,
         }
     
     def _parse_weight_style(self, filename: str) -> tuple[int, str]:
