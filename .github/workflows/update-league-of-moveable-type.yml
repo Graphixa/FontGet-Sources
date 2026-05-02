@@ -1,0 +1,63 @@
+name: Update League of Moveable Type
+
+on:
+  workflow_dispatch:
+    inputs:
+      output:
+        description: "Optional: output path relative to repo root (default sources/league-of-moveable-type.json)"
+        required: false
+        default: ""
+  schedule:
+    # Daily at 03:55 UTC (after Fontshare / Fontsource jobs)
+    - cron: "55 3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-league
+  cancel-in-progress: true
+
+jobs:
+  update-league:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Generate sources/league-of-moveable-type.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUTPUT: ${{ inputs.output }}
+        run: |
+          if [ -n "${OUTPUT}" ]; then
+            python scripts/league-of-moveable-type-translator.py --output "${OUTPUT}"
+          else
+            python scripts/league-of-moveable-type-translator.py
+          fi
+
+      - name: Validate sources/league-of-moveable-type.json
+        run: |
+          python schemas/validate-sources.py sources/league-of-moveable-type.json
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- sources/league-of-moveable-type.json; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add sources/league-of-moveable-type.json
+          git commit -m "Update league-of-moveable-type.json"
+          git push

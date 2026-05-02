@@ -1,0 +1,661 @@
+{
+  "source_info": {
+    "name": "The League of Moveable Type",
+    "description": "Open-source fonts from The League; license URLs taken from theleagueofmoveabletype.com (resolved to OFL text on GitHub).",
+    "url": "https://www.theleagueofmoveabletype.com",
+    "api_endpoint": "https://api.github.com/orgs/theleagueof/repos",
+    "version": "1.0",
+    "last_updated": "2026-05-02T02:45:52.373047Z",
+    "total_fonts": 18
+  },
+  "fonts": {
+    "blackout": {
+      "name": "Blackout",
+      "family": "Blackout",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A bad-ass, unholy-mother-shut-your-mouth stencil sans-serif.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/blackout",
+      "source_url": "https://www.theleagueofmoveabletype.com/blackout/",
+      "variants": [
+        {
+          "name": "Blackout (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/blackout/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "chunk": {
+      "name": "Chunk",
+      "family": "Chunk",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "An ultra-bold, ultra-awesome slab serif typeface.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/chunk",
+      "source_url": "https://www.theleagueofmoveabletype.com/chunk/",
+      "variants": [
+        {
+          "name": "Chunk (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/chunk/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "fanwood": {
+      "name": "Fanwood",
+      "family": "Fanwood",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A serif based on the work of a famous Czech-American type designer of yesteryear.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/fanwood",
+      "source_url": "https://www.theleagueofmoveabletype.com/fanwood/",
+      "variants": [
+        {
+          "name": "Fanwood (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/fanwood/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "goudy-bookletter-1911": {
+      "name": "Goudy Bookletter 1911",
+      "family": "Goudy Bookletter 1911",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A public domain font based on Frederic Goudy’s Kennerley Oldstyle.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/goudy-bookletter-1911",
+      "source_url": "https://www.theleagueofmoveabletype.com/goudy-bookletter-1911/",
+      "variants": [
+        {
+          "name": "Goudy Bookletter 1911 (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/goudy-bookletter-1911/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "junction": {
+      "name": "Junction",
+      "family": "Junction",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "Our first open source type project, expanding a humanist sans-serif typeface, Junction.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/junction",
+      "source_url": "https://www.theleagueofmoveabletype.com/junction/",
+      "variants": [
+        {
+          "name": "Junction (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/junction/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "knewave": {
+      "name": "Knewave",
+      "family": "Knewave",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A bold, painted face for the rocker within.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/knewave",
+      "source_url": "https://www.theleagueofmoveabletype.com/knewave/",
+      "variants": [
+        {
+          "name": "Knewave (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/knewave/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "league-gothic": {
+      "name": "League Gothic",
+      "family": "League Gothic",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/league-gothic/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A revival of an old classic, Alternate Gothic #1",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/league-gothic",
+      "source_url": "https://www.theleagueofmoveabletype.com/league-gothic/",
+      "variants": [
+        {
+          "name": "League Gothic (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/league-gothic/releases/download/1.601/LeagueGothic-1.601.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "league-mono": {
+      "name": "League Mono",
+      "family": "League Mono",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/league-mono/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A monospace typeface inspired by Fira Mono, Libertinus Mono, and Courier.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/league-mono",
+      "source_url": "https://www.theleagueofmoveabletype.com/league-mono/",
+      "variants": [
+        {
+          "name": "League Mono (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/league-mono/releases/download/2.300/LeagueMono-2.300.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "league-script-number-one": {
+      "name": "League Script",
+      "family": "League Script",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A modern, coquettish script font that sits somewhere between your high school girlfriend’s love notes and handwritten letters from the '20s.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/league-script-number-one",
+      "source_url": "https://www.theleagueofmoveabletype.com/league-script/",
+      "variants": [
+        {
+          "name": "League Script (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/league-script-number-one/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "league-spartan": {
+      "name": "League Spartan",
+      "family": "League Spartan",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/league-spartan/master/OFL.txt",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A fantastic new revival of ATF's classic Spartan, a geometric sans-serif that has no problem kicking its enemies in the chest.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/league-spartan",
+      "source_url": "https://www.theleagueofmoveabletype.com/league-spartan/",
+      "variants": [
+        {
+          "name": "League Spartan (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/league-spartan/releases/download/2.220/LeagueSpartan-2.220.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "linden-hill": {
+      "name": "Linden Hill",
+      "family": "Linden Hill",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A digital version of Frederic Goudy’s Deepdene.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/linden-hill",
+      "source_url": "https://www.theleagueofmoveabletype.com/linden-hill/",
+      "variants": [
+        {
+          "name": "Linden Hill (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/linden-hill/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "orbitron": {
+      "name": "Orbitron",
+      "family": "Orbitron",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A geometric sans-serif from the future.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/orbitron",
+      "source_url": "https://www.theleagueofmoveabletype.com/orbitron/",
+      "variants": [
+        {
+          "name": "Orbitron (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/orbitron/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "ostrich-sans": {
+      "name": "Ostrich Sans",
+      "family": "Ostrich Sans",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A gorgeous modern sans-serif with a very long neck.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/ostrich-sans",
+      "source_url": "https://www.theleagueofmoveabletype.com/ostrich-sans/",
+      "variants": [
+        {
+          "name": "Ostrich Sans (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/ostrich-sans/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "prociono": {
+      "name": "Prociono",
+      "family": "Prociono",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A roman serif with blackletter elements.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/prociono",
+      "source_url": "https://www.theleagueofmoveabletype.com/prociono/",
+      "variants": [
+        {
+          "name": "Prociono (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/prociono/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "raleway": {
+      "name": "Raleway",
+      "family": "Raleway",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/raleway/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "An elegant variable sans-serif, with 9 static weights and Italics.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/raleway",
+      "source_url": "https://www.theleagueofmoveabletype.com/raleway/",
+      "variants": [
+        {
+          "name": "Raleway (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/raleway/releases/download/4.101/Raleway-4.101.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "sniglet": {
+      "name": "Sniglet",
+      "family": "Sniglet",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A fun rounded display face that’s great for headlines.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/sniglet",
+      "source_url": "https://www.theleagueofmoveabletype.com/sniglet/",
+      "variants": [
+        {
+          "name": "Sniglet (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/sniglet/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "sorts-mill-goudy": {
+      "name": "Sorts Mill Goudy",
+      "family": "Sorts Mill Goudy",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/sorts-mill-goudy/master/OFLGoudyStM-Italic.otf",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "A ‘revival’ of Goudy Oldstyle and Italic.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/sorts-mill-goudy",
+      "source_url": "https://www.theleagueofmoveabletype.com/sorts-mill-goudy/",
+      "variants": [
+        {
+          "name": "Sorts Mill Goudy (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/sorts-mill-goudy/archive/refs/heads/master.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "the-neue-black": {
+      "name": "The Neue Black",
+      "family": "The Neue Black",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/theleagueof/the-neue-black/master/OFL.md",
+      "designer": "",
+      "foundry": "The League of Moveable Type",
+      "version": "",
+      "description": "Tré Seals’ first open-source font, a typeface based on the Chicago Freedom Movement.",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "league",
+        "open-source"
+      ],
+      "popularity": 50,
+      "metadata_url": "https://github.com/theleagueof/the-neue-black",
+      "source_url": "https://www.theleagueofmoveabletype.com/the-neue-black/",
+      "variants": [
+        {
+          "name": "The Neue Black (family)",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://github.com/theleagueof/the-neue-black/releases/download/1.007/TheNeueBlack-1.007.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    }
+  }
+}
