@@ -233,7 +233,7 @@
         },
         "files": {
           "type": "object",
-          "description": "Font files by format",
+          "description": "Installable font or archive URLs only (TTF/OTF/ZIP/tar.xz)",
           "minProperties": 1,
           "properties": {
             "ttf": {
@@ -246,10 +246,15 @@
               "format": "uri",
               "description": "OpenType font file URL"
             },
-            "fon": {
+            "zip": {
               "type": "string",
               "format": "uri",
-              "description": "Windows font file URL"
+              "description": "ZIP archive URL"
+            },
+            "tar_xz": {
+              "type": "string",
+              "format": "uri",
+              "description": "XZ-compressed tar archive URL (e.g. some GitHub release assets)"
             }
           },
           "additionalProperties": false
