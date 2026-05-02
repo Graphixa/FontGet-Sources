@@ -7,15 +7,43 @@ Uses Font Squirrel's public API to get font information.
 
 ``/fontfacekit/{family_urlname}`` responses are ZIP webfont kits (CSS plus fonts);
 variant ``files`` use a ``zip`` key for those URLs. Direct file URLs use extension keys.
+
+When ``DEDUPLICATE_GOOGLE_FONTS`` is True, families whose normalized id matches an entry in
+``sources/google-fonts.json`` are omitted from retrieval (name/slug match, not binary identity).
+``--no-google-dedupe`` disables that for one run.
 """
 
+import argparse
 import json
-import os
 import requests
 from datetime import datetime
-from typing import Dict, List, Any, Optional
+from pathlib import Path
+from typing import Dict, List, Any, Optional, Set
 from urllib.parse import urlparse
 import re
+
+# When True, omit Font Squirrel families that already appear in ``sources/google-fonts.json``.
+DEDUPLICATE_GOOGLE_FONTS = True
+
+
+def _font_id_from_family_name(family_name: str) -> str:
+    """Font dict key: lowercase slug aligned with FontGet source conventions."""
+    clean_name = re.sub(r"[^a-z0-9-]", "-", family_name.lower())
+    clean_name = re.sub(r"-+", "-", clean_name).strip("-")
+    return clean_name
+
+
+def _load_google_font_family_ids(google_fonts_json: Path) -> Set[str]:
+    """Google Fonts JSON keys plus normalized ``family`` strings for overlap checks."""
+    with open(google_fonts_json, encoding="utf-8") as f:
+        data = json.load(f)
+    ids: Set[str] = set()
+    for key, entry in data.get("fonts", {}).items():
+        ids.add(key)
+        fam = (entry.get("family") or entry.get("name") or "").strip()
+        if fam:
+            ids.add(_font_id_from_family_name(fam))
+    return ids
 
 
 class FontSquirrelTranslator:
@@ -52,7 +80,7 @@ class FontSquirrelTranslator:
         Build variant ``files`` from the actual download URL.
 
         Font Squirrel ``fontfacekit`` endpoints always serve a ZIP (CSS + webfonts, etc.).
-        Direct asset URLs are keyed by extension (``ttf``, ``woff2``, …).
+        Direct asset URLs are keyed only for installable outlines (``ttf``, ``otf``) or ``tar_xz``.
         """
         if not url or not url.strip():
             return {}
@@ -60,10 +88,13 @@ class FontSquirrelTranslator:
         if self._is_zip_bundle_url(url):
             return {"zip": url}
         path = urlparse(url).path.lower()
-        for ext in (".woff2", ".woff", ".ttf", ".otf", ".eot", ".svg", ".fon"):
-            if path.endswith(ext):
-                return {ext[1:]: url}
-        return {"download": url}
+        if path.endswith(".tar.xz"):
+            return {"tar_xz": url}
+        if path.endswith(".ttf"):
+            return {"ttf": url}
+        if path.endswith(".otf"):
+            return {"otf": url}
+        return {}
     
     def _normalize_category(self, category: str) -> str:
         """Normalize category with comprehensive enum mapping and fallback."""
@@ -126,7 +157,7 @@ class FontSquirrelTranslator:
             return self._normalize_category(classification)
         
         # Log empty/missing category
-        print(f"INFO: Empty Font Squirrel category - mapping to 'Other'")
+        print("Note: empty Font Squirrel category — mapping to 'Other'.")
         return "Other"
     
     def fetch_fonts(self) -> List[Dict[str, Any]]:
@@ -407,7 +438,7 @@ class FontSquirrelTranslator:
     
     def _calculate_popularity(self, font_data: Dict[str, Any], details: Dict[str, Any]) -> int:
         """Calculate popularity score."""
-        score = 50  # Base score
+        score = 40  # Base score (API has no popularity; bonuses may raise up to 100)
         
         # Bonus for having description
         if font_data.get("description"):
@@ -468,75 +499,133 @@ class FontSquirrelTranslator:
         # Return common languages
         return ["Latin", "Latin Extended"]
     
-    def translate(self, limit: int = None) -> Dict[str, Any]:
-        """Main translation function."""
-        print("Fetching fonts from Font Squirrel API...")
+    def translate(
+        self, limit: Optional[int] = None, deduplicate_google_fonts: Optional[bool] = None
+    ) -> Dict[str, Any]:
+        """Fetch Font Squirrel API, optionally exclude Google Fonts overlaps, emit catalog."""
+        if deduplicate_google_fonts is None:
+            deduplicate_google_fonts = DEDUPLICATE_GOOGLE_FONTS
+
+        repo_root = Path(__file__).resolve().parent.parent
+        google_path = repo_root / "sources" / "google-fonts.json"
+        google_ids: Set[str] = set()
+        if deduplicate_google_fonts:
+            if not google_path.is_file():
+                raise FileNotFoundError(
+                    f"Cannot exclude Google Fonts overlaps without {google_path}"
+                )
+            google_ids = _load_google_font_family_ids(google_path)
+            print(f"Cross-checking google-fonts.json ({len(google_ids)} ids).")
+        else:
+            print("Google Fonts deduplication disabled for this run.")
+
+        print("Fetching Font Squirrel…")
         raw_data = self.fetch_fonts()
-        
-        print(f"Found {len(raw_data)} fonts")
-        
-        # Limit fonts for testing if specified
+        font_squirrel_api_count = len(raw_data)
+
+        print(f"Found {font_squirrel_api_count} families in API listing.")
+
         if limit:
             raw_data = raw_data[:limit]
-            print(f"Processing first {limit} fonts for testing")
-        
-        # Transform fonts
+            print(f"Limit: processing first {limit} families only.")
+
         fonts = {}
+        skipped_google_overlap = 0
         for font_data in raw_data:
             try:
+                family_name = font_data.get("family_name", "")
+                font_id = _font_id_from_family_name(family_name)
+                if deduplicate_google_fonts and font_id in google_ids:
+                    skipped_google_overlap += 1
+                    continue
+
                 transformed = self.transform_font(font_data)
                 if transformed:
-                    # Clean font name for ID: lowercase, replace spaces/special chars with hyphens
-                    clean_name = re.sub(r'[^a-z0-9-]', '-', font_data['family_name'].lower())
-                    clean_name = re.sub(r'-+', '-', clean_name).strip('-')
-                    font_id = clean_name
                     fonts[font_id] = transformed
             except Exception as e:
                 print(f"Warning: Failed to transform font {font_data.get('family_name', 'unknown')}: {e}")
                 continue
-        
-        print(f"Successfully transformed {len(fonts)} fonts")
-        
-        # Create source structure
+
+        if deduplicate_google_fonts:
+            print(
+                f"Skipped {skipped_google_overlap} families already in google-fonts.json; "
+                f"kept {len(fonts)} families."
+            )
+        else:
+            print(f"Included all {len(fonts)} families (deduplication off).")
+
+        if deduplicate_google_fonts:
+            desc = (
+                "Free fonts from Font Squirrel (webfont kits as ZIP via fontfacekit URLs). "
+                "Families whose normalized id matches sources/google-fonts.json are omitted "
+                "to avoid duplicating the Google Fonts catalog."
+            )
+        else:
+            desc = (
+                "Free fonts from Font Squirrel (webfont kits as ZIP via fontfacekit URLs). "
+                "All families from the Font Squirrel API are included."
+            )
+
         source_data = {
             "source_info": {
                 "name": "Font Squirrel",
-                "description": "Free fonts from Font Squirrel",
+                "description": desc,
                 "url": "https://www.fontsquirrel.com",
                 "api_endpoint": "https://www.fontsquirrel.com/api/fontlist/all",
-                "version": "1.0",
+                "version": "1.1" if deduplicate_google_fonts else "1.0",
                 "last_updated": datetime.utcnow().isoformat() + "Z",
-                "total_fonts": len(fonts)
+                "total_fonts": len(fonts),
             },
-            "fonts": fonts
+            "fonts": fonts,
         }
-        
+
         return source_data
 
 
-def main():
-    """Main function."""
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Generate FontGet source JSON for Font Squirrel.")
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Process only the first N fonts from the Font Squirrel listing (testing).",
+    )
+    parser.add_argument(
+        "--no-google-dedupe",
+        action="store_true",
+        help="Do not exclude fonts whose normalized id matches sources/google-fonts.json.",
+    )
+    parser.add_argument(
+        "-o",
+        "--output",
+        type=Path,
+        default=None,
+        help="Output path (default: sources/font-squirrel.json).",
+    )
+    args = parser.parse_args()
+
+    repo_root = Path(__file__).resolve().parent.parent
+    output_file = args.output or (repo_root / "sources" / "font-squirrel.json")
+
     try:
         translator = FontSquirrelTranslator()
-        # Process all available fonts
-        source_data = translator.translate()
-        
-        # Write to file
-        output_file = "sources/font-squirrel.json"
-        os.makedirs("sources", exist_ok=True)
-        
+        dedupe = DEDUPLICATE_GOOGLE_FONTS and not args.no_google_dedupe
+        source_data = translator.translate(limit=args.limit, deduplicate_google_fonts=dedupe)
+
+        output_file.parent.mkdir(parents=True, exist_ok=True)
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(source_data, f, indent=2, ensure_ascii=False)
-        
-        print(f"Successfully generated {output_file} with {len(source_data['fonts'])} fonts")
-        
+
+        n = len(source_data["fonts"])
+        print(f"Wrote {output_file} ({n} fonts).")
+
     except Exception as e:
         import traceback
+
         print(f"Error: {e}")
-        print(f"Error type: {type(e).__name__}")
         traceback.print_exc()
         return 1
-    
+
     return 0
 
 

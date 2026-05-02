@@ -3,26 +3,100 @@
 Google Fonts API Translator for FontGet
 
 Fetches font data from Google Fonts API and transforms it to FontGet format.
-Requires GOOGLE_FONTS_API_KEY environment variable.
+Requires ``GOOGLE_FONTS_API_KEY`` (environment variable). The repo-root ``.env`` is loaded on
+each run: ``python-dotenv`` when installed, plus a built-in line parser for this key so a
+missing ``pip install`` does not block local use.
 """
 
+import argparse
 import json
 import os
-import requests
 import re
+from pathlib import Path
+
+import requests
 from datetime import datetime
 from typing import Dict, List, Any, Optional
+from urllib.parse import urlparse
+
+
+def _bootstrap_google_fonts_key_from_dotenv_file(env_path: Path) -> None:
+    """
+    If ``GOOGLE_FONTS_API_KEY`` is not already set, read it from ``.env`` using a tiny parser.
+
+    Works even when ``python-dotenv`` is not installed, and uses ``utf-8-sig`` so a UTF-8 BOM
+    on the first line does not break the key name.
+    """
+    if os.environ.get("GOOGLE_FONTS_API_KEY", "").strip():
+        return
+    if not env_path.is_file():
+        return
+    try:
+        raw = env_path.read_text(encoding="utf-8-sig")
+    except OSError:
+        return
+    for line in raw.splitlines():
+        s = line.strip()
+        if not s or s.startswith("#"):
+            continue
+        if s.lower().startswith("export "):
+            s = s[7:].lstrip()
+        if "=" not in s:
+            continue
+        key, _, val = s.partition("=")
+        key = key.strip()
+        if key != "GOOGLE_FONTS_API_KEY":
+            continue
+        val = val.strip()
+        if len(val) >= 2 and val[0] == val[-1] and val[0] in "\"'":
+            val = val[1:-1]
+        if val:
+            os.environ["GOOGLE_FONTS_API_KEY"] = val
+        return
+
+
+def _load_repo_dotenv() -> None:
+    """Load repo-root ``.env``: ``python-dotenv`` if available, then key bootstrap for Google Fonts."""
+    env_path = Path(__file__).resolve().parent.parent / ".env"
+    try:
+        from dotenv import load_dotenv
+    except ImportError:
+        pass
+    else:
+        load_dotenv(env_path, encoding="utf-8-sig")
+    _bootstrap_google_fonts_key_from_dotenv_file(env_path)
 
 
 class GoogleFontsTranslator:
-    def __init__(self, api_key: Optional[str] = None):
+    def __init__(self, api_key: Optional[str] = None, *, verbose: bool = False):
         """Initialize translator with API key."""
         # Hardcoded for local testing
         self.api_key = api_key or os.getenv("GOOGLE_FONTS_API_KEY")
         self.base_url = "https://www.googleapis.com/webfonts/v1/webfonts"
-        
+        self.verbose = verbose or os.environ.get("GOOGLE_FONTS_TRANSLATOR_VERBOSE", "").strip() not in (
+            "",
+            "0",
+            "false",
+            "no",
+        )
+
         if not self.api_key:
-            raise ValueError("Google Fonts API key is required. Set GOOGLE_FONTS_API_KEY environment variable.")
+            root = Path(__file__).resolve().parent.parent
+            dotenv_path = root / ".env"
+            hint = ""
+            if dotenv_path.is_file():
+                hint = (
+                    f" Repo file {dotenv_path} exists but ``GOOGLE_FONTS_API_KEY`` is still unset or empty. "
+                    "Add a line exactly like: GOOGLE_FONTS_API_KEY=your_key_here "
+                    "(no spaces around ``=`` unless the value is quoted). "
+                    "Or ``export GOOGLE_FONTS_API_KEY=...`` is also accepted."
+                )
+            else:
+                hint = f" Expected `{dotenv_path}` or ``export GOOGLE_FONTS_API_KEY`` in your environment."
+            raise ValueError(
+                "Google Fonts API key is required. Set GOOGLE_FONTS_API_KEY or add it to `.env` at the repo root."
+                + hint
+            )
     
     def _normalize_category(self, category: str) -> str:
         """Normalize category with comprehensive enum mapping and fallback."""
@@ -90,8 +164,11 @@ class GoogleFontsTranslator:
         response.raise_for_status()
         return response.json()
     
-    def transform_font(self, font_data: Dict[str, Any]) -> Dict[str, Any]:
-        """Transform Google Fonts data to FontGet format."""
+    def transform_font(self, font_data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+        """Transform Google Fonts data to FontGet format.
+
+        Returns ``None`` when no variant has a TTF or OTF download URL (webfont-only entries are skipped).
+        """
         # Extract basic info
         family = font_data["family"]
         # Clean font name for ID: lowercase, replace spaces/special chars with hyphens
@@ -105,7 +182,10 @@ class GoogleFontsTranslator:
             variant_data = self._parse_variant(variant, family, font_data)
             if variant_data:
                 variants.append(variant_data)
-        
+
+        if not variants:
+            return None
+
         # Extract categories (normalize to title case)
         categories = []
         if "category" in font_data:
@@ -162,7 +242,9 @@ class GoogleFontsTranslator:
         
         # Generate file URLs using actual Google Fonts API data
         files = self._generate_file_urls(font_data, variant)
-        
+        if not files:
+            return None
+
         return {
             "name": name,
             "weight": weight,
@@ -186,24 +268,32 @@ class GoogleFontsTranslator:
         }
         return weight_names.get(weight, str(weight))
     
+    @staticmethod
+    def _file_key_from_google_font_url(file_url: str) -> Optional[str]:
+        """Return ``ttf`` / ``otf`` from URL path suffix, or ``None`` for webfont-only URLs."""
+        path = (urlparse(file_url).path or "").lower()
+        if path.endswith(".ttf"):
+            return "ttf"
+        if path.endswith(".otf"):
+            return "otf"
+        return None
+
     def _generate_file_urls(self, font_data: Dict[str, Any], variant: str) -> Dict[str, str]:
         """Generate file URLs for a font variant using actual Google Fonts API data."""
-        files = {}
-        
-        # Get the actual file URL from Google Fonts API
+        files: Dict[str, str] = {}
+
         font_files = font_data.get("files", {})
         if variant in font_files:
-            # Google Fonts provides direct download URLs
             file_url = font_files[variant]
-            # Determine file type from URL or default to ttf
-            if file_url.endswith('.ttf'):
-                files["ttf"] = file_url
-            elif file_url.endswith('.otf'):
-                files["otf"] = file_url
-            else:
-                # Default to ttf for Google Fonts
-                files["ttf"] = file_url
-        
+            key = self._file_key_from_google_font_url(file_url)
+            if key is not None:
+                files[key] = file_url
+            elif self.verbose:
+                print(
+                    f"Verbose: skip non-TTF/OTF file for variant {variant!r} "
+                    f"family={font_data.get('family')!r} url={file_url[:200]}"
+                )
+
         return files
     
     def _calculate_popularity(self, font_data: Dict[str, Any]) -> int:
@@ -295,20 +385,22 @@ class GoogleFontsTranslator:
     
     def translate(self) -> Dict[str, Any]:
         """Main translation function."""
-        print("Fetching fonts from Google Fonts API...")
+        print("Fetching Google Fonts…")
         raw_data = self.fetch_fonts()
-        
-        total_fonts = len(raw_data.get('items', []))
-        print(f"Found {total_fonts} fonts")
+
+        total_fonts = len(raw_data.get("items", []))
+        print(f"Found {total_fonts} families in catalog.")
         
         # Transform fonts
         fonts = {}
         for i, font_data in enumerate(raw_data.get("items", []), 1):
             try:
                 if i % 50 == 0 or i == 1:  # Log every 50 fonts
-                    print(f"Processing font {i}/{total_fonts}: {font_data.get('family', 'Unknown')}")
+                    print(f"Processing {i}/{total_fonts}: {font_data.get('family', 'Unknown')}")
                 
                 transformed = self.transform_font(font_data)
+                if not transformed:
+                    continue
                 # Clean font name for ID: lowercase, replace spaces/special chars with hyphens
                 clean_name = re.sub(r'[^a-z0-9-]', '-', font_data['family'].lower())
                 clean_name = re.sub(r'-+', '-', clean_name).strip('-')
@@ -366,7 +458,17 @@ class GoogleFontsTranslator:
 def main():
     """Main function."""
     try:
-        translator = GoogleFontsTranslator()
+        _load_repo_dotenv()
+
+        parser = argparse.ArgumentParser(description="Generate FontGet JSON from Google Fonts API.")
+        parser.add_argument(
+            "--verbose",
+            action="store_true",
+            help="Log when a variant file URL is skipped (not TTF/OTF).",
+        )
+        args = parser.parse_args()
+
+        translator = GoogleFontsTranslator(verbose=args.verbose)
         source_data = translator.translate()
         
         # Write to file
@@ -376,7 +478,8 @@ def main():
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(source_data, f, indent=2, ensure_ascii=False)
         
-        print(f"Successfully generated {output_file} with {len(source_data['fonts'])} fonts")
+        n = len(source_data["fonts"])
+        print(f"Wrote {output_file} ({n} fonts).")
         
     except Exception as e:
         print(f"Error: {e}")

@@ -3,7 +3,9 @@
 Nerd Fonts Translator for FontGet
 
 Fetches font data from Nerd Fonts GitHub releases and transforms it to FontGet format.
-Uses GitHub API to get release information and font files.
+Releases publish each family as both ``.zip`` and ``.tar.xz``; we keep **one** archive per
+variant (prefer ``.zip``). URLs use ``files.zip`` or ``files.tar_xz`` (not as ``ttf``).
+Uses the GitHub API for release metadata and download URLs.
 """
 
 import json
@@ -149,27 +151,63 @@ class NerdFontsTranslator:
         return releases[0]
     
     def extract_font_info_from_assets(self, assets: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
-        """Extract font information from release assets."""
-        fonts = {}
-        
+        """Extract font information from release assets.
+
+        Releases ship the same payload as both ``.zip`` and ``.tar.xz``; we keep **one** archive
+        per font variant (prefer ``.zip``, otherwise ``.tar.xz``).
+        """
+        # (font_id, weight, style) -> best candidate row (zip wins over tar.xz)
+        best: Dict[tuple, Dict[str, Any]] = {}
+
         for asset in assets:
             name = asset["name"]
             download_url = asset["browser_download_url"]
-            
-            # Skip non-font files
-            if not name.endswith(('.zip', '.tar.xz')):
+
+            if not name.endswith((".zip", ".tar.xz")):
                 continue
-            
-            # Extract font name from filename
+
             font_name = self._extract_font_name(name)
             if not font_name:
                 continue
-            
-            # Clean font name for ID: lowercase, replace spaces/special chars with hyphens
-            clean_name = re.sub(r'[^a-z0-9-]', '-', font_name.lower())
-            clean_name = re.sub(r'-+', '-', clean_name).strip('-')
+
+            clean_name = re.sub(r"[^a-z0-9-]", "-", font_name.lower())
+            clean_name = re.sub(r"-+", "-", clean_name).strip("-")
             font_id = clean_name
-            
+
+            w, style, vname = self._weight_style_variant_name(name, font_name)
+            key = (font_id, w, style)
+            is_zip = name.lower().endswith(".zip")
+
+            prev = best.get(key)
+            if prev is None:
+                best[key] = {
+                    "font_name": font_name,
+                    "font_id": font_id,
+                    "filename": name,
+                    "url": download_url,
+                    "variant_name": vname,
+                    "weight": w,
+                    "style": style,
+                }
+                continue
+
+            prev_zip = prev["filename"].lower().endswith(".zip")
+            # Prefer zip over tar.xz when both exist for the same variant.
+            if is_zip and not prev_zip:
+                best[key] = {
+                    "font_name": font_name,
+                    "font_id": font_id,
+                    "filename": name,
+                    "url": download_url,
+                    "variant_name": vname,
+                    "weight": w,
+                    "style": style,
+                }
+
+        fonts: Dict[str, Dict[str, Any]] = {}
+        for row in best.values():
+            font_id = row["font_id"]
+            font_name = row["font_name"]
             if font_id not in fonts:
                 fonts[font_id] = {
                     "name": font_name,
@@ -189,15 +227,21 @@ class NerdFontsTranslator:
                     "variants": [],
                     "unicode_ranges": ["U+0000-00FF", "U+2190-21FF", "U+2600-26FF", "U+1F300-1F5FF"],
                     "languages": ["Latin", "Symbols"],
-                    "sample_text": "Hello World! ⚡ 🔥 💻"
+                    "sample_text": "Hello World! ⚡ 🔥 💻",
                 }
-            
-            # Add variant information
-            variant = self._create_variant(name, download_url, font_name)
+
+            variant = self._create_variant_from_chosen(row["filename"], row["url"], row["variant_name"], row["weight"], row["style"])
             if variant:
                 fonts[font_id]["variants"].append(variant)
-        
+
         return fonts
+
+    @staticmethod
+    def _weight_style_variant_name(filename: str, font_name: str) -> tuple:
+        """(weight, style, variant_display_name) for deduping parallel ``.zip`` / ``.tar.xz`` assets."""
+        if "Bold" in filename or "bold" in filename:
+            return 700, "normal", f"{font_name} Bold"
+        return 400, "normal", f"{font_name} Regular"
     
     def _extract_font_name(self, filename: str) -> Optional[str]:
         """Extract font name from filename."""
@@ -224,26 +268,38 @@ class NerdFontsTranslator:
         
         return None
     
-    def _create_variant(self, filename: str, download_url: str, font_name: str) -> Optional[Dict[str, Any]]:
-        """Create variant information from filename."""
-        # Nerd Fonts typically have Regular and Bold variants
-        if "Bold" in filename or "bold" in filename:
-            weight = 700
-            style = "normal"
-            name = f"{font_name} Bold"
-        else:
-            weight = 400
-            style = "normal"
-            name = f"{font_name} Regular"
-        
+    @staticmethod
+    def _files_key_for_release_asset(filename: str) -> Optional[str]:
+        """Map release asset name to a ``variant.files`` key (archive or outline font only)."""
+        lower = filename.lower()
+        if lower.endswith(".tar.xz"):
+            return "tar_xz"
+        if lower.endswith(".zip"):
+            return "zip"
+        if lower.endswith(".ttf"):
+            return "ttf"
+        if lower.endswith(".otf"):
+            return "otf"
+        return None
+
+    def _create_variant_from_chosen(
+        self,
+        filename: str,
+        download_url: str,
+        variant_name: str,
+        weight: int,
+        style: str,
+    ) -> Optional[Dict[str, Any]]:
+        """Build one variant dict after archive format deduplication."""
+        fk = self._files_key_for_release_asset(filename)
+        if fk is None:
+            return None
         return {
-            "name": name,
+            "name": variant_name,
             "weight": weight,
             "style": style,
             "subsets": ["latin", "latin-ext"],
-            "files": {
-                "ttf": download_url  # Nerd Fonts provides zip files with TTF inside
-            }
+            "files": {fk: download_url},
         }
     
     def _calculate_popularity(self, font_name: str) -> int:
@@ -261,25 +317,25 @@ class NerdFontsTranslator:
             "Mononoki": 55,
             "Noto Sans Mono": 50,
             "Space Mono": 45,
-            "Terminus": 40,
+            "Terminus": 65,
             "Victor Mono": 35,
-            "Meslo": 30
+            "Meslo": 80
         }
         
-        return popular_fonts.get(font_name, 25)
+        return popular_fonts.get(font_name, 50)
     
     def translate(self) -> Dict[str, Any]:
         """Main translation function."""
-        print("Fetching Nerd Fonts release data...")
+        print("Fetching Nerd Fonts…")
         latest_release = self.get_latest_release()
-        
-        print(f"Processing release: {latest_release['tag_name']}")
-        print(f"Found {len(latest_release['assets'])} assets")
-        
-        # Extract font information
-        fonts = self.extract_font_info_from_assets(latest_release['assets'])
-        
-        print(f"Extracted {len(fonts)} fonts")
+
+        tag = latest_release.get("tag_name", "?")
+        n_assets = len(latest_release.get("assets") or [])
+        print(f"Release {tag} — {n_assets} assets.")
+
+        fonts = self.extract_font_info_from_assets(latest_release["assets"])
+
+        print(f"Found {len(fonts)} font families after grouping.")
         
         # Create source structure
         source_data = {
@@ -311,7 +367,8 @@ def main():
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(source_data, f, indent=2, ensure_ascii=False)
         
-        print(f"Successfully generated {output_file} with {len(source_data['fonts'])} fonts")
+        n = len(source_data["fonts"])
+        print(f"Wrote {output_file} ({n} fonts).")
         
     except Exception as e:
         print(f"Error: {e}")
