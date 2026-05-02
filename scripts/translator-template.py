@@ -16,6 +16,11 @@ from typing import Dict, List, Any, Optional
 
 import requests
 
+# When True, omit families that already appear in ``sources/google-fonts.json`` (same pattern
+# as font-squirrel-translator.py / fontshare-translator.py). Pair with ``--no-google-dedupe``
+# so one-off runs can include overlaps.
+DEDUPLICATE_GOOGLE_FONTS = False
+
 
 class YourSourceTranslator:
     def __init__(self, api_key: Optional[str] = None):
@@ -172,21 +177,21 @@ class YourSourceTranslator:
             return font
             
         except Exception as e:
-            print(f"Error translating font {font_data.get('name', 'unknown')}: {e}")
+            print(f"Warning: Failed to translate font {font_data.get('name', 'unknown')}: {e}")
             return None
     
     def translate(self) -> Dict[str, Any]:
         """Main translation method."""
-        print(f"Fetching fonts from {self.__class__.__name__}...")
-        
+        print("Fetching your font source…")
+
         # Fetch data from API
         api_data = self.fetch_fonts()
-        
+
         # Process fonts
         fonts = {}
         font_items = api_data.get("items", [])  # Adjust based on your API structure
-        
-        print(f"Found {len(font_items)} fonts")
+
+        print(f"Found {len(font_items)} items from upstream.")
         
         for font_data in font_items:
             translated_font = self.translate_font(font_data)
@@ -194,7 +199,7 @@ class YourSourceTranslator:
                 font_id = self._clean_id(translated_font["name"])
                 fonts[font_id] = translated_font
         
-        print(f"Successfully transformed {len(fonts)} fonts")
+        print(f"Built {len(fonts)} font families.")
         
         # Build source info
         source_info = {
@@ -227,7 +232,8 @@ def main() -> int:
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(source_data, f, indent=2, ensure_ascii=False)
         
-        print(f"Successfully generated {output_file} with {source_data['source_info']['total_fonts']} fonts")
+        n = source_data["source_info"]["total_fonts"]
+        print(f"Wrote {output_file} ({n} fonts).")
         return 0
         
     except Exception as e:

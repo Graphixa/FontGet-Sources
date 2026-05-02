@@ -8,7 +8,11 @@ A GitHub Actions workflow runs daily to fetch, transform, and sanitize data from
 
 - **[Google Fonts](sources/google-fonts.json)**
 - **[Nerd Fonts](sources/nerd-fonts.json)**
+- **[The League of Moveable Type](sources/league-of-moveable-type.json)**
+- **[Fontsource](sources/fontsource.json)**
+- **[Fontshare](sources/fontshare.json)**
 - **[Font Squirrel](sources/font-squirrel.json)**
+
 
 ## What's Inside
 
@@ -37,5 +41,8 @@ Want to create a FontGet-compatible source to import into [Fontget](https://gith
 ## Special Thanks
 
 - **[Google Fonts](https://fonts.google.com/)** - For providing the Google Fonts API
-- **[Font Squirrel](https://www.fontsquirrel.com/)** - For their free font collection and API
 - **[Nerd Fonts](https://www.nerdfonts.com/)** - Created by [Ryan L McIntyre](https://github.com/ryanoasis) for developer-focused fonts
+- **[The League of Moveable Type](https://www.theleagueofmoveabletype.com/)** - For their curated open font collection
+- **[Fontsource](https://fontsource.org/)** - For additional open fonts and their API
+- **[Fontshare](https://www.fontshare.com/)** - For curated free fonts and their distribution endpoints
+- **[Font Squirrel](https://www.fontsquirrel.com/)** - For their free font collection and API

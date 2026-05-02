@@ -3,8 +3,6 @@
 .env.local
 .env.test
 
-.github/workflows
-fontsource-translator.py
 # Python
 __pycache__/
 *.py[cod]
