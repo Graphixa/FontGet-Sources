@@ -1,0 +1,71 @@
+name: Update Fontshare Source
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Optional: limit number of fonts (for debugging)"
+        required: false
+        default: ""
+      no_google_dedupe:
+        description: "Set to 'true' to disable Google Fonts overlap skipping"
+        required: false
+        default: ""
+  schedule:
+    # Daily at 03:35 UTC
+    - cron: "35 3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-font-share
+  cancel-in-progress: true
+
+jobs:
+  update-font-share:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Generate sources/fontshare.json
+        env:
+          LIMIT: ${{ inputs.limit }}
+          NO_GOOGLE_DEDUPE: ${{ inputs.no_google_dedupe }}
+        run: |
+          ARGS=""
+          if [ -n "${LIMIT}" ]; then
+            ARGS="${ARGS} --limit ${LIMIT}"
+          fi
+          if [ "${NO_GOOGLE_DEDUPE}" = "true" ]; then
+            ARGS="${ARGS} --no-google-dedupe"
+          fi
+
+          python scripts/fontshare-translator.py ${ARGS}
+
+      - name: Validate sources/fontshare.json
+        run: |
+          python schemas/validate-sources.py sources/fontshare.json
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- sources/fontshare.json; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add sources/fontshare.json
+          git commit -m "Update fontshare.json"
+          git push
