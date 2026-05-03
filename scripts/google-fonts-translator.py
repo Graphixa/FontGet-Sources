@@ -21,12 +21,7 @@ from urllib.parse import urlparse
 
 
 def _bootstrap_google_fonts_key_from_dotenv_file(env_path: Path) -> None:
-    """
-    If ``GOOGLE_FONTS_API_KEY`` is not already set, read it from ``.env`` using a tiny parser.
-
-    Works even when ``python-dotenv`` is not installed, and uses ``utf-8-sig`` so a UTF-8 BOM
-    on the first line does not break the key name.
-    """
+    """Set ``GOOGLE_FONTS_API_KEY`` from ``.env`` if unset (works without python-dotenv)."""
     if os.environ.get("GOOGLE_FONTS_API_KEY", "").strip():
         return
     if not env_path.is_file():
@@ -56,7 +51,7 @@ def _bootstrap_google_fonts_key_from_dotenv_file(env_path: Path) -> None:
 
 
 def _load_repo_dotenv() -> None:
-    """Load repo-root ``.env``: ``python-dotenv`` if available, then key bootstrap for Google Fonts."""
+    """Load repo-root ``.env`` via dotenv when installed, then bootstrap API key."""
     env_path = Path(__file__).resolve().parent.parent / ".env"
     try:
         from dotenv import load_dotenv
@@ -69,8 +64,6 @@ def _load_repo_dotenv() -> None:
 
 class GoogleFontsTranslator:
     def __init__(self, api_key: Optional[str] = None, *, verbose: bool = False):
-        """Initialize translator with API key."""
-        # Hardcoded for local testing
         self.api_key = api_key or os.getenv("GOOGLE_FONTS_API_KEY")
         self.base_url = "https://www.googleapis.com/webfonts/v1/webfonts"
         self.verbose = verbose or os.environ.get("GOOGLE_FONTS_TRANSLATOR_VERBOSE", "").strip() not in (
@@ -99,20 +92,17 @@ class GoogleFontsTranslator:
             )
     
     def _normalize_category(self, category: str) -> str:
-        """Normalize category with comprehensive enum mapping and fallback."""
+        """Map API category strings to FontGet schema enums."""
         if not category or not category.strip():
             return "Other"
-        
-        # First normalize: replace hyphens/underscores with spaces, title case
+
         cleaned = category.replace("-", " ").replace("_", " ").strip()
         words = cleaned.split()
         normalized = " ".join(word.capitalize() for word in words)
-        
-        # 10-category mapping with intelligent fallback
+
         category_mapping = {
-            # Core 10 categories
             "Sans Serif": "Sans Serif",
-            "Serif": "Serif", 
+            "Serif": "Serif",
             "Slab Serif": "Slab Serif",
             "Display": "Display",
             "Monospace": "Monospace",
@@ -121,43 +111,36 @@ class GoogleFontsTranslator:
             "Decorative": "Decorative",
             "Symbol": "Symbol",
             "Blackletter": "Blackletter",
-            
-            #Additional re-mappings to core 10 categories
-            "Typewriter": "Display",           # Typewriter → Display
-            "Novelty": "Decorative",           # Novelty → Decorative
-            "Comic": "Decorative",             # Comic → Decorative
-            "Dingbat": "Symbol",               # Dingbat → Symbol
-            "Handdrawn": "Handwriting",        # Handdrawn → Handwriting
-            "Calligraphic": "Script",          # Calligraphic → Script
-            "Cursive": "Script",               # Cursive → Script
-            "Programming": "Monospace",        # Programming → Monospace
-            "Retro": "Decorative",             # Retro → Decorative
-            "Grunge": "Decorative",            # Grunge → Decorative
-            "Pixel": "Decorative",             # Pixel → Decorative
-            "Stencil": "Decorative",           # Stencil → Decorative
-            "Monospaced": "Monospace",         # Monospaced → Monospace
-            "Cursive": "Script",               # Cursive → Script
+            "Typewriter": "Display",
+            "Novelty": "Decorative",
+            "Comic": "Decorative",
+            "Dingbat": "Symbol",
+            "Handdrawn": "Handwriting",
+            "Calligraphic": "Script",
+            "Cursive": "Script",
+            "Programming": "Monospace",
+            "Retro": "Decorative",
+            "Grunge": "Decorative",
+            "Pixel": "Decorative",
+            "Stencil": "Decorative",
+            "Monospaced": "Monospace",
         }
-        
-        # Check for exact match after normalization
+
         if normalized in category_mapping:
             return category_mapping[normalized]
-        
-        # Check for case-insensitive match
+
         normalized_lower = normalized.lower()
         for key, value in category_mapping.items():
             if key.lower() == normalized_lower:
                 return value
-        
-        # Fallback: return normalized (title case) for unknown categories
-        # This allows custom sources to add new categories like "Graffiti", "Halloween", etc.
+
         return normalized
-    
+
     def fetch_fonts(self) -> Dict[str, Any]:
-        """Fetch all fonts from Google Fonts API."""
+        """GET webfonts catalog JSON."""
         params = {
             "key": self.api_key,
-            "sort": "popularity"  # Sort by popularity for better user experience
+            "sort": "popularity",
         }
         
         response = requests.get(self.base_url, params=params)
@@ -165,18 +148,12 @@ class GoogleFontsTranslator:
         return response.json()
     
     def transform_font(self, font_data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
-        """Transform Google Fonts data to FontGet format.
-
-        Returns ``None`` when no variant has a TTF or OTF download URL (webfont-only entries are skipped).
-        """
-        # Extract basic info
+        """FontGet font dict, or None if no TTF/OTF-backed variants."""
         family = font_data["family"]
-        # Clean font name for ID: lowercase, replace spaces/special chars with hyphens
         clean_name = re.sub(r'[^a-z0-9-]', '-', family.lower())
         clean_name = re.sub(r'-+', '-', clean_name).strip('-')
         font_id = clean_name
-        
-        # Transform variants
+
         variants = []
         for variant in font_data.get("variants", []):
             variant_data = self._parse_variant(variant, family, font_data)
@@ -186,20 +163,18 @@ class GoogleFontsTranslator:
         if not variants:
             return None
 
-        # Extract categories (normalize to title case)
         categories = []
         if "category" in font_data:
             category = font_data["category"]
             normalized_category = self._normalize_category(category)
             categories.append(normalized_category)
         
-        # Calculate popularity score (0-100)
         popularity = self._calculate_popularity(font_data)
         
         return {
             "name": family,
             "family": family,
-            "license": "OFL",  # Temporarily disabled license extraction for speed
+            "license": "OFL",
             "license_url": f"https://fonts.google.com/specimen/{family.replace(' ', '+')}/license",
             "designer": font_data.get("designer", ""),
             "foundry": "Google",
@@ -218,8 +193,7 @@ class GoogleFontsTranslator:
         }
     
     def _parse_variant(self, variant: str, family: str, font_data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
-        """Parse Google Fonts variant string into FontGet format."""
-        # Google Fonts variants are like "regular", "700", "italic", "700italic"
+        """Parse variant id (e.g. ``regular``, ``700``, ``700italic``)."""
         if variant == "regular":
             weight = 400
             style = "normal"
@@ -237,10 +211,8 @@ class GoogleFontsTranslator:
             style = "italic"
             name = f"{family} {self._weight_to_name(weight)} Italic"
         else:
-            # Skip unsupported variants
             return None
-        
-        # Generate file URLs using actual Google Fonts API data
+
         files = self._generate_file_urls(font_data, variant)
         if not files:
             return None
@@ -249,12 +221,12 @@ class GoogleFontsTranslator:
             "name": name,
             "weight": weight,
             "style": style,
-            "subsets": ["latin", "latin-ext"],  # Default subsets
+            "subsets": ["latin", "latin-ext"],
             "files": files
         }
     
     def _weight_to_name(self, weight: int) -> str:
-        """Convert numeric weight to name."""
+        """Weight label for display names."""
         weight_names = {
             100: "Thin",
             200: "Extra Light",
@@ -279,7 +251,7 @@ class GoogleFontsTranslator:
         return None
 
     def _generate_file_urls(self, font_data: Dict[str, Any], variant: str) -> Dict[str, str]:
-        """Generate file URLs for a font variant using actual Google Fonts API data."""
+        """TTF/OTF URLs from API ``files`` map."""
         files: Dict[str, str] = {}
 
         font_files = font_data.get("files", {})
@@ -297,37 +269,25 @@ class GoogleFontsTranslator:
         return files
     
     def _calculate_popularity(self, font_data: Dict[str, Any]) -> int:
-        """Calculate popularity score (0-100) based on available data."""
-        # Google Fonts doesn't provide explicit popularity scores
-        # We'll use a simple heuristic based on available data
+        """Heuristic 0–100 score from variants, subsets, description, designer."""
         variants_count = len(font_data.get("variants", []))
         subsets_count = len(font_data.get("subsets", []))
-        
-        # Base score from variants (more variants = more popular)
+
         score = min(variants_count * 10, 50)
-        
-        # Bonus for more subsets
         score += min(subsets_count * 5, 30)
-        
-        # Bonus for having description
         if font_data.get("description"):
             score += 10
-        
-        # Bonus for having designer info
         if font_data.get("designer"):
             score += 10
-        
+
         return min(score, 100)
     
     def _extract_tags(self, font_data: Dict[str, Any]) -> List[str]:
-        """Extract tags from font data."""
         tags = []
-        
-        # Add category as tag
+
         if "category" in font_data:
             tags.append(font_data["category"].lower().replace(" ", "-"))
-        
-        # Add style tags based on variants
+
         variants = font_data.get("variants", [])
         if any("italic" in v for v in variants):
             tags.append("italic")
@@ -337,9 +297,7 @@ class GoogleFontsTranslator:
         return tags
     
     def _extract_unicode_ranges(self, font_data: Dict[str, Any]) -> List[str]:
-        """Extract Unicode ranges from font data."""
-        # Google Fonts doesn't provide detailed Unicode ranges in the API
-        # We'll return common ranges based on subsets
+        """Rough Unicode ranges inferred from ``subsets``."""
         subsets = font_data.get("subsets", [])
         ranges = []
         
@@ -355,7 +313,7 @@ class GoogleFontsTranslator:
         return ranges
     
     def _extract_languages(self, font_data: Dict[str, Any]) -> List[str]:
-        """Extract supported languages from font data."""
+        """Human-readable names from ``subsets``."""
         subsets = font_data.get("subsets", [])
         languages = []
         
@@ -384,24 +342,21 @@ class GoogleFontsTranslator:
         return languages
     
     def translate(self) -> Dict[str, Any]:
-        """Main translation function."""
         print("Fetching Google Fonts…")
         raw_data = self.fetch_fonts()
 
         total_fonts = len(raw_data.get("items", []))
         print(f"Found {total_fonts} families in catalog.")
         
-        # Transform fonts
         fonts = {}
         for i, font_data in enumerate(raw_data.get("items", []), 1):
             try:
-                if i % 50 == 0 or i == 1:  # Log every 50 fonts
+                if i % 50 == 0 or i == 1:
                     print(f"Processing {i}/{total_fonts}: {font_data.get('family', 'Unknown')}")
-                
+
                 transformed = self.transform_font(font_data)
                 if not transformed:
                     continue
-                # Clean font name for ID: lowercase, replace spaces/special chars with hyphens
                 clean_name = re.sub(r'[^a-z0-9-]', '-', font_data['family'].lower())
                 clean_name = re.sub(r'-+', '-', clean_name).strip('-')
                 font_id = clean_name
@@ -410,7 +365,6 @@ class GoogleFontsTranslator:
                 print(f"Warning: Failed to transform font {font_data.get('family', 'unknown')}: {e}")
                 continue
         
-        # Create source structure
         source_data = {
             "source_info": {
                 "name": "Google Fonts",
@@ -427,36 +381,29 @@ class GoogleFontsTranslator:
         return source_data
     
     def _extract_google_fonts_license(self, font_data: Dict[str, Any]) -> str:
-        """Extract license from Google Fonts METADATA.pb file."""
+        """Parse ``license:`` from upstream ``METADATA.pb`` when reachable."""
         family = font_data['family']
-        
-        # Clean family name for URL
+
         family_clean = family.lower().replace(' ', '')
-        
-        # Try to fetch METADATA.pb file
+
         try:
             url = f"https://raw.githubusercontent.com/google/fonts/main/ofl/{family_clean}/METADATA.pb"
-            response = requests.get(url, timeout=3)  # Reduced timeout
-            
+            response = requests.get(url, timeout=3)
+
             if response.status_code == 200:
                 content = response.text
-                # Extract license line
                 for line in content.split('\n'):
                     if line.strip().startswith('license:'):
-                        # Extract license from: license: "OFL"
                         license_match = line.split('"')
                         if len(license_match) > 1:
-                            return license_match[1]  # Return "OFL"
-        except Exception as e:
-            # Don't print warnings for every failed license fetch to reduce noise
+                            return license_match[1]
+        except Exception:
             pass
-        
-        # Fallback: Most Google Fonts are OFL
+
         return "OFL"
 
 
 def main():
-    """Main function."""
     try:
         _load_repo_dotenv()
 
@@ -470,8 +417,7 @@ def main():
 
         translator = GoogleFontsTranslator(verbose=args.verbose)
         source_data = translator.translate()
-        
-        # Write to file
+
         output_file = "sources/google-fonts.json"
         os.makedirs("sources", exist_ok=True)
         

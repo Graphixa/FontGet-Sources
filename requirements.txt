@@ -1,6 +1,11 @@
 # Translators (scripts/) — HTTP fetches from Google Fonts, Font Squirrel, Nerd Fonts, Open Foundry, etc.
 requests>=2.28.0
+
+# schemas/validate-sources.py — JSON Schema validation (CI workflows run after pip install -r requirements.txt).
+jsonschema>=4.0.0
+
 # Optional: scripts/google-fonts-translator.py loads repo-root ``.env`` when installed.
 python-dotenv>=1.0.0
+
 # macOS system Python may be linked against LibreSSL; urllib3 v2 warns and may break TLS.
 urllib3<2

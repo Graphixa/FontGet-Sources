@@ -30,7 +30,7 @@ def _font_id_from_family_name(family_name: str) -> str:
 
 
 def _load_google_font_family_ids(google_fonts_json: Path) -> Set[str]:
-    """Google Fonts JSON keys plus normalized ``family`` strings for overlap checks."""
+    """Ids from google-fonts.json keys and normalized ``family``."""
     with open(google_fonts_json, encoding="utf-8") as f:
         data = json.load(f)
     ids: Set[str] = set()
@@ -93,7 +93,6 @@ class FontshareTranslator:
             "Decorative": "Decorative",
             "Symbol": "Symbol",
             "Blackletter": "Blackletter",
-            # Fontshare-ish simplifications
             "Sans": "Sans Serif",
             "Sans-Serif": "Sans Serif",
             "Serif Slab": "Slab Serif",
@@ -108,16 +107,11 @@ class FontshareTranslator:
             if key.lower() == lowered:
                 return value
 
-        # Schema has no free-form "Other"; keep unknowns inside allowed-ish buckets.
         return "Decorative"
 
     @staticmethod
     def _license_display_name(license_type: str) -> str:
-        """
-        Map Fontshare license_type codes to short strings that fit schema maxLength.
-
-        Fontshare uses values like: sil_ofl, itf_ffl, ...
-        """
+        """Short display string for Fontshare ``license_type`` codes."""
         if not license_type:
             return "Unknown"
 
@@ -168,18 +162,12 @@ class FontshareTranslator:
 
     @staticmethod
     def _clamp_variant_weight(weight: int) -> int:
-        """Fontshare style weights are not always multiples of 100; schema requires multipleOf 100."""
+        """Round to nearest 100 for schema ``multipleOf``."""
         w = int(round(int(weight) / 100.0) * 100)
         return max(100, min(900, w))
 
     def _variants_from_detail(self, font_detail: Dict[str, Any], slug: str) -> List[Dict[str, Any]]:
-        """
-        Fontshare exposes individual webfont asset paths, but FontGet supports zip bundles.
-
-        Official family download endpoint (typically ``application/zip`` body; path has no ``.zip`` suffix):
-          https://api.fontshare.com/v2/fonts/download/{slug}
-        We key it as ``files.zip`` (bundle); ``schemas/validate-sources.py`` allowlists this URL pattern for ``files.zip``.
-        """
+        """One variant whose ``files.zip`` is the official bundle URL (validator allowlisted)."""
         styles = font_detail.get("styles") or []
         if not isinstance(styles, list) or not styles:
             raise ValueError("Fontshare font detail missing styles")
@@ -211,12 +199,10 @@ class FontshareTranslator:
         if len(style_flags) == 1:
             style = next(iter(style_flags))
         else:
-            # Multiple italic/normal mixes: keep a conservative default.
             style = "normal"
 
         name_bits = [font_detail.get("name") or slug]
         if variant_names:
-            # Keep filename-ish variant summary compact
             uniq = []
             for vn in variant_names:
                 if vn not in uniq:

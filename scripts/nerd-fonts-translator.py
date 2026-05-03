@@ -18,12 +18,10 @@ import re
 
 class NerdFontsTranslator:
     def __init__(self):
-        """Initialize translator."""
         self.base_url = "https://api.github.com/repos/ryanoasis/nerd-fonts"
         self.releases_url = f"{self.base_url}/releases"
         self.contents_url = f"{self.base_url}/contents"
-        
-        # Common Nerd Fonts patterns
+
         self.font_patterns = {
             "FiraCode": "Fira Code",
             "JetBrainsMono": "JetBrains Mono", 
@@ -83,20 +81,16 @@ class NerdFontsTranslator:
         }
     
     def _normalize_category(self, category: str) -> str:
-        """Normalize category with comprehensive enum mapping and fallback."""
         if not category or not category.strip():
             return "Other"
-        
-        # First normalize: replace hyphens/underscores with spaces, title case
+
         cleaned = category.replace("-", " ").replace("_", " ").strip()
         words = cleaned.split()
         normalized = " ".join(word.capitalize() for word in words)
-        
-        # 10-category mapping with intelligent fallback
+
         category_mapping = {
-            # Core 10 categories
             "Sans Serif": "Sans Serif",
-            "Serif": "Serif", 
+            "Serif": "Serif",
             "Slab Serif": "Slab Serif",
             "Display": "Display",
             "Monospace": "Monospace",
@@ -105,58 +99,43 @@ class NerdFontsTranslator:
             "Decorative": "Decorative",
             "Symbol": "Symbol",
             "Blackletter": "Blackletter",
-            
-            # Additional re-mappings to core 10 categories
-            "Typewriter": "Display",           # Typewriter → Display
-            "Novelty": "Decorative",           # Novelty → Decorative
-            "Comic": "Decorative",             # Comic → Decorative
-            "Dingbat": "Symbol",               # Dingbat → Symbol
-            "Handdrawn": "Handwriting",        # Handdrawn → Handwriting
-            "Calligraphic": "Script",          # Calligraphic → Script
-            "Cursive": "Script",               # Cursive → Script
-            "Programming": "Monospace",        # Programming → Monospace
-            "Retro": "Decorative",             # Retro → Decorative
-            "Grunge": "Decorative",            # Grunge → Decorative
-            "Pixel": "Decorative",             # Pixel → Decorative
-            "Stencil": "Decorative",           # Stencil → Decorative
-            "Monospaced": "Monospace",         # Monospaced → Monospace
-            "Cursive": "Script",               # Cursive → Script
+            "Typewriter": "Display",
+            "Novelty": "Decorative",
+            "Comic": "Decorative",
+            "Dingbat": "Symbol",
+            "Handdrawn": "Handwriting",
+            "Calligraphic": "Script",
+            "Cursive": "Script",
+            "Programming": "Monospace",
+            "Retro": "Decorative",
+            "Grunge": "Decorative",
+            "Pixel": "Decorative",
+            "Stencil": "Decorative",
+            "Monospaced": "Monospace",
         }
-        
-        # Check for exact match after normalization
+
         if normalized in category_mapping:
             return category_mapping[normalized]
-        
-        # Check for case-insensitive match
+
         normalized_lower = normalized.lower()
         for key, value in category_mapping.items():
             if key.lower() == normalized_lower:
                 return value
-        
-        # Fallback: return normalized (title case) for unknown categories
-        # This allows custom sources to add new categories like "Graffiti", "Halloween", etc.
+
         return normalized
-    
+
     def fetch_releases(self) -> List[Dict[str, Any]]:
-        """Fetch all releases from Nerd Fonts GitHub."""
         response = requests.get(self.releases_url)
         response.raise_for_status()
         return response.json()
     
     def get_latest_release(self) -> Dict[str, Any]:
-        """Get the latest release."""
         releases = self.fetch_releases()
         if not releases:
             raise ValueError("No releases found")
         return releases[0]
     
     def extract_font_info_from_assets(self, assets: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
-        """Extract font information from release assets.
-
-        Releases ship the same payload as both ``.zip`` and ``.tar.xz``; we keep **one** archive
-        per font variant (prefer ``.zip``, otherwise ``.tar.xz``).
-        """
-        # (font_id, weight, style) -> best candidate row (zip wins over tar.xz)
         best: Dict[tuple, Dict[str, Any]] = {}
 
         for asset in assets:
@@ -192,7 +171,6 @@ class NerdFontsTranslator:
                 continue
 
             prev_zip = prev["filename"].lower().endswith(".zip")
-            # Prefer zip over tar.xz when both exist for the same variant.
             if is_zip and not prev_zip:
                 best[key] = {
                     "font_name": font_name,
@@ -212,11 +190,11 @@ class NerdFontsTranslator:
                 fonts[font_id] = {
                     "name": font_name,
                     "family": font_name,
-                    "license": "Mixed",  # Nerd Fonts combines original font licenses with added icon licenses
+                    "license": "Mixed",
                     "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
                     "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
                     "foundry": "Nerd Fonts",
-                    "version": "3.0.2",  # Current Nerd Fonts version
+                    "version": "3.0.2",
                     "description": f"Patched version of {font_name} with additional icon glyphs",
                     "categories": [self._normalize_category("Nerd Font")],
                     "tags": ["nerd-fonts", "icons", "patched", "monospace", "programming"],
@@ -238,30 +216,22 @@ class NerdFontsTranslator:
 
     @staticmethod
     def _weight_style_variant_name(filename: str, font_name: str) -> tuple:
-        """(weight, style, variant_display_name) for deduping parallel ``.zip`` / ``.tar.xz`` assets."""
         if "Bold" in filename or "bold" in filename:
             return 700, "normal", f"{font_name} Bold"
         return 400, "normal", f"{font_name} Regular"
     
     def _extract_font_name(self, filename: str) -> Optional[str]:
-        """Extract font name from filename."""
-        # Remove common suffixes
         name = filename.replace('.zip', '').replace('.tar.xz', '')
-        
-        # Try to match known patterns
+
         for pattern, display_name in self.font_patterns.items():
             if pattern.lower() in name.lower():
                 return display_name
-        
-        # Try to extract from common patterns
-        # Remove "NerdFont" or "Nerd Font" from name
+
         name = re.sub(r'[Nn]erd[Ff]ont[s]?', '', name)
         name = re.sub(r'[Nn]erd\s*[Ff]ont[s]?', '', name)
-        
-        # Remove version numbers
+
         name = re.sub(r'v?\d+\.\d+\.?\d*', '', name)
-        
-        # Clean up and format
+
         name = name.replace('_', ' ').replace('-', ' ').strip()
         if name:
             return name.title()
@@ -270,7 +240,6 @@ class NerdFontsTranslator:
     
     @staticmethod
     def _files_key_for_release_asset(filename: str) -> Optional[str]:
-        """Map release asset name to a ``variant.files`` key (archive or outline font only)."""
         lower = filename.lower()
         if lower.endswith(".tar.xz"):
             return "tar_xz"
@@ -303,8 +272,6 @@ class NerdFontsTranslator:
         }
     
     def _calculate_popularity(self, font_name: str) -> int:
-        """Calculate popularity score based on font name."""
-        # Popular programming fonts get higher scores
         popular_fonts = {
             "Fira Code": 95,
             "JetBrains Mono": 90,
@@ -325,7 +292,6 @@ class NerdFontsTranslator:
         return popular_fonts.get(font_name, 50)
     
     def translate(self) -> Dict[str, Any]:
-        """Main translation function."""
         print("Fetching Nerd Fonts…")
         latest_release = self.get_latest_release()
 
@@ -336,8 +302,7 @@ class NerdFontsTranslator:
         fonts = self.extract_font_info_from_assets(latest_release["assets"])
 
         print(f"Found {len(fonts)} font families after grouping.")
-        
-        # Create source structure
+
         source_data = {
             "source_info": {
                 "name": "Nerd Fonts",
@@ -355,12 +320,10 @@ class NerdFontsTranslator:
 
 
 def main():
-    """Main function."""
     try:
         translator = NerdFontsTranslator()
         source_data = translator.translate()
-        
-        # Write to file
+
         output_file = "sources/nerd-fonts.json"
         os.makedirs("sources", exist_ok=True)
         

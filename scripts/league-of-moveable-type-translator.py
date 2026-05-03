@@ -2,26 +2,10 @@
 """
 The League of Moveable Type — FontGet Sources translator
 
-- Lists font repositories from the GitHub org `theleagueof` (public API).
-- For each family, loads the matching page on theleagueofmoveabletype.com and
-  extracts the canonical license link (same link shown in the UI as
-  "Open Font License"), which points at a GitHub blob under that repo.
-- Resolves the license text URL on raw.githubusercontent.com. The League's
-  pages often link to OFL.txt while the repository actually contains OFL.md;
-  we follow the website intent but HEAD-check until a 200 is found.
-- Download: prefer the latest GitHub Release .zip asset when present; otherwise
-  the default-branch source archive from GitHub.
-
-Optional Google Fonts deduplication: when ``DEDUPLICATE_GOOGLE_FONTS`` is True, families
-whose GitHub repo id or normalized display name matches ``sources/google-fonts.json`` are
-omitted. Default is False (small foundry catalog). ``--no-google-dedupe`` turns deduplication
-off for one run when the module flag is True.
-
-Set ``GITHUB_TOKEN`` when possible: it avoids anonymous GitHub API rate limits so the
-org listing, ``releases/latest`` ZIP detection, and Contents API (per-repo OFL files)
-all work. Without it, the script uses a built-in repo list and may fall back to The
-League's shared ``theleagueof/licenses`` OFL text when a font repository does not ship
-OFL.md/OFL.txt (some repos only include an FAQ file).
+Org repos on GitHub; license links from theleagueofmoveabletype.com resolved to raw
+GitHub URLs (HEAD until 200). Downloads: release ``.zip`` if present, else default-branch archive.
+``GITHUB_TOKEN`` recommended for API limits (otherwise fallback repo list / shared OFL template).
+``DEDUPLICATE_GOOGLE_FONTS`` + ``--no-google-dedupe`` match other translators.
 """
 
 from __future__ import annotations
@@ -65,14 +49,12 @@ def _load_google_font_family_ids(google_fonts_json: Path) -> Set[str]:
     return ids
 
 
-# Repo name -> last path segment on the League website (slug)
 WEBSITE_SLUG: Dict[str, str] = {
     "league-script-number-one": "league-script",
 }
 
 SKIP_REPOS = {"fontship", "licenses"}
 
-# Used when the GitHub org listing API is rate-limited without GITHUB_TOKEN.
 _FALLBACK_REPO_NAMES: Tuple[str, ...] = (
     "blackout",
     "chunk",
@@ -94,12 +76,10 @@ _FALLBACK_REPO_NAMES: Tuple[str, ...] = (
     "the-neue-black",
 )
 
-# When a font repo has no OFL file on GitHub, The League still publishes OFL text here.
 LEAGUE_OFL_TEMPLATE_RAW = (
     "https://raw.githubusercontent.com/theleagueof/licenses/master/OFL.md"
 )
 
-# Blob URLs embedded in RSC/HTML; filename may end with stray backslash.
 BLOB_PATTERN = re.compile(
     rf'https://github\.com/{re.escape(ORG)}/([a-z0-9_-]+)/blob/(main|master)/([^"\'\s<>]+)',
     re.IGNORECASE,
@@ -183,7 +163,6 @@ class LeagueTranslator:
     def fetch_website_html(self, repo: str) -> str:
         path = self.website_path(repo)
         url = f"{SITE}{path}"
-        # Trailing slash matches how the site redirects.
         r = self.session.get(
             url,
             timeout=60,
@@ -203,10 +182,7 @@ class LeagueTranslator:
         return m.group(1).strip()
 
     def extract_license_blob(self, html: str, repo: str) -> Optional[Tuple[str, str, str]]:
-        """
-        Returns (blob_url, branch, filename) for this repo's OFL/LICENSE blob
-        as linked from the League website (first matching in document order).
-        """
+        """First OFL/LICENSE blob URL linked from the League site for ``repo``."""
         for m in BLOB_PATTERN.finditer(html):
             repo_in_url, branch, fname = m.group(1), m.group(2), m.group(3)
             fname = fname.rstrip("\\").strip()
@@ -466,9 +442,6 @@ class LeagueTranslator:
                     "languages": [],
                     "sample_text": "The quick brown fox jumps over the lazy dog",
                 }
-
-                # Schema allows optional last_modified; omit if unknown.
-                # Keep a non-schema comment via description suffix is ugly; skip.
 
                 print(
                     f"Processing {i}/{len(repo_list)}: {repo} "

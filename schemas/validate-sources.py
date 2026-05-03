@@ -1,15 +1,7 @@
 #!/usr/bin/env python3
-"""
-FontGet Source Validation Tool
+"""Validate source JSON against ``font-source-schema.json`` and ``variants[].files`` URL rules.
 
-1. Validates font source JSON files against ``font-source-schema.json`` (JSON Schema).
-2. Checks ``variants[].files`` keys against URL path semantics (suffix rules JSON Schema cannot express).
-
-Usage::
-
-    python validate-sources.py <source-file.json> [source-file2.json ...]
-    python validate-sources.py <directory>
-    python validate-sources.py --files-keys-warn-only <file.json>
+Usage: ``python validate-sources.py [--files-keys-warn-only] <file.json> [...|dir>]``
 """
 
 from __future__ import annotations
@@ -32,7 +24,6 @@ def _path_from_url(url: str) -> str:
 
 
 def _zip_url_allowed(url: str, path_lower: str) -> bool:
-    """``files.zip`` may be a ``.zip`` path, Font Squirrel fontfacekit, or Fontshare bundle API."""
     if "fontfacekit" in path_lower:
         return True
     if re.search(r"\.zip$", path_lower):
@@ -90,7 +81,6 @@ def _validate_files_object(files: Dict[str, Any], *, context: str) -> List[str]:
 
 
 def files_key_errors(data: Any, *, file_label: str) -> List[str]:
-    """Return human-readable errors for ``variants[].files`` / URL alignment (empty if OK)."""
     errs: List[str] = []
     if not isinstance(data, dict):
         return [f"{file_label}: root must be an object"]
@@ -121,7 +111,6 @@ def files_key_errors(data: Any, *, file_label: str) -> List[str]:
 
 class SourceValidator:
     def __init__(self, schema_path: str = None, *, files_keys_warn_only: bool = False):
-        """Initialize validator with schema file."""
         if schema_path is None:
             schema_path = Path(__file__).parent / "font-source-schema.json"
 
@@ -132,7 +121,6 @@ class SourceValidator:
         self.files_keys_warn_only = files_keys_warn_only
 
     def validate_file(self, file_path: str) -> Dict[str, Any]:
-        """Validate a single source file."""
         try:
             with open(file_path, encoding="utf-8") as f:
                 data = json.load(f)
@@ -171,19 +159,16 @@ class SourceValidator:
             }
 
     def validate_directory(self, dir_path: str) -> List[Dict[str, Any]]:
-        """Validate all JSON files in a directory."""
         results = []
         for file_path in Path(dir_path).glob("*.json"):
             results.append(self.validate_file(str(file_path)))
         return results
 
     def _format_error(self, error) -> str:
-        """Format a validation error for display."""
         path = " -> ".join(str(p) for p in error.absolute_path)
         return f"{path}: {error.message}"
 
     def _check_warnings(self, data: Dict[str, Any]) -> List[str]:
-        """Check for potential issues that aren't schema violations."""
         warnings = []
 
         if not data.get("fonts"):
@@ -206,7 +191,6 @@ class SourceValidator:
 
 
 def print_results(results: List[Dict[str, Any]]):
-    """Print validation results in a readable format."""
     total_files = len(results)
     valid_files = sum(1 for r in results if r["valid"])
 
@@ -234,7 +218,6 @@ def print_results(results: List[Dict[str, Any]]):
 
 
 def _parse_argv(argv: List[str]) -> tuple[List[str], bool]:
-    """Return (paths, files_keys_warn_only)."""
     warn = False
     paths: List[str] = []
     for a in argv:
