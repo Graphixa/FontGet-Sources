@@ -5,8 +5,8 @@
     "url": "https://www.nerdfonts.com",
     "api_endpoint": "https://api.github.com/repos/ryanoasis/nerd-fonts/releases",
     "version": "1.0",
-    "last_updated": "2026-08-02T05:52:39.882546Z",
-    "total_fonts": 67
+    "last_updated": "2026-08-03T06:17:38.650259Z",
+    "total_fonts": 69
   },
   "fonts": {
     "0xproto": {
@@ -29,7 +29,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882018Z",
+      "last_modified": "2026-08-03T06:17:38.649701Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -42,7 +42,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/0xProto.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/0xProto.zip"
           }
         }
       ],
@@ -78,7 +78,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882072Z",
+      "last_modified": "2026-08-03T06:17:38.649740Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -91,7 +91,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/3270.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/3270.zip"
           }
         }
       ],
@@ -127,7 +127,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882085Z",
+      "last_modified": "2026-08-03T06:17:38.649750Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -140,7 +140,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/AdwaitaMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/AdwaitaMono.zip"
           }
         }
       ],
@@ -176,7 +176,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882093Z",
+      "last_modified": "2026-08-03T06:17:38.649758Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -189,7 +189,56 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Agave.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Agave.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "annotationmono": {
+      "name": "Annotationmono",
+      "family": "Annotationmono",
+      "license": "Mixed",
+      "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.0.2",
+      "description": "Patched version of Annotationmono with additional icon glyphs",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-08-03T06:17:38.649766Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
+      "variants": [
+        {
+          "name": "Annotationmono Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/AnnotationMono.zip"
           }
         }
       ],
@@ -225,7 +274,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882101Z",
+      "last_modified": "2026-08-03T06:17:38.649774Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -238,7 +287,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/AnonymousPro.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/AnonymousPro.zip"
           }
         }
       ],
@@ -274,7 +323,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882109Z",
+      "last_modified": "2026-08-03T06:17:38.649782Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -287,7 +336,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Arimo.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Arimo.zip"
           }
         }
       ],
@@ -323,7 +372,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882116Z",
+      "last_modified": "2026-08-03T06:17:38.649789Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -336,7 +385,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/AtkinsonHyperlegibleMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/AtkinsonHyperlegibleMono.zip"
           }
         }
       ],
@@ -372,7 +421,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882123Z",
+      "last_modified": "2026-08-03T06:17:38.649797Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -385,7 +434,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/AurulentSansMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/AurulentSansMono.zip"
           }
         }
       ],
@@ -421,7 +470,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882130Z",
+      "last_modified": "2026-08-03T06:17:38.649805Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -434,7 +483,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/BigBlueTerminal.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/BigBlueTerminal.zip"
           }
         }
       ],
@@ -470,7 +519,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882137Z",
+      "last_modified": "2026-08-03T06:17:38.649813Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -483,7 +532,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/BitstreamVeraSansMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/BitstreamVeraSansMono.zip"
           }
         }
       ],
@@ -519,7 +568,7 @@
         "programming"
       ],
       "popularity": 85,
-      "last_modified": "2026-08-02T05:52:39.882144Z",
+      "last_modified": "2026-08-03T06:17:38.649821Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -532,7 +581,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/CascadiaCode.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/CascadiaCode.zip"
           }
         }
       ],
@@ -568,7 +617,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882151Z",
+      "last_modified": "2026-08-03T06:17:38.649829Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -581,7 +630,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/CascadiaMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/CascadiaMono.zip"
           }
         }
       ],
@@ -617,7 +666,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882160Z",
+      "last_modified": "2026-08-03T06:17:38.649837Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -630,7 +679,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/CodeNewRoman.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/CodeNewRoman.zip"
           }
         }
       ],
@@ -666,7 +715,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882168Z",
+      "last_modified": "2026-08-03T06:17:38.649845Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -679,7 +728,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/ComicShannsMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/ComicShannsMono.zip"
           }
         }
       ],
@@ -715,7 +764,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882176Z",
+      "last_modified": "2026-08-03T06:17:38.649852Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -728,7 +777,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/CommitMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/CommitMono.zip"
           }
         }
       ],
@@ -764,7 +813,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882184Z",
+      "last_modified": "2026-08-03T06:17:38.649860Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -777,7 +826,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Cousine.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Cousine.zip"
           }
         }
       ],
@@ -813,7 +862,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882191Z",
+      "last_modified": "2026-08-03T06:17:38.649867Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -826,7 +875,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/D2Coding.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/D2Coding.zip"
           }
         }
       ],
@@ -862,7 +911,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882198Z",
+      "last_modified": "2026-08-03T06:17:38.649874Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -875,7 +924,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/DaddyTimeMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/DaddyTimeMono.zip"
           }
         }
       ],
@@ -911,7 +960,7 @@
         "programming"
       ],
       "popularity": 60,
-      "last_modified": "2026-08-02T05:52:39.882206Z",
+      "last_modified": "2026-08-03T06:17:38.649882Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -924,7 +973,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/DejaVuSansMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/DejaVuSansMono.zip"
           }
         }
       ],
@@ -960,7 +1009,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882213Z",
+      "last_modified": "2026-08-03T06:17:38.649889Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -973,7 +1022,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/DepartureMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/DepartureMono.zip"
           }
         }
       ],
@@ -1009,7 +1058,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882220Z",
+      "last_modified": "2026-08-03T06:17:38.649896Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1022,7 +1071,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/DroidSansMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/DroidSansMono.zip"
           }
         }
       ],
@@ -1058,7 +1107,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882227Z",
+      "last_modified": "2026-08-03T06:17:38.649904Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1071,7 +1120,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/EnvyCodeR.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/EnvyCodeR.zip"
           }
         }
       ],
@@ -1107,7 +1156,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882235Z",
+      "last_modified": "2026-08-03T06:17:38.649911Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1120,7 +1169,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FantasqueSansMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/FantasqueSansMono.zip"
           }
         }
       ],
@@ -1156,7 +1205,7 @@
         "programming"
       ],
       "popularity": 95,
-      "last_modified": "2026-08-02T05:52:39.882241Z",
+      "last_modified": "2026-08-03T06:17:38.649918Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1169,7 +1218,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/FiraCode.zip"
           }
         }
       ],
@@ -1205,7 +1254,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882248Z",
+      "last_modified": "2026-08-03T06:17:38.649926Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1218,7 +1267,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/FiraMono.zip"
           }
         }
       ],
@@ -1254,7 +1303,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882255Z",
+      "last_modified": "2026-08-03T06:17:38.649933Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1267,7 +1316,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FontPatcher.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/FontPatcher.zip"
           }
         }
       ],
@@ -1303,7 +1352,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882262Z",
+      "last_modified": "2026-08-03T06:17:38.649940Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1316,7 +1365,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/GeistMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/GeistMono.zip"
           }
         }
       ],
@@ -1352,7 +1401,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882269Z",
+      "last_modified": "2026-08-03T06:17:38.649947Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1365,7 +1414,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Go-Mono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Go-Mono.zip"
           }
         }
       ],
@@ -1401,7 +1450,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882276Z",
+      "last_modified": "2026-08-03T06:17:38.649955Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1414,7 +1463,56 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Gohu.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Gohu.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "googlesanscode": {
+      "name": "Googlesanscode",
+      "family": "Googlesanscode",
+      "license": "Mixed",
+      "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/LICENSE",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.0.2",
+      "description": "Patched version of Googlesanscode with additional icon glyphs",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-08-03T06:17:38.649962Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
+      "variants": [
+        {
+          "name": "Googlesanscode Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/GoogleSansCode.zip"
           }
         }
       ],
@@ -1450,7 +1548,7 @@
         "programming"
       ],
       "popularity": 75,
-      "last_modified": "2026-08-02T05:52:39.882283Z",
+      "last_modified": "2026-08-03T06:17:38.649969Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1463,7 +1561,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Hack.zip"
           }
         }
       ],
@@ -1499,7 +1597,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882290Z",
+      "last_modified": "2026-08-03T06:17:38.649976Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1512,7 +1610,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hasklig.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Hasklig.zip"
           }
         }
       ],
@@ -1548,7 +1646,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882297Z",
+      "last_modified": "2026-08-03T06:17:38.649983Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1561,7 +1659,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/HeavyData.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/HeavyData.zip"
           }
         }
       ],
@@ -1597,7 +1695,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882304Z",
+      "last_modified": "2026-08-03T06:17:38.649990Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1610,7 +1708,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hermit.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Hermit.zip"
           }
         }
       ],
@@ -1646,7 +1744,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882310Z",
+      "last_modified": "2026-08-03T06:17:38.649997Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1659,7 +1757,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/iA-Writer.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/iA-Writer.zip"
           }
         }
       ],
@@ -1695,7 +1793,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882317Z",
+      "last_modified": "2026-08-03T06:17:38.650005Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1708,7 +1806,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/IBMPlexMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/IBMPlexMono.zip"
           }
         }
       ],
@@ -1744,7 +1842,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882324Z",
+      "last_modified": "2026-08-03T06:17:38.650012Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1757,7 +1855,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Inconsolata.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Inconsolata.zip"
           }
         }
       ],
@@ -1793,7 +1891,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882331Z",
+      "last_modified": "2026-08-03T06:17:38.650019Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1806,7 +1904,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/IntelOneMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/IntelOneMono.zip"
           }
         }
       ],
@@ -1842,7 +1940,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882338Z",
+      "last_modified": "2026-08-03T06:17:38.650027Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1855,7 +1953,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Iosevka.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Iosevka.zip"
           }
         }
       ],
@@ -1891,7 +1989,7 @@
         "programming"
       ],
       "popularity": 90,
-      "last_modified": "2026-08-02T05:52:39.882345Z",
+      "last_modified": "2026-08-03T06:17:38.650034Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1904,7 +2002,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/JetBrainsMono.zip"
           }
         }
       ],
@@ -1940,7 +2038,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882352Z",
+      "last_modified": "2026-08-03T06:17:38.650041Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -1953,7 +2051,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Lekton.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Lekton.zip"
           }
         }
       ],
@@ -1989,7 +2087,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882359Z",
+      "last_modified": "2026-08-03T06:17:38.650049Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2002,7 +2100,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/LiberationMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/LiberationMono.zip"
           }
         }
       ],
@@ -2038,7 +2136,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882366Z",
+      "last_modified": "2026-08-03T06:17:38.650057Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2051,7 +2149,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Lilex.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Lilex.zip"
           }
         }
       ],
@@ -2087,7 +2185,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882373Z",
+      "last_modified": "2026-08-03T06:17:38.650064Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2100,7 +2198,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/MartianMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/MartianMono.zip"
           }
         }
       ],
@@ -2136,7 +2234,7 @@
         "programming"
       ],
       "popularity": 80,
-      "last_modified": "2026-08-02T05:52:39.882380Z",
+      "last_modified": "2026-08-03T06:17:38.650071Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2149,7 +2247,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Meslo.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Meslo.zip"
           }
         }
       ],
@@ -2185,7 +2283,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882387Z",
+      "last_modified": "2026-08-03T06:17:38.650078Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2198,7 +2296,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Monaspace.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Monaspace.zip"
           }
         }
       ],
@@ -2234,7 +2332,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882394Z",
+      "last_modified": "2026-08-03T06:17:38.650085Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2247,7 +2345,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Monofur.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Monofur.zip"
           }
         }
       ],
@@ -2283,7 +2381,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882401Z",
+      "last_modified": "2026-08-03T06:17:38.650092Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2296,7 +2394,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Monoid.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Monoid.zip"
           }
         }
       ],
@@ -2332,7 +2430,7 @@
         "programming"
       ],
       "popularity": 55,
-      "last_modified": "2026-08-02T05:52:39.882407Z",
+      "last_modified": "2026-08-03T06:17:38.650100Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2345,7 +2443,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Mononoki.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Mononoki.zip"
           }
         }
       ],
@@ -2381,7 +2479,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882415Z",
+      "last_modified": "2026-08-03T06:17:38.650107Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2394,7 +2492,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/MPlus.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/MPlus.zip"
           }
         }
       ],
@@ -2430,7 +2528,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882421Z",
+      "last_modified": "2026-08-03T06:17:38.650114Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2443,7 +2541,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/NerdFontsSymbolsOnly.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/NerdFontsSymbolsOnly.zip"
           }
         }
       ],
@@ -2479,7 +2577,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882428Z",
+      "last_modified": "2026-08-03T06:17:38.650121Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2492,7 +2590,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Noto.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Noto.zip"
           }
         }
       ],
@@ -2528,7 +2626,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882435Z",
+      "last_modified": "2026-08-03T06:17:38.650128Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2541,7 +2639,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/OpenDyslexic.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/OpenDyslexic.zip"
           }
         }
       ],
@@ -2577,7 +2675,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882442Z",
+      "last_modified": "2026-08-03T06:17:38.650135Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2590,7 +2688,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Overpass.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Overpass.zip"
           }
         }
       ],
@@ -2626,7 +2724,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882448Z",
+      "last_modified": "2026-08-03T06:17:38.650142Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2639,7 +2737,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/ProFont.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/ProFont.zip"
           }
         }
       ],
@@ -2675,7 +2773,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882455Z",
+      "last_modified": "2026-08-03T06:17:38.650149Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2688,7 +2786,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/ProggyClean.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/ProggyClean.zip"
           }
         }
       ],
@@ -2724,7 +2822,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882462Z",
+      "last_modified": "2026-08-03T06:17:38.650156Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2737,7 +2835,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Recursive.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Recursive.zip"
           }
         }
       ],
@@ -2773,7 +2871,7 @@
         "programming"
       ],
       "popularity": 70,
-      "last_modified": "2026-08-02T05:52:39.882469Z",
+      "last_modified": "2026-08-03T06:17:38.650163Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2786,7 +2884,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/RobotoMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/RobotoMono.zip"
           }
         }
       ],
@@ -2822,7 +2920,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882476Z",
+      "last_modified": "2026-08-03T06:17:38.650184Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2835,7 +2933,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/ShareTechMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/ShareTechMono.zip"
           }
         }
       ],
@@ -2871,7 +2969,7 @@
         "programming"
       ],
       "popularity": 80,
-      "last_modified": "2026-08-02T05:52:39.882482Z",
+      "last_modified": "2026-08-03T06:17:38.650192Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2884,7 +2982,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/SourceCodePro.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/SourceCodePro.zip"
           }
         }
       ],
@@ -2920,7 +3018,7 @@
         "programming"
       ],
       "popularity": 45,
-      "last_modified": "2026-08-02T05:52:39.882489Z",
+      "last_modified": "2026-08-03T06:17:38.650199Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2933,7 +3031,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/SpaceMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/SpaceMono.zip"
           }
         }
       ],
@@ -2969,7 +3067,7 @@
         "programming"
       ],
       "popularity": 65,
-      "last_modified": "2026-08-02T05:52:39.882496Z",
+      "last_modified": "2026-08-03T06:17:38.650206Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -2982,7 +3080,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Terminus.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Terminus.zip"
           }
         }
       ],
@@ -3018,7 +3116,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882503Z",
+      "last_modified": "2026-08-03T06:17:38.650213Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3031,7 +3129,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Tinos.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Tinos.zip"
           }
         }
       ],
@@ -3067,7 +3165,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882509Z",
+      "last_modified": "2026-08-03T06:17:38.650220Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3080,7 +3178,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Ubuntu.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/Ubuntu.zip"
           }
         }
       ],
@@ -3116,7 +3214,7 @@
         "programming"
       ],
       "popularity": 65,
-      "last_modified": "2026-08-02T05:52:39.882516Z",
+      "last_modified": "2026-08-03T06:17:38.650227Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3129,7 +3227,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/UbuntuMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/UbuntuMono.zip"
           }
         }
       ],
@@ -3165,7 +3263,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882523Z",
+      "last_modified": "2026-08-03T06:17:38.650235Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3178,7 +3276,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/UbuntuSans.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/UbuntuSans.zip"
           }
         }
       ],
@@ -3214,7 +3312,7 @@
         "programming"
       ],
       "popularity": 35,
-      "last_modified": "2026-08-02T05:52:39.882530Z",
+      "last_modified": "2026-08-03T06:17:38.650242Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3227,7 +3325,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/VictorMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/VictorMono.zip"
           }
         }
       ],
@@ -3263,7 +3361,7 @@
         "programming"
       ],
       "popularity": 50,
-      "last_modified": "2026-08-02T05:52:39.882537Z",
+      "last_modified": "2026-08-03T06:17:38.650250Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/latest",
       "variants": [
@@ -3276,7 +3374,7 @@
             "latin-ext"
           ],
           "files": {
-            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/ZedMono.zip"
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/ZedMono.zip"
           }
         }
       ],
