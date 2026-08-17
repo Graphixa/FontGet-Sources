@@ -5,7 +5,7 @@
     "url": "https://fonts.google.com",
     "api_endpoint": "https://www.googleapis.com/webfonts/v1/webfonts",
     "version": "1.0",
-    "last_updated": "2026-08-16T02:49:10.321045Z",
+    "last_updated": "2026-08-17T02:49:10.604090Z",
     "total_fonts": 1951
   },
   "fonts": {
@@ -137551,6 +137551,53 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
+    "rubik-doodle-triangles": {
+      "name": "Rubik Doodle Triangles",
+      "family": "Rubik Doodle Triangles",
+      "license": "OFL",
+      "license_url": "https://fonts.google.com/specimen/Rubik+Doodle+Triangles/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v1",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 40,
+      "last_modified": "2025-05-30",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rubikdoodletriangles/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Rubik+Doodle+Triangles",
+      "variants": [
+        {
+          "name": "Rubik Doodle Triangles Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/rubikdoodletriangles/v1/esDA301BLOmMKxKspb3g-domRuLPeaSn2bTzdLi_slZxgWE.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F",
+        "U+0400-04FF"
+      ],
+      "languages": [
+        "Cyrillic",
+        "Cyrillic Extended",
+        "Hebrew",
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
     "noto-serif-toto": {
       "name": "Noto Serif Toto",
       "family": "Noto Serif Toto",
@@ -137626,53 +137673,6 @@
         "U+0100-017F"
       ],
       "languages": [
-        "Latin",
-        "Latin Extended"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "rubik-doodle-triangles": {
-      "name": "Rubik Doodle Triangles",
-      "family": "Rubik Doodle Triangles",
-      "license": "OFL",
-      "license_url": "https://fonts.google.com/specimen/Rubik+Doodle+Triangles/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v1",
-      "description": "",
-      "categories": [
-        "Display"
-      ],
-      "tags": [
-        "display"
-      ],
-      "popularity": 40,
-      "last_modified": "2025-05-30",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rubikdoodletriangles/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Rubik+Doodle+Triangles",
-      "variants": [
-        {
-          "name": "Rubik Doodle Triangles Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/rubikdoodletriangles/v1/esDA301BLOmMKxKspb3g-domRuLPeaSn2bTzdLi_slZxgWE.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF",
-        "U+0100-017F",
-        "U+0400-04FF"
-      ],
-      "languages": [
-        "Cyrillic",
-        "Cyrillic Extended",
-        "Hebrew",
         "Latin",
         "Latin Extended"
       ],
@@ -153676,49 +153676,6 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "betania-patmos-gdl": {
-      "name": "Betania Patmos GDL",
-      "family": "Betania Patmos GDL",
-      "license": "OFL",
-      "license_url": "https://fonts.google.com/specimen/Betania+Patmos+GDL/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v2",
-      "description": "",
-      "categories": [
-        "Handwriting"
-      ],
-      "tags": [
-        "handwriting"
-      ],
-      "popularity": 20,
-      "last_modified": "2026-02-17",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/betaniapatmosgdl/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Betania+Patmos+GDL",
-      "variants": [
-        {
-          "name": "Betania Patmos GDL Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/betaniapatmosgdl/v2/-nFhOHE6_uoR4VYoynWSh_bKTCFIT7tx1_r352np3Q.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF",
-        "U+0100-017F"
-      ],
-      "languages": [
-        "Latin",
-        "Latin Extended"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
     "noto-sans-phagspa": {
       "name": "Noto Sans PhagsPa",
       "family": "Noto Sans PhagsPa",
@@ -153749,6 +153706,49 @@
           ],
           "files": {
             "ttf": "https://fonts.gstatic.com/s/notosansphagspa/v24/XLY8IYr5bJNDGYxPGjyYbaEjwQR-LFlsYMYHGGeT.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "betania-patmos-gdl": {
+      "name": "Betania Patmos GDL",
+      "family": "Betania Patmos GDL",
+      "license": "OFL",
+      "license_url": "https://fonts.google.com/specimen/Betania+Patmos+GDL/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v2",
+      "description": "",
+      "categories": [
+        "Handwriting"
+      ],
+      "tags": [
+        "handwriting"
+      ],
+      "popularity": 20,
+      "last_modified": "2026-02-17",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/betaniapatmosgdl/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Betania+Patmos+GDL",
+      "variants": [
+        {
+          "name": "Betania Patmos GDL Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/betaniapatmosgdl/v2/-nFhOHE6_uoR4VYoynWSh_bKTCFIT7tx1_r352np3Q.ttf"
           }
         }
       ],
