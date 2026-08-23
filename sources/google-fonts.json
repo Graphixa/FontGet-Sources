@@ -5,10 +5,53 @@
     "url": "https://fonts.google.com",
     "api_endpoint": "https://www.googleapis.com/webfonts/v1/webfonts",
     "version": "1.0",
-    "last_updated": "2026-08-22T02:43:22.164264Z",
+    "last_updated": "2026-08-23T02:51:37.165554Z",
     "total_fonts": 1951
   },
   "fonts": {
+    "basic": {
+      "name": "Basic",
+      "family": "Basic",
+      "license": "OFL",
+      "license_url": "https://fonts.google.com/specimen/Basic/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v18",
+      "description": "",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 20,
+      "last_modified": "2025-09-10",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/basic/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Basic",
+      "variants": [
+        {
+          "name": "Basic Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/basic/v18/xfu_0WLxV2_XKQN34lDVyR7D.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
     "roboto": {
       "name": "Roboto",
       "family": "Roboto",
@@ -262,6 +305,74 @@
         "Latin",
         "Latin Extended",
         "Vietnamese"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "benchnine": {
+      "name": "BenchNine",
+      "family": "BenchNine",
+      "license": "OFL",
+      "license_url": "https://fonts.google.com/specimen/BenchNine/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v17",
+      "description": "",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [
+        "sans-serif",
+        "bold"
+      ],
+      "popularity": 40,
+      "last_modified": "2025-09-10",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/BenchNine",
+      "variants": [
+        {
+          "name": "BenchNine Light",
+          "weight": 300,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/benchnine/v17/ahcev8612zF4jxrwMosT--tRhWa8q0v8ag.ttf"
+          }
+        },
+        {
+          "name": "BenchNine Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/benchnine/v17/ahcbv8612zF4jxrwMosrV8N1jU2gog.ttf"
+          }
+        },
+        {
+          "name": "BenchNine Bold",
+          "weight": 700,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/benchnine/v17/ahcev8612zF4jxrwMosT6-xRhWa8q0v8ag.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
@@ -589,6 +700,195 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
+    "prociono": {
+      "name": "Prociono",
+      "family": "Prociono",
+      "license": "OFL",
+      "license_url": "https://fonts.google.com/specimen/Prociono/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v28",
+      "description": "",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [
+        "serif"
+      ],
+      "popularity": 15,
+      "last_modified": "2025-09-08",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/prociono/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Prociono",
+      "variants": [
+        {
+          "name": "Prociono Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/prociono/v28/r05YGLlR-KxAf9GGO8upyDYtStiJ.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "handjet": {
+      "name": "Handjet",
+      "family": "Handjet",
+      "license": "OFL",
+      "license_url": "https://fonts.google.com/specimen/Handjet/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v22",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display",
+        "bold"
+      ],
+      "popularity": 80,
+      "last_modified": "2025-09-16",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/handjet/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Handjet",
+      "variants": [
+        {
+          "name": "Handjet Thin",
+          "weight": 100,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmbUkUsEHFAH2A.ttf"
+          }
+        },
+        {
+          "name": "Handjet Extra Light",
+          "weight": 200,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmaUkUsEHFAH2A.ttf"
+          }
+        },
+        {
+          "name": "Handjet Light",
+          "weight": 300,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHWeaUkUsEHFAH2A.ttf"
+          }
+        },
+        {
+          "name": "Handjet Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmaUkUsEHFAH2A.ttf"
+          }
+        },
+        {
+          "name": "Handjet Medium",
+          "weight": 500,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHQuaUkUsEHFAH2A.ttf"
+          }
+        },
+        {
+          "name": "Handjet Semi Bold",
+          "weight": 600,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHeedUkUsEHFAH2A.ttf"
+          }
+        },
+        {
+          "name": "Handjet Bold",
+          "weight": 700,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHd6dUkUsEHFAH2A.ttf"
+          }
+        },
+        {
+          "name": "Handjet Extra Bold",
+          "weight": 800,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmdUkUsEHFAH2A.ttf"
+          }
+        },
+        {
+          "name": "Handjet Black",
+          "weight": 900,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHZCdUkUsEHFAH2A.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F",
+        "U+0400-04FF",
+        "U+0370-03FF"
+      ],
+      "languages": [
+        "Arabic",
+        "Cyrillic",
+        "Cyrillic Extended",
+        "Greek",
+        "Hebrew",
+        "Latin",
+        "Latin Extended",
+        "Vietnamese"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
     "inter": {
       "name": "Inter",
       "family": "Inter",
@@ -845,6 +1145,49 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
+    "rum-raisin": {
+      "name": "Rum Raisin",
+      "family": "Rum Raisin",
+      "license": "OFL",
+      "license_url": "https://fonts.google.com/specimen/Rum+Raisin/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v24",
+      "description": "",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 20,
+      "last_modified": "2025-09-10",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rumraisin/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Rum+Raisin",
+      "variants": [
+        {
+          "name": "Rum Raisin Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/rumraisin/v24/nwpRtKu3Ih8D5avB4h2uJ3-IywA7eMM.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
     "montserrat": {
       "name": "Montserrat",
       "family": "Montserrat",
@@ -1098,6 +1441,86 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
+    "noto-sans-balinese": {
+      "name": "Noto Sans Balinese",
+      "family": "Noto Sans Balinese",
+      "license": "OFL",
+      "license_url": "https://fonts.google.com/specimen/Noto+Sans+Balinese/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v27",
+      "description": "",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [
+        "sans-serif",
+        "bold"
+      ],
+      "popularity": 55,
+      "last_modified": "2025-09-08",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansbalinese/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Noto+Sans+Balinese",
+      "variants": [
+        {
+          "name": "Noto Sans Balinese Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/notosansbalinese/v27/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov7fdhE5Vd222PPY.ttf"
+          }
+        },
+        {
+          "name": "Noto Sans Balinese Medium",
+          "weight": 500,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/notosansbalinese/v27/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov4XdhE5Vd222PPY.ttf"
+          }
+        },
+        {
+          "name": "Noto Sans Balinese Semi Bold",
+          "weight": 600,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/notosansbalinese/v27/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov2nahE5Vd222PPY.ttf"
+          }
+        },
+        {
+          "name": "Noto Sans Balinese Bold",
+          "weight": 700,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/notosansbalinese/v27/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov1DahE5Vd222PPY.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
     "poppins": {
       "name": "Poppins",
       "family": "Poppins",
@@ -1343,6 +1766,49 @@
       ],
       "languages": [
         "Devanagari",
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "tagesschrift": {
+      "name": "Tagesschrift",
+      "family": "Tagesschrift",
+      "license": "OFL",
+      "license_url": "https://fonts.google.com/specimen/Tagesschrift/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v2",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 20,
+      "last_modified": "2025-04-23",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tagesschrift/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Tagesschrift",
+      "variants": [
+        {
+          "name": "Tagesschrift Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/tagesschrift/v2/pe0pMI6IOYlEuEZ7ZEA7ZKOaA_Rue1UwVg.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
         "Latin",
         "Latin Extended"
       ],
@@ -56523,49 +56989,6 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "basic": {
-      "name": "Basic",
-      "family": "Basic",
-      "license": "OFL",
-      "license_url": "https://fonts.google.com/specimen/Basic/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v18",
-      "description": "",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [
-        "sans-serif"
-      ],
-      "popularity": 20,
-      "last_modified": "2025-09-10",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/basic/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Basic",
-      "variants": [
-        {
-          "name": "Basic Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/basic/v18/xfu_0WLxV2_XKQN34lDVyR7D.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF",
-        "U+0100-017F"
-      ],
-      "languages": [
-        "Latin",
-        "Latin Extended"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
     "mate": {
       "name": "Mate",
       "family": "Mate",
@@ -58101,74 +58524,6 @@
         "Latin",
         "Latin Extended",
         "Vietnamese"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "benchnine": {
-      "name": "BenchNine",
-      "family": "BenchNine",
-      "license": "OFL",
-      "license_url": "https://fonts.google.com/specimen/BenchNine/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v17",
-      "description": "",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [
-        "sans-serif",
-        "bold"
-      ],
-      "popularity": 40,
-      "last_modified": "2025-09-10",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/benchnine/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/BenchNine",
-      "variants": [
-        {
-          "name": "BenchNine Light",
-          "weight": 300,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/benchnine/v17/ahcev8612zF4jxrwMosT--tRhWa8q0v8ag.ttf"
-          }
-        },
-        {
-          "name": "BenchNine Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/benchnine/v17/ahcbv8612zF4jxrwMosrV8N1jU2gog.ttf"
-          }
-        },
-        {
-          "name": "BenchNine Bold",
-          "weight": 700,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/benchnine/v17/ahcev8612zF4jxrwMosT6-xRhWa8q0v8ag.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF",
-        "U+0100-017F"
-      ],
-      "languages": [
-        "Latin",
-        "Latin Extended"
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
@@ -91652,47 +92007,6 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "prociono": {
-      "name": "Prociono",
-      "family": "Prociono",
-      "license": "OFL",
-      "license_url": "https://fonts.google.com/specimen/Prociono/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v28",
-      "description": "",
-      "categories": [
-        "Serif"
-      ],
-      "tags": [
-        "serif"
-      ],
-      "popularity": 15,
-      "last_modified": "2025-09-08",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/prociono/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Prociono",
-      "variants": [
-        {
-          "name": "Prociono Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/prociono/v28/r05YGLlR-KxAf9GGO8upyDYtStiJ.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF"
-      ],
-      "languages": [
-        "Latin"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
     "rosarivo": {
       "name": "Rosarivo",
       "family": "Rosarivo",
@@ -112609,49 +112923,6 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "rum-raisin": {
-      "name": "Rum Raisin",
-      "family": "Rum Raisin",
-      "license": "OFL",
-      "license_url": "https://fonts.google.com/specimen/Rum+Raisin/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v24",
-      "description": "",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [
-        "sans-serif"
-      ],
-      "popularity": 20,
-      "last_modified": "2025-09-10",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rumraisin/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Rum+Raisin",
-      "variants": [
-        {
-          "name": "Rum Raisin Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/rumraisin/v24/nwpRtKu3Ih8D5avB4h2uJ3-IywA7eMM.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF",
-        "U+0100-017F"
-      ],
-      "languages": [
-        "Latin",
-        "Latin Extended"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
     "ramaraja": {
       "name": "Ramaraja",
       "family": "Ramaraja",
@@ -114586,154 +114857,6 @@
         "U+0100-017F"
       ],
       "languages": [
-        "Latin",
-        "Latin Extended",
-        "Vietnamese"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "handjet": {
-      "name": "Handjet",
-      "family": "Handjet",
-      "license": "OFL",
-      "license_url": "https://fonts.google.com/specimen/Handjet/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v22",
-      "description": "",
-      "categories": [
-        "Display"
-      ],
-      "tags": [
-        "display",
-        "bold"
-      ],
-      "popularity": 80,
-      "last_modified": "2025-09-16",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/handjet/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Handjet",
-      "variants": [
-        {
-          "name": "Handjet Thin",
-          "weight": 100,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmbUkUsEHFAH2A.ttf"
-          }
-        },
-        {
-          "name": "Handjet Extra Light",
-          "weight": 200,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmaUkUsEHFAH2A.ttf"
-          }
-        },
-        {
-          "name": "Handjet Light",
-          "weight": 300,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHWeaUkUsEHFAH2A.ttf"
-          }
-        },
-        {
-          "name": "Handjet Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmaUkUsEHFAH2A.ttf"
-          }
-        },
-        {
-          "name": "Handjet Medium",
-          "weight": 500,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHQuaUkUsEHFAH2A.ttf"
-          }
-        },
-        {
-          "name": "Handjet Semi Bold",
-          "weight": 600,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHeedUkUsEHFAH2A.ttf"
-          }
-        },
-        {
-          "name": "Handjet Bold",
-          "weight": 700,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHd6dUkUsEHFAH2A.ttf"
-          }
-        },
-        {
-          "name": "Handjet Extra Bold",
-          "weight": 800,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHbmdUkUsEHFAH2A.ttf"
-          }
-        },
-        {
-          "name": "Handjet Black",
-          "weight": 900,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/handjet/v22/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHZCdUkUsEHFAH2A.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF",
-        "U+0100-017F",
-        "U+0400-04FF",
-        "U+0370-03FF"
-      ],
-      "languages": [
-        "Arabic",
-        "Cyrillic",
-        "Cyrillic Extended",
-        "Greek",
-        "Hebrew",
         "Latin",
         "Latin Extended",
         "Vietnamese"
@@ -129809,86 +129932,6 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "noto-sans-balinese": {
-      "name": "Noto Sans Balinese",
-      "family": "Noto Sans Balinese",
-      "license": "OFL",
-      "license_url": "https://fonts.google.com/specimen/Noto+Sans+Balinese/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v27",
-      "description": "",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [
-        "sans-serif",
-        "bold"
-      ],
-      "popularity": 55,
-      "last_modified": "2025-09-08",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansbalinese/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Noto+Sans+Balinese",
-      "variants": [
-        {
-          "name": "Noto Sans Balinese Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/notosansbalinese/v27/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov7fdhE5Vd222PPY.ttf"
-          }
-        },
-        {
-          "name": "Noto Sans Balinese Medium",
-          "weight": 500,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/notosansbalinese/v27/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov4XdhE5Vd222PPY.ttf"
-          }
-        },
-        {
-          "name": "Noto Sans Balinese Semi Bold",
-          "weight": 600,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/notosansbalinese/v27/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov2nahE5Vd222PPY.ttf"
-          }
-        },
-        {
-          "name": "Noto Sans Balinese Bold",
-          "weight": 700,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/notosansbalinese/v27/NaPwcYvSBuhTirw6IaFn6UrRDaqje-lpbbRtYf-Fwu2Ov1DahE5Vd222PPY.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF",
-        "U+0100-017F"
-      ],
-      "languages": [
-        "Latin",
-        "Latin Extended"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
     "ancizar-sans": {
       "name": "Ancizar Sans",
       "family": "Ancizar Sans",
@@ -135820,49 +135863,6 @@
         "Latin",
         "Latin Extended",
         "Vietnamese"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "tagesschrift": {
-      "name": "Tagesschrift",
-      "family": "Tagesschrift",
-      "license": "OFL",
-      "license_url": "https://fonts.google.com/specimen/Tagesschrift/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v2",
-      "description": "",
-      "categories": [
-        "Display"
-      ],
-      "tags": [
-        "display"
-      ],
-      "popularity": 20,
-      "last_modified": "2025-04-23",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/tagesschrift/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Tagesschrift",
-      "variants": [
-        {
-          "name": "Tagesschrift Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/tagesschrift/v2/pe0pMI6IOYlEuEZ7ZEA7ZKOaA_Rue1UwVg.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF",
-        "U+0100-017F"
-      ],
-      "languages": [
-        "Latin",
-        "Latin Extended"
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
