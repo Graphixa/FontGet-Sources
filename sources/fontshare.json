@@ -5,7 +5,7 @@
     "url": "https://www.fontshare.com",
     "api_endpoint": "https://api.fontshare.com/api/fonts",
     "version": "1.0",
-    "last_updated": "2026-08-25T04:18:52.414249Z",
+    "last_updated": "2026-08-26T04:19:19.873386Z",
     "total_fonts": 100
   },
   "fonts": {
@@ -43,101 +43,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "rowan": {
-      "name": "Rowan",
-      "family": "Rowan",
+    "gambetta": {
+      "name": "Gambetta",
+      "family": "Gambetta",
       "license": "ITF FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Inga Plönnigs",
+      "designer": "Paul Troppmar",
       "foundry": "Indian Type Foundry",
       "version": "1.0",
-      "description": "Rowan is a family of serif fonts intended for setting long passages of text for immersive reading. It can be used in both normal text sizes, and really small sizes, too. This is due to its particularly chunky serifs and stroke-endings. The family features five different weights, ranging from Light through Bold. Even in the Light weight, Rowan’s unique serif and stroke-ending-structure give the text a degree of visible stroke contrast. Each weight has an upright and an italic font on offer. The default numerals in each font are oldstyle figures; however, lining figures are also available via an OpenType feature. Via a Stylistic Set, users can access a set of glyphs where the ascending lowercase letters (‘b’, ‘d’, ‘h’, ‘k’, and ‘l’) have no top-serifs; however, even without those serifs, the letters maintain their correct color, thanks to the swelling flairs at the tops of their stems. Each Rowan font also includes a full range of raised punctuation marks for all-caps typesetting. Rowan…",
+      "description": "Gambetta is a family of serif fonts designed for use in text. Its ten styles are spread across five weights, ranging from Light to Bold; each weight has an upright and a companion italic font on offer. Gambetta’s letterforms are drawn with diagonal stress, and they letters have visible contrast, too. The degree of contrast that is visible increases with every weight in the family. Several of the terminals on the strokes of Gambetta’s letterforms feature very prominent wedge-shapes. In the upright fonts’ uppercase, every vertical terminal has been designed with one of these ‘wedge terminals’. These have been left off of other letterforms, judiciously. For example, the lowercase ‘a’ in the upright fonts don’t have a top-left terminal. This decision results in ‘a’ counterforms that are quite open. The numerals in Gambetta are proportional lining figures; the top of the ‘3’ is very distinctive, as it is flat. The numeral height is slightly lower than that of the uppercase letters; the low…",
       "categories": [
         "Serif"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2021-03-12T20:45:06Z",
-      "metadata_url": "https://www.fontshare.com/fonts/rowan",
-      "source_url": "https://www.fontshare.com/fonts/rowan",
+      "last_modified": "2021-03-12T20:33:23Z",
+      "metadata_url": "https://www.fontshare.com/fonts/gambetta",
+      "source_url": "https://www.fontshare.com/fonts/gambetta",
       "variants": [
         {
-          "name": "Rowan Light, Light Italic, Regular, Italic, Medium, Medium Italic, …",
+          "name": "Gambetta Light, Light Italic, Regular, Italic, Medium, Medium Italic, …",
           "weight": 700,
           "style": "italic",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/rowan"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "synonym": {
-      "name": "Synonym",
-      "family": "Synonym",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Hugo Dumont",
-      "foundry": "Indian Type Foundry",
-      "version": "1.0",
-      "description": "Synonym is a family of six humanist sans serif fonts. The typeface is perfect for use in Branding and in Editorial Design projects – anywhere you need a sans that combines personality with clear, open, and instantly legible forms. Synonym’s letterforms are not as monolinear as those found in many other humanist sans serif designs. The stroke contrast in Synonym is particularly visible in the lowercase ‘a’. Like the fonts’ lowercase ‘g’, this letter is double-storied in all of the family’s weights. Several of the strokes in Synonym’s letterforms terminate in diagonals, rather than with horizontal or vertical cuts, such as the arms of the ‘E’, ‘F’, ‘L’, and ‘T’, the tops of the ascenders in the lowercase, and the in-strokes of ‘m’, ’n’, ‘r’, ‘t’, and ‘u’. The lowercase letters’ x-height is moderately positioned in relation to the capital letters, and the fonts’ ascenders rise up above the tops of the uppercase letters. The fonts’ numerals are lining – making them as tall of the capital…",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:51:59Z",
-      "metadata_url": "https://www.fontshare.com/fonts/synonym",
-      "source_url": "https://www.fontshare.com/fonts/synonym",
-      "variants": [
-        {
-          "name": "Synonym Extralight, Light, Regular, Medium, Semibold, Bold, …",
-          "weight": 700,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/synonym"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "technor": {
-      "name": "Technor",
-      "family": "Technor",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Jean-Baptiste Morizot",
-      "foundry": "Indian Type Foundry",
-      "version": "1.0",
-      "description": "Technor is a seven-weight family of constructed sans serif fonts. The sides of each letter in Technor are flat. Many of the typeface’s characters have rounded tops and bottoms; however, in the case of letters where these are traditionally flat – like in ‘E’, ‘F’, ‘I’, ‘L’, and ‘T’ – Technor keeps these flat, too. The family’s range of weights begins with Extralight and expands to Black. In all of the fonts, characters are drawn with monolinear strokes. In each of the weights, the fonts’ inter-character spacing is very tight. Technor is a little wide, especially in the lowercase. The lowercase letters also have a tall x-height. For their design, simple forms have been favored. The ‘a’ and the ‘g’ are both single-storey, for instance. Jean-Baptiste Morizot designed Technor for display applications; the larger the size, the better. This will give Technor’s unique design language enough space to make the intended statement.",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:52:23Z",
-      "metadata_url": "https://www.fontshare.com/fonts/technor",
-      "source_url": "https://www.fontshare.com/fonts/technor",
-      "variants": [
-        {
-          "name": "Technor Extralight, Light, Regular, Medium, Semibold, Bold, …",
-          "weight": 900,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/technor"
+            "zip": "https://api.fontshare.com/v2/fonts/download/gambetta"
           }
         }
       ],
@@ -179,33 +111,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "gambarino": {
-      "name": "Gambarino",
-      "family": "Gambarino",
+    "synonym": {
+      "name": "Synonym",
+      "family": "Synonym",
       "license": "ITF FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Théo Guillard",
+      "designer": "Hugo Dumont",
       "foundry": "Indian Type Foundry",
       "version": "1.0",
-      "description": "Gambarino is a condensed, single-weight serif face for headlines. The font is designed by Théo Guillard. Stylistically, you could call it a post-modern interpretation of the Garalde genre. Gambarino is different enough from most serif typefaces designed for text that you could combine it with another Garalde easily; that other font would set the body text, while Gambarino would shine in the headlines. Gambarino’s serifs are exquisitely fine; they are paired with teardrop terminals, such as on the ‘a’, ‘f’, and ‘y’. The capital letters are top-heavy; the bowls and counterforms in the upper portions of each letter are larger than the lower ones. This is visible, especially, in the letters ‘B’, ‘E’, ‘F’, ‘P’, and ‘R’. The trait is not quite carried on into the lowercase, but the design of the ‘a’ really harmonises with these unique capital letters anyway. Gambarino’s lowercase features a tall x-height, and what can only be described as ‘microscopic’ descenders. The descenders are all muc…",
+      "description": "Synonym is a family of six humanist sans serif fonts. The typeface is perfect for use in Branding and in Editorial Design projects – anywhere you need a sans that combines personality with clear, open, and instantly legible forms. Synonym’s letterforms are not as monolinear as those found in many other humanist sans serif designs. The stroke contrast in Synonym is particularly visible in the lowercase ‘a’. Like the fonts’ lowercase ‘g’, this letter is double-storied in all of the family’s weights. Several of the strokes in Synonym’s letterforms terminate in diagonals, rather than with horizontal or vertical cuts, such as the arms of the ‘E’, ‘F’, ‘L’, and ‘T’, the tops of the ascenders in the lowercase, and the in-strokes of ‘m’, ’n’, ‘r’, ‘t’, and ‘u’. The lowercase letters’ x-height is moderately positioned in relation to the capital letters, and the fonts’ ascenders rise up above the tops of the uppercase letters. The fonts’ numerals are lining – making them as tall of the capital…",
       "categories": [
-        "Serif"
+        "Sans Serif"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2021-03-12T20:32:41Z",
-      "metadata_url": "https://www.fontshare.com/fonts/gambarino",
-      "source_url": "https://www.fontshare.com/fonts/gambarino",
+      "last_modified": "2021-03-12T20:51:59Z",
+      "metadata_url": "https://www.fontshare.com/fonts/synonym",
+      "source_url": "https://www.fontshare.com/fonts/synonym",
       "variants": [
         {
-          "name": "Gambarino Regular",
-          "weight": 400,
+          "name": "Synonym Extralight, Light, Regular, Medium, Semibold, Bold, …",
+          "weight": 700,
           "style": "normal",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/gambarino"
+            "zip": "https://api.fontshare.com/v2/fonts/download/synonym"
           }
         }
       ],
@@ -247,33 +179,101 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "gambetta": {
-      "name": "Gambetta",
-      "family": "Gambetta",
+    "technor": {
+      "name": "Technor",
+      "family": "Technor",
       "license": "ITF FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Paul Troppmar",
+      "designer": "Jean-Baptiste Morizot",
       "foundry": "Indian Type Foundry",
       "version": "1.0",
-      "description": "Gambetta is a family of serif fonts designed for use in text. Its ten styles are spread across five weights, ranging from Light to Bold; each weight has an upright and a companion italic font on offer. Gambetta’s letterforms are drawn with diagonal stress, and they letters have visible contrast, too. The degree of contrast that is visible increases with every weight in the family. Several of the terminals on the strokes of Gambetta’s letterforms feature very prominent wedge-shapes. In the upright fonts’ uppercase, every vertical terminal has been designed with one of these ‘wedge terminals’. These have been left off of other letterforms, judiciously. For example, the lowercase ‘a’ in the upright fonts don’t have a top-left terminal. This decision results in ‘a’ counterforms that are quite open. The numerals in Gambetta are proportional lining figures; the top of the ‘3’ is very distinctive, as it is flat. The numeral height is slightly lower than that of the uppercase letters; the low…",
+      "description": "Technor is a seven-weight family of constructed sans serif fonts. The sides of each letter in Technor are flat. Many of the typeface’s characters have rounded tops and bottoms; however, in the case of letters where these are traditionally flat – like in ‘E’, ‘F’, ‘I’, ‘L’, and ‘T’ – Technor keeps these flat, too. The family’s range of weights begins with Extralight and expands to Black. In all of the fonts, characters are drawn with monolinear strokes. In each of the weights, the fonts’ inter-character spacing is very tight. Technor is a little wide, especially in the lowercase. The lowercase letters also have a tall x-height. For their design, simple forms have been favored. The ‘a’ and the ‘g’ are both single-storey, for instance. Jean-Baptiste Morizot designed Technor for display applications; the larger the size, the better. This will give Technor’s unique design language enough space to make the intended statement.",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:52:23Z",
+      "metadata_url": "https://www.fontshare.com/fonts/technor",
+      "source_url": "https://www.fontshare.com/fonts/technor",
+      "variants": [
+        {
+          "name": "Technor Extralight, Light, Regular, Medium, Semibold, Bold, …",
+          "weight": 900,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/technor"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "rowan": {
+      "name": "Rowan",
+      "family": "Rowan",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Inga Plönnigs",
+      "foundry": "Indian Type Foundry",
+      "version": "1.0",
+      "description": "Rowan is a family of serif fonts intended for setting long passages of text for immersive reading. It can be used in both normal text sizes, and really small sizes, too. This is due to its particularly chunky serifs and stroke-endings. The family features five different weights, ranging from Light through Bold. Even in the Light weight, Rowan’s unique serif and stroke-ending-structure give the text a degree of visible stroke contrast. Each weight has an upright and an italic font on offer. The default numerals in each font are oldstyle figures; however, lining figures are also available via an OpenType feature. Via a Stylistic Set, users can access a set of glyphs where the ascending lowercase letters (‘b’, ‘d’, ‘h’, ‘k’, and ‘l’) have no top-serifs; however, even without those serifs, the letters maintain their correct color, thanks to the swelling flairs at the tops of their stems. Each Rowan font also includes a full range of raised punctuation marks for all-caps typesetting. Rowan…",
       "categories": [
         "Serif"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2021-03-12T20:33:23Z",
-      "metadata_url": "https://www.fontshare.com/fonts/gambetta",
-      "source_url": "https://www.fontshare.com/fonts/gambetta",
+      "last_modified": "2021-03-12T20:45:06Z",
+      "metadata_url": "https://www.fontshare.com/fonts/rowan",
+      "source_url": "https://www.fontshare.com/fonts/rowan",
       "variants": [
         {
-          "name": "Gambetta Light, Light Italic, Regular, Italic, Medium, Medium Italic, …",
+          "name": "Rowan Light, Light Italic, Regular, Italic, Medium, Medium Italic, …",
           "weight": 700,
           "style": "italic",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/gambetta"
+            "zip": "https://api.fontshare.com/v2/fonts/download/rowan"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "gambarino": {
+      "name": "Gambarino",
+      "family": "Gambarino",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Théo Guillard",
+      "foundry": "Indian Type Foundry",
+      "version": "1.0",
+      "description": "Gambarino is a condensed, single-weight serif face for headlines. The font is designed by Théo Guillard. Stylistically, you could call it a post-modern interpretation of the Garalde genre. Gambarino is different enough from most serif typefaces designed for text that you could combine it with another Garalde easily; that other font would set the body text, while Gambarino would shine in the headlines. Gambarino’s serifs are exquisitely fine; they are paired with teardrop terminals, such as on the ‘a’, ‘f’, and ‘y’. The capital letters are top-heavy; the bowls and counterforms in the upper portions of each letter are larger than the lower ones. This is visible, especially, in the letters ‘B’, ‘E’, ‘F’, ‘P’, and ‘R’. The trait is not quite carried on into the lowercase, but the design of the ‘a’ really harmonises with these unique capital letters anyway. Gambarino’s lowercase features a tall x-height, and what can only be described as ‘microscopic’ descenders. The descenders are all muc…",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:32:41Z",
+      "metadata_url": "https://www.fontshare.com/fonts/gambarino",
+      "source_url": "https://www.fontshare.com/fonts/gambarino",
+      "variants": [
+        {
+          "name": "Gambarino Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/gambarino"
           }
         }
       ],
@@ -1301,67 +1301,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "dancing-script": {
-      "name": "Dancing Script",
-      "family": "Dancing Script",
+    "poppins": {
+      "name": "Poppins",
+      "family": "Poppins",
       "license": "OFL",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Impallari Type",
-      "foundry": "Fontshare",
-      "version": "2.0",
-      "description": "<div>Dancing Script is a lively casual script where the letters bounce and change size slightly. Caps are big, and goes below the baseline. Dancing Script references popular scripts typefaces from the 50's. It relates to Murray Hill (Emil Klumpp. 1956) in his weight distribution, and to Mistral (Roger Excoffon. 1953) in his lively bouncing effect. Use it when you want a friendly, informal and spontaneous look. Dancing Script was designed by Pablo Impallari of Impallari Type. <br><br>Dancing Script is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/impallari/DancingScript\">here</a>.<br><br></div><div><br></div><h1><br></h1><div><br></div>",
-      "categories": [
-        "Script"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-22T16:07:57Z",
-      "metadata_url": "https://www.fontshare.com/fonts/dancing-script",
-      "source_url": "https://www.fontshare.com/fonts/dancing-script",
-      "variants": [
-        {
-          "name": "Dancing Script Regular, Bold, Variable",
-          "weight": 700,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/dancing-script"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "bebas-neue": {
-      "name": "Bebas Neue",
-      "family": "Bebas Neue",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Ryoichi Tsunekawa, Dharma Type",
-      "foundry": "Fontshare",
-      "version": "2.0",
-      "description": "<div>Bebas Neue is a display font for headlines, captions, and titling designed by <a href=\"https://dharmatype.com/\">Ryoichi Tsunekawa</a> of Dharma Type.&nbsp; <br><br>Bebas Neue is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/dharmatype/Bebas-Neue\">here</a> or visit <a href=\"https://bebasneue.com/\">http://bebasneue.com</a><br><br></div><div><br></div><div><br></div>",
+      "designer": "Jonny Pinhorn, Indian Type Foundry",
+      "foundry": "Indian Type Foundry",
+      "version": "6.0",
+      "description": "<div>Geometric sans serif typefaces have been a popular design tool ever since these actors took to the world’s stage. Poppins is one of the new comers to this long tradition. Many of the glyphs are more constructed and rationalist than is typical. Each letterform is nearly monolinear, with optical corrections applied to stroke joints where necessary to maintain an even typographic color. <br><br>Poppins is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/itfoundry/poppins\">here</a>.</div>",
       "categories": [
         "Sans Serif"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2022-05-22T16:06:17Z",
-      "metadata_url": "https://www.fontshare.com/fonts/bebas-neue",
-      "source_url": "https://www.fontshare.com/fonts/bebas-neue",
+      "last_modified": "2022-05-21T14:01:17Z",
+      "metadata_url": "https://www.fontshare.com/fonts/poppins",
+      "source_url": "https://www.fontshare.com/fonts/poppins",
       "variants": [
         {
-          "name": "Bebas Neue Regular",
-          "weight": 400,
-          "style": "normal",
+          "name": "Poppins Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
+          "weight": 900,
+          "style": "italic",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/bebas-neue"
+            "zip": "https://api.fontshare.com/v2/fonts/download/poppins"
           }
         }
       ],
@@ -1403,33 +1369,67 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "poppins": {
-      "name": "Poppins",
-      "family": "Poppins",
+    "bebas-neue": {
+      "name": "Bebas Neue",
+      "family": "Bebas Neue",
       "license": "OFL",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Jonny Pinhorn, Indian Type Foundry",
-      "foundry": "Indian Type Foundry",
-      "version": "6.0",
-      "description": "<div>Geometric sans serif typefaces have been a popular design tool ever since these actors took to the world’s stage. Poppins is one of the new comers to this long tradition. Many of the glyphs are more constructed and rationalist than is typical. Each letterform is nearly monolinear, with optical corrections applied to stroke joints where necessary to maintain an even typographic color. <br><br>Poppins is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/itfoundry/poppins\">here</a>.</div>",
+      "designer": "Ryoichi Tsunekawa, Dharma Type",
+      "foundry": "Fontshare",
+      "version": "2.0",
+      "description": "<div>Bebas Neue is a display font for headlines, captions, and titling designed by <a href=\"https://dharmatype.com/\">Ryoichi Tsunekawa</a> of Dharma Type.&nbsp; <br><br>Bebas Neue is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/dharmatype/Bebas-Neue\">here</a> or visit <a href=\"https://bebasneue.com/\">http://bebasneue.com</a><br><br></div><div><br></div><div><br></div>",
       "categories": [
         "Sans Serif"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2022-05-21T14:01:17Z",
-      "metadata_url": "https://www.fontshare.com/fonts/poppins",
-      "source_url": "https://www.fontshare.com/fonts/poppins",
+      "last_modified": "2022-05-22T16:06:17Z",
+      "metadata_url": "https://www.fontshare.com/fonts/bebas-neue",
+      "source_url": "https://www.fontshare.com/fonts/bebas-neue",
       "variants": [
         {
-          "name": "Poppins Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
-          "weight": 900,
-          "style": "italic",
+          "name": "Bebas Neue Regular",
+          "weight": 400,
+          "style": "normal",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/poppins"
+            "zip": "https://api.fontshare.com/v2/fonts/download/bebas-neue"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "dancing-script": {
+      "name": "Dancing Script",
+      "family": "Dancing Script",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "Impallari Type",
+      "foundry": "Fontshare",
+      "version": "2.0",
+      "description": "<div>Dancing Script is a lively casual script where the letters bounce and change size slightly. Caps are big, and goes below the baseline. Dancing Script references popular scripts typefaces from the 50's. It relates to Murray Hill (Emil Klumpp. 1956) in his weight distribution, and to Mistral (Roger Excoffon. 1953) in his lively bouncing effect. Use it when you want a friendly, informal and spontaneous look. Dancing Script was designed by Pablo Impallari of Impallari Type. <br><br>Dancing Script is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/impallari/DancingScript\">here</a>.<br><br></div><div><br></div><h1><br></h1><div><br></div>",
+      "categories": [
+        "Script"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-22T16:07:57Z",
+      "metadata_url": "https://www.fontshare.com/fonts/dancing-script",
+      "source_url": "https://www.fontshare.com/fonts/dancing-script",
+      "variants": [
+        {
+          "name": "Dancing Script Regular, Bold, Variable",
+          "weight": 700,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/dancing-script"
           }
         }
       ],
@@ -1471,169 +1471,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "spline-sans": {
-      "name": "Spline Sans",
-      "family": "Spline Sans",
+    "plus-jakarta-sans": {
+      "name": "Plus Jakarta Sans",
+      "family": "Plus Jakarta Sans",
       "license": "OFL",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Eben Sorkin, Mirko Velimirović",
+      "designer": "Tokotype",
       "foundry": "Fontshare",
-      "version": "1.001",
-      "description": "<div>Spline Sans is a Grotesque purpose-built for UI interfaces, checkout processes, and paragraphs of text. Space efficiency is accomplished by condensing traditional grotesque proportions. The cool and restrained tone is accented with strategic \"thorn\" traps, which blossom into view when set at larger sizes.<br><br></div><div>Spline Sans is an original typeface initiated by the <a href=\"https://spline.design/\">Spline Team</a> and designed by Eben Sorkin and Mirko Velimirovic. Project manager: Faride Mereb; Testing and design feedback: Gonçalo Teixeira; Concept: Alejandro León.<br><br></div><div>Spline Sans supports Google Core, Google Plus, Google Pro, Plus Optional, and Pro optional glyph sets, enabling the typesetting of English, and Western European languages.<br><br>Spline Sans is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/SorkinType/SplineSans\">here</a>.<br><br></div><div><br></div><div><br></div>",
+      "version": "2.006",
+      "description": "<div>Plus Jakarta Sans is a font family that takes geometric sans serif styles, designed by Gumpita Rahayu from Tokotype, the fonts were originally commissioned by 6616 Studio for Jakarta Provincial Government program's +Jakarta City of Collaboration identity in 2020.<br><br></div><div>Taking part of inspiration such as Neuzit Grotesk, Futura, and 1930s grotesque sans serif with almost monoline contrast and pointy curves, the fonts consist modern and clean cut forms, the x-height dimension slight taller to provide clear spaces between caps and x-height, this also equipped with open counter and balanced spaces to preserve the legibility at a range of sizes.<br><br></div><div>The beauty of diversity captured in typography. Like the city itself, the unique points of this fonts is that in some glyphs has its own diversity and characteristic of various explorations of forms that enrich the expressions and stories that coexist. The charms of Plus Jakarta Sans fonts appear when one looks clo…",
       "categories": [
         "Sans Serif"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2022-05-23T12:36:55Z",
-      "metadata_url": "https://www.fontshare.com/fonts/spline-sans",
-      "source_url": "https://www.fontshare.com/fonts/spline-sans",
+      "last_modified": "2022-05-23T12:40:41Z",
+      "metadata_url": "https://www.fontshare.com/fonts/plus-jakarta-sans",
+      "source_url": "https://www.fontshare.com/fonts/plus-jakarta-sans",
       "variants": [
         {
-          "name": "Spline Sans Light, Regular, Medium, Semi Bold, Bold, Variable",
-          "weight": 700,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/spline-sans"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "montserrat": {
-      "name": "Montserrat",
-      "family": "Montserrat",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly",
-      "foundry": "Fontshare",
-      "version": "7.222",
-      "description": "<div>Julieta Ulanovsky began this project in 2010 while a post-graduate student of typeface design at the FADU, University of Buenos Aires. She launched it as a Kickstarter project in 2011, in order to complete the first public release and share it with the world through Google Fonts.&nbsp;<br><br></div><div>Since then it has been developed by Julieta in collaboration with several designers. In 2015, a full set of weights and italics were developed by Julieta in collaboration with Ale Paul, Carolina Giovagnoli, Andrés Torresi, Juan Pablo del Peral and Sol Matas. In 2017, Jacques Le Bailly reworked the entire Latin design, and in parallel Juan Pablo del Peral and Sol Matas developed the initial Cyrillic extension with review and advise from Maria Doreuli and Alexei Vanyashin. Technical reviews were made by Lasse Fister, Kalapi GajjarBordawekar and Marc Foley. Special thanks also to Thomas Linard, Valeria Dulitzky, Belén Quirós, and Germán Rozo.<br><br></div><div>Montserrat is licensed…",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-23T12:48:21Z",
-      "metadata_url": "https://www.fontshare.com/fonts/montserrat",
-      "source_url": "https://www.fontshare.com/fonts/montserrat",
-      "variants": [
-        {
-          "name": "Montserrat Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
-          "weight": 900,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/montserrat"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "epilogue": {
-      "name": "Epilogue",
-      "family": "Epilogue",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Tyler Finck, Etcetera Type Co",
-      "foundry": "Fontshare",
-      "version": "2.112",
-      "description": "<div>Epilogue is a sans serif typeface family in 18 styles (9 Uprights + 9 Italics). It also has a variable style with weight axis. The family supports a wide range of languages in the latin script scope.</div><div><br>This project is led by Tyler Finck, a type designer running <a href=\"https://www.etc.supply/\">Etcetera Type Co</a> in Ithaca, New-York, USA. <br><br>Epilogue is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/Etcetera-Type-Co/Epilogue\">here</a>.</div><div><br></div>",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-22T16:09:28Z",
-      "metadata_url": "https://www.fontshare.com/fonts/epilogue",
-      "source_url": "https://www.fontshare.com/fonts/epilogue",
-      "variants": [
-        {
-          "name": "Epilogue Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
-          "weight": 900,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/epilogue"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "jetbrains-mono": {
-      "name": "JetBrains Mono",
-      "family": "JetBrains Mono",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "JetBrains, Philipp Nurullin, Konstantin Bulenkov",
-      "foundry": "Fontshare",
-      "version": "2.251",
-      "description": "<div>JetBrains Mono is a typeface family designed for developers. JetBrains Mono is available as a standalone download, and is also bundled in all JetBrains IDEs. .<br><br></div><div>Default version of JetBrains Mono comes with OpenType features and ligatures (which can always be toggled on &amp; off in the settings). If your IDE doesn’t support OpenType, use a special version of the font — <a href=\"https://github.com/JetBrains/JetBrainsMono/tree/master/fonts/ttf\">JetBrains Mono NL</a>, which doesn’t include any ligatures.<br><br>JetBrains Mono is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/JetBrains/JetBrainsMono\">here</a> or on its beautiful <a href=\"https://www.jetbrains.com/lp/mono/\">minisite</a>.&nbsp;<br><br></div><h1><br></h1><div><strong><br></strong><br></div>",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-23T07:33:53Z",
-      "metadata_url": "https://www.fontshare.com/fonts/jet-brains-mono",
-      "source_url": "https://www.fontshare.com/fonts/jet-brains-mono",
-      "variants": [
-        {
-          "name": "JetBrains Mono Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
+          "name": "Plus Jakarta Sans Extra Light, Extra Light Italic, Light, Light Italic, Regular, Italic, …",
           "weight": 800,
           "style": "italic",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/jet-brains-mono"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "crimson-pro": {
-      "name": "Crimson Pro",
-      "family": "Crimson Pro",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Jacques Le Bailly",
-      "foundry": "Fontshare",
-      "version": "1.003",
-      "description": "<div>Crimson Pro a professionally produced redesign of <a href=\"https://github.com/skosch/Crimson\">Crimson</a> by Jacques Le Bailly (@Fonthausen), commissioned by Google. This new Crimson is a fresh take on the original version and the result of months of painstaking work to perfect colour, glyph balance and legibility.<br><br></div><div>Crimson Pro is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/Fonthausen/CrimsonPro\">here</a>.<br><br></div>",
-      "categories": [
-        "Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-22T16:07:43Z",
-      "metadata_url": "https://www.fontshare.com/fonts/crimson-pro",
-      "source_url": "https://www.fontshare.com/fonts/crimson-pro",
-      "variants": [
-        {
-          "name": "Crimson Pro Extra Light, Extra Light Italic, Light, Light Italic, Regular, Italic, …",
-          "weight": 900,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/crimson-pro"
+            "zip": "https://api.fontshare.com/v2/fonts/download/plus-jakarta-sans"
           }
         }
       ],
@@ -1675,67 +1539,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "plus-jakarta-sans": {
-      "name": "Plus Jakarta Sans",
-      "family": "Plus Jakarta Sans",
+    "azeret-mono": {
+      "name": "Azeret Mono",
+      "family": "Azeret Mono",
       "license": "OFL",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Tokotype",
+      "designer": "Displaay, Martin Vácha, Daniel Quisek",
       "foundry": "Fontshare",
-      "version": "2.006",
-      "description": "<div>Plus Jakarta Sans is a font family that takes geometric sans serif styles, designed by Gumpita Rahayu from Tokotype, the fonts were originally commissioned by 6616 Studio for Jakarta Provincial Government program's +Jakarta City of Collaboration identity in 2020.<br><br></div><div>Taking part of inspiration such as Neuzit Grotesk, Futura, and 1930s grotesque sans serif with almost monoline contrast and pointy curves, the fonts consist modern and clean cut forms, the x-height dimension slight taller to provide clear spaces between caps and x-height, this also equipped with open counter and balanced spaces to preserve the legibility at a range of sizes.<br><br></div><div>The beauty of diversity captured in typography. Like the city itself, the unique points of this fonts is that in some glyphs has its own diversity and characteristic of various explorations of forms that enrich the expressions and stories that coexist. The charms of Plus Jakarta Sans fonts appear when one looks clo…",
+      "version": "1.002",
+      "description": "<div>Azeret Mono is a monospaced typeface with a mono-linear character. The story of the typeface began with a draft that was driven by an exploration of OCR fonts, past and futuristic operating systems, various interfaces and the nineties. The final result is more based on a desire to achieve an appearance of the typeface that could serve in operating systems. Thus the overall character is a conjunction of everything described with details that evoke a specific personality.</div><div><br>Azeret Mono is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/displaay/Azeret/\">here</a>.&nbsp;<br><br></div><div><br></div><div><br><br></div><div><br></div>",
       "categories": [
         "Sans Serif"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2022-05-23T12:40:41Z",
-      "metadata_url": "https://www.fontshare.com/fonts/plus-jakarta-sans",
-      "source_url": "https://www.fontshare.com/fonts/plus-jakarta-sans",
+      "last_modified": "2022-05-22T16:05:56Z",
+      "metadata_url": "https://www.fontshare.com/fonts/azeret-mono",
+      "source_url": "https://www.fontshare.com/fonts/azeret-mono",
       "variants": [
         {
-          "name": "Plus Jakarta Sans Extra Light, Extra Light Italic, Light, Light Italic, Regular, Italic, …",
-          "weight": 800,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/plus-jakarta-sans"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "fira-sans": {
-      "name": "Fira Sans",
-      "family": "Fira Sans",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Carrois Apostrophe",
-      "foundry": "Fontshare",
-      "version": "4.202",
-      "description": "<div>Designed to integrate with the character of the Mozilla FirefoxOS, the Fira typefaces also aim to cover the legibility needs for a large range of handsets varying in screen quality and rendering.</div><div><br></div><div>This project is led by <a href=\"https://carrois.com/\">Carrois</a>, a type foundry based in Berlin. <br><br>Fira Sans is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/mozilla/Fira\">here</a>.&nbsp;</div><div><br></div>",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-23T06:19:47Z",
-      "metadata_url": "https://www.fontshare.com/fonts/fira-sans",
-      "source_url": "https://www.fontshare.com/fonts/fira-sans",
-      "variants": [
-        {
-          "name": "Fira Sans Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
+          "name": "Azeret Mono Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
           "weight": 900,
           "style": "italic",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/fira-sans"
+            "zip": "https://api.fontshare.com/v2/fonts/download/azeret-mono"
           }
         }
       ],
@@ -1743,67 +1573,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "work-sans": {
-      "name": "Work Sans",
-      "family": "Work Sans",
+    "spline-sans": {
+      "name": "Spline Sans",
+      "family": "Spline Sans",
       "license": "OFL",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Wei Huang",
+      "designer": "Eben Sorkin, Mirko Velimirović",
       "foundry": "Fontshare",
-      "version": "2.012",
-      "description": "<div>Work Sans is a typeface family based loosely on early Grotesques, such as those by <a href=\"https://www.flickr.com/photos/stewf/14444337254/\">Stephenson Blake</a>, <a href=\"https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/\">Miller &amp; Richard</a> and <a href=\"https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up\">Bauerschen Giesserei</a>. The Regular weight and others in the middle of the family are optimised for on-screen text usage at medium-sizes (14px-48px) and can also be used in print design. The fonts closer to the extreme weights are designed more for display use both on the web and in print. Overall, features are simplified and optimised for screen resolutions; for example, diacritic marks are larger than how they would be in print. Work Sans was designed by Wei Huang, a type designer from Australia. <br><br>Work Sans is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://gith…",
+      "version": "1.001",
+      "description": "<div>Spline Sans is a Grotesque purpose-built for UI interfaces, checkout processes, and paragraphs of text. Space efficiency is accomplished by condensing traditional grotesque proportions. The cool and restrained tone is accented with strategic \"thorn\" traps, which blossom into view when set at larger sizes.<br><br></div><div>Spline Sans is an original typeface initiated by the <a href=\"https://spline.design/\">Spline Team</a> and designed by Eben Sorkin and Mirko Velimirovic. Project manager: Faride Mereb; Testing and design feedback: Gonçalo Teixeira; Concept: Alejandro León.<br><br></div><div>Spline Sans supports Google Core, Google Plus, Google Pro, Plus Optional, and Pro optional glyph sets, enabling the typesetting of English, and Western European languages.<br><br>Spline Sans is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/SorkinType/SplineSans\">here</a>.<br><br></div><div><br></div><div><br></div>",
       "categories": [
         "Sans Serif"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2022-05-23T08:16:46Z",
-      "metadata_url": "https://www.fontshare.com/fonts/work-sans",
-      "source_url": "https://www.fontshare.com/fonts/work-sans",
+      "last_modified": "2022-05-23T12:36:55Z",
+      "metadata_url": "https://www.fontshare.com/fonts/spline-sans",
+      "source_url": "https://www.fontshare.com/fonts/spline-sans",
       "variants": [
         {
-          "name": "Work Sans Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
-          "weight": 900,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/work-sans"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "lora": {
-      "name": "Lora",
-      "family": "Lora",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Cyreal, Olga Karpushina, Alexei Vanyashin",
-      "foundry": "Fontshare",
-      "version": "3.004",
-      "description": "<div>Lora is a well-balanced contemporary serif with roots in calligraphy. It is a text typeface with moderate contrast well suited for body text. A paragraph set in Lora will make a memorable appearance because of its brushed curves in contrast with driving serifs. The overall typographic voice of Lora perfectly conveys the mood of a modern-day story, or an art essay.<br><br></div><div>Technically Lora is optimised for screen appearance, and works equally well in print. Designed by Olga Karpushina, and Alexei Vanyashin for Cyreal. Released in 2011 with contributions and assistance from Gayaneh Bagdasaryan.<br><br>Lora is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/cyrealtype/Lora-Cyrillic\">here</a>.</div><div><br></div><div><br></div>",
-      "categories": [
-        "Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-23T07:38:27Z",
-      "metadata_url": "https://www.fontshare.com/fonts/lora",
-      "source_url": "https://www.fontshare.com/fonts/lora",
-      "variants": [
-        {
-          "name": "Lora Regular, Italic, Medium, Medium Italic, Semi Bold, Semi Bold Italic, …",
+          "name": "Spline Sans Light, Regular, Medium, Semi Bold, Bold, Variable",
           "weight": 700,
-          "style": "italic",
+          "style": "normal",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/lora"
+            "zip": "https://api.fontshare.com/v2/fonts/download/spline-sans"
           }
         }
       ],
@@ -1838,74 +1634,6 @@
           ],
           "files": {
             "zip": "https://api.fontshare.com/v2/fonts/download/nunito"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "public-sans": {
-      "name": "Public Sans",
-      "family": "Public Sans",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Pablo Impallari, Rodrigo Fuenzalida, Dan Williams, USWDS",
-      "foundry": "Fontshare",
-      "version": "2.001",
-      "description": "<div>Public Sans is a strong, neutral typeface for interfaces, text, and headings. Developed by the United States Web Design System. This typeface is based on <a href=\"https://github.com/impallari/Libre-Franklin\">Libre Franklin</a>. <br><br>Public Sans is licensed under the SIL Open Font License. You can find more details about this project <a href=\"https://github.com/uswds/public-sans\">here</a>.<br><br></div><div><br></div><div><br></div>",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-23T12:39:20Z",
-      "metadata_url": "https://www.fontshare.com/fonts/public-sans",
-      "source_url": "https://www.fontshare.com/fonts/public-sans",
-      "variants": [
-        {
-          "name": "Public Sans Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
-          "weight": 900,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/public-sans"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "asap": {
-      "name": "Asap",
-      "family": "Asap",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Omnibus-Type",
-      "foundry": "Fontshare",
-      "version": "3.001",
-      "description": "<div>Asap is a contemporary sans-serif family with subtle rounded corners. Designed by Pablo Cosgaya, Asap (\"as soon as possible\") there are 8 styles: Regular, Italic, Medium, Medium Italic, Semibold, Semibold Italic, Bold, and Bold Italic. This family, specially developed for screen and desktop use, offers a standarised character width on all styles, which means lines of text remain the same length. This useful feature allows users to change type styles on-the-go without reflowing a text body.&nbsp;<br><br>Asap is based on Ancha (designed by Pablo Cosgaya &amp; Héctor Gatti), and has been developed with the collaboration of Andrés Torresi, Nicolás Silva and Yorlmar Campos.<br><br></div><div>Asap is licensed under the SIL Open Font License. You can find more details about this project <a href=\"https://github.com/Omnibus-Type/Asap\">here</a>.</div><div><br></div>",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-22T16:03:20Z",
-      "metadata_url": "https://www.fontshare.com/fonts/asap",
-      "source_url": "https://www.fontshare.com/fonts/asap",
-      "variants": [
-        {
-          "name": "Asap Regular, Italic, Medium, Medium Italic, Semi Bold, Semi Bold Italic, …",
-          "weight": 700,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/asap"
           }
         }
       ],
@@ -1981,33 +1709,305 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "azeret-mono": {
-      "name": "Azeret Mono",
-      "family": "Azeret Mono",
+    "epilogue": {
+      "name": "Epilogue",
+      "family": "Epilogue",
       "license": "OFL",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Displaay, Martin Vácha, Daniel Quisek",
+      "designer": "Tyler Finck, Etcetera Type Co",
       "foundry": "Fontshare",
-      "version": "1.002",
-      "description": "<div>Azeret Mono is a monospaced typeface with a mono-linear character. The story of the typeface began with a draft that was driven by an exploration of OCR fonts, past and futuristic operating systems, various interfaces and the nineties. The final result is more based on a desire to achieve an appearance of the typeface that could serve in operating systems. Thus the overall character is a conjunction of everything described with details that evoke a specific personality.</div><div><br>Azeret Mono is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/displaay/Azeret/\">here</a>.&nbsp;<br><br></div><div><br></div><div><br><br></div><div><br></div>",
+      "version": "2.112",
+      "description": "<div>Epilogue is a sans serif typeface family in 18 styles (9 Uprights + 9 Italics). It also has a variable style with weight axis. The family supports a wide range of languages in the latin script scope.</div><div><br>This project is led by Tyler Finck, a type designer running <a href=\"https://www.etc.supply/\">Etcetera Type Co</a> in Ithaca, New-York, USA. <br><br>Epilogue is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/Etcetera-Type-Co/Epilogue\">here</a>.</div><div><br></div>",
       "categories": [
         "Sans Serif"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2022-05-22T16:05:56Z",
-      "metadata_url": "https://www.fontshare.com/fonts/azeret-mono",
-      "source_url": "https://www.fontshare.com/fonts/azeret-mono",
+      "last_modified": "2022-05-22T16:09:28Z",
+      "metadata_url": "https://www.fontshare.com/fonts/epilogue",
+      "source_url": "https://www.fontshare.com/fonts/epilogue",
       "variants": [
         {
-          "name": "Azeret Mono Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
+          "name": "Epilogue Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
           "weight": 900,
           "style": "italic",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/azeret-mono"
+            "zip": "https://api.fontshare.com/v2/fonts/download/epilogue"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "montserrat": {
+      "name": "Montserrat",
+      "family": "Montserrat",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly",
+      "foundry": "Fontshare",
+      "version": "7.222",
+      "description": "<div>Julieta Ulanovsky began this project in 2010 while a post-graduate student of typeface design at the FADU, University of Buenos Aires. She launched it as a Kickstarter project in 2011, in order to complete the first public release and share it with the world through Google Fonts.&nbsp;<br><br></div><div>Since then it has been developed by Julieta in collaboration with several designers. In 2015, a full set of weights and italics were developed by Julieta in collaboration with Ale Paul, Carolina Giovagnoli, Andrés Torresi, Juan Pablo del Peral and Sol Matas. In 2017, Jacques Le Bailly reworked the entire Latin design, and in parallel Juan Pablo del Peral and Sol Matas developed the initial Cyrillic extension with review and advise from Maria Doreuli and Alexei Vanyashin. Technical reviews were made by Lasse Fister, Kalapi GajjarBordawekar and Marc Foley. Special thanks also to Thomas Linard, Valeria Dulitzky, Belén Quirós, and Germán Rozo.<br><br></div><div>Montserrat is licensed…",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-23T12:48:21Z",
+      "metadata_url": "https://www.fontshare.com/fonts/montserrat",
+      "source_url": "https://www.fontshare.com/fonts/montserrat",
+      "variants": [
+        {
+          "name": "Montserrat Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
+          "weight": 900,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/montserrat"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "jetbrains-mono": {
+      "name": "JetBrains Mono",
+      "family": "JetBrains Mono",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "JetBrains, Philipp Nurullin, Konstantin Bulenkov",
+      "foundry": "Fontshare",
+      "version": "2.251",
+      "description": "<div>JetBrains Mono is a typeface family designed for developers. JetBrains Mono is available as a standalone download, and is also bundled in all JetBrains IDEs. .<br><br></div><div>Default version of JetBrains Mono comes with OpenType features and ligatures (which can always be toggled on &amp; off in the settings). If your IDE doesn’t support OpenType, use a special version of the font — <a href=\"https://github.com/JetBrains/JetBrainsMono/tree/master/fonts/ttf\">JetBrains Mono NL</a>, which doesn’t include any ligatures.<br><br>JetBrains Mono is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/JetBrains/JetBrainsMono\">here</a> or on its beautiful <a href=\"https://www.jetbrains.com/lp/mono/\">minisite</a>.&nbsp;<br><br></div><h1><br></h1><div><strong><br></strong><br></div>",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-23T07:33:53Z",
+      "metadata_url": "https://www.fontshare.com/fonts/jet-brains-mono",
+      "source_url": "https://www.fontshare.com/fonts/jet-brains-mono",
+      "variants": [
+        {
+          "name": "JetBrains Mono Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
+          "weight": 800,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/jet-brains-mono"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "work-sans": {
+      "name": "Work Sans",
+      "family": "Work Sans",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "Wei Huang",
+      "foundry": "Fontshare",
+      "version": "2.012",
+      "description": "<div>Work Sans is a typeface family based loosely on early Grotesques, such as those by <a href=\"https://www.flickr.com/photos/stewf/14444337254/\">Stephenson Blake</a>, <a href=\"https://archive.org/stream/printingtypespec00millrich#page/226/mode/2up/\">Miller &amp; Richard</a> and <a href=\"https://archive.org/stream/hauptprobeingedr00baue#page/109/mode/1up\">Bauerschen Giesserei</a>. The Regular weight and others in the middle of the family are optimised for on-screen text usage at medium-sizes (14px-48px) and can also be used in print design. The fonts closer to the extreme weights are designed more for display use both on the web and in print. Overall, features are simplified and optimised for screen resolutions; for example, diacritic marks are larger than how they would be in print. Work Sans was designed by Wei Huang, a type designer from Australia. <br><br>Work Sans is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://gith…",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-23T08:16:46Z",
+      "metadata_url": "https://www.fontshare.com/fonts/work-sans",
+      "source_url": "https://www.fontshare.com/fonts/work-sans",
+      "variants": [
+        {
+          "name": "Work Sans Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
+          "weight": 900,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/work-sans"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "crimson-pro": {
+      "name": "Crimson Pro",
+      "family": "Crimson Pro",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "Jacques Le Bailly",
+      "foundry": "Fontshare",
+      "version": "1.003",
+      "description": "<div>Crimson Pro a professionally produced redesign of <a href=\"https://github.com/skosch/Crimson\">Crimson</a> by Jacques Le Bailly (@Fonthausen), commissioned by Google. This new Crimson is a fresh take on the original version and the result of months of painstaking work to perfect colour, glyph balance and legibility.<br><br></div><div>Crimson Pro is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/Fonthausen/CrimsonPro\">here</a>.<br><br></div>",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-22T16:07:43Z",
+      "metadata_url": "https://www.fontshare.com/fonts/crimson-pro",
+      "source_url": "https://www.fontshare.com/fonts/crimson-pro",
+      "variants": [
+        {
+          "name": "Crimson Pro Extra Light, Extra Light Italic, Light, Light Italic, Regular, Italic, …",
+          "weight": 900,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/crimson-pro"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "asap": {
+      "name": "Asap",
+      "family": "Asap",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "Omnibus-Type",
+      "foundry": "Fontshare",
+      "version": "3.001",
+      "description": "<div>Asap is a contemporary sans-serif family with subtle rounded corners. Designed by Pablo Cosgaya, Asap (\"as soon as possible\") there are 8 styles: Regular, Italic, Medium, Medium Italic, Semibold, Semibold Italic, Bold, and Bold Italic. This family, specially developed for screen and desktop use, offers a standarised character width on all styles, which means lines of text remain the same length. This useful feature allows users to change type styles on-the-go without reflowing a text body.&nbsp;<br><br>Asap is based on Ancha (designed by Pablo Cosgaya &amp; Héctor Gatti), and has been developed with the collaboration of Andrés Torresi, Nicolás Silva and Yorlmar Campos.<br><br></div><div>Asap is licensed under the SIL Open Font License. You can find more details about this project <a href=\"https://github.com/Omnibus-Type/Asap\">here</a>.</div><div><br></div>",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-22T16:03:20Z",
+      "metadata_url": "https://www.fontshare.com/fonts/asap",
+      "source_url": "https://www.fontshare.com/fonts/asap",
+      "variants": [
+        {
+          "name": "Asap Regular, Italic, Medium, Medium Italic, Semi Bold, Semi Bold Italic, …",
+          "weight": 700,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/asap"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "public-sans": {
+      "name": "Public Sans",
+      "family": "Public Sans",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "Pablo Impallari, Rodrigo Fuenzalida, Dan Williams, USWDS",
+      "foundry": "Fontshare",
+      "version": "2.001",
+      "description": "<div>Public Sans is a strong, neutral typeface for interfaces, text, and headings. Developed by the United States Web Design System. This typeface is based on <a href=\"https://github.com/impallari/Libre-Franklin\">Libre Franklin</a>. <br><br>Public Sans is licensed under the SIL Open Font License. You can find more details about this project <a href=\"https://github.com/uswds/public-sans\">here</a>.<br><br></div><div><br></div><div><br></div>",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-23T12:39:20Z",
+      "metadata_url": "https://www.fontshare.com/fonts/public-sans",
+      "source_url": "https://www.fontshare.com/fonts/public-sans",
+      "variants": [
+        {
+          "name": "Public Sans Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
+          "weight": 900,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/public-sans"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "lora": {
+      "name": "Lora",
+      "family": "Lora",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "Cyreal, Olga Karpushina, Alexei Vanyashin",
+      "foundry": "Fontshare",
+      "version": "3.004",
+      "description": "<div>Lora is a well-balanced contemporary serif with roots in calligraphy. It is a text typeface with moderate contrast well suited for body text. A paragraph set in Lora will make a memorable appearance because of its brushed curves in contrast with driving serifs. The overall typographic voice of Lora perfectly conveys the mood of a modern-day story, or an art essay.<br><br></div><div>Technically Lora is optimised for screen appearance, and works equally well in print. Designed by Olga Karpushina, and Alexei Vanyashin for Cyreal. Released in 2011 with contributions and assistance from Gayaneh Bagdasaryan.<br><br>Lora is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/cyrealtype/Lora-Cyrillic\">here</a>.</div><div><br></div><div><br></div>",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-23T07:38:27Z",
+      "metadata_url": "https://www.fontshare.com/fonts/lora",
+      "source_url": "https://www.fontshare.com/fonts/lora",
+      "variants": [
+        {
+          "name": "Lora Regular, Italic, Medium, Medium Italic, Semi Bold, Semi Bold Italic, …",
+          "weight": 700,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/lora"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "fira-sans": {
+      "name": "Fira Sans",
+      "family": "Fira Sans",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "Carrois Apostrophe",
+      "foundry": "Fontshare",
+      "version": "4.202",
+      "description": "<div>Designed to integrate with the character of the Mozilla FirefoxOS, the Fira typefaces also aim to cover the legibility needs for a large range of handsets varying in screen quality and rendering.</div><div><br></div><div>This project is led by <a href=\"https://carrois.com/\">Carrois</a>, a type foundry based in Berlin. <br><br>Fira Sans is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/mozilla/Fira\">here</a>.&nbsp;</div><div><br></div>",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-23T06:19:47Z",
+      "metadata_url": "https://www.fontshare.com/fonts/fira-sans",
+      "source_url": "https://www.fontshare.com/fonts/fira-sans",
+      "variants": [
+        {
+          "name": "Fira Sans Thin, Thin Italic, Extra Light, Extra Light Italic, Light, Light Italic, …",
+          "weight": 900,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/fira-sans"
           }
         }
       ],
@@ -2049,169 +2049,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "kola": {
-      "name": "Kola",
-      "family": "Kola",
+    "nippo": {
+      "name": "Nippo",
+      "family": "Nippo",
       "license": "ITF FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Jean-Baptiste Morizot",
+      "designer": "Manushi Parikh",
       "foundry": "Indian Type Foundry",
       "version": "1.0",
-      "description": "Kola is a technoid stencil-style sans serif font. All of the stroke endings in Kola’s glyphs are rounded, and the overall effect of Paris-based type designer Jean-Baptiste Morizot’s stencilling is a bit reminiscent of the kind of lettering used on LED displays. Kola’s lowercase letters have a large x-height, and the ascenders rise up to the same height as the tops of the font’s capital letters and numbers. Despite the x-height being tall, Kola’s diacritical marks are still huge. They tower above the ascenders, capital letters, and numbers, and are very legible and identifiable, even when the font is used in small sizes. In terms of proportion, Kola looks a bit like a contemporary condensed-style sans serif typeface. Many letters in the font have designs that are reduced; the ‘n’ for instance, is almost geometric. The capital ‘I’ and ‘J’ have contrasting designs so that they are easy to tell apart. The dynamic-placement of the stencil-bridges is particularly novel in Kola’s ‘K’, ‘j’, a…",
+      "description": "Nippo is a sans with an instantly-recognisable source of inspiration from the world of athletics. That’s right: this is a display typeface designed for sports jerseys! All the letterforms’ curves have been straightened out into horizontal and vertical lines, held together by some diagonal elements. While most letters from Fiedler have been drawn in a monolinear way, there are a few cases where strokes have been thinned down, to prevent the overall letterform from getting too dark. Have a look at the crossbars on the ‘a’ and ‘e’, for instance. Nippo includes several nice alternates. For instance, one Stylistic Set will replace the standard ‘G’ with a version that has an added beard, but no crossbar. Another includes an ‘L’ whose right-hand side curves up a bit. A third Stylistic Set has alternate forms for ‘M’ and ‘N’, while the fourth includes an alternate ‘R’, the fifth a ‘T’ with curled arms, and the sixth has a closed-topped ‘4’.",
       "categories": [
         "Display"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2021-03-12T20:35:28Z",
-      "metadata_url": "https://www.fontshare.com/fonts/kola",
-      "source_url": "https://www.fontshare.com/fonts/kola",
+      "last_modified": "2021-03-12T20:36:24Z",
+      "metadata_url": "https://www.fontshare.com/fonts/nippo",
+      "source_url": "https://www.fontshare.com/fonts/nippo",
       "variants": [
         {
-          "name": "Kola Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/kola"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "roundo": {
-      "name": "Roundo",
-      "family": "Roundo",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Indian Type Foundry",
-      "foundry": "Indian Type Foundry",
-      "version": "2.0",
-      "description": "<div>Roundo is a geometric sans serif typeface, optimized for headlines and other on-screen display-sized text. Roundo’s character set is made up of top-heavy letters; this reverse contrast is particularly visible in Roundo’s lowercase letters. The typeface’s lowercase also sports a nice hybridization of geometric sans and humanistic sans design features. Roundo’s capital letters, on the other hand, are more geometric. The x-height of Roundo’s lowercase is tall: this means that the design combines shorter capital letters with ascenders and descenders not long enough to distract the reader. The lowercase “a” takes a double-storey form, while the “g” is single-storey. Roundo’s ascenders are topped off with diagonal shears, adding dynamism to any text set with the typeface. All dots in the typeface – be they for punctuation or other marks – are round. 6 font styles make up the initial Roundo release: ExtraLight, Light, Regular, Medium, SemiBold, and Bold. Each font contains 408 glyphs. R…",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-21T14:01:58Z",
-      "metadata_url": "https://www.fontshare.com/fonts/roundo",
-      "source_url": "https://www.fontshare.com/fonts/roundo",
-      "variants": [
-        {
-          "name": "Roundo Extra Light, Light, Regular, Medium, Semi Bold, Bold, …",
+          "name": "Nippo Extralight, Light, Regular, Medium, Bold, Variable",
           "weight": 700,
           "style": "normal",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/roundo"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "pally": {
-      "name": "Pally",
-      "family": "Pally",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Indian Type Foundry",
-      "foundry": "Indian Type Foundry",
-      "version": "1.2",
-      "description": "Pally is a highly-informal sans serif design. Its three weights were designed by Jean-Baptiste Morizot. Pally’s letterforms are all a bit wobbly; the angles of many letters’ strokes are atypical – just look at the capital ‘A’ – and the left and right-hand-sides of many letters are not the same size or height (e.g., the lowercase ‘a’ and ‘n’). As a result, Pally has a lot more character than most sans serif typefaces. It could be an excellent choice for headlines or signage in children’s services projects, like family centers, pediatricians’ offices, primary schools, etc. Once you begin to understand the different rhythm that Pally offers, its underlying typographic sophistication becomes clear. The ascenders of the lowercase letters, rise above the heights of capital letters and numerals. The lowercase alphabet includes a double-storey ‘a’, a single-storey ‘g’, and a Jensonian ‘e’, with a diagonal stroke in its middle-section. Each Pally weight has been drawn in a more-or-less monolin…",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:36:39Z",
-      "metadata_url": "https://www.fontshare.com/fonts/pally",
-      "source_url": "https://www.fontshare.com/fonts/pally",
-      "variants": [
-        {
-          "name": "Pally Regular, Medium, Bold, Variable",
-          "weight": 700,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/pally"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "erode": {
-      "name": "Erode",
-      "family": "Erode",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Nikhil Ranganathan",
-      "foundry": "Indian Type Foundry",
-      "version": "1.022",
-      "description": "Named after a city in Tamil Nadu, Erode is a serif typeface for the Latin script. Its family includes five font weights, and all of them have clear stroke contrast. Their ascenders are long, and the letters’ counter forms are open. Erode is an excellent selection for editorial designers looking for a new typeface to set eye-catching pull quotes or headlines with. It is also an optimal selection for display text. Erode was developed in 2015 by Nikhil Ranganathan and ITF.",
-      "categories": [
-        "Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:32:16Z",
-      "metadata_url": "https://www.fontshare.com/fonts/erode",
-      "source_url": "https://www.fontshare.com/fonts/erode",
-      "variants": [
-        {
-          "name": "Erode Light, Light Italic, Regular, Italic, Medium, Medium Italic, …",
-          "weight": 700,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/erode"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "pencerio": {
-      "name": "Pencerio",
-      "family": "Pencerio",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Manushi Parikh",
-      "foundry": "Indian Type Foundry",
-      "version": "1.1",
-      "description": "Pencerio is a new take on a formal style of handwriting. Unlike a traditional Spencerian-script fonts, Pencerio’s letterforms are made from thin, monolinear strokes. These bring the formality of the past into the digital future. Calligraphers write Spencerian letters at a slant (or slope), are formed with a pointed pen. The natural state of each stroke is a thin hairline. When a calligrapher wants to create a thicker line to provide contrast, all she needs to do is add pressure to the nib at the right point of the stroke. But what if she does not want to apply contrast? You can see the answer to that question right here. Pencerio is an excellent choice for any formal occasion that needs a more contemporary typographic take. It is sure to shine on calling cards, certificates, invitations, and anything associated with weddings. Pencerio’s lowercase letters have a very large x-height. The swash-like parts of its capital letters are taller than the lowercase’s ascenders. This lively, legi…",
-      "categories": [
-        "Script"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:38:56Z",
-      "metadata_url": "https://www.fontshare.com/fonts/pencerio",
-      "source_url": "https://www.fontshare.com/fonts/pencerio",
-      "variants": [
-        {
-          "name": "Pencerio Hairline",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/pencerio"
+            "zip": "https://api.fontshare.com/v2/fonts/download/nippo"
           }
         }
       ],
@@ -2253,33 +2117,101 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "nippo": {
-      "name": "Nippo",
-      "family": "Nippo",
+    "pally": {
+      "name": "Pally",
+      "family": "Pally",
       "license": "ITF FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Manushi Parikh",
+      "designer": "Indian Type Foundry",
       "foundry": "Indian Type Foundry",
-      "version": "1.0",
-      "description": "Nippo is a sans with an instantly-recognisable source of inspiration from the world of athletics. That’s right: this is a display typeface designed for sports jerseys! All the letterforms’ curves have been straightened out into horizontal and vertical lines, held together by some diagonal elements. While most letters from Fiedler have been drawn in a monolinear way, there are a few cases where strokes have been thinned down, to prevent the overall letterform from getting too dark. Have a look at the crossbars on the ‘a’ and ‘e’, for instance. Nippo includes several nice alternates. For instance, one Stylistic Set will replace the standard ‘G’ with a version that has an added beard, but no crossbar. Another includes an ‘L’ whose right-hand side curves up a bit. A third Stylistic Set has alternate forms for ‘M’ and ‘N’, while the fourth includes an alternate ‘R’, the fifth a ‘T’ with curled arms, and the sixth has a closed-topped ‘4’.",
+      "version": "1.2",
+      "description": "Pally is a highly-informal sans serif design. Its three weights were designed by Jean-Baptiste Morizot. Pally’s letterforms are all a bit wobbly; the angles of many letters’ strokes are atypical – just look at the capital ‘A’ – and the left and right-hand-sides of many letters are not the same size or height (e.g., the lowercase ‘a’ and ‘n’). As a result, Pally has a lot more character than most sans serif typefaces. It could be an excellent choice for headlines or signage in children’s services projects, like family centers, pediatricians’ offices, primary schools, etc. Once you begin to understand the different rhythm that Pally offers, its underlying typographic sophistication becomes clear. The ascenders of the lowercase letters, rise above the heights of capital letters and numerals. The lowercase alphabet includes a double-storey ‘a’, a single-storey ‘g’, and a Jensonian ‘e’, with a diagonal stroke in its middle-section. Each Pally weight has been drawn in a more-or-less monolin…",
       "categories": [
-        "Display"
+        "Sans Serif"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2021-03-12T20:36:24Z",
-      "metadata_url": "https://www.fontshare.com/fonts/nippo",
-      "source_url": "https://www.fontshare.com/fonts/nippo",
+      "last_modified": "2021-03-12T20:36:39Z",
+      "metadata_url": "https://www.fontshare.com/fonts/pally",
+      "source_url": "https://www.fontshare.com/fonts/pally",
       "variants": [
         {
-          "name": "Nippo Extralight, Light, Regular, Medium, Bold, Variable",
+          "name": "Pally Regular, Medium, Bold, Variable",
           "weight": 700,
           "style": "normal",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/nippo"
+            "zip": "https://api.fontshare.com/v2/fonts/download/pally"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "pencerio": {
+      "name": "Pencerio",
+      "family": "Pencerio",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Manushi Parikh",
+      "foundry": "Indian Type Foundry",
+      "version": "1.1",
+      "description": "Pencerio is a new take on a formal style of handwriting. Unlike a traditional Spencerian-script fonts, Pencerio’s letterforms are made from thin, monolinear strokes. These bring the formality of the past into the digital future. Calligraphers write Spencerian letters at a slant (or slope), are formed with a pointed pen. The natural state of each stroke is a thin hairline. When a calligrapher wants to create a thicker line to provide contrast, all she needs to do is add pressure to the nib at the right point of the stroke. But what if she does not want to apply contrast? You can see the answer to that question right here. Pencerio is an excellent choice for any formal occasion that needs a more contemporary typographic take. It is sure to shine on calling cards, certificates, invitations, and anything associated with weddings. Pencerio’s lowercase letters have a very large x-height. The swash-like parts of its capital letters are taller than the lowercase’s ascenders. This lively, legi…",
+      "categories": [
+        "Script"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:38:56Z",
+      "metadata_url": "https://www.fontshare.com/fonts/pencerio",
+      "source_url": "https://www.fontshare.com/fonts/pencerio",
+      "variants": [
+        {
+          "name": "Pencerio Hairline",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/pencerio"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "roundo": {
+      "name": "Roundo",
+      "family": "Roundo",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "Indian Type Foundry",
+      "foundry": "Indian Type Foundry",
+      "version": "2.0",
+      "description": "<div>Roundo is a geometric sans serif typeface, optimized for headlines and other on-screen display-sized text. Roundo’s character set is made up of top-heavy letters; this reverse contrast is particularly visible in Roundo’s lowercase letters. The typeface’s lowercase also sports a nice hybridization of geometric sans and humanistic sans design features. Roundo’s capital letters, on the other hand, are more geometric. The x-height of Roundo’s lowercase is tall: this means that the design combines shorter capital letters with ascenders and descenders not long enough to distract the reader. The lowercase “a” takes a double-storey form, while the “g” is single-storey. Roundo’s ascenders are topped off with diagonal shears, adding dynamism to any text set with the typeface. All dots in the typeface – be they for punctuation or other marks – are round. 6 font styles make up the initial Roundo release: ExtraLight, Light, Regular, Medium, SemiBold, and Bold. Each font contains 408 glyphs. R…",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-21T14:01:58Z",
+      "metadata_url": "https://www.fontshare.com/fonts/roundo",
+      "source_url": "https://www.fontshare.com/fonts/roundo",
+      "variants": [
+        {
+          "name": "Roundo Extra Light, Light, Regular, Medium, Semi Bold, Bold, …",
+          "weight": 700,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/roundo"
           }
         }
       ],
@@ -2321,101 +2253,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "kalam": {
-      "name": "Kalam",
-      "family": "Kalam",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Indian Type Foundry",
-      "foundry": "Indian Type Foundry",
-      "version": "3.0",
-      "description": "<div>Kalam is a handwriting-style font family designed for personal communication. <br><br>Even though Kalam’s letterforms derive from handwriting, the fonts have each been optimised for text on screen. All in all, the typeface is a design that feels very personal. Like many informal handwriting-style fonts, it appears rather fresh and new when seen on screen or printed on the page. Kalam’s letterforms feature a very steep slant from the top right to the bottom left. They are similar to letters used in everyday handwriting, and look like they might have been written with either a thin felt-tip pen, or a ball-point pen.&nbsp;<br><br>Kalam is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/itfoundry/kalam\">here</a>.<br><br></div><div><br></div><div><br></div>",
-      "categories": [
-        "Decorative"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-21T13:59:33Z",
-      "metadata_url": "https://www.fontshare.com/fonts/kalam",
-      "source_url": "https://www.fontshare.com/fonts/kalam",
-      "variants": [
-        {
-          "name": "Kalam Light, Regular, Bold, Variable",
-          "weight": 700,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/kalam"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "hind": {
-      "name": "Hind",
-      "family": "Hind",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Manushi Parikh",
-      "foundry": "Indian Type Foundry",
-      "version": "3.0",
-      "description": "<div>Hind is an open source typeface family developed explicitly for use in User Interface design. The Hind font family includes five styles. Hind’s letterforms have a humanist-style construction, which is paired with seemingly monolinear strokes. Most of these strokes have flat endings: they either terminate with a horizontal or a vertical shear, rather than on a diagonal. This helps create clear-cut counter forms between the characters. In addition to this, Hind’s letterforms feature open apertures. The entire typeface family feels very legible when used to set text. <br><br>Hind is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/itfoundry/hind\">here</a>.<br><br></div><div><br></div><div><br></div>",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-21T13:59:18Z",
-      "metadata_url": "https://www.fontshare.com/fonts/hind",
-      "source_url": "https://www.fontshare.com/fonts/hind",
-      "variants": [
-        {
-          "name": "Hind Light, Regular, Medium, Semi Bold, Bold, Variable",
-          "weight": 700,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/hind"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "neco": {
-      "name": "Neco",
-      "family": "Neco",
+    "kola": {
+      "name": "Kola",
+      "family": "Kola",
       "license": "ITF FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Jitka Janečková",
+      "designer": "Jean-Baptiste Morizot",
       "foundry": "Indian Type Foundry",
       "version": "1.0",
-      "description": "Neco is a family of serif fonts, designed for use in headlines as well as smaller-sized texts of short and medium length. The fonts’ serifs have been designed with chunky, prominent wedge-shaped forms. The letterforms feature a diagonal axis of stress. As a family, Neco includes four weights, ranging from Regular through Black. Each weight has an upright and an italic font on offer. Neco’s letterforms have a high amount of stroke contrast, and the degree of contrast really increases from weight to weight. The Black and Black Italic fonts are particularly dynamic, in terms of their appearance. Neco’s lowercase letters have a tall x-height, and their ascenders rise up above the height of the fonts’ capitals. The letterforms in the Italic fonts are not oblique versions of the upright’s glyphs, but true cursive forms. The default numeral style in each font is proportional oldstyle figures, but tabular figures, lining figures, small cap figures, as well as a full range of numerators and de…",
+      "description": "Kola is a technoid stencil-style sans serif font. All of the stroke endings in Kola’s glyphs are rounded, and the overall effect of Paris-based type designer Jean-Baptiste Morizot’s stencilling is a bit reminiscent of the kind of lettering used on LED displays. Kola’s lowercase letters have a large x-height, and the ascenders rise up to the same height as the tops of the font’s capital letters and numbers. Despite the x-height being tall, Kola’s diacritical marks are still huge. They tower above the ascenders, capital letters, and numbers, and are very legible and identifiable, even when the font is used in small sizes. In terms of proportion, Kola looks a bit like a contemporary condensed-style sans serif typeface. Many letters in the font have designs that are reduced; the ‘n’ for instance, is almost geometric. The capital ‘I’ and ‘J’ have contrasting designs so that they are easy to tell apart. The dynamic-placement of the stencil-bridges is particularly novel in Kola’s ‘K’, ‘j’, a…",
       "categories": [
-        "Serif"
+        "Display"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2021-03-12T20:36:06Z",
-      "metadata_url": "https://www.fontshare.com/fonts/neco",
-      "source_url": "https://www.fontshare.com/fonts/neco",
+      "last_modified": "2021-03-12T20:35:28Z",
+      "metadata_url": "https://www.fontshare.com/fonts/kola",
+      "source_url": "https://www.fontshare.com/fonts/kola",
       "variants": [
         {
-          "name": "Neco Regular, Italic, Medium, Medium Italic, Bold, Bold Italic, …",
-          "weight": 900,
-          "style": "italic",
+          "name": "Kola Regular",
+          "weight": 400,
+          "style": "normal",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/neco"
+            "zip": "https://api.fontshare.com/v2/fonts/download/kola"
           }
         }
       ],
@@ -2457,6 +2321,142 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
+    "kalam": {
+      "name": "Kalam",
+      "family": "Kalam",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "Indian Type Foundry",
+      "foundry": "Indian Type Foundry",
+      "version": "3.0",
+      "description": "<div>Kalam is a handwriting-style font family designed for personal communication. <br><br>Even though Kalam’s letterforms derive from handwriting, the fonts have each been optimised for text on screen. All in all, the typeface is a design that feels very personal. Like many informal handwriting-style fonts, it appears rather fresh and new when seen on screen or printed on the page. Kalam’s letterforms feature a very steep slant from the top right to the bottom left. They are similar to letters used in everyday handwriting, and look like they might have been written with either a thin felt-tip pen, or a ball-point pen.&nbsp;<br><br>Kalam is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/itfoundry/kalam\">here</a>.<br><br></div><div><br></div><div><br></div>",
+      "categories": [
+        "Decorative"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-21T13:59:33Z",
+      "metadata_url": "https://www.fontshare.com/fonts/kalam",
+      "source_url": "https://www.fontshare.com/fonts/kalam",
+      "variants": [
+        {
+          "name": "Kalam Light, Regular, Bold, Variable",
+          "weight": 700,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/kalam"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "erode": {
+      "name": "Erode",
+      "family": "Erode",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Nikhil Ranganathan",
+      "foundry": "Indian Type Foundry",
+      "version": "1.022",
+      "description": "Named after a city in Tamil Nadu, Erode is a serif typeface for the Latin script. Its family includes five font weights, and all of them have clear stroke contrast. Their ascenders are long, and the letters’ counter forms are open. Erode is an excellent selection for editorial designers looking for a new typeface to set eye-catching pull quotes or headlines with. It is also an optimal selection for display text. Erode was developed in 2015 by Nikhil Ranganathan and ITF.",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:32:16Z",
+      "metadata_url": "https://www.fontshare.com/fonts/erode",
+      "source_url": "https://www.fontshare.com/fonts/erode",
+      "variants": [
+        {
+          "name": "Erode Light, Light Italic, Regular, Italic, Medium, Medium Italic, …",
+          "weight": 700,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/erode"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "neco": {
+      "name": "Neco",
+      "family": "Neco",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Jitka Janečková",
+      "foundry": "Indian Type Foundry",
+      "version": "1.0",
+      "description": "Neco is a family of serif fonts, designed for use in headlines as well as smaller-sized texts of short and medium length. The fonts’ serifs have been designed with chunky, prominent wedge-shaped forms. The letterforms feature a diagonal axis of stress. As a family, Neco includes four weights, ranging from Regular through Black. Each weight has an upright and an italic font on offer. Neco’s letterforms have a high amount of stroke contrast, and the degree of contrast really increases from weight to weight. The Black and Black Italic fonts are particularly dynamic, in terms of their appearance. Neco’s lowercase letters have a tall x-height, and their ascenders rise up above the height of the fonts’ capitals. The letterforms in the Italic fonts are not oblique versions of the upright’s glyphs, but true cursive forms. The default numeral style in each font is proportional oldstyle figures, but tabular figures, lining figures, small cap figures, as well as a full range of numerators and de…",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:36:06Z",
+      "metadata_url": "https://www.fontshare.com/fonts/neco",
+      "source_url": "https://www.fontshare.com/fonts/neco",
+      "variants": [
+        {
+          "name": "Neco Regular, Italic, Medium, Medium Italic, Bold, Bold Italic, …",
+          "weight": 900,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/neco"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "hind": {
+      "name": "Hind",
+      "family": "Hind",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "Manushi Parikh",
+      "foundry": "Indian Type Foundry",
+      "version": "3.0",
+      "description": "<div>Hind is an open source typeface family developed explicitly for use in User Interface design. The Hind font family includes five styles. Hind’s letterforms have a humanist-style construction, which is paired with seemingly monolinear strokes. Most of these strokes have flat endings: they either terminate with a horizontal or a vertical shear, rather than on a diagonal. This helps create clear-cut counter forms between the characters. In addition to this, Hind’s letterforms feature open apertures. The entire typeface family feels very legible when used to set text. <br><br>Hind is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/itfoundry/hind\">here</a>.<br><br></div><div><br></div><div><br></div>",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-21T13:59:18Z",
+      "metadata_url": "https://www.fontshare.com/fonts/hind",
+      "source_url": "https://www.fontshare.com/fonts/hind",
+      "variants": [
+        {
+          "name": "Hind Light, Regular, Medium, Semi Bold, Bold, Variable",
+          "weight": 700,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/hind"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
     "space-grotesk": {
       "name": "Space Grotesk",
       "family": "Space Grotesk",
@@ -2484,278 +2484,6 @@
           ],
           "files": {
             "zip": "https://api.fontshare.com/v2/fonts/download/space-grotesk"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "paquito": {
-      "name": "Paquito",
-      "family": "Paquito",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Juanjo Lopez",
-      "foundry": "Indian Type Foundry",
-      "version": "1.0",
-      "description": "Paquito is a small family of serif fonts for use in display sizes. Its three weights have been quite whimsically drawn by type designer Juanjo Lopez. The letterforms are condensed in width, and they all look as if they had been hand-lettered with a fine-tipped pen. This creates a high degree of irregularity in the design. Many of Paquito’s uppercase letters are top-heavy; for example, the upper counter of the ‘R’ is much larger than its lower one. The numerals are neither lining figures nor oldstyle figures; instead, their tops fall somewhere between the x-height and cap-height, and they feature some descending elements, too. The fonts’ lowercase letters have a big x-height, and their ascenders only just peek above the tops of the fonts’ tall capitals. Paquito’s fonts include several useful OpenType features. First and foremost are all of the ligatures – 46 of them, to be exact. There are ligatures for both uppercase and lowercase letter pairs. The fonts also have case-sensitive punct…",
-      "categories": [
-        "Decorative"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:37:25Z",
-      "metadata_url": "https://www.fontshare.com/fonts/paquito",
-      "source_url": "https://www.fontshare.com/fonts/paquito",
-      "variants": [
-        {
-          "name": "Paquito Regular, Medium, Bold, Variable",
-          "weight": 700,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/paquito"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "stardom": {
-      "name": "Stardom",
-      "family": "Stardom",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Indian Type Foundry",
-      "foundry": "Indian Type Foundry",
-      "version": "1.0",
-      "description": "Stardom is a singe weight serif display typeface designed to be used at extreme large sizes.",
-      "categories": [
-        "Display"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:50:31Z",
-      "metadata_url": "https://www.fontshare.com/fonts/stardom",
-      "source_url": "https://www.fontshare.com/fonts/stardom",
-      "variants": [
-        {
-          "name": "Stardom Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/stardom"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "satoshi": {
-      "name": "Satoshi",
-      "family": "Satoshi",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Deni Anggara",
-      "foundry": "Indian Type Foundry",
-      "version": "1.0",
-      "description": "<div>Satoshi is a modernist sans serif typeface. Its design combines typically grotesk-style letterforms, with some characters that are quite geometrically-designed. In terms of its appearance, Satoshi was inspired by Modernism and Industrial-Era graphic and typographic design. The family has tem weights on offer, ranging from Light to Black with complimentary italics. It is an excellent choice for use in branding, editorial, and poster design.<br><br>Satoshi’s lowercase ‘a’ and ‘g’ are double-storied; however, single-storied alternates are available, through an OpenType feature. The fonts’ other OpenType features include 10 ligatures per font, as well as alternate versions of the ‘G’ and ’t’. The default numeral style in each of the fonts is proportional lining figures; three other styles of numbers are included, too. There are tabular lining figures, as well as numerators and denominators for typesetting fractions. The fonts’ lining figures have the same height as the uppercase lett…",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:49:05Z",
-      "metadata_url": "https://www.fontshare.com/fonts/satoshi",
-      "source_url": "https://www.fontshare.com/fonts/satoshi",
-      "variants": [
-        {
-          "name": "Satoshi Light, Light Italic, Regular, Italic, Medium, Medium Italic, …",
-          "weight": 900,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/satoshi"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "supreme": {
-      "name": "Supreme",
-      "family": "Supreme",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Jérémie Hornus, Ilya Naumoff",
-      "foundry": "Indian Type Foundry",
-      "version": "1.1",
-      "description": "Supreme is a large family of constructed-style sans serif fonts. These fonts feature forms that look like those that have been favored by engineers for over a century. Their letters are straight-sided, and the strokes that make them up are monolinear. The Supreme family includes 14 members. Seven of these fonts are italics, although these italic fonts should really be called ‘obliques,’ as the letters are slanted versions of what you’ll find in the upright fonts. The family’s weights range from Extralight through Extrabold. The x-height is moderate, so the ascenders and the descenders are quite prominent. The ascenders rise above the capital letters and the numerals – both of which share the same height. Each font uses a double-storey ‘a’ and single-storey ‘g’. Years ago, fonts like Supreme were primarily used to brand firms in engineering and tech. Recently, however, they have become increasingly popular solutions for setting text on screen. The Regular weight of this family would be…",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:51:42Z",
-      "metadata_url": "https://www.fontshare.com/fonts/supreme",
-      "source_url": "https://www.fontshare.com/fonts/supreme",
-      "variants": [
-        {
-          "name": "Supreme Thin, Thin Italic, Extralight, Extralight Italic, Light, Light Italic, …",
-          "weight": 800,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/supreme"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "khand": {
-      "name": "Khand",
-      "family": "Khand",
-      "license": "OFL",
-      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Satya Rajpurohit",
-      "foundry": "Indian Type Foundry",
-      "version": "3.0",
-      "description": "<div>Khand is a family of compact mono-linear fonts with very open counter forms. Developed for display typography, the family is primarily intended for headline usage. Its letterforms are dynamic, and everything is designed according to a modular system. All of its shapes bear a strong commonality to one another, but the typeface strikes a good balancing act and avoids too much repetitiveness. The lighter styles are suitable for short paragraphs of running text, while the heavier styles have been optimised for headlines or single word settings.<br><br></div><div>The base character height in the Khand fonts is ‘big on the body.’ Across a line of text, the consonantal forms take up the majority of vertical space. Vowel marks above and below have been shortened – keeping these to a minimum allows for lines of text to be set more closely together vertically. The reduction of interlinear space is paramount for successful headline typesetting, and Khand performs much better in display appl…",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2022-05-21T14:00:10Z",
-      "metadata_url": "https://www.fontshare.com/fonts/khand",
-      "source_url": "https://www.fontshare.com/fonts/khand",
-      "variants": [
-        {
-          "name": "Khand Light, Regular, Medium, Semi Bold, Bold, Variable",
-          "weight": 700,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/khand"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "segment": {
-      "name": "Segment",
-      "family": "Segment",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Frode Helland",
-      "foundry": "Indian Type Foundry",
-      "version": "1.0",
-      "description": "Segment is an LCD-style display font from Frode Helland, an Oslo based designer. True to its name, all of the letterforms in the font are constructed out of segments. This is a perfect choice for use in poster design, as well as for identity work for small businesses inside of cities with good public transit systems. The font would also work well in headlines for articles that touch on digital subjects. Despite the late-twentieth century technology whose style this font is based on, Segment’s design language is actually older and more eclectic. To begin with, for an experimental display font, Segment is most unusual because its letters have serifs. Its old-fashioned style is also particularly apparent in the top-half of the “7”, which approximates a wavy horizontal stroke, as well as on the bottom of the “2” and in the Pound Sterling currency symbol. The capital “R” has a long, sweeping diagonal tail. As you would expect from a classic electronic display font, Segment’s characters are…",
-      "categories": [
-        "Display"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:49:56Z",
-      "metadata_url": "https://www.fontshare.com/fonts/segment",
-      "source_url": "https://www.fontshare.com/fonts/segment",
-      "variants": [
-        {
-          "name": "Segment Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/segment"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "styro": {
-      "name": "Styro",
-      "family": "Styro",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Aarya Purohit, Indian Type Foundry",
-      "foundry": "Indian Type Foundry",
-      "version": "1.0",
-      "description": "Styro is a family of modernist-style stencil fonts. There are eight weights available, ranging in color from Thin through Black. All of the typeface’s weights are virtually monospaced, and with each weight of the family, the outside ‘strokes’ building up the letterforms increase in thickness. Styro’s characters are very condensed, and their design employs a reductionist formal vocabulary. For example, the counterforms are expressed by thin lines that run inside of the letters, from their tops to their bottoms. These ‘counters’ are optically of the same width as the spaces between each letter. Many of the fonts’ stroke terminals – like those on the top of the ‘a’ or on the bottom of the ‘g’ – are reduced to simple geometric shapes. Diactical marks take the form of light thin lines, which create a nice degree of contrast with their base letters. This thin-line treatment is also applied to many of the fonts’ punctuation marks. Styro is reminiscent of a series of stencil letters designed…",
-      "categories": [
-        "Display"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:51:07Z",
-      "metadata_url": "https://www.fontshare.com/fonts/styro",
-      "source_url": "https://www.fontshare.com/fonts/styro",
-      "variants": [
-        {
-          "name": "Styro Extralight, Light, Regular, Medium, Semibold, Bold, …",
-          "weight": 900,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/styro"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "rx100": {
-      "name": "RX100",
-      "family": "RX100",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Anurag Gautam, Indian Type Foundry",
-      "foundry": "Indian Type Foundry",
-      "version": "1.0",
-      "description": "RX100 is a monospaced sans serif font. Its letterforms are quite condensed, even for a fixed-width typeface. Because of its narrow width, the capital letters look particularly compressed, offering an interesting look in mixed-case text. RX100’s ascenders are quite tall; they really reach over top of the capitals. The same is true for the font’s diacritical marks: they are very large and will not be overlooked in a text – nor is one diacritical mark likely to be confused for another. This helps ease character recognition, making the typeface a good choice for rendering computer code, or in correspondence that is supposed to look typewritten (a condensed monospace sans serif of this sort automatically calls typewriter faces of the 1970s and 1980s to mind, as those machines were becoming electrified and increasingly sophisticated). RX100’s letterforms features large ink traps to help keep their color in small text even. Interestingly, the font offers 22 alternate uppercase, lowercase, an…",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:45:17Z",
-      "metadata_url": "https://www.fontshare.com/fonts/rx-100",
-      "source_url": "https://www.fontshare.com/fonts/rx-100",
-      "variants": [
-        {
-          "name": "RX100 Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/rx-100"
           }
         }
       ],
@@ -2797,33 +2525,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "zina": {
-      "name": "Zina",
-      "family": "Zina",
+    "paquito": {
+      "name": "Paquito",
+      "family": "Paquito",
       "license": "ITF FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Théo Guillard",
+      "designer": "Juanjo Lopez",
       "foundry": "Indian Type Foundry",
-      "version": "1.1",
-      "description": "Zina is a stately and elegant inline serif face for display use. At its heart, this is actually an early-nineteenth century Didone-style design. Its serifs are light and only slightly bracketed onto the main strokes. Several letters have prominent ball terminals. The inline strokes in Zina’s letters are really the typeface’s most prominent feature. These inlines run through the middle of each letterform’s thick strokes, creating a jewell-like appearance. In order for Zina’s inlines and the thin serifs to shine, the typeface should only be used in applications that are subheadline-sized or larger.",
+      "version": "1.0",
+      "description": "Paquito is a small family of serif fonts for use in display sizes. Its three weights have been quite whimsically drawn by type designer Juanjo Lopez. The letterforms are condensed in width, and they all look as if they had been hand-lettered with a fine-tipped pen. This creates a high degree of irregularity in the design. Many of Paquito’s uppercase letters are top-heavy; for example, the upper counter of the ‘R’ is much larger than its lower one. The numerals are neither lining figures nor oldstyle figures; instead, their tops fall somewhere between the x-height and cap-height, and they feature some descending elements, too. The fonts’ lowercase letters have a big x-height, and their ascenders only just peek above the tops of the fonts’ tall capitals. Paquito’s fonts include several useful OpenType features. First and foremost are all of the ligatures – 46 of them, to be exact. There are ligatures for both uppercase and lowercase letter pairs. The fonts also have case-sensitive punct…",
       "categories": [
-        "Display"
+        "Decorative"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2021-03-12T20:53:14Z",
-      "metadata_url": "https://www.fontshare.com/fonts/zina",
-      "source_url": "https://www.fontshare.com/fonts/zina",
+      "last_modified": "2021-03-12T20:37:25Z",
+      "metadata_url": "https://www.fontshare.com/fonts/paquito",
+      "source_url": "https://www.fontshare.com/fonts/paquito",
       "variants": [
         {
-          "name": "Zina Regular",
-          "weight": 400,
+          "name": "Paquito Regular, Medium, Bold, Variable",
+          "weight": 700,
           "style": "normal",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/zina"
+            "zip": "https://api.fontshare.com/v2/fonts/download/paquito"
           }
         }
       ],
@@ -2831,33 +2559,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "pramukh-rounded": {
-      "name": "Pramukh Rounded",
-      "family": "Pramukh Rounded",
+    "sharpie": {
+      "name": "Sharpie",
+      "family": "Sharpie",
       "license": "ITF FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Aarya Purohit, Indian Type Foundry",
+      "designer": "Théo Guillard",
       "foundry": "Indian Type Foundry",
       "version": "1.0",
-      "description": "Pramukh Rounded is a very condensed sans serif typeface in which all strokes end in round semicircular curves. As a family of fonts, it is particularly large; its 16 styles include a range of eight weights: ExtraLight, Light, SemiLight, Regular, SemiBold, Bold, ExtraBold, and Black. Each weight has a companion italic font, which is oblique in style. On Fontstore, you’ll find a matching font family for this design: Pramukh (a non-rounded version of this design). Both Pramukh and Pramukh Rounded are designed by Aarya Purohit and ITF. While Pramukh and Pramukh Rounded each make use of modernist typographic vocabulary, Pramukh Rounded is the more open and friendly adaptation of the theme. It offers an excellent toolkit for use in corporate identity, editorial, and even poster design – wherever a narrow sans serif is needed, but where a degree of warmth should brighten up the formal nature of the typography, too. The styles in the Pramukh Rounded family become less compressed with each ste…",
+      "description": "Sharpie is an informal family of script fonts. It includes five different styles, ranging in weight from Light to Black. The typeface, named after a kind of marker, looks very sign-painterly – almost as if its letters had been written out quickly with a flat brush. All of its letterforms are slanted, and they do not connect with the characters that come before or after them. Sharpie’s strokes are very angular in their appearance. The stroke-contrast is rather modest in the Light weight, but by the Black, it is very strong (really quite awesomely so). Sharpie’s lowercase letters don’t have a very tall x-height. The tops of the ascending-lowercase letters, the capitals, and the numerals all rise to about the same point. The ‘a’ and the ‘g’ in Sharpie are both single-storey in their forms. The typeface is designed by Théo Guillard.",
       "categories": [
-        "Sans Serif"
+        "Display"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2021-03-12T20:41:12Z",
-      "metadata_url": "https://www.fontshare.com/fonts/pramukh-rounded",
-      "source_url": "https://www.fontshare.com/fonts/pramukh-rounded",
+      "last_modified": "2021-03-12T20:50:24Z",
+      "metadata_url": "https://www.fontshare.com/fonts/sharpie",
+      "source_url": "https://www.fontshare.com/fonts/sharpie",
       "variants": [
         {
-          "name": "Pramukh Rounded Extralight, Extralight Italic, Light, Light Italic, Semilight, Semilight Italic, …",
+          "name": "Sharpie Light, Regular, Bold, Extrabold, Black, Variable",
           "weight": 900,
-          "style": "italic",
+          "style": "normal",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/pramukh-rounded"
+            "zip": "https://api.fontshare.com/v2/fonts/download/sharpie"
           }
         }
       ],
@@ -2899,33 +2627,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "quilon": {
-      "name": "Quilon",
-      "family": "Quilon",
+    "stardom": {
+      "name": "Stardom",
+      "family": "Stardom",
       "license": "ITF FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Jonny Pinhorn",
+      "designer": "Indian Type Foundry",
       "foundry": "Indian Type Foundry",
       "version": "1.0",
-      "description": "Quilon is a high-contrast sans serif family. It’s design features also transcend the centuries – elements of both 19th century English grotesques and 1990s postmodernism are present in its letterforms. The family is an optimal selection for use in display typography. As the weights progress, their stroke contrast increases dramatically. Each font in the family includes 391 glyphs. “Quilon” is the previous name for Kollam, a city located in Kerala, India.",
+      "description": "Stardom is a singe weight serif display typeface designed to be used at extreme large sizes.",
       "categories": [
-        "Sans Serif"
+        "Display"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2021-03-12T20:41:25Z",
-      "metadata_url": "https://www.fontshare.com/fonts/quilon",
-      "source_url": "https://www.fontshare.com/fonts/quilon",
+      "last_modified": "2021-03-12T20:50:31Z",
+      "metadata_url": "https://www.fontshare.com/fonts/stardom",
+      "source_url": "https://www.fontshare.com/fonts/stardom",
       "variants": [
         {
-          "name": "Quilon Regular, Medium, Semibold, Bold, Variable",
-          "weight": 700,
+          "name": "Stardom Regular",
+          "weight": 400,
           "style": "normal",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/quilon"
+            "zip": "https://api.fontshare.com/v2/fonts/download/stardom"
           }
         }
       ],
@@ -2933,33 +2661,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "rajdhani": {
-      "name": "Rajdhani",
-      "family": "Rajdhani",
+    "khand": {
+      "name": "Khand",
+      "family": "Khand",
       "license": "OFL",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
-      "designer": "Shiva Nallaperumal, Indian Type Foundry",
+      "designer": "Satya Rajpurohit",
       "foundry": "Indian Type Foundry",
       "version": "3.0",
-      "description": "<div>Rajdhani is an open source typeface designed for use in headlines and other display-sized text on screen. Its initial release includes five fonts.<br><br></div><div>The letterforms are modularised; their squared and condensed appearance may be interpreted as being technical or even futuristic. Typically round bowls and other letterform elements have straight sides in Rajdhani. Its stroke terminals typically end in flat line segments that terminate either on a horizontal or a vertical, rather than on a diagonal. Their corners are slightly rounded, giving stroke-endings a softer feeling, rather than a pointy one.<br><br></div><div>Rajdhani is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/itfoundry/rajdhani\">here</a>.<br><br></div><div><br></div><div><br></div>",
+      "description": "<div>Khand is a family of compact mono-linear fonts with very open counter forms. Developed for display typography, the family is primarily intended for headline usage. Its letterforms are dynamic, and everything is designed according to a modular system. All of its shapes bear a strong commonality to one another, but the typeface strikes a good balancing act and avoids too much repetitiveness. The lighter styles are suitable for short paragraphs of running text, while the heavier styles have been optimised for headlines or single word settings.<br><br></div><div>The base character height in the Khand fonts is ‘big on the body.’ Across a line of text, the consonantal forms take up the majority of vertical space. Vowel marks above and below have been shortened – keeping these to a minimum allows for lines of text to be set more closely together vertically. The reduction of interlinear space is paramount for successful headline typesetting, and Khand performs much better in display appl…",
       "categories": [
         "Sans Serif"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2022-05-21T14:01:33Z",
-      "metadata_url": "https://www.fontshare.com/fonts/rajdhani",
-      "source_url": "https://www.fontshare.com/fonts/rajdhani",
+      "last_modified": "2022-05-21T14:00:10Z",
+      "metadata_url": "https://www.fontshare.com/fonts/khand",
+      "source_url": "https://www.fontshare.com/fonts/khand",
       "variants": [
         {
-          "name": "Rajdhani Light, Regular, Medium, Semi Bold, Bold, Variable",
+          "name": "Khand Light, Regular, Medium, Semi Bold, Bold, Variable",
           "weight": 700,
           "style": "normal",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/rajdhani"
+            "zip": "https://api.fontshare.com/v2/fonts/download/khand"
           }
         }
       ],
@@ -3001,101 +2729,33 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "plein": {
-      "name": "Plein",
-      "family": "Plein",
+    "zina": {
+      "name": "Zina",
+      "family": "Zina",
       "license": "ITF FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Inga Plönnigs",
+      "designer": "Théo Guillard",
       "foundry": "Indian Type Foundry",
-      "version": "1.0",
-      "description": "Plein is a family of humanist-style sans serif fonts. The typeface’s clear and open forms are very legible and pleasant to read, too. The fonts’ letters are drawn with virtually monolinear strokes. The family has ten font styles available; there are five weights, ranging from Light to Black, and each weight has an upright and and italic font on offer. In Plein’s upright fonts, the lowercase ‘a’ and ‘g’ have double-storey forms; in the italics, these are single-storey. The stem of the ‘f’ in Plein’s italics descends below the baseline. The default numerals in the fonts are proportional oldstyle figures. Lining figures are also available, via an OpenType feature. The fonts also include case-sensitive punctuation, which can be substituted into all-caps text. Humanist sans serif typefaces are used in a wide variety of design projects today. Therefore, Plein is an excellent choice for work in branding and corporate design, but you could also use it to set texts of medium length in editoria…",
+      "version": "1.1",
+      "description": "Zina is a stately and elegant inline serif face for display use. At its heart, this is actually an early-nineteenth century Didone-style design. Its serifs are light and only slightly bracketed onto the main strokes. Several letters have prominent ball terminals. The inline strokes in Zina’s letters are really the typeface’s most prominent feature. These inlines run through the middle of each letterform’s thick strokes, creating a jewell-like appearance. In order for Zina’s inlines and the thin serifs to shine, the typeface should only be used in applications that are subheadline-sized or larger.",
       "categories": [
-        "Sans Serif"
+        "Display"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2021-03-12T20:40:07Z",
-      "metadata_url": "https://www.fontshare.com/fonts/plein",
-      "source_url": "https://www.fontshare.com/fonts/plein",
+      "last_modified": "2021-03-12T20:53:14Z",
+      "metadata_url": "https://www.fontshare.com/fonts/zina",
+      "source_url": "https://www.fontshare.com/fonts/zina",
       "variants": [
         {
-          "name": "Plein Light, Light Italic, Regular, Italic, Medium, Medium Italic, …",
-          "weight": 900,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/plein"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "telma": {
-      "name": "Telma",
-      "family": "Telma",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Jitka Janečková",
-      "foundry": "Indian Type Foundry",
-      "version": "1.0",
-      "description": "Telma is a family of informal script fonts. Their letterforms are drawn with a good degree of contrast between the thick and thick strokes. This contrast gives the whimsical structure seen in some of the characters a more formal nature. There are five weights in the Team family, ranging from Light through Black. Each time you move up the family’s weight scale, the fonts’ thick strokes get thicker, while the thins stay about the same weight. The fonts include a number of ligatures and alternate versions of letterforms, too; these are automatically substituted into text when the OpenType features for Ligatures and Contextual Alternates have been activated. Several of Telma’s uppercase letters have swash-like descenders, such as ‘G’, ‘K’, ‘Q’, and ‘R’. The out-strokes of the lowercase ‘f’, ‘h’, ‘k’, and ‘z’ also descend. Telma has a tall x-height, and the ascenders of the lowercase letters noticeably rise up above than the capitals’ height. The fonts’ numerals are proportionally-spaced o…",
-      "categories": [
-        "Script"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:52:41Z",
-      "metadata_url": "https://www.fontshare.com/fonts/telma",
-      "source_url": "https://www.fontshare.com/fonts/telma",
-      "variants": [
-        {
-          "name": "Telma Light, Regular, Medium, Bold, Black, Variable",
-          "weight": 900,
+          "name": "Zina Regular",
+          "weight": 400,
           "style": "normal",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/telma"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "zodiak": {
-      "name": "Zodiak",
-      "family": "Zodiak",
-      "license": "ITF FFL",
-      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Jérémie Hornus, Gaetan Baehr, Jean-Baptiste Morizot, Alisa Nowak, Theo Guillard",
-      "foundry": "Indian Type Foundry",
-      "version": "1.0",
-      "description": "Zodiak is a family of fonts with sturdy serifs. Several of the weights in the family are optimal for setting large amounts of running texts; the extreme light and heavy fonts, on the other hand, work great together in display applications. The letterforms in Clair have a vertical axis, and their design is reminiscent of contemporary newspaper fonts, as well as late-nineteenth century typefaces along the Century model. Zodiak includes 12 styles ranging in weight from Thin to Black. Each of those six weights has a companion italic font, too. Zodiak’s letterforms feature thick slab-like serifs that are bracketed onto their stems. Since the proportions of its uppercase letters are nineteenth-century, they optically feel like they are all almost the same width. The same is true for the numerals, which share the same height as the capitals. The numerals include nice, decorative features, such as flag-like strokes on the bottom of the ‘2’ and the top of the ‘7’. The ascenders of Zodiak’s low…",
-      "categories": [
-        "Serif"
-      ],
-      "tags": [],
-      "popularity": 50,
-      "last_modified": "2021-03-12T20:09:26Z",
-      "metadata_url": "https://www.fontshare.com/fonts/zodiak",
-      "source_url": "https://www.fontshare.com/fonts/zodiak",
-      "variants": [
-        {
-          "name": "Zodiak Thin, Thin Italic, Light, Light Italic, Regular, Italic, …",
-          "weight": 900,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/zodiak"
+            "zip": "https://api.fontshare.com/v2/fonts/download/zina"
           }
         }
       ],
@@ -3137,33 +2797,373 @@
       "languages": [],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "sharpie": {
-      "name": "Sharpie",
-      "family": "Sharpie",
+    "rajdhani": {
+      "name": "Rajdhani",
+      "family": "Rajdhani",
+      "license": "OFL",
+      "license_url": "https://www.fontshare.com/licenses/sil-ofl",
+      "designer": "Shiva Nallaperumal, Indian Type Foundry",
+      "foundry": "Indian Type Foundry",
+      "version": "3.0",
+      "description": "<div>Rajdhani is an open source typeface designed for use in headlines and other display-sized text on screen. Its initial release includes five fonts.<br><br></div><div>The letterforms are modularised; their squared and condensed appearance may be interpreted as being technical or even futuristic. Typically round bowls and other letterform elements have straight sides in Rajdhani. Its stroke terminals typically end in flat line segments that terminate either on a horizontal or a vertical, rather than on a diagonal. Their corners are slightly rounded, giving stroke-endings a softer feeling, rather than a pointy one.<br><br></div><div>Rajdhani is licensed under the SIL Open Font License. You can find more details about this project&nbsp;<a href=\"https://github.com/itfoundry/rajdhani\">here</a>.<br><br></div><div><br></div><div><br></div>",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2022-05-21T14:01:33Z",
+      "metadata_url": "https://www.fontshare.com/fonts/rajdhani",
+      "source_url": "https://www.fontshare.com/fonts/rajdhani",
+      "variants": [
+        {
+          "name": "Rajdhani Light, Regular, Medium, Semi Bold, Bold, Variable",
+          "weight": 700,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/rajdhani"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "plein": {
+      "name": "Plein",
+      "family": "Plein",
       "license": "ITF FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
-      "designer": "Théo Guillard",
+      "designer": "Inga Plönnigs",
       "foundry": "Indian Type Foundry",
       "version": "1.0",
-      "description": "Sharpie is an informal family of script fonts. It includes five different styles, ranging in weight from Light to Black. The typeface, named after a kind of marker, looks very sign-painterly – almost as if its letters had been written out quickly with a flat brush. All of its letterforms are slanted, and they do not connect with the characters that come before or after them. Sharpie’s strokes are very angular in their appearance. The stroke-contrast is rather modest in the Light weight, but by the Black, it is very strong (really quite awesomely so). Sharpie’s lowercase letters don’t have a very tall x-height. The tops of the ascending-lowercase letters, the capitals, and the numerals all rise to about the same point. The ‘a’ and the ‘g’ in Sharpie are both single-storey in their forms. The typeface is designed by Théo Guillard.",
+      "description": "Plein is a family of humanist-style sans serif fonts. The typeface’s clear and open forms are very legible and pleasant to read, too. The fonts’ letters are drawn with virtually monolinear strokes. The family has ten font styles available; there are five weights, ranging from Light to Black, and each weight has an upright and and italic font on offer. In Plein’s upright fonts, the lowercase ‘a’ and ‘g’ have double-storey forms; in the italics, these are single-storey. The stem of the ‘f’ in Plein’s italics descends below the baseline. The default numerals in the fonts are proportional oldstyle figures. Lining figures are also available, via an OpenType feature. The fonts also include case-sensitive punctuation, which can be substituted into all-caps text. Humanist sans serif typefaces are used in a wide variety of design projects today. Therefore, Plein is an excellent choice for work in branding and corporate design, but you could also use it to set texts of medium length in editoria…",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:40:07Z",
+      "metadata_url": "https://www.fontshare.com/fonts/plein",
+      "source_url": "https://www.fontshare.com/fonts/plein",
+      "variants": [
+        {
+          "name": "Plein Light, Light Italic, Regular, Italic, Medium, Medium Italic, …",
+          "weight": 900,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/plein"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "segment": {
+      "name": "Segment",
+      "family": "Segment",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Frode Helland",
+      "foundry": "Indian Type Foundry",
+      "version": "1.0",
+      "description": "Segment is an LCD-style display font from Frode Helland, an Oslo based designer. True to its name, all of the letterforms in the font are constructed out of segments. This is a perfect choice for use in poster design, as well as for identity work for small businesses inside of cities with good public transit systems. The font would also work well in headlines for articles that touch on digital subjects. Despite the late-twentieth century technology whose style this font is based on, Segment’s design language is actually older and more eclectic. To begin with, for an experimental display font, Segment is most unusual because its letters have serifs. Its old-fashioned style is also particularly apparent in the top-half of the “7”, which approximates a wavy horizontal stroke, as well as on the bottom of the “2” and in the Pound Sterling currency symbol. The capital “R” has a long, sweeping diagonal tail. As you would expect from a classic electronic display font, Segment’s characters are…",
       "categories": [
         "Display"
       ],
       "tags": [],
       "popularity": 50,
-      "last_modified": "2021-03-12T20:50:24Z",
-      "metadata_url": "https://www.fontshare.com/fonts/sharpie",
-      "source_url": "https://www.fontshare.com/fonts/sharpie",
+      "last_modified": "2021-03-12T20:49:56Z",
+      "metadata_url": "https://www.fontshare.com/fonts/segment",
+      "source_url": "https://www.fontshare.com/fonts/segment",
       "variants": [
         {
-          "name": "Sharpie Light, Regular, Bold, Extrabold, Black, Variable",
+          "name": "Segment Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/segment"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "zodiak": {
+      "name": "Zodiak",
+      "family": "Zodiak",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Jérémie Hornus, Gaetan Baehr, Jean-Baptiste Morizot, Alisa Nowak, Theo Guillard",
+      "foundry": "Indian Type Foundry",
+      "version": "1.0",
+      "description": "Zodiak is a family of fonts with sturdy serifs. Several of the weights in the family are optimal for setting large amounts of running texts; the extreme light and heavy fonts, on the other hand, work great together in display applications. The letterforms in Clair have a vertical axis, and their design is reminiscent of contemporary newspaper fonts, as well as late-nineteenth century typefaces along the Century model. Zodiak includes 12 styles ranging in weight from Thin to Black. Each of those six weights has a companion italic font, too. Zodiak’s letterforms feature thick slab-like serifs that are bracketed onto their stems. Since the proportions of its uppercase letters are nineteenth-century, they optically feel like they are all almost the same width. The same is true for the numerals, which share the same height as the capitals. The numerals include nice, decorative features, such as flag-like strokes on the bottom of the ‘2’ and the top of the ‘7’. The ascenders of Zodiak’s low…",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:09:26Z",
+      "metadata_url": "https://www.fontshare.com/fonts/zodiak",
+      "source_url": "https://www.fontshare.com/fonts/zodiak",
+      "variants": [
+        {
+          "name": "Zodiak Thin, Thin Italic, Light, Light Italic, Regular, Italic, …",
+          "weight": 900,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/zodiak"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "pramukh-rounded": {
+      "name": "Pramukh Rounded",
+      "family": "Pramukh Rounded",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Aarya Purohit, Indian Type Foundry",
+      "foundry": "Indian Type Foundry",
+      "version": "1.0",
+      "description": "Pramukh Rounded is a very condensed sans serif typeface in which all strokes end in round semicircular curves. As a family of fonts, it is particularly large; its 16 styles include a range of eight weights: ExtraLight, Light, SemiLight, Regular, SemiBold, Bold, ExtraBold, and Black. Each weight has a companion italic font, which is oblique in style. On Fontstore, you’ll find a matching font family for this design: Pramukh (a non-rounded version of this design). Both Pramukh and Pramukh Rounded are designed by Aarya Purohit and ITF. While Pramukh and Pramukh Rounded each make use of modernist typographic vocabulary, Pramukh Rounded is the more open and friendly adaptation of the theme. It offers an excellent toolkit for use in corporate identity, editorial, and even poster design – wherever a narrow sans serif is needed, but where a degree of warmth should brighten up the formal nature of the typography, too. The styles in the Pramukh Rounded family become less compressed with each ste…",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:41:12Z",
+      "metadata_url": "https://www.fontshare.com/fonts/pramukh-rounded",
+      "source_url": "https://www.fontshare.com/fonts/pramukh-rounded",
+      "variants": [
+        {
+          "name": "Pramukh Rounded Extralight, Extralight Italic, Light, Light Italic, Semilight, Semilight Italic, …",
+          "weight": 900,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/pramukh-rounded"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "quilon": {
+      "name": "Quilon",
+      "family": "Quilon",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Jonny Pinhorn",
+      "foundry": "Indian Type Foundry",
+      "version": "1.0",
+      "description": "Quilon is a high-contrast sans serif family. It’s design features also transcend the centuries – elements of both 19th century English grotesques and 1990s postmodernism are present in its letterforms. The family is an optimal selection for use in display typography. As the weights progress, their stroke contrast increases dramatically. Each font in the family includes 391 glyphs. “Quilon” is the previous name for Kollam, a city located in Kerala, India.",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:41:25Z",
+      "metadata_url": "https://www.fontshare.com/fonts/quilon",
+      "source_url": "https://www.fontshare.com/fonts/quilon",
+      "variants": [
+        {
+          "name": "Quilon Regular, Medium, Semibold, Bold, Variable",
+          "weight": 700,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/quilon"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "styro": {
+      "name": "Styro",
+      "family": "Styro",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Aarya Purohit, Indian Type Foundry",
+      "foundry": "Indian Type Foundry",
+      "version": "1.0",
+      "description": "Styro is a family of modernist-style stencil fonts. There are eight weights available, ranging in color from Thin through Black. All of the typeface’s weights are virtually monospaced, and with each weight of the family, the outside ‘strokes’ building up the letterforms increase in thickness. Styro’s characters are very condensed, and their design employs a reductionist formal vocabulary. For example, the counterforms are expressed by thin lines that run inside of the letters, from their tops to their bottoms. These ‘counters’ are optically of the same width as the spaces between each letter. Many of the fonts’ stroke terminals – like those on the top of the ‘a’ or on the bottom of the ‘g’ – are reduced to simple geometric shapes. Diactical marks take the form of light thin lines, which create a nice degree of contrast with their base letters. This thin-line treatment is also applied to many of the fonts’ punctuation marks. Styro is reminiscent of a series of stencil letters designed…",
+      "categories": [
+        "Display"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:51:07Z",
+      "metadata_url": "https://www.fontshare.com/fonts/styro",
+      "source_url": "https://www.fontshare.com/fonts/styro",
+      "variants": [
+        {
+          "name": "Styro Extralight, Light, Regular, Medium, Semibold, Bold, …",
           "weight": 900,
           "style": "normal",
           "subsets": [
             "latin"
           ],
           "files": {
-            "zip": "https://api.fontshare.com/v2/fonts/download/sharpie"
+            "zip": "https://api.fontshare.com/v2/fonts/download/styro"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "supreme": {
+      "name": "Supreme",
+      "family": "Supreme",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Jérémie Hornus, Ilya Naumoff",
+      "foundry": "Indian Type Foundry",
+      "version": "1.1",
+      "description": "Supreme is a large family of constructed-style sans serif fonts. These fonts feature forms that look like those that have been favored by engineers for over a century. Their letters are straight-sided, and the strokes that make them up are monolinear. The Supreme family includes 14 members. Seven of these fonts are italics, although these italic fonts should really be called ‘obliques,’ as the letters are slanted versions of what you’ll find in the upright fonts. The family’s weights range from Extralight through Extrabold. The x-height is moderate, so the ascenders and the descenders are quite prominent. The ascenders rise above the capital letters and the numerals – both of which share the same height. Each font uses a double-storey ‘a’ and single-storey ‘g’. Years ago, fonts like Supreme were primarily used to brand firms in engineering and tech. Recently, however, they have become increasingly popular solutions for setting text on screen. The Regular weight of this family would be…",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:51:42Z",
+      "metadata_url": "https://www.fontshare.com/fonts/supreme",
+      "source_url": "https://www.fontshare.com/fonts/supreme",
+      "variants": [
+        {
+          "name": "Supreme Thin, Thin Italic, Extralight, Extralight Italic, Light, Light Italic, …",
+          "weight": 800,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/supreme"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "satoshi": {
+      "name": "Satoshi",
+      "family": "Satoshi",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Deni Anggara",
+      "foundry": "Indian Type Foundry",
+      "version": "1.0",
+      "description": "<div>Satoshi is a modernist sans serif typeface. Its design combines typically grotesk-style letterforms, with some characters that are quite geometrically-designed. In terms of its appearance, Satoshi was inspired by Modernism and Industrial-Era graphic and typographic design. The family has tem weights on offer, ranging from Light to Black with complimentary italics. It is an excellent choice for use in branding, editorial, and poster design.<br><br>Satoshi’s lowercase ‘a’ and ‘g’ are double-storied; however, single-storied alternates are available, through an OpenType feature. The fonts’ other OpenType features include 10 ligatures per font, as well as alternate versions of the ‘G’ and ’t’. The default numeral style in each of the fonts is proportional lining figures; three other styles of numbers are included, too. There are tabular lining figures, as well as numerators and denominators for typesetting fractions. The fonts’ lining figures have the same height as the uppercase lett…",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:49:05Z",
+      "metadata_url": "https://www.fontshare.com/fonts/satoshi",
+      "source_url": "https://www.fontshare.com/fonts/satoshi",
+      "variants": [
+        {
+          "name": "Satoshi Light, Light Italic, Regular, Italic, Medium, Medium Italic, …",
+          "weight": 900,
+          "style": "italic",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/satoshi"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "telma": {
+      "name": "Telma",
+      "family": "Telma",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Jitka Janečková",
+      "foundry": "Indian Type Foundry",
+      "version": "1.0",
+      "description": "Telma is a family of informal script fonts. Their letterforms are drawn with a good degree of contrast between the thick and thick strokes. This contrast gives the whimsical structure seen in some of the characters a more formal nature. There are five weights in the Team family, ranging from Light through Black. Each time you move up the family’s weight scale, the fonts’ thick strokes get thicker, while the thins stay about the same weight. The fonts include a number of ligatures and alternate versions of letterforms, too; these are automatically substituted into text when the OpenType features for Ligatures and Contextual Alternates have been activated. Several of Telma’s uppercase letters have swash-like descenders, such as ‘G’, ‘K’, ‘Q’, and ‘R’. The out-strokes of the lowercase ‘f’, ‘h’, ‘k’, and ‘z’ also descend. Telma has a tall x-height, and the ascenders of the lowercase letters noticeably rise up above than the capitals’ height. The fonts’ numerals are proportionally-spaced o…",
+      "categories": [
+        "Script"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:52:41Z",
+      "metadata_url": "https://www.fontshare.com/fonts/telma",
+      "source_url": "https://www.fontshare.com/fonts/telma",
+      "variants": [
+        {
+          "name": "Telma Light, Regular, Medium, Bold, Black, Variable",
+          "weight": 900,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/telma"
+          }
+        }
+      ],
+      "unicode_ranges": [],
+      "languages": [],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "rx100": {
+      "name": "RX100",
+      "family": "RX100",
+      "license": "ITF FFL",
+      "license_url": "https://www.fontshare.com/licenses/itf-ffl",
+      "designer": "Anurag Gautam, Indian Type Foundry",
+      "foundry": "Indian Type Foundry",
+      "version": "1.0",
+      "description": "RX100 is a monospaced sans serif font. Its letterforms are quite condensed, even for a fixed-width typeface. Because of its narrow width, the capital letters look particularly compressed, offering an interesting look in mixed-case text. RX100’s ascenders are quite tall; they really reach over top of the capitals. The same is true for the font’s diacritical marks: they are very large and will not be overlooked in a text – nor is one diacritical mark likely to be confused for another. This helps ease character recognition, making the typeface a good choice for rendering computer code, or in correspondence that is supposed to look typewritten (a condensed monospace sans serif of this sort automatically calls typewriter faces of the 1970s and 1980s to mind, as those machines were becoming electrified and increasingly sophisticated). RX100’s letterforms features large ink traps to help keep their color in small text even. Interestingly, the font offers 22 alternate uppercase, lowercase, an…",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [],
+      "popularity": 50,
+      "last_modified": "2021-03-12T20:45:17Z",
+      "metadata_url": "https://www.fontshare.com/fonts/rx-100",
+      "source_url": "https://www.fontshare.com/fonts/rx-100",
+      "variants": [
+        {
+          "name": "RX100 Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin"
+          ],
+          "files": {
+            "zip": "https://api.fontshare.com/v2/fonts/download/rx-100"
           }
         }
       ],
