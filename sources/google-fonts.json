@@ -5,7 +5,7 @@
     "url": "https://fonts.google.com",
     "api_endpoint": "https://www.googleapis.com/webfonts/v1/webfonts",
     "version": "1.0",
-    "last_updated": "2026-09-12T06:34:40.427019Z",
+    "last_updated": "2026-09-13T06:50:32.596300Z",
     "total_fonts": 1955
   },
   "fonts": {
@@ -95070,49 +95070,6 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "spicy-rice": {
-      "name": "Spicy Rice",
-      "family": "Spicy Rice",
-      "license": "OFL",
-      "license_url": "https://fonts.google.com/specimen/Spicy+Rice/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v28",
-      "description": "",
-      "categories": [
-        "Display"
-      ],
-      "tags": [
-        "display"
-      ],
-      "popularity": 20,
-      "last_modified": "2025-09-10",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spicyrice/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Spicy+Rice",
-      "variants": [
-        {
-          "name": "Spicy Rice Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/spicyrice/v28/uK_24rSEd-Uqwk4jY1RyGv-2WkowRcc.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF",
-        "U+0100-017F"
-      ],
-      "languages": [
-        "Latin",
-        "Latin Extended"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
     "genos": {
       "name": "Genos",
       "family": "Genos",
@@ -95360,6 +95317,49 @@
         "Latin",
         "Latin Extended",
         "Vietnamese"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "spicy-rice": {
+      "name": "Spicy Rice",
+      "family": "Spicy Rice",
+      "license": "OFL",
+      "license_url": "https://fonts.google.com/specimen/Spicy+Rice/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v28",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 20,
+      "last_modified": "2025-09-10",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spicyrice/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Spicy+Rice",
+      "variants": [
+        {
+          "name": "Spicy Rice Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/spicyrice/v28/uK_24rSEd-Uqwk4jY1RyGv-2WkowRcc.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
@@ -127262,47 +127262,6 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "peddana": {
-      "name": "Peddana",
-      "family": "Peddana",
-      "license": "OFL",
-      "license_url": "https://fonts.google.com/specimen/Peddana/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v24",
-      "description": "",
-      "categories": [
-        "Serif"
-      ],
-      "tags": [
-        "serif"
-      ],
-      "popularity": 20,
-      "last_modified": "2025-09-08",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/peddana/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Peddana",
-      "variants": [
-        {
-          "name": "Peddana Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/peddana/v24/aFTU7PBhaX89UcKWhh2aBYyMcKw.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF"
-      ],
-      "languages": [
-        "Latin"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
     "mr-bedfort": {
       "name": "Mr Bedfort",
       "family": "Mr Bedfort",
@@ -127343,6 +127302,47 @@
       "languages": [
         "Latin",
         "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "peddana": {
+      "name": "Peddana",
+      "family": "Peddana",
+      "license": "OFL",
+      "license_url": "https://fonts.google.com/specimen/Peddana/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v24",
+      "description": "",
+      "categories": [
+        "Serif"
+      ],
+      "tags": [
+        "serif"
+      ],
+      "popularity": 20,
+      "last_modified": "2025-09-08",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/peddana/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Peddana",
+      "variants": [
+        {
+          "name": "Peddana Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/peddana/v24/aFTU7PBhaX89UcKWhh2aBYyMcKw.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF"
+      ],
+      "languages": [
+        "Latin"
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
