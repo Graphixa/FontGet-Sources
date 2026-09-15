@@ -141,6 +141,16 @@
           },
           "uniqueItems": true
         },
+        "aliases": {
+          "type": "array",
+          "description": "Alternate names for search (e.g. unpatched upstream names)",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "uniqueItems": true
+        },
         "popularity": {
           "type": "integer",
           "minimum": 0,
