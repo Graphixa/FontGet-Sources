@@ -25,18 +25,20 @@ jobs:
         run: |
           pip install requests jsonschema
       
-      - name: Update Nerd Fonts
+      - name: Update Nerd Fonts v2
         run: |
           python scripts/nerd-fonts-translator.py
       
       - name: Validate sources
         run: |
-          python schemas/validate-sources.py sources/nerd-fonts.json
+          python schemas/validate-sources.py sources/nerd-fonts-v2.json
+          # Frozen v1 (nerd-fonts.json) must remain unchanged by the translator.
+          git diff --exit-code -- sources/nerd-fonts.json
       
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet sources/nerd-fonts.json; then
+          if git diff --quiet sources/nerd-fonts-v2.json migrations/001-nerd-fonts-v1-to-v2.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -47,8 +49,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add sources/nerd-fonts.json
-          git commit -m "Update Nerd Fonts data [skip ci]"
+          git add sources/nerd-fonts-v2.json migrations/001-nerd-fonts-v1-to-v2.json
+          git commit -m "Update Nerd Fonts v2 data [skip ci]"
       
       - name: Push changes
         if: steps.changes.outputs.changed == 'true'
@@ -60,7 +62,11 @@ jobs:
           echo "## Nerd Fonts Update Summary" >> $GITHUB_STEP_SUMMARY
           echo "- **Status**: ${{ steps.changes.outputs.changed == 'true' && 'Updated' || 'No changes' }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Time**: $(date -u)" >> $GITHUB_STEP_SUMMARY
-          if [ -f sources/nerd-fonts.json ]; then
-            font_count=$(jq '.source_info.total_fonts' sources/nerd-fonts.json)
-            echo "- **Total Fonts**: $font_count" >> $GITHUB_STEP_SUMMARY
+          if [ -f sources/nerd-fonts-v2.json ]; then
+            font_count=$(jq '.source_info.total_fonts' sources/nerd-fonts-v2.json)
+            echo "- **Total Fonts (v2)**: $font_count" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ -f migrations/001-nerd-fonts-v1-to-v2.json ]; then
+            rename_count=$(jq '.renames | length' migrations/001-nerd-fonts-v1-to-v2.json)
+            echo "- **ID Renames**: $rename_count" >> $GITHUB_STEP_SUMMARY
           fi

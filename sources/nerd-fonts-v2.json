@@ -1,0 +1,3948 @@
+{
+  "source_info": {
+    "name": "Nerd Fonts",
+    "description": "Patched fonts with additional icon glyphs for programming",
+    "url": "https://www.nerdfonts.com",
+    "api_endpoint": "https://api.github.com/repos/ryanoasis/nerd-fonts/releases",
+    "version": "2.0",
+    "last_updated": "2026-09-15T15:18:39.601Z",
+    "total_fonts": 72
+  },
+  "fonts": {
+    "0xproto": {
+      "name": "0xProto Nerd Font",
+      "family": "0xProto Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "A programming font focused on source code legibility",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "0xProto"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "0xProto Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/0xProto.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/0xProto.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "3270": {
+      "name": "3270 Nerd Font",
+      "family": "3270 Nerd Font",
+      "license": "BSD-3-Clause",
+      "license_url": "https://spdx.org/licenses/BSD-3-Clause.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Derived from the x3270 font, a modern format of a font with high nostalgic value",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "IBM 3270"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "3270 Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/3270.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/3270.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "adwaita-mono": {
+      "name": "AdwaitaMono Nerd Font",
+      "family": "AdwaitaMono Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "The monospace typeface for GNOME",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Adwaita Mono",
+        "AdwaitaMono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "AdwaitaMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AdwaitaMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AdwaitaMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "agave": {
+      "name": "Agave Nerd Font",
+      "family": "Agave Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "A small, monospace, outline font that is geometrically regular and simple",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Agave"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Agave Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Agave.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Agave.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "annotationmono": {
+      "name": "AnnotationM NF",
+      "family": "AnnotationM NF",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Idealized handwriting; legibility maximized while retaining hand-written character",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Annotation Mono",
+        "AnnotationM",
+        "AnnotationMono",
+        "annotation-mono",
+        "nerd.annotation-mono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "AnnotationM NF Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AnnotationMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AnnotationMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "anonymice": {
+      "name": "AnonymicePro Nerd Font",
+      "family": "AnonymicePro Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Inspired by Anonymous 9 on Macintosh, since 2009, distinct `O`, `0`, `I`, `l`, `1`",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Anonymous Pro",
+        "AnonymicePro",
+        "AnonymousPro",
+        "anonymous-pro",
+        "nerd.anonymous-pro"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "AnonymicePro Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AnonymousPro.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AnonymousPro.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "arimo": {
+      "name": "Arimo Nerd Font",
+      "family": "Arimo Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Metrically similar to Arial, pan-European WGL character set, sans serif",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Arimo"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Arimo Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Arimo.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Arimo.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "atkynson-mono": {
+      "name": "AtkynsonMono NF",
+      "family": "AtkynsonMono NF",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "A monospaced font designed to improve legibility and readability for individuals with low vision",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Atkinson Hyperlegible Mono",
+        "AtkynsonMono",
+        "AtkinsonHyperlegibleMono",
+        "atkinson-hyperlegible-mono",
+        "nerd.atkinson-hyperlegible-mono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "AtkynsonMono NF Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AtkinsonHyperlegibleMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AtkinsonHyperlegibleMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "aurulent-sans-mono": {
+      "name": "AurulentSansM Nerd Font",
+      "family": "AurulentSansM Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Sans serif, designed by Stephen G. Hartke which also created Verily Serif",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Aurulent Sans Mono",
+        "AurulentSansM",
+        "AurulentSansMono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "AurulentSansM Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AurulentSansMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/AurulentSansMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "bigblue-terminal": {
+      "name": "BigBlueTermPlus Nerd Font",
+      "family": "BigBlueTermPlus Nerd Font",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://spdx.org/licenses/CC-BY-SA-4.0.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Nostalgic, closely based on IBM's 8x14 EGA/VGA charset",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "BigBlue Terminal",
+        "BigBlueTerm",
+        "BigBlueTerminal",
+        "big-blue-terminal",
+        "nerd.big-blue-terminal"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "BigBlueTermPlus Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/BigBlueTerminal.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/BigBlueTerminal.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "bitstream-vera-sans-mono": {
+      "name": "BitstromWera Nerd Font",
+      "family": "BitstromWera Nerd Font",
+      "license": "Bitstream-Vera",
+      "license_url": "https://spdx.org/licenses/Bitstream-Vera.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Dotted zero, compact lowercase characters",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Bitstream Vera Sans Mono",
+        "BitstromWera",
+        "BitstreamVeraSansMono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "BitstromWera Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/BitstreamVeraSansMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/BitstreamVeraSansMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "blex-mono": {
+      "name": "BlexMono Nerd Font",
+      "family": "BlexMono Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "It's global, it's versatile and it's distinctly IBM",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "IBM Plex Mono",
+        "BlexMono",
+        "IBMPlexMono",
+        "ibm-plex-mono",
+        "nerd.ibm-plex-mono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "BlexMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IBMPlexMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IBMPlexMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "caskaydia-cove": {
+      "name": "CaskaydiaCove Nerd Font",
+      "family": "CaskaydiaCove Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "A fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Cascadia Code",
+        "CaskaydiaCove",
+        "CascadiaCode",
+        "cascadia-code",
+        "nerd.cascadia-code"
+      ],
+      "popularity": 85,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "CaskaydiaCove Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CascadiaCode.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CascadiaCode.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "caskaydia-mono": {
+      "name": "CaskaydiaMono NF",
+      "family": "CaskaydiaMono NF",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Like Cascadia Code but without any ligatures",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Cascadia Mono",
+        "CaskaydiaMono",
+        "CascadiaMono",
+        "cascadia-mono",
+        "nerd.cascadia-mono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "CaskaydiaMono NF Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CascadiaMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CascadiaMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "code-new-roman": {
+      "name": "CodeNewRoman Nerd Font",
+      "family": "CodeNewRoman Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Tunable, slashed zeros, compact smaller characters",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Code New Roman",
+        "CodeNewRoman"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "CodeNewRoman Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CodeNewRoman.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CodeNewRoman.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "comic-shanns-mono": {
+      "name": "ComicShannsMono Nerd Font",
+      "family": "ComicShannsMono Nerd Font",
+      "license": "MIT",
+      "license_url": "https://spdx.org/licenses/MIT.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "The very typeface you’ve been trained to recognize since childhood",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Comic Shanns Mono",
+        "ComicShannsMono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "ComicShannsMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ComicShannsMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ComicShannsMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "commit-mono": {
+      "name": "CommitMono Nerd Font",
+      "family": "CommitMono Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "An anonymous and neutral programming typeface",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Commit Mono",
+        "CommitMono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "CommitMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CommitMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CommitMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "cousine": {
+      "name": "Cousine Nerd Font",
+      "family": "Cousine Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Similar to Courier New with better readablitiy, dotted zeros",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Cousine"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Cousine Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Cousine.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Cousine.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "d2coding": {
+      "name": "D2KodingLigature Nerd Font",
+      "family": "D2KodingLigature Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "A coding font for Koreans. This is the variant with ligatures.",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "D2Coding",
+        "D2KodingLigature"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "D2KodingLigature Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/D2Coding.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/D2Coding.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "daddy-time-mono": {
+      "name": "DaddyTimeMono Nerd Font",
+      "family": "DaddyTimeMono Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "A monospaced font for programmers and other terminal groupies",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "DaddyTimeMono",
+        "daddytime-mono",
+        "nerd.daddytime-mono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "DaddyTimeMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DaddyTimeMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DaddyTimeMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "dejavu-sans-mono": {
+      "name": "DejaVuSansM Nerd Font",
+      "family": "DejaVuSansM Nerd Font",
+      "license": "Bitstream-Vera",
+      "license_url": "https://spdx.org/licenses/Bitstream-Vera.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Dotted zero, based on the Bitstream Vera Fonts with a wider range of character",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "DejaVu Sans Mono",
+        "DejaVuSansM",
+        "DejaVuSansMono"
+      ],
+      "popularity": 60,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "DejaVuSansM Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DejaVuSansMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DejaVuSansMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "departure-mono": {
+      "name": "DepartureMono Nerd Font",
+      "family": "DepartureMono Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "A monospaced pixel font with a lo-fi, techy vibe",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Departure Mono",
+        "DepartureMono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "DepartureMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DepartureMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DepartureMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "droid-sans-mono": {
+      "name": "DroidSansM Nerd Font",
+      "family": "DroidSansM Nerd Font",
+      "license": "Apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Good for small screens or font sizes",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Droid Sans Mono",
+        "DroidSansM",
+        "DroidSansMono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "DroidSansM Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DroidSansMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/DroidSansMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "envy-code-r": {
+      "name": "EnvyCodeR Nerd Font",
+      "family": "EnvyCodeR Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Fully-scalable monospaced font designed for programming and command prompts",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Envy Code R",
+        "EnvyCodeR"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "EnvyCodeR Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/EnvyCodeR.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/EnvyCodeR.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "fantasque-sans-mono": {
+      "name": "FantasqueSansM Nerd Font",
+      "family": "FantasqueSansM Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "\"Wibbly-wobbly handwriting-like fuzziness\", takes some inspiration from Inconsolata and Monaco",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Fantasque Sans Mono",
+        "FantasqueSansM",
+        "FantasqueSansMono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "FantasqueSansM Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/FantasqueSansMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/FantasqueSansMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "fira-code": {
+      "name": "FiraCode Nerd Font",
+      "family": "FiraCode Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Programming ligatures, extension of Fira Mono font, enlarged operators",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Fira Code",
+        "FiraCode"
+      ],
+      "popularity": 95,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "FiraCode Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/FiraCode.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/FiraCode.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "fira-mono": {
+      "name": "FiraMono Nerd Font",
+      "family": "FiraMono Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Mozilla typeface, dotted zero",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Fira",
+        "FiraMono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "FiraMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/FiraMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/FiraMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "geist-mono": {
+      "name": "GeistMono NF",
+      "family": "GeistMono NF",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Monospaced typeface designed to be used in code editors, diagrams, terminals, and other textbased interfaces where code is represented",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Geist Mono",
+        "GeistMono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "GeistMono NF Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/GeistMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/GeistMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "go-mono": {
+      "name": "GoMono Nerd Font",
+      "family": "GoMono Nerd Font",
+      "license": "BSD-3-Clause-Clear",
+      "license_url": "https://spdx.org/licenses/BSD-3-Clause-Clear.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Created specifically for the Go project, looks particularly clear for use with the Go language",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Go Mono",
+        "GoMono",
+        "Go-Mono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "GoMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Go-Mono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Go-Mono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "gohufont": {
+      "name": "GohuFont 14 Nerd Font",
+      "family": "GohuFont 14 Nerd Font",
+      "license": "WTFPL",
+      "license_url": "https://spdx.org/licenses/WTFPL.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Bitmap font, tall capitals and ascenders, small serifs",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Gohu",
+        "GohuFont",
+        "gohu",
+        "nerd.gohu"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "GohuFont 14 Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Gohu.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Gohu.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "googlesanscode": {
+      "name": "GoogleSansCode NF",
+      "family": "GoogleSansCode NF",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Designed to bring clarity, readability, and a bit of Google's distinctive brand character to code",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Google Sans Code",
+        "GoogleSansCode",
+        "google-sans-code",
+        "nerd.google-sans-code"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "GoogleSansCode NF Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/GoogleSansCode.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/GoogleSansCode.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "hack": {
+      "name": "Hack Nerd Font",
+      "family": "Hack Nerd Font",
+      "license": "Bitstream-Vera AND MIT",
+      "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.1/LICENSE",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Dotted zero, short descenders, expands upon work done for Bitstream Vera &amp; DejaVu, legible at common sizes",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Hack"
+      ],
+      "popularity": 75,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Hack Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Hack.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Hack.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "hasklug": {
+      "name": "Hasklug Nerd Font",
+      "family": "Hasklug Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Monospaced ligatures, makes composite glyphs (e.g. ->) more reabable, especially in Haskell",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Hasklig",
+        "Hasklug",
+        "hasklig",
+        "nerd.hasklig"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Hasklug Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Hasklig.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Hasklig.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "heavy-data": {
+      "name": "HeavyData Nerd Font",
+      "family": "HeavyData Nerd Font",
+      "license": "LicenseRef-VicFieger",
+      "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.1/LICENSE",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Novel and unique design, dotted zero",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Heavy Data",
+        "HeavyData",
+        "heavydata",
+        "nerd.heavydata"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "HeavyData Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/HeavyData.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/HeavyData.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "hurmit": {
+      "name": "Hurmit Nerd Font",
+      "family": "Hurmit Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Symbols stand out from common text",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Hermit",
+        "Hurmit",
+        "hermit",
+        "nerd.hermit"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Hurmit Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Hermit.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Hermit.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "im-writing": {
+      "name": "iMWritingMono Nerd Font",
+      "family": "iMWritingMono Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "A heavy modification of IBM's Plex font",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "iA Writer",
+        "iMWriting",
+        "iA-Writer",
+        "ia-writer",
+        "nerd.ia-writer"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "iMWritingMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/iA-Writer.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/iA-Writer.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "inconsolata": {
+      "name": "Inconsolata Nerd Font",
+      "family": "Inconsolata Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Slashed zero, takes inspiration from many different fonts and glyphs, subtle curves in lowercase",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Inconsolata"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Inconsolata Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Inconsolata.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Inconsolata.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "inconsolata-go": {
+      "name": "InconsolataGo Nerd Font",
+      "family": "InconsolataGo Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Inconsolata with straight quotes",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "InconsolataGo"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "InconsolataGo Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/InconsolataGo.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/InconsolataGo.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "inconsolata-lgc": {
+      "name": "Inconsolata LGC Nerd Font",
+      "family": "Inconsolata LGC Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Inconsolata with added the Cyrillic alphabet",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Inconsolata LGC",
+        "InconsolataLGC"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Inconsolata LGC Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/InconsolataLGC.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/InconsolataLGC.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "intone-mono": {
+      "name": "IntoneMono Nerd Font",
+      "family": "IntoneMono Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Expressive monospaced font family that’s built with clarity, legibility, and the needs of developers in mind",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Intel One Mono",
+        "IntoneMono",
+        "IntelOneMono",
+        "intel-one-mono",
+        "nerd.intel-one-mono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "IntoneMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IntelOneMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IntelOneMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "iosevka": {
+      "name": "Iosevka Nerd Font",
+      "family": "Iosevka Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Narrow and horizontally tight characters, slashed zero",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Iosevka"
+      ],
+      "popularity": 70,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Iosevka Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Iosevka.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Iosevka.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "iosevka-term": {
+      "name": "IosevkaTerm Nerd Font",
+      "family": "IosevkaTerm Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "A narrower variant focusing terminal uses: Arrows and geometric symbols will be narrow to follow typical terminal usages",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Iosevka Term",
+        "IosevkaTerm"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "IosevkaTerm Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IosevkaTerm.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IosevkaTerm.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "iosevka-term-slab": {
+      "name": "IosevkaTermSlab NF",
+      "family": "IosevkaTermSlab NF",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Nice as Iosevka but with slab serifs",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Iosevka Term Slab",
+        "IosevkaTermSlab"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "IosevkaTermSlab NF Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IosevkaTermSlab.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IosevkaTermSlab.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "jetbrains-mono": {
+      "name": "JetBrainsMono Nerd Font",
+      "family": "JetBrainsMono Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "JetBrains officially created font for developers",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "JetBrains Mono",
+        "JetBrainsMono"
+      ],
+      "popularity": 90,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "JetBrainsMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/JetBrainsMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/JetBrainsMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "lekton": {
+      "name": "Lekton Nerd Font",
+      "family": "Lekton Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Very light and thin characters, sharp m's, `0` and `O` very similar",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Lekton"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Lekton Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Lekton.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Lekton.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "liberation": {
+      "name": "LiterationMono Nerd Font",
+      "family": "LiterationMono Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "`0` and `O` very similar, very short tight descenders",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Liberation Mono",
+        "LiterationMono",
+        "LiberationMono",
+        "liberation-mono",
+        "nerd.liberation-mono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "LiterationMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/LiberationMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/LiberationMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "lilex": {
+      "name": "Lilex Nerd Font",
+      "family": "Lilex Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Modern with ligatures",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Lilex"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Lilex Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Lilex.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Lilex.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "m": {
+      "name": "M+1Code Nerd Font",
+      "family": "M+1Code Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Multiple styles and weights, many glyph sets (e.g. Kana glyphs)",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "MPlus",
+        "M+",
+        "m-plus",
+        "nerd.m-plus"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "M+1Code Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/MPlus.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/MPlus.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "martian-mono": {
+      "name": "MartianMono NF",
+      "family": "MartianMono NF",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Free and open-source monospaced font from Evil Martians",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "MartianMono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "MartianMono NF Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/MartianMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/MartianMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "meslo-lg": {
+      "name": "MesloLGM Nerd Font",
+      "family": "MesloLGM Nerd Font",
+      "license": "Apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Slashed zeros, customized version of Apple's Menlo",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Meslo LG",
+        "MesloLG",
+        "Meslo",
+        "meslo",
+        "nerd.meslo"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "MesloLGM Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Meslo.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Meslo.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "monaspice": {
+      "name": "MonaspiceNe NF",
+      "family": "MonaspiceNe NF",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Five matching fonts all having 'texture healing' to improve legibility",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Monaspace",
+        "Monaspice",
+        "monaspace",
+        "nerd.monaspace"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "MonaspiceNe NF Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monaspace.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monaspace.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "monofur": {
+      "name": "Monofur Nerd Font",
+      "family": "Monofur Nerd Font",
+      "license": "LicenseRef-Monofur",
+      "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.1/LICENSE",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Dotted zeros, slightly exaggerated curvy characters, compact characters",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Monofur"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Monofur Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monofur.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monofur.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "monoid": {
+      "name": "Monoid Nerd Font",
+      "family": "Monoid Nerd Font",
+      "license": "MIT OR OFL-1.1-no-RFN",
+      "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.1/LICENSE",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Ligatures, distinguishable glyphs with short ascenders &amp; descenders, large operators &amp; punctuation",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Monoid"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Monoid Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monoid.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monoid.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "mononoki": {
+      "name": "Mononoki Nerd Font",
+      "family": "Mononoki Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Keeps in mind differentiation of characters and resolution sizes",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Mononoki"
+      ],
+      "popularity": 55,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Mononoki Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Mononoki.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Mononoki.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "noto": {
+      "name": "NotoSansM Nerd Font",
+      "family": "NotoSansM Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "`0` and `O` very similar, characters are either very curvy or straight lined",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Noto"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "NotoSansM Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Noto.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Noto.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "opendyslexic": {
+      "name": "OpenDyslexic Nerd Font",
+      "family": "OpenDyslexic Nerd Font",
+      "license": "Bitstream-Vera",
+      "license_url": "https://spdx.org/licenses/Bitstream-Vera.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Designed specifically to alleviate reading errors caused by dyslexia",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "OpenDyslexic"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "OpenDyslexic Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/OpenDyslexic.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/OpenDyslexic.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "overpass": {
+      "name": "OverpassM Nerd Font",
+      "family": "OverpassM Nerd Font",
+      "license": "OFL-1.1-no-RFN or LGPL-2.1-only",
+      "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.1/LICENSE",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "An open source font family inspired by Highway Gothic",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Overpass"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "OverpassM Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Overpass.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Overpass.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "profont": {
+      "name": "ProFont IIx Nerd Font",
+      "family": "ProFont IIx Nerd Font",
+      "license": "MIT",
+      "license_url": "https://spdx.org/licenses/MIT.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Looks best with anti-aliasing turned off, squared off character corners, vertically tight small `s`",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "ProFont"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "ProFont IIx Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ProFont.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ProFont.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "proggy-clean-tt": {
+      "name": "ProggyClean Nerd Font",
+      "family": "ProggyClean Nerd Font",
+      "license": "MIT",
+      "license_url": "https://spdx.org/licenses/MIT.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Designed particularly for use at small point sizes",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "ProggyCleanTT",
+        "ProggyClean",
+        "proggyclean",
+        "nerd.proggyclean"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "ProggyClean Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ProggyClean.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ProggyClean.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "recursive-mono": {
+      "name": "RecMonoSmCasual Nerd Font",
+      "family": "RecMonoSmCasual Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "inspired by casual script signpainting, 4 variants",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Recursive Mono",
+        "RecMono",
+        "Recursive",
+        "recursive",
+        "nerd.recursive"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "RecMonoSmCasual Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Recursive.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Recursive.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "roboto-mono": {
+      "name": "RobotoMono Nerd Font",
+      "family": "RobotoMono Nerd Font",
+      "license": "Apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Dashed zero, curved and straight character lines",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Roboto Mono",
+        "RobotoMono"
+      ],
+      "popularity": 70,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "RobotoMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/RobotoMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/RobotoMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "sauce-code-pro": {
+      "name": "SauceCodePro Nerd Font",
+      "family": "SauceCodePro Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Monospaced font family for user interface and coding environments",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Source Code Pro",
+        "SauceCodePro",
+        "SourceCodePro",
+        "source-code-pro",
+        "nerd.source-code-pro"
+      ],
+      "popularity": 80,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "SauceCodePro Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/SourceCodePro.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/SourceCodePro.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "shure-tech-mono": {
+      "name": "ShureTechMono Nerd Font",
+      "family": "ShureTechMono Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Dotted zeros, distinguishable 1 and l, curved and straight character lines",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Share Tech Mono",
+        "ShureTechMono",
+        "ShareTechMono",
+        "share-tech-mono",
+        "nerd.share-tech-mono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "ShureTechMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ShareTechMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ShareTechMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "space-mono": {
+      "name": "SpaceMono Nerd Font",
+      "family": "SpaceMono Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Squarish character lines, dotted zero, aggressive parethesis",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Space Mono",
+        "SpaceMono"
+      ],
+      "popularity": 45,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "SpaceMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/SpaceMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/SpaceMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "symbols-only": {
+      "name": "Symbols Nerd Font Mono",
+      "family": "Symbols Nerd Font Mono",
+      "license": "MIT",
+      "license_url": "https://spdx.org/licenses/MIT.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Just the Nerd Font Icons. I.e Symbol font only",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Symbols Only",
+        "Symbols",
+        "NerdFontsSymbolsOnly"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Symbols Nerd Font Mono Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/NerdFontsSymbolsOnly.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/NerdFontsSymbolsOnly.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "terminess-ttf": {
+      "name": "Terminess Nerd Font",
+      "family": "Terminess Nerd Font",
+      "license": "OFL-1.1-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Squarish characters that are slightly askew",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Terminus",
+        "Terminess",
+        "terminus",
+        "nerd.terminus"
+      ],
+      "popularity": 65,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Terminess Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Terminus.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Terminus.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "tinos": {
+      "name": "Tinos Nerd Font",
+      "family": "Tinos Nerd Font",
+      "license": "Apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Some similarities to Times New Roman, designed by Steve Matteson, includes pan-European WGL character set",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Tinos"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Tinos Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Tinos.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Tinos.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "ubuntu": {
+      "name": "Ubuntu Nerd Font",
+      "family": "Ubuntu Nerd Font",
+      "license": "LicenseRef-UbuntuFont",
+      "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.1/LICENSE",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Specially created for Ubuntu",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Ubuntu"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "Ubuntu Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Ubuntu.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Ubuntu.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "ubuntu-mono": {
+      "name": "UbuntuMono Nerd Font",
+      "family": "UbuntuMono Nerd Font",
+      "license": "LicenseRef-UbuntuFont",
+      "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.1/LICENSE",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Dotted zeros, used the `n`, `o`, `H` &amp; `O` Latin characters as a base for design",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Ubuntu Mono",
+        "UbuntuMono"
+      ],
+      "popularity": 65,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "UbuntuMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/UbuntuMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/UbuntuMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "ubuntu-sans": {
+      "name": "UbuntuSansMono NF",
+      "family": "UbuntuSansMono NF",
+      "license": "LicenseRef-UbuntuFont",
+      "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.1/LICENSE",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Refreshed version of Ubuntu and Ubuntu Mono fonts",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Ubuntu Sans",
+        "UbuntuSans"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "UbuntuSansMono NF Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/UbuntuSans.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/UbuntuSans.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "victor-mono": {
+      "name": "VictorMono Nerd Font",
+      "family": "VictorMono Nerd Font",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Clean, crisp and narrow, with a large x-height and clear punctuation",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Victor Mono",
+        "VictorMono"
+      ],
+      "popularity": 35,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "VictorMono Nerd Font Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/VictorMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/VictorMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    },
+    "zed-mono": {
+      "name": "ZedMono NF",
+      "family": "ZedMono NF",
+      "license": "OFL-1.1-no-RFN",
+      "license_url": "https://spdx.org/licenses/OFL-1.1-no-RFN.html",
+      "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
+      "foundry": "Nerd Fonts",
+      "version": "3.5.1",
+      "description": "Zed Mono is a more rounded version of Iosevka",
+      "categories": [
+        "Nerd Font"
+      ],
+      "tags": [
+        "nerd-fonts",
+        "icons",
+        "patched",
+        "monospace",
+        "programming"
+      ],
+      "aliases": [
+        "Zed Mono",
+        "ZedMono"
+      ],
+      "popularity": 50,
+      "last_modified": "2026-09-15T15:18:39.600Z",
+      "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
+      "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
+      "variants": [
+        {
+          "name": "ZedMono NF Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "tar_xz": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ZedMono.tar.xz",
+            "zip": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ZedMono.zip"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+2190-21FF",
+        "U+2600-26FF",
+        "U+1F300-1F5FF"
+      ],
+      "languages": [
+        "Latin",
+        "Symbols"
+      ],
+      "sample_text": "Hello World! ⚡ 🔥 💻"
+    }
+  }
+}
