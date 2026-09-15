@@ -7,7 +7,7 @@ A GitHub Actions workflow runs daily to fetch, transform, and sanitize data from
 ## Font Sources
 
 - **[Google Fonts](sources/google-fonts.json)**
-- **[Nerd Fonts](sources/nerd-fonts.json)**
+- **[Nerd Fonts](sources/nerd-fonts-v2.json)**
 - **[The League of Moveable Type](sources/league-of-moveable-type.json)**
 - **[Fontsource](sources/fontsource.json)**
 - **[Fontshare](sources/fontshare.json)**
