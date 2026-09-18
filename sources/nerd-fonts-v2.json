@@ -5,7 +5,7 @@
     "url": "https://www.nerdfonts.com",
     "api_endpoint": "https://api.github.com/repos/ryanoasis/nerd-fonts/releases",
     "version": "2.0",
-    "last_updated": "2026-09-17T08:20:36.468Z",
+    "last_updated": "2026-09-18T07:55:57.127Z",
     "total_fonts": 72
   },
   "fonts": {
@@ -32,7 +32,7 @@
         "0xProto"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -85,7 +85,7 @@
         "IBM 3270"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -139,7 +139,7 @@
         "AdwaitaMono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -192,7 +192,7 @@
         "Agave"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -249,7 +249,7 @@
         "nerd.annotation-mono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -306,7 +306,7 @@
         "nerd.anonymous-pro"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -359,7 +359,7 @@
         "Arimo"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -416,7 +416,7 @@
         "nerd.atkinson-hyperlegible-mono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -471,7 +471,7 @@
         "AurulentSansMono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -528,7 +528,7 @@
         "nerd.big-blue-terminal"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -583,7 +583,7 @@
         "BitstreamVeraSansMono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -640,7 +640,7 @@
         "nerd.ibm-plex-mono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -697,7 +697,7 @@
         "nerd.cascadia-code"
       ],
       "popularity": 85,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -754,7 +754,7 @@
         "nerd.cascadia-mono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -808,7 +808,7 @@
         "CodeNewRoman"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -862,7 +862,7 @@
         "ComicShannsMono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -916,7 +916,7 @@
         "CommitMono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -969,7 +969,7 @@
         "Cousine"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1023,7 +1023,7 @@
         "D2KodingLigature"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1078,7 +1078,7 @@
         "nerd.daddytime-mono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1133,7 +1133,7 @@
         "DejaVuSansMono"
       ],
       "popularity": 60,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1187,7 +1187,7 @@
         "DepartureMono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1242,7 +1242,7 @@
         "DroidSansMono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1296,7 +1296,7 @@
         "EnvyCodeR"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1351,7 +1351,7 @@
         "FantasqueSansMono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1405,7 +1405,7 @@
         "FiraCode"
       ],
       "popularity": 95,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1459,7 +1459,7 @@
         "FiraMono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1513,7 +1513,7 @@
         "GeistMono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1568,7 +1568,7 @@
         "Go-Mono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1624,7 +1624,7 @@
         "nerd.gohu"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1680,7 +1680,7 @@
         "nerd.google-sans-code"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1733,7 +1733,7 @@
         "Hack"
       ],
       "popularity": 75,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1789,7 +1789,7 @@
         "nerd.hasklig"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1845,7 +1845,7 @@
         "nerd.heavydata"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1901,7 +1901,7 @@
         "nerd.hermit"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -1958,7 +1958,7 @@
         "nerd.ia-writer"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2011,7 +2011,7 @@
         "Inconsolata"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2064,7 +2064,7 @@
         "InconsolataGo"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2118,7 +2118,7 @@
         "InconsolataLGC"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2175,7 +2175,7 @@
         "nerd.intel-one-mono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2228,7 +2228,7 @@
         "Iosevka"
       ],
       "popularity": 70,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2282,7 +2282,7 @@
         "IosevkaTerm"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2336,7 +2336,7 @@
         "IosevkaTermSlab"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2390,7 +2390,7 @@
         "JetBrainsMono"
       ],
       "popularity": 90,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2443,7 +2443,7 @@
         "Lekton"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2500,7 +2500,7 @@
         "nerd.liberation-mono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2553,7 +2553,7 @@
         "Lilex"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2609,7 +2609,7 @@
         "nerd.m-plus"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2662,7 +2662,7 @@
         "MartianMono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2719,7 +2719,7 @@
         "nerd.meslo"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2775,7 +2775,7 @@
         "nerd.monaspace"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2828,7 +2828,7 @@
         "Monofur"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2881,7 +2881,7 @@
         "Monoid"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2934,7 +2934,7 @@
         "Mononoki"
       ],
       "popularity": 55,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -2987,7 +2987,7 @@
         "Noto"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3040,7 +3040,7 @@
         "OpenDyslexic"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3093,7 +3093,7 @@
         "Overpass"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3146,7 +3146,7 @@
         "ProFont"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3202,7 +3202,7 @@
         "nerd.proggyclean"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3259,7 +3259,7 @@
         "nerd.recursive"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3313,7 +3313,7 @@
         "RobotoMono"
       ],
       "popularity": 70,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3370,7 +3370,7 @@
         "nerd.source-code-pro"
       ],
       "popularity": 80,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3427,7 +3427,7 @@
         "nerd.share-tech-mono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3481,7 +3481,7 @@
         "SpaceMono"
       ],
       "popularity": 45,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3536,7 +3536,7 @@
         "NerdFontsSymbolsOnly"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3592,7 +3592,7 @@
         "nerd.terminus"
       ],
       "popularity": 65,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3645,7 +3645,7 @@
         "Tinos"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3698,7 +3698,7 @@
         "Ubuntu"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3752,7 +3752,7 @@
         "UbuntuMono"
       ],
       "popularity": 65,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3806,7 +3806,7 @@
         "UbuntuSans"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3860,7 +3860,7 @@
         "VictorMono"
       ],
       "popularity": 35,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
@@ -3914,7 +3914,7 @@
         "ZedMono"
       ],
       "popularity": 50,
-      "last_modified": "2026-09-17T08:20:36.466Z",
+      "last_modified": "2026-09-18T07:55:57.126Z",
       "metadata_url": "https://github.com/ryanoasis/nerd-fonts",
       "source_url": "https://github.com/ryanoasis/nerd-fonts/releases/tag/v3.5.1",
       "variants": [
