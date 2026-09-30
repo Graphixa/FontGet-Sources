@@ -5,8 +5,8 @@
     "url": "https://fontsource.org",
     "api_endpoint": "https://api.fontsource.org/v1/fonts?type=other",
     "version": "1.0",
-    "last_updated": "2026-09-29T09:48:23.050499Z",
-    "total_fonts": 120
+    "last_updated": "2026-09-30T09:41:07.611392Z",
+    "total_fonts": 119
   },
   "fonts": {
     "adwaita-mono": {
@@ -5862,119 +5862,6 @@
           ],
           "files": {
             "ttf": "https://cdn.jsdelivr.net/fontsource/fonts/lextrall@latest/latin-900-normal.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [],
-      "languages": [],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "libre-caslon-condensed": {
-      "name": "Libre Caslon Condensed",
-      "family": "Libre Caslon Condensed",
-      "license": "OFL-1.1",
-      "license_url": "https://opensource.org/licenses/OFL-1.1",
-      "designer": "",
-      "foundry": "Fontsource",
-      "version": "5.3.0",
-      "description": "Open source font from Fontsource",
-      "categories": [
-        "Serif"
-      ],
-      "tags": [
-        "serif"
-      ],
-      "popularity": 50,
-      "last_modified": "2024-02-09",
-      "metadata_url": "https://fontsource.org/fonts/libre-caslon-condensed",
-      "source_url": "https://fontsource.org/fonts/libre-caslon-condensed",
-      "variants": [
-        {
-          "name": "Libre Caslon Condensed Regular · latin",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "ttf": "https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-400-normal.ttf"
-          }
-        },
-        {
-          "name": "Libre Caslon Condensed Regular Italic · latin",
-          "weight": 400,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "ttf": "https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-400-italic.ttf"
-          }
-        },
-        {
-          "name": "Libre Caslon Condensed Medium · latin",
-          "weight": 500,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "ttf": "https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-500-normal.ttf"
-          }
-        },
-        {
-          "name": "Libre Caslon Condensed Medium Italic · latin",
-          "weight": 500,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "ttf": "https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-500-italic.ttf"
-          }
-        },
-        {
-          "name": "Libre Caslon Condensed Semi Bold · latin",
-          "weight": 600,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "ttf": "https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-600-normal.ttf"
-          }
-        },
-        {
-          "name": "Libre Caslon Condensed Semi Bold Italic · latin",
-          "weight": 600,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "ttf": "https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-600-italic.ttf"
-          }
-        },
-        {
-          "name": "Libre Caslon Condensed Bold · latin",
-          "weight": 700,
-          "style": "normal",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "ttf": "https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-700-normal.ttf"
-          }
-        },
-        {
-          "name": "Libre Caslon Condensed Bold Italic · latin",
-          "weight": 700,
-          "style": "italic",
-          "subsets": [
-            "latin"
-          ],
-          "files": {
-            "ttf": "https://cdn.jsdelivr.net/fontsource/fonts/libre-caslon-condensed@latest/latin-700-italic.ttf"
           }
         }
       ],
