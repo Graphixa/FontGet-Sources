@@ -18,6 +18,7 @@ _ALIASES: Dict[str, str] = {
     "apache license 2.0": "Apache-2.0",
     "ufl": "Ubuntu-font-1.0",
     "ubuntu-font-1.0": "Ubuntu-font-1.0",
+    "licenseref-ubuntufont": "Ubuntu-font-1.0",
     "mit": "MIT",
     "itf ffl": "ITF-FFL",
     "itf-ffl": "ITF-FFL",
@@ -66,6 +67,7 @@ def _self_check() -> None:
     assert canonical_license("OFL") == "OFL-1.1"
     assert canonical_license("APACHE2") == "Apache-2.0"
     assert canonical_license("UFL") == "Ubuntu-font-1.0"
+    assert canonical_license("LicenseRef-UbuntuFont") == "Ubuntu-font-1.0"
     assert canonical_license("SIL Open Font License 1.1") == "OFL-1.1"
     assert canonical_license("OFL-1.1-RFN") == "OFL-1.1-RFN"
     assert canonical_license("OFL-1.1-no-RFN") == "OFL-1.1-no-RFN"

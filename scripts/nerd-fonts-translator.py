@@ -116,13 +116,23 @@ class NerdFontsTranslator:
 
     @staticmethod
     def _license_url(license_id: str, entry: Dict[str, Any], fallback: str) -> str:
-        """SPDX page for a single listed id; else RFNException; else pinned LICENSE."""
-        if (
-            license_id
-            and not license_id.startswith("LicenseRef-")
-            and re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9.+-]*", license_id)
-        ):
-            return f"https://spdx.org/licenses/{license_id}.html"
+        """SPDX page for a listed id (or first id in an AND/OR expression); else fallback.
+
+        ``LicenseRef-*`` has no SPDX page — use the Nerd Fonts LICENSE fallback.
+        """
+        candidates: List[str] = []
+        if license_id:
+            if re.search(r"\s+(?:AND|OR)\s+", license_id, re.IGNORECASE):
+                candidates.append(re.split(r"\s+(?:AND|OR)\s+", license_id, maxsplit=1)[0].strip())
+            else:
+                candidates.append(license_id.strip())
+        for cand in candidates:
+            if (
+                cand
+                and not cand.startswith("LicenseRef-")
+                and re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9.+-]*", cand)
+            ):
+                return f"https://spdx.org/licenses/{cand}.html"
         rfn_exc = entry.get("RFNException")
         if isinstance(rfn_exc, str) and rfn_exc.strip():
             return rfn_exc.strip()
@@ -250,6 +260,7 @@ class NerdFontsTranslator:
             if not license_id:
                 print(f"Warning: {folder} missing licenseId; using Mixed")
                 license_id = "Mixed"
+            license_canon = canonical_license(license_id)
 
             font_name = self._display_name(entry)
             unpatched = (entry.get("unpatchedName") or folder).strip()
@@ -262,8 +273,8 @@ class NerdFontsTranslator:
             fonts[font_id] = {
                 "name": font_name,
                 "family": font_name,
-                "license": canonical_license(license_id),
-                "license_url": self._license_url(license_id, entry, license_fallback),
+                "license": license_canon,
+                "license_url": self._license_url(license_canon, entry, license_fallback),
                 "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
                 "foundry": "Nerd Fonts",
                 "version": version,
@@ -415,6 +426,24 @@ def _self_check() -> None:
             "caskName": "adwaita-mono",
             "description": "Adwaita patched",
         },
+        {
+            "unpatchedName": "Ubuntu",
+            "licenseId": "LicenseRef-UbuntuFont",
+            "patchedName": "Ubuntu",
+            "folderName": "Ubuntu",
+            "imagePreviewFont": "Ubuntu Nerd Font",
+            "caskName": "ubuntu",
+            "description": "Ubuntu patched",
+        },
+        {
+            "unpatchedName": "Heavy Data",
+            "licenseId": "LicenseRef-VicFieger",
+            "patchedName": "HeavyData",
+            "folderName": "HeavyData",
+            "imagePreviewFont": "HeavyData Nerd Font",
+            "caskName": "heavy-data",
+            "description": "Heavy Data patched",
+        },
     ]
     assets = [
         {
@@ -424,6 +453,14 @@ def _self_check() -> None:
         {
             "name": "AdwaitaMono.zip",
             "browser_download_url": "https://example.com/v9.9.9/AdwaitaMono.zip",
+        },
+        {
+            "name": "Ubuntu.zip",
+            "browser_download_url": "https://example.com/v9.9.9/Ubuntu.zip",
+        },
+        {
+            "name": "HeavyData.zip",
+            "browser_download_url": "https://example.com/v9.9.9/HeavyData.zip",
         },
     ]
     fonts, stem_to_id = t.build_fonts(
@@ -440,6 +477,13 @@ def _self_check() -> None:
     assert "cascadia-code" in cas["aliases"]
     assert "nerd.cascadia-code" in cas["aliases"]
     assert fonts["adwaita-mono"]["name"] == "AdwaitaMono Nerd Font"
+    assert fonts["ubuntu"]["license"] == "Ubuntu-font-1.0"
+    assert fonts["ubuntu"]["license_url"] == "https://spdx.org/licenses/Ubuntu-font-1.0.html"
+    assert fonts["heavy-data"]["license"] == "LicenseRef-VicFieger"
+    assert (
+        fonts["heavy-data"]["license_url"]
+        == "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v9.9.9/LICENSE"
+    )
     renames = t.build_renames(
         v1_stem_to_id=v1_stem_to_id,
         v2_stem_to_id=stem_to_id,
