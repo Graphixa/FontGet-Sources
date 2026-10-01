@@ -1822,7 +1822,7 @@
     "heavy-data": {
       "name": "HeavyData Nerd Font",
       "family": "HeavyData Nerd Font",
-      "license": "LicenseRef-VicFieger",
+      "license": "VicFieger",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.1/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",
@@ -2808,7 +2808,7 @@
     "monofur": {
       "name": "Monofur Nerd Font",
       "family": "Monofur Nerd Font",
-      "license": "LicenseRef-Monofur",
+      "license": "Monofur",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.1/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",

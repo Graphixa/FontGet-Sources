@@ -28,7 +28,7 @@ import requests
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
-from license_ids import canonical_license
+from license_ids import NO_SPDX_PAGE, canonical_license
 
 SKIP_STEMS = frozenset({"FontPatcher"})
 V1_PATH = "sources/nerd-fonts.json"
@@ -130,6 +130,7 @@ class NerdFontsTranslator:
             if (
                 cand
                 and not cand.startswith("LicenseRef-")
+                and cand not in NO_SPDX_PAGE
                 and re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9.+-]*", cand)
             ):
                 return f"https://spdx.org/licenses/{cand}.html"
@@ -479,7 +480,7 @@ def _self_check() -> None:
     assert fonts["adwaita-mono"]["name"] == "AdwaitaMono Nerd Font"
     assert fonts["ubuntu"]["license"] == "Ubuntu-font-1.0"
     assert fonts["ubuntu"]["license_url"] == "https://spdx.org/licenses/Ubuntu-font-1.0.html"
-    assert fonts["heavy-data"]["license"] == "LicenseRef-VicFieger"
+    assert fonts["heavy-data"]["license"] == "VicFieger"
     assert (
         fonts["heavy-data"]["license_url"]
         == "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v9.9.9/LICENSE"

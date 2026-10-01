@@ -41,7 +41,16 @@ def _alias_one(token: str) -> str:
         return token.strip()
     if key in _ALIASES:
         return _ALIASES[key]
+    # SPDX custom refs → short id for display (e.g. LicenseRef-VicFieger → VicFieger).
+    # Known SPDX licenses aliased above (e.g. LicenseRef-UbuntuFont → Ubuntu-font-1.0).
+    m = re.match(r"(?i)^licenseref-(.+)$", token.strip())
+    if m:
+        return m.group(1)
     return token.strip()
+
+
+# Short ids with no SPDX license page (keep source LICENSE URL).
+NO_SPDX_PAGE: frozenset[str] = frozenset({"VicFieger", "Monofur"})
 
 
 def canonical_license(raw: str) -> str:
@@ -68,6 +77,8 @@ def _self_check() -> None:
     assert canonical_license("APACHE2") == "Apache-2.0"
     assert canonical_license("UFL") == "Ubuntu-font-1.0"
     assert canonical_license("LicenseRef-UbuntuFont") == "Ubuntu-font-1.0"
+    assert canonical_license("LicenseRef-VicFieger") == "VicFieger"
+    assert canonical_license("LicenseRef-Monofur") == "Monofur"
     assert canonical_license("SIL Open Font License 1.1") == "OFL-1.1"
     assert canonical_license("OFL-1.1-RFN") == "OFL-1.1-RFN"
     assert canonical_license("OFL-1.1-no-RFN") == "OFL-1.1-no-RFN"
