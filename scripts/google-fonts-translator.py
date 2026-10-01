@@ -12,12 +12,71 @@ import argparse
 import json
 import os
 import re
+import sys
 from pathlib import Path
 
 import requests
 from datetime import datetime
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any, Optional, Tuple
 from urllib.parse import urlparse
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from license_ids import canonical_license
+
+# Google fonts repo: directory name → upstream license code in METADATA.pb.
+_GOOGLE_LICENSE_DIRS: Tuple[Tuple[str, str], ...] = (
+    ("ofl", "OFL"),
+    ("apache", "APACHE2"),
+    ("ufl", "UFL"),
+)
+_GITHUB_TREE = "https://api.github.com/repos/google/fonts/git/trees"
+
+
+def family_slug(family: str) -> str:
+    """Slug used under google/fonts/{ofl|apache|ufl}/."""
+    return family.lower().replace(" ", "")
+
+
+def load_google_fonts_license_index(
+    session: Optional[requests.Session] = None,
+) -> Dict[str, Tuple[str, str]]:
+    """Map family slug → (license_dir, license_code) via four Git Trees API calls.
+
+    Uses the Trees API (not Contents): Contents truncates at 1,000 entries and
+    ``ofl/`` is larger than that.
+    """
+    sess = session or requests.Session()
+    headers = {"Accept": "application/vnd.github+json", "User-Agent": "FontGet-Sources"}
+    token = (os.environ.get("GITHUB_TOKEN") or "").strip()
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    root = sess.get(f"{_GITHUB_TREE}/main", headers=headers, timeout=60)
+    root.raise_for_status()
+    wanted = {d: code for d, code in _GOOGLE_LICENSE_DIRS}
+    dir_shas: Dict[str, str] = {}
+    for entry in root.json().get("tree") or []:
+        path = entry.get("path")
+        if path in wanted and entry.get("type") == "tree" and entry.get("sha"):
+            dir_shas[path] = entry["sha"]
+
+    missing = [d for d, _ in _GOOGLE_LICENSE_DIRS if d not in dir_shas]
+    if missing:
+        raise RuntimeError(f"google/fonts main tree missing dirs: {missing}")
+
+    index: Dict[str, Tuple[str, str]] = {}
+    for dirname, code in _GOOGLE_LICENSE_DIRS:
+        tree = sess.get(f"{_GITHUB_TREE}/{dir_shas[dirname]}", headers=headers, timeout=60)
+        tree.raise_for_status()
+        for entry in tree.json().get("tree") or []:
+            if entry.get("type") != "tree":
+                continue
+            name = entry.get("path")
+            if isinstance(name, str) and name:
+                index[name] = (dirname, code)
+    return index
 
 
 def _bootstrap_google_fonts_key_from_dotenv_file(env_path: Path) -> None:
@@ -73,6 +132,10 @@ class GoogleFontsTranslator:
             "no",
         )
 
+        # slug → (license_dir, license_code); filled in translate() / load_license_index().
+        self._license_index: Dict[str, Tuple[str, str]] = {}
+        self._session = requests.Session()
+
         if not self.api_key:
             root = Path(__file__).resolve().parent.parent
             dotenv_path = root / ".env"
@@ -90,7 +153,23 @@ class GoogleFontsTranslator:
                 "Google Fonts API key is required. Set GOOGLE_FONTS_API_KEY or add it to `.env` at the repo root."
                 + hint
             )
-    
+
+    def load_license_index(self) -> None:
+        """Fetch ofl/apache/ufl folder lists once for this run."""
+        print("Loading Google Fonts license folders (ofl/apache/ufl)…")
+        self._license_index = load_google_fonts_license_index(self._session)
+        print(f"Indexed {len(self._license_index)} family folders.")
+
+    def _license_for_family(self, family: str) -> Tuple[str, str]:
+        """Return (canonical license id, metadata_url path dir)."""
+        slug = family_slug(family)
+        hit = self._license_index.get(slug)
+        if hit:
+            dirname, code = hit
+            return canonical_license(code), dirname
+        print(f"Warning: no ofl/apache/ufl folder for {family!r} ({slug}); license=Unknown")
+        return "Unknown", "ofl"
+
     def _normalize_category(self, category: str) -> str:
         """Map API category strings to FontGet schema enums."""
         if not category or not category.strip():
@@ -143,10 +222,10 @@ class GoogleFontsTranslator:
             "sort": "popularity",
         }
         
-        response = requests.get(self.base_url, params=params)
+        response = self._session.get(self.base_url, params=params)
         response.raise_for_status()
         return response.json()
-    
+
     def transform_font(self, font_data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         """FontGet font dict, or None if no TTF/OTF-backed variants."""
         family = font_data["family"]
@@ -168,13 +247,15 @@ class GoogleFontsTranslator:
             category = font_data["category"]
             normalized_category = self._normalize_category(category)
             categories.append(normalized_category)
-        
+
         popularity = self._calculate_popularity(font_data)
-        
+        license_id, license_dir = self._license_for_family(family)
+        slug = family_slug(family)
+
         return {
             "name": family,
             "family": family,
-            "license": "OFL",
+            "license": license_id,
             "license_url": f"https://fonts.google.com/specimen/{family.replace(' ', '+')}/license",
             "designer": font_data.get("designer", ""),
             "foundry": "Google",
@@ -184,7 +265,10 @@ class GoogleFontsTranslator:
             "tags": self._extract_tags(font_data),
             "popularity": popularity,
             "last_modified": font_data.get("lastModified", ""),
-            "metadata_url": f"https://raw.githubusercontent.com/google/fonts/main/ofl/{family.lower().replace(' ', '')}/METADATA.pb",
+            "metadata_url": (
+                f"https://raw.githubusercontent.com/google/fonts/main/"
+                f"{license_dir}/{slug}/METADATA.pb"
+            ),
             "source_url": f"https://fonts.google.com/specimen/{family.replace(' ', '+')}",
             "variants": variants,
             "unicode_ranges": self._extract_unicode_ranges(font_data),
@@ -342,12 +426,13 @@ class GoogleFontsTranslator:
         return languages
     
     def translate(self) -> Dict[str, Any]:
+        self.load_license_index()
         print("Fetching Google Fonts…")
         raw_data = self.fetch_fonts()
 
         total_fonts = len(raw_data.get("items", []))
         print(f"Found {total_fonts} families in catalog.")
-        
+
         fonts = {}
         for i, font_data in enumerate(raw_data.get("items", []), 1):
             try:
@@ -364,7 +449,7 @@ class GoogleFontsTranslator:
             except Exception as e:
                 print(f"Warning: Failed to transform font {font_data.get('family', 'unknown')}: {e}")
                 continue
-        
+
         source_data = {
             "source_info": {
                 "name": "Google Fonts",
@@ -377,30 +462,8 @@ class GoogleFontsTranslator:
             },
             "fonts": fonts
         }
-        
+
         return source_data
-    
-    def _extract_google_fonts_license(self, font_data: Dict[str, Any]) -> str:
-        """Parse ``license:`` from upstream ``METADATA.pb`` when reachable."""
-        family = font_data['family']
-
-        family_clean = family.lower().replace(' ', '')
-
-        try:
-            url = f"https://raw.githubusercontent.com/google/fonts/main/ofl/{family_clean}/METADATA.pb"
-            response = requests.get(url, timeout=3)
-
-            if response.status_code == 200:
-                content = response.text
-                for line in content.split('\n'):
-                    if line.strip().startswith('license:'):
-                        license_match = line.split('"')
-                        if len(license_match) > 1:
-                            return license_match[1]
-        except Exception:
-            pass
-
-        return "OFL"
 
 
 def main():

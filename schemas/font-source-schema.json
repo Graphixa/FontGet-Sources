@@ -82,7 +82,7 @@
         },
         "license": {
           "type": "string",
-          "description": "License type (e.g., 'OFL', 'Apache License 2.0')",
+          "description": "License id (e.g., 'OFL-1.1', 'Apache-2.0')",
           "minLength": 1,
           "maxLength": 100
         },

@@ -11,10 +11,17 @@ Required: Update the class name, API endpoints, and data extraction logic.
 import json
 import os
 import re
+import sys
 from datetime import datetime
+from pathlib import Path
 from typing import Dict, List, Any, Optional
 
 import requests
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from license_ids import canonical_license
 
 # Omit ids present in sources/google-fonts.json when True (see sibling translators).
 DEDUPLICATE_GOOGLE_FONTS = False
@@ -111,7 +118,7 @@ class YourSourceTranslator:
             font = {
                 "name": font_name,
                 "family": font_name,
-                "license": font_data.get("license", "Unknown"),
+                "license": canonical_license(font_data.get("license", "Unknown")),
                 "license_url": font_data.get("license_url", ""),
                 "designer": font_data.get("designer", ""),
                 "foundry": font_data.get("foundry", ""),

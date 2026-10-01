@@ -13,11 +13,17 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 
 import requests
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from license_ids import canonical_license
 
 # When True, omit font families that already appear in ``sources/google-fonts.json``.
 DEDUPLICATE_GOOGLE_FONTS = False
@@ -276,7 +282,7 @@ class FontshareTranslator:
                 fonts[font_id] = {
                     "name": self._truncate_field(detail_name, 100),
                     "family": self._truncate_field(detail_name, 100),
-                    "license": self._license_display_name(license_type),
+                    "license": canonical_license(license_type),
                     "license_url": self._license_url(license_type),
                     "designer": self._truncate_field(self._designers(detail), 200),
                     "foundry": self._truncate_field(self._publisher(detail) or "Fontshare", 100),

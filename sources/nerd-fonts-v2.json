@@ -3073,7 +3073,7 @@
     "overpass": {
       "name": "OverpassM Nerd Font",
       "family": "OverpassM Nerd Font",
-      "license": "OFL-1.1-no-RFN or LGPL-2.1-only",
+      "license": "OFL-1.1-no-RFN OR LGPL-2.1-only",
       "license_url": "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/v3.5.1/LICENSE",
       "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
       "foundry": "Nerd Fonts",

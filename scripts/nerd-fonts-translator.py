@@ -17,11 +17,18 @@ Does NOT touch sources/nerd-fonts.json (frozen v1 for old clients).
 import json
 import os
 import re
+import sys
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import unquote, urlparse
 
 import requests
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from license_ids import canonical_license
 
 SKIP_STEMS = frozenset({"FontPatcher"})
 V1_PATH = "sources/nerd-fonts.json"
@@ -255,7 +262,7 @@ class NerdFontsTranslator:
             fonts[font_id] = {
                 "name": font_name,
                 "family": font_name,
-                "license": license_id,
+                "license": canonical_license(license_id),
                 "license_url": self._license_url(license_id, entry, license_fallback),
                 "designer": "Ryan L McIntyre (Nerd Fonts Patcher)",
                 "foundry": "Nerd Fonts",

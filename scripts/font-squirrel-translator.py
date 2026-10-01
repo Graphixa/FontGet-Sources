@@ -21,6 +21,12 @@ from pathlib import Path
 from typing import Dict, List, Any, Optional, Set
 from urllib.parse import urlparse
 import re
+import sys
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from license_ids import canonical_license
 
 # When True, omit Font Squirrel families that already appear in ``sources/google-fonts.json``.
 DEDUPLICATE_GOOGLE_FONTS = True
@@ -199,7 +205,7 @@ class FontSquirrelTranslator:
         return {
             "name": font_name,
             "family": family,
-            "license": license_info["type"],
+            "license": canonical_license(license_info["type"]),
             "license_url": license_info["url"],
             "designer": font_data.get("designer", ""),
             "foundry": font_data.get("foundry_name", "Unknown"),

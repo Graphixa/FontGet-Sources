@@ -20,12 +20,18 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 
 import requests
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from license_ids import canonical_license
 
 # When True, omit font families that already appear in ``sources/google-fonts.json``.
 DEDUPLICATE_GOOGLE_FONTS = True
@@ -280,7 +286,9 @@ def translate(
             continue
 
         category = _map_category(str(detail.get("category") or row.get("category") or ""))
-        license_code = str(detail.get("license") or row.get("license") or "OFL-1.1").strip()
+        license_code = canonical_license(
+            str(detail.get("license") or row.get("license") or "OFL-1.1")
+        )
         version = str(detail.get("npmVersion") or detail.get("version") or row.get("npmVersion") or "5.2.1")
 
         api_category = str(detail.get("category") or row.get("category") or "").lower().replace(" ", "-")

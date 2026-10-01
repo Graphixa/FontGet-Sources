@@ -23,6 +23,11 @@ from urllib.parse import quote, urlparse
 
 import requests
 
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from license_ids import canonical_license
+
 GITHUB_API = "https://api.github.com"
 GITLAB_API = "https://gitlab.com/api/v4"
 
@@ -669,7 +674,7 @@ class OpenFoundryTranslator:
 		return {
 			"name": name[:100],
 			"family": name[:100],
-			"license": license_type,
+			"license": canonical_license(license_type),
 			"license_url": license_url,
 			"designer": designer,
 			"foundry": "",

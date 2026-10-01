@@ -12,7 +12,7 @@
     "kihim": {
       "name": "Kihim",
       "family": "Kihim",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Rocky Malaviya",
       "foundry": "Indian Type Foundry",
@@ -46,7 +46,7 @@
     "gambetta": {
       "name": "Gambetta",
       "family": "Gambetta",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Paul Troppmar",
       "foundry": "Indian Type Foundry",
@@ -80,7 +80,7 @@
     "synonym": {
       "name": "Synonym",
       "family": "Synonym",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Hugo Dumont",
       "foundry": "Indian Type Foundry",
@@ -114,7 +114,7 @@
     "comico": {
       "name": "Comico",
       "family": "Comico",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Frode Helland",
       "foundry": "Indian Type Foundry",
@@ -148,7 +148,7 @@
     "general-sans": {
       "name": "General Sans",
       "family": "General Sans",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Frode Helland",
       "foundry": "Indian Type Foundry",
@@ -182,7 +182,7 @@
     "technor": {
       "name": "Technor",
       "family": "Technor",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jean-Baptiste Morizot",
       "foundry": "Indian Type Foundry",
@@ -216,7 +216,7 @@
     "gambarino": {
       "name": "Gambarino",
       "family": "Gambarino",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Théo Guillard",
       "foundry": "Indian Type Foundry",
@@ -250,7 +250,7 @@
     "rowan": {
       "name": "Rowan",
       "family": "Rowan",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Inga Plönnigs",
       "foundry": "Indian Type Foundry",
@@ -284,7 +284,7 @@
     "sentient": {
       "name": "Sentient",
       "family": "Sentient",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Noopur Choksi",
       "foundry": "Indian Type Foundry",
@@ -318,7 +318,7 @@
     "boska": {
       "name": "Boska",
       "family": "Boska",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Barbara Bigosinska",
       "foundry": "Indian Type Foundry",
@@ -352,7 +352,7 @@
     "switzer": {
       "name": "Switzer",
       "family": "Switzer",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jérémie Hornus",
       "foundry": "Indian Type Foundry",
@@ -386,7 +386,7 @@
     "tabular": {
       "name": "Tabular",
       "family": "Tabular",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jérémie Hornus, Julie Soudanne",
       "foundry": "Indian Type Foundry",
@@ -420,7 +420,7 @@
     "tanker": {
       "name": "Tanker",
       "family": "Tanker",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Ruosi Huang",
       "foundry": "Indian Type Foundry",
@@ -454,7 +454,7 @@
     "expose": {
       "name": "Expose",
       "family": "Expose",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Lukas Schneider",
       "foundry": "Indian Type Foundry",
@@ -488,7 +488,7 @@
     "boxing": {
       "name": "Boxing",
       "family": "Boxing",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Ruosi Huang",
       "foundry": "Indian Type Foundry",
@@ -522,7 +522,7 @@
     "striper": {
       "name": "Striper",
       "family": "Striper",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jitka Janečková",
       "foundry": "Indian Type Foundry",
@@ -556,7 +556,7 @@
     "pilcrow-rounded": {
       "name": "Pilcrow Rounded",
       "family": "Pilcrow Rounded",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Satya Rajpurohit",
       "foundry": "Indian Type Foundry",
@@ -590,7 +590,7 @@
     "melodrama": {
       "name": "Melodrama",
       "family": "Melodrama",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Shaily Patel",
       "foundry": "Indian Type Foundry",
@@ -624,7 +624,7 @@
     "kohinoor-zerone": {
       "name": "Kohinoor Zerone",
       "family": "Kohinoor Zerone",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Satya Rajpurohit",
       "foundry": "Indian Type Foundry",
@@ -658,7 +658,7 @@
     "new-title": {
       "name": "New Title",
       "family": "New Title",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Julie Soudanne, Jérémie Hornus",
       "foundry": "Indian Type Foundry",
@@ -692,7 +692,7 @@
     "aktura": {
       "name": "Aktura",
       "family": "Aktura",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Gaetan Baehr",
       "foundry": "Indian Type Foundry",
@@ -726,7 +726,7 @@
     "alpino": {
       "name": "Alpino",
       "family": "Alpino",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Alisa Nowak, Jérémie Hornus",
       "foundry": "Indian Type Foundry",
@@ -760,7 +760,7 @@
     "amulya": {
       "name": "Amulya",
       "family": "Amulya",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Joana Correia",
       "foundry": "Indian Type Foundry",
@@ -794,7 +794,7 @@
     "array": {
       "name": "Array",
       "family": "Array",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Frode Helland",
       "foundry": "Indian Type Foundry",
@@ -828,7 +828,7 @@
     "author": {
       "name": "Author",
       "family": "Author",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Satya Rajpurohit",
       "foundry": "Indian Type Foundry",
@@ -862,7 +862,7 @@
     "bespoke-sans": {
       "name": "Bespoke Sans",
       "family": "Bespoke Sans",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jérémie Hornus, Théo Guillard, Morgane Pambrun, Alisa Nowak, Joachim Vu",
       "foundry": "Indian Type Foundry",
@@ -896,7 +896,7 @@
     "bespoke-serif": {
       "name": "Bespoke Serif",
       "family": "Bespoke Serif",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jeremie Hornus, Theo Guillard, Morgane Pambrun, Alisa Nowak, Joachim Vu",
       "foundry": "Indian Type Foundry",
@@ -930,7 +930,7 @@
     "bespoke-slab": {
       "name": "Bespoke Slab",
       "family": "Bespoke Slab",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jérémie Hornus, Théo Guillard, Morgane Pambrun, Alisa Nowak, Joachim Vu",
       "foundry": "Indian Type Foundry",
@@ -964,7 +964,7 @@
     "bespoke-stencil": {
       "name": "Bespoke Stencil",
       "family": "Bespoke Stencil",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jérémie Hornus, Théo Guillard, Morgane Pambrun, Alisa Nowak, Joachim Vu",
       "foundry": "Indian Type Foundry",
@@ -998,7 +998,7 @@
     "clash-grotesk": {
       "name": "Clash Grotesk",
       "family": "Clash Grotesk",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Indian Type Foundry",
       "foundry": "Indian Type Foundry",
@@ -1032,7 +1032,7 @@
     "clash-display": {
       "name": "Clash Display",
       "family": "Clash Display",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Indian Type Foundry",
       "foundry": "Indian Type Foundry",
@@ -1066,7 +1066,7 @@
     "chubbo": {
       "name": "Chubbo",
       "family": "Chubbo",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Rafał Buchner",
       "foundry": "Indian Type Foundry",
@@ -1100,7 +1100,7 @@
     "chillax": {
       "name": "Chillax",
       "family": "Chillax",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Manushi Parikh",
       "foundry": "Indian Type Foundry",
@@ -1134,7 +1134,7 @@
     "cabinet-grotesk": {
       "name": "Cabinet Grotesk",
       "family": "Cabinet Grotesk",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "ITF",
       "foundry": "Indian Type Foundry",
@@ -1168,7 +1168,7 @@
     "britney": {
       "name": "Britney",
       "family": "Britney",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Diana Ovezea & Sabina Chipară",
       "foundry": "Indian Type Foundry",
@@ -1202,7 +1202,7 @@
     "bonny": {
       "name": "Bonny",
       "family": "Bonny",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Barbara Bigosinska",
       "foundry": "Indian Type Foundry",
@@ -1236,7 +1236,7 @@
     "bevellier": {
       "name": "Bevellier",
       "family": "Bevellier",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Arya Purohit, Barbara Bigosinska",
       "foundry": "Indian Type Foundry",
@@ -1270,7 +1270,7 @@
     "archivo": {
       "name": "Archivo",
       "family": "Archivo",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Omnibus-Type",
       "foundry": "Fontshare",
@@ -1304,7 +1304,7 @@
     "anton": {
       "name": "Anton",
       "family": "Anton",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Vernon Adams",
       "foundry": "Fontshare",
@@ -1338,7 +1338,7 @@
     "dancing-script": {
       "name": "Dancing Script",
       "family": "Dancing Script",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Impallari Type",
       "foundry": "Fontshare",
@@ -1372,7 +1372,7 @@
     "poppins": {
       "name": "Poppins",
       "family": "Poppins",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Jonny Pinhorn, Indian Type Foundry",
       "foundry": "Indian Type Foundry",
@@ -1406,7 +1406,7 @@
     "bebas-neue": {
       "name": "Bebas Neue",
       "family": "Bebas Neue",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Ryoichi Tsunekawa, Dharma Type",
       "foundry": "Fontshare",
@@ -1440,7 +1440,7 @@
     "be-vietnam-pro": {
       "name": "Be Vietnam Pro",
       "family": "Be Vietnam Pro",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Lam Bao, Tony Le, Vietanh Nguyen",
       "foundry": "Fontshare",
@@ -1474,7 +1474,7 @@
     "fira-sans": {
       "name": "Fira Sans",
       "family": "Fira Sans",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Carrois Apostrophe",
       "foundry": "Fontshare",
@@ -1508,7 +1508,7 @@
     "azeret-mono": {
       "name": "Azeret Mono",
       "family": "Azeret Mono",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Displaay, Martin Vácha, Daniel Quisek",
       "foundry": "Fontshare",
@@ -1542,7 +1542,7 @@
     "lora": {
       "name": "Lora",
       "family": "Lora",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Cyreal, Olga Karpushina, Alexei Vanyashin",
       "foundry": "Fontshare",
@@ -1576,7 +1576,7 @@
     "epilogue": {
       "name": "Epilogue",
       "family": "Epilogue",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Tyler Finck, Etcetera Type Co",
       "foundry": "Fontshare",
@@ -1610,7 +1610,7 @@
     "montserrat": {
       "name": "Montserrat",
       "family": "Montserrat",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly",
       "foundry": "Fontshare",
@@ -1644,7 +1644,7 @@
     "oswald": {
       "name": "Oswald",
       "family": "Oswald",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Vernon Adams, Kalapi Gajjar, Cyreal",
       "foundry": "Fontshare",
@@ -1678,7 +1678,7 @@
     "spline-sans": {
       "name": "Spline Sans",
       "family": "Spline Sans",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Eben Sorkin, Mirko Velimirović",
       "foundry": "Fontshare",
@@ -1712,7 +1712,7 @@
     "jetbrains-mono": {
       "name": "JetBrains Mono",
       "family": "JetBrains Mono",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "JetBrains, Philipp Nurullin, Konstantin Bulenkov",
       "foundry": "Fontshare",
@@ -1746,7 +1746,7 @@
     "manrope": {
       "name": "Manrope",
       "family": "Manrope",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Mikhail Sharanda",
       "foundry": "Fontshare",
@@ -1780,7 +1780,7 @@
     "asap": {
       "name": "Asap",
       "family": "Asap",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Omnibus-Type",
       "foundry": "Fontshare",
@@ -1814,7 +1814,7 @@
     "outfit": {
       "name": "Outfit",
       "family": "Outfit",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "On Brand Investments Pty Ltd, Rodrigo Fuenzalida",
       "foundry": "Fontshare",
@@ -1848,7 +1848,7 @@
     "work-sans": {
       "name": "Work Sans",
       "family": "Work Sans",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Wei Huang",
       "foundry": "Fontshare",
@@ -1882,7 +1882,7 @@
     "plus-jakarta-sans": {
       "name": "Plus Jakarta Sans",
       "family": "Plus Jakarta Sans",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Tokotype",
       "foundry": "Fontshare",
@@ -1916,7 +1916,7 @@
     "crimson-pro": {
       "name": "Crimson Pro",
       "family": "Crimson Pro",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Jacques Le Bailly",
       "foundry": "Fontshare",
@@ -1950,7 +1950,7 @@
     "nunito": {
       "name": "Nunito",
       "family": "Nunito",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Vernon Adams, Cyreal, Jacques Le Bailly",
       "foundry": "Fontshare",
@@ -1984,7 +1984,7 @@
     "public-sans": {
       "name": "Public Sans",
       "family": "Public Sans",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Pablo Impallari, Rodrigo Fuenzalida, Dan Williams, USWDS",
       "foundry": "Fontshare",
@@ -2018,7 +2018,7 @@
     "familjen-grotesk": {
       "name": "Familjen Grotesk",
       "family": "Familjen Grotesk",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Familjen STHLM AB",
       "foundry": "Fontshare",
@@ -2052,7 +2052,7 @@
     "kola": {
       "name": "Kola",
       "family": "Kola",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jean-Baptiste Morizot",
       "foundry": "Indian Type Foundry",
@@ -2086,7 +2086,7 @@
     "hind": {
       "name": "Hind",
       "family": "Hind",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Manushi Parikh",
       "foundry": "Indian Type Foundry",
@@ -2120,7 +2120,7 @@
     "panchang": {
       "name": "Panchang",
       "family": "Panchang",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Barbara Bigosinska, Hitesh Malaviya",
       "foundry": "Indian Type Foundry",
@@ -2154,7 +2154,7 @@
     "kalam": {
       "name": "Kalam",
       "family": "Kalam",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Indian Type Foundry",
       "foundry": "Indian Type Foundry",
@@ -2188,7 +2188,7 @@
     "roundo": {
       "name": "Roundo",
       "family": "Roundo",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Indian Type Foundry",
       "foundry": "Indian Type Foundry",
@@ -2222,7 +2222,7 @@
     "excon": {
       "name": "Excon",
       "family": "Excon",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Alisa Nowak",
       "foundry": "Indian Type Foundry",
@@ -2256,7 +2256,7 @@
     "erode": {
       "name": "Erode",
       "family": "Erode",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Nikhil Ranganathan",
       "foundry": "Indian Type Foundry",
@@ -2290,7 +2290,7 @@
     "nippo": {
       "name": "Nippo",
       "family": "Nippo",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Manushi Parikh",
       "foundry": "Indian Type Foundry",
@@ -2324,7 +2324,7 @@
     "pally": {
       "name": "Pally",
       "family": "Pally",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Indian Type Foundry",
       "foundry": "Indian Type Foundry",
@@ -2358,7 +2358,7 @@
     "pencerio": {
       "name": "Pencerio",
       "family": "Pencerio",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Manushi Parikh",
       "foundry": "Indian Type Foundry",
@@ -2392,7 +2392,7 @@
     "hoover": {
       "name": "Hoover",
       "family": "Hoover",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Gaetan Baehr",
       "foundry": "Indian Type Foundry",
@@ -2426,7 +2426,7 @@
     "neco": {
       "name": "Neco",
       "family": "Neco",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jitka Janečková",
       "foundry": "Indian Type Foundry",
@@ -2460,7 +2460,7 @@
     "space-grotesk": {
       "name": "Space Grotesk",
       "family": "Space Grotesk",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Florian Karsten",
       "foundry": "Fontshare",
@@ -2494,7 +2494,7 @@
     "rx100": {
       "name": "RX100",
       "family": "RX100",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Anurag Gautam, Indian Type Foundry",
       "foundry": "Indian Type Foundry",
@@ -2528,7 +2528,7 @@
     "rajdhani": {
       "name": "Rajdhani",
       "family": "Rajdhani",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Shiva Nallaperumal, Indian Type Foundry",
       "foundry": "Indian Type Foundry",
@@ -2562,7 +2562,7 @@
     "telma": {
       "name": "Telma",
       "family": "Telma",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jitka Janečková",
       "foundry": "Indian Type Foundry",
@@ -2596,7 +2596,7 @@
     "stardom": {
       "name": "Stardom",
       "family": "Stardom",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Indian Type Foundry",
       "foundry": "Indian Type Foundry",
@@ -2630,7 +2630,7 @@
     "supreme": {
       "name": "Supreme",
       "family": "Supreme",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jérémie Hornus, Ilya Naumoff",
       "foundry": "Indian Type Foundry",
@@ -2664,7 +2664,7 @@
     "khand": {
       "name": "Khand",
       "family": "Khand",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Satya Rajpurohit",
       "foundry": "Indian Type Foundry",
@@ -2698,7 +2698,7 @@
     "zina": {
       "name": "Zina",
       "family": "Zina",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Théo Guillard",
       "foundry": "Indian Type Foundry",
@@ -2732,7 +2732,7 @@
     "recia": {
       "name": "Recia",
       "family": "Recia",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Carlos de Toro",
       "foundry": "Indian Type Foundry",
@@ -2766,7 +2766,7 @@
     "pramukh-rounded": {
       "name": "Pramukh Rounded",
       "family": "Pramukh Rounded",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Aarya Purohit, Indian Type Foundry",
       "foundry": "Indian Type Foundry",
@@ -2800,7 +2800,7 @@
     "styro": {
       "name": "Styro",
       "family": "Styro",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Aarya Purohit, Indian Type Foundry",
       "foundry": "Indian Type Foundry",
@@ -2834,7 +2834,7 @@
     "ranade": {
       "name": "Ranade",
       "family": "Ranade",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Easha Ranade, Indian Type Foundry",
       "foundry": "Indian Type Foundry",
@@ -2868,7 +2868,7 @@
     "trench-slab": {
       "name": "Trench Slab",
       "family": "Trench Slab",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Shiva Nallaperumal",
       "foundry": "Indian Type Foundry",
@@ -2902,7 +2902,7 @@
     "paquito": {
       "name": "Paquito",
       "family": "Paquito",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Juanjo Lopez",
       "foundry": "Indian Type Foundry",
@@ -2936,7 +2936,7 @@
     "plein": {
       "name": "Plein",
       "family": "Plein",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Inga Plönnigs",
       "foundry": "Indian Type Foundry",
@@ -2970,7 +2970,7 @@
     "rosaline": {
       "name": "Rosaline",
       "family": "Rosaline",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jérémie Hornus",
       "foundry": "Indian Type Foundry",
@@ -3004,7 +3004,7 @@
     "segment": {
       "name": "Segment",
       "family": "Segment",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Frode Helland",
       "foundry": "Indian Type Foundry",
@@ -3038,7 +3038,7 @@
     "zodiak": {
       "name": "Zodiak",
       "family": "Zodiak",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jérémie Hornus, Gaetan Baehr, Jean-Baptiste Morizot, Alisa Nowak, Theo Guillard",
       "foundry": "Indian Type Foundry",
@@ -3072,7 +3072,7 @@
     "sharpie": {
       "name": "Sharpie",
       "family": "Sharpie",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Théo Guillard",
       "foundry": "Indian Type Foundry",
@@ -3106,7 +3106,7 @@
     "satoshi": {
       "name": "Satoshi",
       "family": "Satoshi",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Deni Anggara",
       "foundry": "Indian Type Foundry",
@@ -3140,7 +3140,7 @@
     "quilon": {
       "name": "Quilon",
       "family": "Quilon",
-      "license": "ITF FFL",
+      "license": "ITF-FFL",
       "license_url": "https://www.fontshare.com/licenses/itf-ffl",
       "designer": "Jonny Pinhorn",
       "foundry": "Indian Type Foundry",
@@ -3174,7 +3174,7 @@
     "red-hat-display": {
       "name": "Red Hat Display",
       "family": "Red Hat Display",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "MCKL, Jeremy Mickel",
       "foundry": "Fontshare",
@@ -3208,7 +3208,7 @@
     "sora": {
       "name": "Sora",
       "family": "Sora",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Jonathan Barnbrook, Julián Moncada",
       "foundry": "Fontshare",
@@ -3242,7 +3242,7 @@
     "literata": {
       "name": "Literata",
       "family": "Literata",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "TypeTogether",
       "foundry": "Fontshare",
@@ -3276,7 +3276,7 @@
     "merriweather-sans": {
       "name": "Merriweather Sans",
       "family": "Merriweather Sans",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Eben Sorkin, Sorkin Type",
       "foundry": "Fontshare",
@@ -3310,7 +3310,7 @@
     "quicksand": {
       "name": "Quicksand",
       "family": "Quicksand",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Andrew Paglinawan",
       "foundry": "Fontshare",
@@ -3344,7 +3344,7 @@
     "teko": {
       "name": "Teko",
       "family": "Teko",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Manushi Parikh",
       "foundry": "Indian Type Foundry",
@@ -3378,7 +3378,7 @@
     "karma": {
       "name": "Karma",
       "family": "Karma",
-      "license": "OFL",
+      "license": "OFL-1.1",
       "license_url": "https://www.fontshare.com/licenses/sil-ofl",
       "designer": "Joana Correia",
       "foundry": "Indian Type Foundry",

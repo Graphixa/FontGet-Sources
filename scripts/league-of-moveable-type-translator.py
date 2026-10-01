@@ -23,6 +23,11 @@ from urllib.parse import unquote
 
 import requests
 
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from license_ids import canonical_license
+
 ORG = "theleagueof"
 SITE = "https://www.theleagueofmoveabletype.com"
 GITHUB_API = "https://api.github.com"
@@ -418,7 +423,7 @@ class LeagueTranslator:
                 fonts[repo] = {
                     "name": display[:100],
                     "family": display[:100],
-                    "license": "SIL Open Font License 1.1",
+                    "license": canonical_license("SIL Open Font License 1.1"),
                     "license_url": license_url,
                     "designer": "",
                     "foundry": "The League of Moveable Type",
