@@ -5,7 +5,7 @@
     "url": "https://fontsource.org",
     "api_endpoint": "https://api.fontsource.org/v1/fonts?type=other",
     "version": "1.0",
-    "last_updated": "2026-10-01T10:07:01.720583Z",
+    "last_updated": "2026-10-02T09:44:57.609821Z",
     "total_fonts": 119
   },
   "fonts": {
@@ -1202,7 +1202,7 @@
       "name": "Comic Mono",
       "family": "Comic Mono",
       "license": "MIT",
-      "license_url": "https://opensource.org/licenses/mit",
+      "license_url": "https://opensource.org/licenses/MIT",
       "designer": "",
       "foundry": "Fontsource",
       "version": "5.3.0",
