@@ -1,7 +1,7 @@
 {
   "source_info": {
     "name": "Font Squirrel",
-    "description": "Free fonts from Font Squirrel (webfont kits as ZIP via fontfacekit URLs). Families whose normalized id matches sources/google-fonts.json are omitted to avoid duplicating the Google Fonts catalog.",
+    "description": "Free fonts from Font Squirrel (desktop ZIP via /fonts/download/). Families whose normalized id matches sources/google-fonts.json are omitted to avoid duplicating the Google Fonts catalog.",
     "url": "https://www.fontsquirrel.com",
     "api_endpoint": "https://www.fontsquirrel.com/api/fontlist/all",
     "version": "1.1",
@@ -37,7 +37,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/1942-report"
+            "zip": "https://www.fontsquirrel.com/fonts/download/1942-report"
           }
         }
       ],
@@ -79,7 +79,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/20-db"
+            "zip": "https://www.fontsquirrel.com/fonts/download/20-db"
           }
         }
       ],
@@ -121,7 +121,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/3dumb"
+            "zip": "https://www.fontsquirrel.com/fonts/download/3dumb"
           }
         }
       ],
@@ -163,7 +163,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Aaargh"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Aaargh"
           }
         }
       ],
@@ -205,7 +205,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Acknowledgement"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Acknowledgement"
           }
         }
       ],
@@ -247,7 +247,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Action-Man"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Action-Man"
           }
         }
       ],
@@ -289,7 +289,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Adhesive-Nr.-Seven"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Adhesive-Nr.-Seven"
           }
         }
       ],
@@ -331,7 +331,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/afta-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/afta-sans"
           }
         }
       ],
@@ -373,7 +373,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/afta-serif"
+            "zip": "https://www.fontsquirrel.com/fonts/download/afta-serif"
           }
         }
       ],
@@ -415,7 +415,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/After-Shok"
+            "zip": "https://www.fontsquirrel.com/fonts/download/After-Shok"
           }
         }
       ],
@@ -457,7 +457,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/agane"
+            "zip": "https://www.fontsquirrel.com/fonts/download/agane"
           }
         }
       ],
@@ -499,7 +499,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/aileron"
+            "zip": "https://www.fontsquirrel.com/fonts/download/aileron"
           }
         }
       ],
@@ -541,7 +541,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/air-america"
+            "zip": "https://www.fontsquirrel.com/fonts/download/air-america"
           }
         }
       ],
@@ -583,7 +583,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Airstream"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Airstream"
           }
         }
       ],
@@ -625,7 +625,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/alfa-slab"
+            "zip": "https://www.fontsquirrel.com/fonts/download/alfa-slab"
           }
         }
       ],
@@ -667,7 +667,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Alpha-Echo"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Alpha-Echo"
           }
         }
       ],
@@ -709,7 +709,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Amadeus"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Amadeus"
           }
         }
       ],
@@ -751,7 +751,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/amagro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/amagro"
           }
         }
       ],
@@ -793,7 +793,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/amatic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/amatic"
           }
         }
       ],
@@ -835,7 +835,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/amble"
+            "zip": "https://www.fontsquirrel.com/fonts/download/amble"
           }
         }
       ],
@@ -877,7 +877,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Amerika"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Amerika"
           }
         }
       ],
@@ -919,7 +919,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Anagram"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Anagram"
           }
         }
       ],
@@ -961,7 +961,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/andada"
+            "zip": "https://www.fontsquirrel.com/fonts/download/andada"
           }
         }
       ],
@@ -1003,7 +1003,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/andika-basic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/andika-basic"
           }
         }
       ],
@@ -1045,7 +1045,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Anonymous"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Anonymous"
           }
         }
       ],
@@ -1087,7 +1087,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/AnuDaw"
+            "zip": "https://www.fontsquirrel.com/fonts/download/AnuDaw"
           }
         }
       ],
@@ -1129,7 +1129,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Aquiline-two"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Aquiline-two"
           }
         }
       ],
@@ -1171,7 +1171,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SF-Arch-Rival"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SF-Arch-Rival"
           }
         }
       ],
@@ -1213,7 +1213,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SF-Archery-Black"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SF-Archery-Black"
           }
         }
       ],
@@ -1255,7 +1255,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/archistico"
+            "zip": "https://www.fontsquirrel.com/fonts/download/archistico"
           }
         }
       ],
@@ -1297,7 +1297,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/arcon"
+            "zip": "https://www.fontsquirrel.com/fonts/download/arcon"
           }
         }
       ],
@@ -1339,7 +1339,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Armalite-Rifle"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Armalite-Rifle"
           }
         }
       ],
@@ -1381,7 +1381,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/ArmWrestler"
+            "zip": "https://www.fontsquirrel.com/fonts/download/ArmWrestler"
           }
         }
       ],
@@ -1423,7 +1423,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/asap-symbol"
+            "zip": "https://www.fontsquirrel.com/fonts/download/asap-symbol"
           }
         }
       ],
@@ -1465,7 +1465,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Aurulent-Sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Aurulent-Sans"
           }
         }
       ],
@@ -1507,7 +1507,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Aurulent-Sans-Mono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Aurulent-Sans-Mono"
           }
         }
       ],
@@ -1549,7 +1549,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/avara"
+            "zip": "https://www.fontsquirrel.com/fonts/download/avara"
           }
         }
       ],
@@ -1591,7 +1591,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/azoft-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/azoft-sans"
           }
         }
       ],
@@ -1633,7 +1633,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/bainsley"
+            "zip": "https://www.fontsquirrel.com/fonts/download/bainsley"
           }
         }
       ],
@@ -1675,7 +1675,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/balgruf"
+            "zip": "https://www.fontsquirrel.com/fonts/download/balgruf"
           }
         }
       ],
@@ -1717,7 +1717,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/baloo"
+            "zip": "https://www.fontsquirrel.com/fonts/download/baloo"
           }
         }
       ],
@@ -1759,7 +1759,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Banksia"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Banksia"
           }
         }
       ],
@@ -1801,7 +1801,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/be-vietnam"
+            "zip": "https://www.fontsquirrel.com/fonts/download/be-vietnam"
           }
         }
       ],
@@ -1843,7 +1843,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Bearpaw"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Bearpaw"
           }
         }
       ],
@@ -1885,7 +1885,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/bebas"
+            "zip": "https://www.fontsquirrel.com/fonts/download/bebas"
           }
         }
       ],
@@ -1927,7 +1927,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/bebas-kai"
+            "zip": "https://www.fontsquirrel.com/fonts/download/bebas-kai"
           }
         }
       ],
@@ -1969,7 +1969,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Belligerent-Madness"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Belligerent-Madness"
           }
         }
       ],
@@ -2011,7 +2011,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Bitstream-Vera-Sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Bitstream-Vera-Sans"
           }
         }
       ],
@@ -2053,7 +2053,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Bitstream-Vera-Sans-Mono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Bitstream-Vera-Sans-Mono"
           }
         }
       ],
@@ -2095,7 +2095,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Bitstream-Vera-Serif"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Bitstream-Vera-Serif"
           }
         }
       ],
@@ -2137,7 +2137,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/blackjack"
+            "zip": "https://www.fontsquirrel.com/fonts/download/blackjack"
           }
         }
       ],
@@ -2179,7 +2179,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Black-Rose"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Black-Rose"
           }
         }
       ],
@@ -2221,7 +2221,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Blackout"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Blackout"
           }
         }
       ],
@@ -2263,7 +2263,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/blazium"
+            "zip": "https://www.fontsquirrel.com/fonts/download/blazium"
           }
         }
       ],
@@ -2305,7 +2305,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Blokletters-Potlood"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Blokletters-Potlood"
           }
         }
       ],
@@ -2347,7 +2347,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Bloody"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Bloody"
           }
         }
       ],
@@ -2389,7 +2389,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/bluu-next"
+            "zip": "https://www.fontsquirrel.com/fonts/download/bluu-next"
           }
         }
       ],
@@ -2431,7 +2431,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Bodonitown"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Bodonitown"
           }
         }
       ],
@@ -2473,7 +2473,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/BodoniXT"
+            "zip": "https://www.fontsquirrel.com/fonts/download/BodoniXT"
           }
         }
       ],
@@ -2515,7 +2515,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/boisu"
+            "zip": "https://www.fontsquirrel.com/fonts/download/boisu"
           }
         }
       ],
@@ -2557,7 +2557,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Boston-Traffic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Boston-Traffic"
           }
         }
       ],
@@ -2599,7 +2599,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Boycott"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Boycott"
           }
         }
       ],
@@ -2641,7 +2641,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/BP-Diet"
+            "zip": "https://www.fontsquirrel.com/fonts/download/BP-Diet"
           }
         }
       ],
@@ -2683,7 +2683,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/BPdots"
+            "zip": "https://www.fontsquirrel.com/fonts/download/BPdots"
           }
         }
       ],
@@ -2725,7 +2725,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/BPdotsCondensed"
+            "zip": "https://www.fontsquirrel.com/fonts/download/BPdotsCondensed"
           }
         }
       ],
@@ -2767,7 +2767,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/BPdotsUnicase"
+            "zip": "https://www.fontsquirrel.com/fonts/download/BPdotsUnicase"
           }
         }
       ],
@@ -2809,7 +2809,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/BPmono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/BPmono"
           }
         }
       ],
@@ -2851,7 +2851,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/BPreplay"
+            "zip": "https://www.fontsquirrel.com/fonts/download/BPreplay"
           }
         }
       ],
@@ -2893,7 +2893,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/BPscript"
+            "zip": "https://www.fontsquirrel.com/fonts/download/BPscript"
           }
         }
       ],
@@ -2935,7 +2935,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/brass-mono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/brass-mono"
           }
         }
       ],
@@ -2977,7 +2977,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/brizel"
+            "zip": "https://www.fontsquirrel.com/fonts/download/brizel"
           }
         }
       ],
@@ -3019,7 +3019,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Brushstroke-Plain"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Brushstroke-Plain"
           }
         }
       ],
@@ -3061,7 +3061,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SF-Burlington-Script"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SF-Burlington-Script"
           }
         }
       ],
@@ -3103,7 +3103,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/cabinsketch"
+            "zip": "https://www.fontsquirrel.com/fonts/download/cabinsketch"
           }
         }
       ],
@@ -3145,7 +3145,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/cadman"
+            "zip": "https://www.fontsquirrel.com/fonts/download/cadman"
           }
         }
       ],
@@ -3187,7 +3187,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/calligraffiti"
+            "zip": "https://www.fontsquirrel.com/fonts/download/calligraffiti"
           }
         }
       ],
@@ -3229,7 +3229,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/camingocode"
+            "zip": "https://www.fontsquirrel.com/fonts/download/camingocode"
           }
         }
       ],
@@ -3271,7 +3271,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Candela"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Candela"
           }
         }
       ],
@@ -3313,7 +3313,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/capsuula"
+            "zip": "https://www.fontsquirrel.com/fonts/download/capsuula"
           }
         }
       ],
@@ -3355,7 +3355,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Capture-it"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Capture-it"
           }
         }
       ],
@@ -3397,7 +3397,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/CarbonType"
+            "zip": "https://www.fontsquirrel.com/fonts/download/CarbonType"
           }
         }
       ],
@@ -3439,7 +3439,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/caroni"
+            "zip": "https://www.fontsquirrel.com/fonts/download/caroni"
           }
         }
       ],
@@ -3481,7 +3481,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Carousel"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Carousel"
           }
         }
       ],
@@ -3523,7 +3523,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Carrington"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Carrington"
           }
         }
       ],
@@ -3565,7 +3565,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SF-Cartoonist-Hand"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SF-Cartoonist-Hand"
           }
         }
       ],
@@ -3607,7 +3607,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Caslon-Initials"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Caslon-Initials"
           }
         }
       ],
@@ -3649,7 +3649,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Caviar-Dreams"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Caviar-Dreams"
           }
         }
       ],
@@ -3691,7 +3691,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Chantelli-Antiqua"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Chantelli-Antiqua"
           }
         }
       ],
@@ -3733,7 +3733,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/ChanticleerRoman"
+            "zip": "https://www.fontsquirrel.com/fonts/download/ChanticleerRoman"
           }
         }
       ],
@@ -3775,7 +3775,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/chomsky"
+            "zip": "https://www.fontsquirrel.com/fonts/download/chomsky"
           }
         }
       ],
@@ -3817,7 +3817,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/chunkfive"
+            "zip": "https://www.fontsquirrel.com/fonts/download/chunkfive"
           }
         }
       ],
@@ -3859,7 +3859,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Cicle"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Cicle"
           }
         }
       ],
@@ -3901,7 +3901,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/clear-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/clear-sans"
           }
         }
       ],
@@ -3943,7 +3943,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Clutchee"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Clutchee"
           }
         }
       ],
@@ -3985,7 +3985,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Colaborate"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Colaborate"
           }
         }
       ],
@@ -4027,7 +4027,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/College"
+            "zip": "https://www.fontsquirrel.com/fonts/download/College"
           }
         }
       ],
@@ -4069,7 +4069,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SF-Collegiate"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SF-Collegiate"
           }
         }
       ],
@@ -4111,7 +4111,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/CombiNumerals-Ltd"
+            "zip": "https://www.fontsquirrel.com/fonts/download/CombiNumerals-Ltd"
           }
         }
       ],
@@ -4153,7 +4153,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Comic-Zine-OT"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Comic-Zine-OT"
           }
         }
       ],
@@ -4195,7 +4195,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Commando"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Commando"
           }
         }
       ],
@@ -4237,7 +4237,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Communist"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Communist"
           }
         }
       ],
@@ -4279,7 +4279,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/compagnon"
+            "zip": "https://www.fontsquirrel.com/fonts/download/compagnon"
           }
         }
       ],
@@ -4321,7 +4321,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/comprehension"
+            "zip": "https://www.fontsquirrel.com/fonts/download/comprehension"
           }
         }
       ],
@@ -4363,7 +4363,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/computer-modern"
+            "zip": "https://www.fontsquirrel.com/fonts/download/computer-modern"
           }
         }
       ],
@@ -4405,7 +4405,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Contra"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Contra"
           }
         }
       ],
@@ -4447,7 +4447,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/cooper-hewitt"
+            "zip": "https://www.fontsquirrel.com/fonts/download/cooper-hewitt"
           }
         }
       ],
@@ -4489,7 +4489,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Copystruct"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Copystruct"
           }
         }
       ],
@@ -4531,7 +4531,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Costura"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Costura"
           }
         }
       ],
@@ -4573,7 +4573,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/courier-prime-code"
+            "zip": "https://www.fontsquirrel.com/fonts/download/courier-prime-code"
           }
         }
       ],
@@ -4615,7 +4615,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/courier-prime-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/courier-prime-sans"
           }
         }
       ],
@@ -4657,7 +4657,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/cowboy-hippie-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/cowboy-hippie-pro"
           }
         }
       ],
@@ -4699,7 +4699,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/crimson"
+            "zip": "https://www.fontsquirrel.com/fonts/download/crimson"
           }
         }
       ],
@@ -4741,7 +4741,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/cunia"
+            "zip": "https://www.fontsquirrel.com/fonts/download/cunia"
           }
         }
       ],
@@ -4783,7 +4783,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/d-din"
+            "zip": "https://www.fontsquirrel.com/fonts/download/d-din"
           }
         }
       ],
@@ -4825,7 +4825,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Daela"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Daela"
           }
         }
       ],
@@ -4867,7 +4867,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/dancing-script-ot"
+            "zip": "https://www.fontsquirrel.com/fonts/download/dancing-script-ot"
           }
         }
       ],
@@ -4909,7 +4909,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/daniel"
+            "zip": "https://www.fontsquirrel.com/fonts/download/daniel"
           }
         }
       ],
@@ -4951,7 +4951,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/datalegreya"
+            "zip": "https://www.fontsquirrel.com/fonts/download/datalegreya"
           }
         }
       ],
@@ -4993,7 +4993,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Davys"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Davys"
           }
         }
       ],
@@ -5035,7 +5035,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/DayPosterBlack"
+            "zip": "https://www.fontsquirrel.com/fonts/download/DayPosterBlack"
           }
         }
       ],
@@ -5077,7 +5077,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Days"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Days"
           }
         }
       ],
@@ -5119,7 +5119,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/de-valencia"
+            "zip": "https://www.fontsquirrel.com/fonts/download/de-valencia"
           }
         }
       ],
@@ -5161,7 +5161,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Dearest"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Dearest"
           }
         }
       ],
@@ -5203,7 +5203,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/dejavu-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/dejavu-sans"
           }
         }
       ],
@@ -5245,7 +5245,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/dejavu-sans-mono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/dejavu-sans-mono"
           }
         }
       ],
@@ -5287,7 +5287,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/dejavu-serif"
+            "zip": "https://www.fontsquirrel.com/fonts/download/dejavu-serif"
           }
         }
       ],
@@ -5329,7 +5329,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/DeStencilNF"
+            "zip": "https://www.fontsquirrel.com/fonts/download/DeStencilNF"
           }
         }
       ],
@@ -5371,7 +5371,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Destroy"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Destroy"
           }
         }
       ],
@@ -5413,7 +5413,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Desyrel"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Desyrel"
           }
         }
       ],
@@ -5455,7 +5455,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Deutsch-Gothic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Deutsch-Gothic"
           }
         }
       ],
@@ -5497,7 +5497,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Devroye"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Devroye"
           }
         }
       ],
@@ -5539,7 +5539,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/digory-doodles"
+            "zip": "https://www.fontsquirrel.com/fonts/download/digory-doodles"
           }
         }
       ],
@@ -5581,7 +5581,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/dihjauti"
+            "zip": "https://www.fontsquirrel.com/fonts/download/dihjauti"
           }
         }
       ],
@@ -5623,7 +5623,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Diner-Skinny"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Diner-Skinny"
           }
         }
       ],
@@ -5665,7 +5665,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/disco"
+            "zip": "https://www.fontsquirrel.com/fonts/download/disco"
           }
         }
       ],
@@ -5707,7 +5707,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Distant-Galaxy"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Distant-Galaxy"
           }
         }
       ],
@@ -5749,7 +5749,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/District"
+            "zip": "https://www.fontsquirrel.com/fonts/download/District"
           }
         }
       ],
@@ -5791,7 +5791,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Dited"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Dited"
           }
         }
       ],
@@ -5833,7 +5833,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/DJ-Gross"
+            "zip": "https://www.fontsquirrel.com/fonts/download/DJ-Gross"
           }
         }
       ],
@@ -5875,7 +5875,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Dobkin"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Dobkin"
           }
         }
       ],
@@ -5917,7 +5917,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/dpsdbeyond"
+            "zip": "https://www.fontsquirrel.com/fonts/download/dpsdbeyond"
           }
         }
       ],
@@ -5959,7 +5959,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/drawveticamini"
+            "zip": "https://www.fontsquirrel.com/fonts/download/drawveticamini"
           }
         }
       ],
@@ -6001,7 +6001,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/droid-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/droid-sans"
           }
         }
       ],
@@ -6043,7 +6043,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/droid-sans-mono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/droid-sans-mono"
           }
         }
       ],
@@ -6085,7 +6085,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/droid-serif"
+            "zip": "https://www.fontsquirrel.com/fonts/download/droid-serif"
           }
         }
       ],
@@ -6127,7 +6127,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/DubielPlain"
+            "zip": "https://www.fontsquirrel.com/fonts/download/DubielPlain"
           }
         }
       ],
@@ -6169,7 +6169,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Dubtronic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Dubtronic"
           }
         }
       ],
@@ -6211,7 +6211,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Dustismo"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Dustismo"
           }
         }
       ],
@@ -6253,7 +6253,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Dustismo-Roman"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Dustismo-Roman"
           }
         }
       ],
@@ -6295,7 +6295,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Dutch-Initials"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Dutch-Initials"
           }
         }
       ],
@@ -6337,7 +6337,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/DymaxionScript"
+            "zip": "https://www.fontsquirrel.com/fonts/download/DymaxionScript"
           }
         }
       ],
@@ -6379,7 +6379,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/EastMarket"
+            "zip": "https://www.fontsquirrel.com/fonts/download/EastMarket"
           }
         }
       ],
@@ -6421,7 +6421,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/edge-display"
+            "zip": "https://www.fontsquirrel.com/fonts/download/edge-display"
           }
         }
       ],
@@ -6463,7 +6463,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Edo"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Edo"
           }
         }
       ],
@@ -6505,7 +6505,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/ElliotSix"
+            "zip": "https://www.fontsquirrel.com/fonts/download/ElliotSix"
           }
         }
       ],
@@ -6547,7 +6547,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/England-Hand-DB"
+            "zip": "https://www.fontsquirrel.com/fonts/download/England-Hand-DB"
           }
         }
       ],
@@ -6589,7 +6589,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/engry"
+            "zip": "https://www.fontsquirrel.com/fonts/download/engry"
           }
         }
       ],
@@ -6631,7 +6631,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Enigmatic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Enigmatic"
           }
         }
       ],
@@ -6673,7 +6673,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/entypo"
+            "zip": "https://www.fontsquirrel.com/fonts/download/entypo"
           }
         }
       ],
@@ -6715,7 +6715,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Eraser"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Eraser"
           }
         }
       ],
@@ -6757,7 +6757,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Existence-Light"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Existence-Light"
           }
         }
       ],
@@ -6799,7 +6799,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/exo-condensed-expande"
+            "zip": "https://www.fontsquirrel.com/fonts/download/exo-condensed-expande"
           }
         }
       ],
@@ -6841,7 +6841,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/exotica"
+            "zip": "https://www.fontsquirrel.com/fonts/download/exotica"
           }
         }
       ],
@@ -6883,7 +6883,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/familiar-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/familiar-pro"
           }
         }
       ],
@@ -6925,7 +6925,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/FancyPants"
+            "zip": "https://www.fontsquirrel.com/fonts/download/FancyPants"
           }
         }
       ],
@@ -6967,7 +6967,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/fantasque-sans-mono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/fantasque-sans-mono"
           }
         }
       ],
@@ -7009,7 +7009,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/fanwood"
+            "zip": "https://www.fontsquirrel.com/fonts/download/fanwood"
           }
         }
       ],
@@ -7051,7 +7051,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/faster"
+            "zip": "https://www.fontsquirrel.com/fonts/download/faster"
           }
         }
       ],
@@ -7093,7 +7093,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Faux-Snow-BRK"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Faux-Snow-BRK"
           }
         }
       ],
@@ -7135,7 +7135,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/fengardo-neue"
+            "zip": "https://www.fontsquirrel.com/fonts/download/fengardo-neue"
           }
         }
       ],
@@ -7177,7 +7177,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/FFF-Tusj"
+            "zip": "https://www.fontsquirrel.com/fonts/download/FFF-Tusj"
           }
         }
       ],
@@ -7219,7 +7219,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/fin_serif_display"
+            "zip": "https://www.fontsquirrel.com/fonts/download/fin_serif_display"
           }
         }
       ],
@@ -7261,7 +7261,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/fira-sans-compressed"
+            "zip": "https://www.fontsquirrel.com/fonts/download/fira-sans-compressed"
           }
         }
       ],
@@ -7303,7 +7303,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Firecat"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Firecat"
           }
         }
       ],
@@ -7345,7 +7345,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/fjalla"
+            "zip": "https://www.fontsquirrel.com/fonts/download/fjalla"
           }
         }
       ],
@@ -7387,7 +7387,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/fjord"
+            "zip": "https://www.fontsquirrel.com/fonts/download/fjord"
           }
         }
       ],
@@ -7429,7 +7429,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Floralia"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Floralia"
           }
         }
       ],
@@ -7471,7 +7471,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Florante-at-Laura"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Florante-at-Laura"
           }
         }
       ],
@@ -7513,7 +7513,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/florida-vibe"
+            "zip": "https://www.fontsquirrel.com/fonts/download/florida-vibe"
           }
         }
       ],
@@ -7555,7 +7555,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Flux"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Flux"
           }
         }
       ],
@@ -7597,7 +7597,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/foglihten"
+            "zip": "https://www.fontsquirrel.com/fonts/download/foglihten"
           }
         }
       ],
@@ -7639,7 +7639,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/foglihtenno07"
+            "zip": "https://www.fontsquirrel.com/fonts/download/foglihtenno07"
           }
         }
       ],
@@ -7681,7 +7681,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Folks-Light"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Folks-Light"
           }
         }
       ],
@@ -7723,7 +7723,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/font-awesome"
+            "zip": "https://www.fontsquirrel.com/fonts/download/font-awesome"
           }
         }
       ],
@@ -7765,7 +7765,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/FontleroyBrown"
+            "zip": "https://www.fontsquirrel.com/fonts/download/FontleroyBrown"
           }
         }
       ],
@@ -7807,7 +7807,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/forque"
+            "zip": "https://www.fontsquirrel.com/fonts/download/forque"
           }
         }
       ],
@@ -7849,7 +7849,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/FortySecondStreetHB"
+            "zip": "https://www.fontsquirrel.com/fonts/download/FortySecondStreetHB"
           }
         }
       ],
@@ -7891,7 +7891,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Freebooter-Script"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Freebooter-Script"
           }
         }
       ],
@@ -7933,7 +7933,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/frente-h1"
+            "zip": "https://www.fontsquirrel.com/fonts/download/frente-h1"
           }
         }
       ],
@@ -7975,7 +7975,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/fulbo"
+            "zip": "https://www.fontsquirrel.com/fonts/download/fulbo"
           }
         }
       ],
@@ -8017,7 +8017,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Furore"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Furore"
           }
         }
       ],
@@ -8059,7 +8059,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/futura-renner"
+            "zip": "https://www.fontsquirrel.com/fonts/download/futura-renner"
           }
         }
       ],
@@ -8101,7 +8101,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Galatia-SIL"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Galatia-SIL"
           }
         }
       ],
@@ -8143,7 +8143,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/gandhi-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/gandhi-sans"
           }
         }
       ],
@@ -8185,7 +8185,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/gandhi-serif"
+            "zip": "https://www.fontsquirrel.com/fonts/download/gandhi-serif"
           }
         }
       ],
@@ -8227,7 +8227,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/garogier"
+            "zip": "https://www.fontsquirrel.com/fonts/download/garogier"
           }
         }
       ],
@@ -8269,7 +8269,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Garton"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Garton"
           }
         }
       ],
@@ -8311,7 +8311,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/gaspar"
+            "zip": "https://www.fontsquirrel.com/fonts/download/gaspar"
           }
         }
       ],
@@ -8353,7 +8353,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/gawaa"
+            "zip": "https://www.fontsquirrel.com/fonts/download/gawaa"
           }
         }
       ],
@@ -8395,7 +8395,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/GEIST-RND"
+            "zip": "https://www.fontsquirrel.com/fonts/download/GEIST-RND"
           }
         }
       ],
@@ -8437,7 +8437,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Gentium-Basic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Gentium-Basic"
           }
         }
       ],
@@ -8479,7 +8479,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Genzsch-Et-Heyse"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Genzsch-Et-Heyse"
           }
         }
       ],
@@ -8521,7 +8521,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/geometry-soft-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/geometry-soft-pro"
           }
         }
       ],
@@ -8563,7 +8563,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Gesso"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Gesso"
           }
         }
       ],
@@ -8605,7 +8605,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Giant-Head-OT"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Giant-Head-OT"
           }
         }
       ],
@@ -8647,7 +8647,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/glacial-indifference"
+            "zip": "https://www.fontsquirrel.com/fonts/download/glacial-indifference"
           }
         }
       ],
@@ -8689,7 +8689,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Gladifilthefte"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Gladifilthefte"
           }
         }
       ],
@@ -8731,7 +8731,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/gnu-free-font"
+            "zip": "https://www.fontsquirrel.com/fonts/download/gnu-free-font"
           }
         }
       ],
@@ -8773,7 +8773,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/go"
+            "zip": "https://www.fontsquirrel.com/fonts/download/go"
           }
         }
       ],
@@ -8815,7 +8815,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/goblin"
+            "zip": "https://www.fontsquirrel.com/fonts/download/goblin"
           }
         }
       ],
@@ -8857,7 +8857,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Gondola-SD"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Gondola-SD"
           }
         }
       ],
@@ -8899,7 +8899,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Gong"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Gong"
           }
         }
       ],
@@ -8941,7 +8941,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Gothic-Ultra-OT"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Gothic-Ultra-OT"
           }
         }
       ],
@@ -8983,7 +8983,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/gputeks"
+            "zip": "https://www.fontsquirrel.com/fonts/download/gputeks"
           }
         }
       ],
@@ -9025,7 +9025,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/GreatLakesNF"
+            "zip": "https://www.fontsquirrel.com/fonts/download/GreatLakesNF"
           }
         }
       ],
@@ -9067,7 +9067,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Greyscale-Basic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Greyscale-Basic"
           }
         }
       ],
@@ -9109,7 +9109,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Griffin"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Griffin"
           }
         }
       ],
@@ -9151,7 +9151,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/GriffosFont"
+            "zip": "https://www.fontsquirrel.com/fonts/download/GriffosFont"
           }
         }
       ],
@@ -9193,7 +9193,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/GrutchShaded"
+            "zip": "https://www.fontsquirrel.com/fonts/download/GrutchShaded"
           }
         }
       ],
@@ -9235,7 +9235,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/hack"
+            "zip": "https://www.fontsquirrel.com/fonts/download/hack"
           }
         }
       ],
@@ -9277,7 +9277,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/HamburgerHeaven"
+            "zip": "https://www.fontsquirrel.com/fonts/download/HamburgerHeaven"
           }
         }
       ],
@@ -9319,7 +9319,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/happy-times-at-the-ikob"
+            "zip": "https://www.fontsquirrel.com/fonts/download/happy-times-at-the-ikob"
           }
         }
       ],
@@ -9361,7 +9361,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Harting"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Harting"
           }
         }
       ],
@@ -9403,7 +9403,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Hattori-Hanzo"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Hattori-Hanzo"
           }
         }
       ],
@@ -9445,7 +9445,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Headhunter"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Headhunter"
           }
         }
       ],
@@ -9487,7 +9487,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Heavy-Data"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Heavy-Data"
           }
         }
       ],
@@ -9529,7 +9529,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/helmet"
+            "zip": "https://www.fontsquirrel.com/fonts/download/helmet"
           }
         }
       ],
@@ -9571,7 +9571,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/helsinki"
+            "zip": "https://www.fontsquirrel.com/fonts/download/helsinki"
           }
         }
       ],
@@ -9613,7 +9613,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/HenryMorganHand"
+            "zip": "https://www.fontsquirrel.com/fonts/download/HenryMorganHand"
           }
         }
       ],
@@ -9655,7 +9655,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Hetilica"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Hetilica"
           }
         }
       ],
@@ -9697,7 +9697,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/euristic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/euristic"
           }
         }
       ],
@@ -9739,7 +9739,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/heydings-common-icons"
+            "zip": "https://www.fontsquirrel.com/fonts/download/heydings-common-icons"
           }
         }
       ],
@@ -9781,7 +9781,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/heydings-controls"
+            "zip": "https://www.fontsquirrel.com/fonts/download/heydings-controls"
           }
         }
       ],
@@ -9823,7 +9823,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/hhenum"
+            "zip": "https://www.fontsquirrel.com/fonts/download/hhenum"
           }
         }
       ],
@@ -9865,7 +9865,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/hjet"
+            "zip": "https://www.fontsquirrel.com/fonts/download/hjet"
           }
         }
       ],
@@ -9907,7 +9907,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/hk-grotesk"
+            "zip": "https://www.fontsquirrel.com/fonts/download/hk-grotesk"
           }
         }
       ],
@@ -9949,7 +9949,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Holy-Ravioli"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Holy-Ravioli"
           }
         }
       ],
@@ -9991,7 +9991,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Hominis"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Hominis"
           }
         }
       ],
@@ -10033,7 +10033,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Hornswoggled"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Hornswoggled"
           }
         }
       ],
@@ -10075,7 +10075,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/hvd-bodedo"
+            "zip": "https://www.fontsquirrel.com/fonts/download/hvd-bodedo"
           }
         }
       ],
@@ -10117,7 +10117,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/hvd-comic-serif-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/hvd-comic-serif-pro"
           }
         }
       ],
@@ -10159,7 +10159,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/hvd-edding-780"
+            "zip": "https://www.fontsquirrel.com/fonts/download/hvd-edding-780"
           }
         }
       ],
@@ -10201,7 +10201,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/hvd-peace"
+            "zip": "https://www.fontsquirrel.com/fonts/download/hvd-peace"
           }
         }
       ],
@@ -10243,7 +10243,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/hvd-poster"
+            "zip": "https://www.fontsquirrel.com/fonts/download/hvd-poster"
           }
         }
       ],
@@ -10285,7 +10285,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/hvd-steinzeit"
+            "zip": "https://www.fontsquirrel.com/fonts/download/hvd-steinzeit"
           }
         }
       ],
@@ -10327,7 +10327,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/ia-writer-duospace"
+            "zip": "https://www.fontsquirrel.com/fonts/download/ia-writer-duospace"
           }
         }
       ],
@@ -10369,7 +10369,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/ibm-plex"
+            "zip": "https://www.fontsquirrel.com/fonts/download/ibm-plex"
           }
         }
       ],
@@ -10411,7 +10411,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/im-fell-double-pica-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/im-fell-double-pica-pro"
           }
         }
       ],
@@ -10453,7 +10453,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/im-fell-dw-pica-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/im-fell-dw-pica-pro"
           }
         }
       ],
@@ -10495,7 +10495,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/im-fell-english-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/im-fell-english-pro"
           }
         }
       ],
@@ -10537,7 +10537,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/im-fell-flowers-1"
+            "zip": "https://www.fontsquirrel.com/fonts/download/im-fell-flowers-1"
           }
         }
       ],
@@ -10579,7 +10579,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/im-fell-flowers-2"
+            "zip": "https://www.fontsquirrel.com/fonts/download/im-fell-flowers-2"
           }
         }
       ],
@@ -10621,7 +10621,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/im-fell-french-canon-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/im-fell-french-canon-pro"
           }
         }
       ],
@@ -10663,7 +10663,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/im-fell-great-primer-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/im-fell-great-primer-pro"
           }
         }
       ],
@@ -10705,7 +10705,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Immortal"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Immortal"
           }
         }
       ],
@@ -10747,7 +10747,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/impact-label"
+            "zip": "https://www.fontsquirrel.com/fonts/download/impact-label"
           }
         }
       ],
@@ -10789,7 +10789,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/indigo"
+            "zip": "https://www.fontsquirrel.com/fonts/download/indigo"
           }
         }
       ],
@@ -10831,7 +10831,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Indubitably"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Indubitably"
           }
         }
       ],
@@ -10873,7 +10873,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/infini"
+            "zip": "https://www.fontsquirrel.com/fonts/download/infini"
           }
         }
       ],
@@ -10915,7 +10915,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Intruder-Alert"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Intruder-Alert"
           }
         }
       ],
@@ -10957,7 +10957,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/istok"
+            "zip": "https://www.fontsquirrel.com/fonts/download/istok"
           }
         }
       ],
@@ -10999,7 +10999,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/itsadzoke"
+            "zip": "https://www.fontsquirrel.com/fonts/download/itsadzoke"
           }
         }
       ],
@@ -11041,7 +11041,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/jellee"
+            "zip": "https://www.fontsquirrel.com/fonts/download/jellee"
           }
         }
       ],
@@ -11083,7 +11083,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/jenriv"
+            "zip": "https://www.fontsquirrel.com/fonts/download/jenriv"
           }
         }
       ],
@@ -11125,7 +11125,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Jinky"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Jinky"
           }
         }
       ],
@@ -11167,7 +11167,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Journal"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Journal"
           }
         }
       ],
@@ -11209,7 +11209,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Jr-Hand"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Jr-Hand"
           }
         }
       ],
@@ -11251,7 +11251,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Juice"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Juice"
           }
         }
       ],
@@ -11293,7 +11293,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/julius-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/julius-sans"
           }
         }
       ],
@@ -11335,7 +11335,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/junction"
+            "zip": "https://www.fontsquirrel.com/fonts/download/junction"
           }
         }
       ],
@@ -11377,7 +11377,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/JungleFever"
+            "zip": "https://www.fontsquirrel.com/fonts/download/JungleFever"
           }
         }
       ],
@@ -11419,7 +11419,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/junicode"
+            "zip": "https://www.fontsquirrel.com/fonts/download/junicode"
           }
         }
       ],
@@ -11461,7 +11461,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/JustOldFashion"
+            "zip": "https://www.fontsquirrel.com/fonts/download/JustOldFashion"
           }
         }
       ],
@@ -11503,7 +11503,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kalocsai-Flowers"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kalocsai-Flowers"
           }
         }
       ],
@@ -11545,7 +11545,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Karatula"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Karatula"
           }
         }
       ],
@@ -11587,7 +11587,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/karmilla"
+            "zip": "https://www.fontsquirrel.com/fonts/download/karmilla"
           }
         }
       ],
@@ -11629,7 +11629,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Karnivore-Lite"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Karnivore-Lite"
           }
         }
       ],
@@ -11671,7 +11671,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/kawoszeh"
+            "zip": "https://www.fontsquirrel.com/fonts/download/kawoszeh"
           }
         }
       ],
@@ -11713,7 +11713,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kells-SD"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kells-SD"
           }
         }
       ],
@@ -11755,7 +11755,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/KelmscottRoman"
+            "zip": "https://www.fontsquirrel.com/fonts/download/KelmscottRoman"
           }
         }
       ],
@@ -11797,7 +11797,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/kelvinch"
+            "zip": "https://www.fontsquirrel.com/fonts/download/kelvinch"
           }
         }
       ],
@@ -11839,7 +11839,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Calligraphica"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Calligraphica"
           }
         }
       ],
@@ -11881,7 +11881,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Exeter"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Exeter"
           }
         }
       ],
@@ -11923,7 +11923,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Flourishes"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Flourishes"
           }
         }
       ],
@@ -11965,7 +11965,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Foundation"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Foundation"
           }
         }
       ],
@@ -12007,7 +12007,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Gothique"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Gothique"
           }
         }
       ],
@@ -12049,7 +12049,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Italique"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Italique"
           }
         }
       ],
@@ -12091,7 +12091,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Petrock"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Petrock"
           }
         }
       ],
@@ -12133,7 +12133,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Printingkit"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Printingkit"
           }
         }
       ],
@@ -12175,7 +12175,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Spikeless"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Spikeless"
           }
         }
       ],
@@ -12217,7 +12217,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Trypewriter"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Trypewriter"
           }
         }
       ],
@@ -12259,7 +12259,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Versalis"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Versalis"
           }
         }
       ],
@@ -12301,7 +12301,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Wrote"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Wrote"
           }
         }
       ],
@@ -12343,7 +12343,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kingthings-Xstitch"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kingthings-Xstitch"
           }
         }
       ],
@@ -12385,7 +12385,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/kjv1611"
+            "zip": "https://www.fontsquirrel.com/fonts/download/kjv1611"
           }
         }
       ],
@@ -12427,7 +12427,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Know-Your-Product"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Know-Your-Product"
           }
         }
       ],
@@ -12469,7 +12469,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Komika-Axis"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Komika-Axis"
           }
         }
       ],
@@ -12511,7 +12511,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Komika-Display"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Komika-Display"
           }
         }
       ],
@@ -12553,7 +12553,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Komika-Hand"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Komika-Hand"
           }
         }
       ],
@@ -12595,7 +12595,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Komika-Text"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Komika-Text"
           }
         }
       ],
@@ -12637,7 +12637,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Komika-Title"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Komika-Title"
           }
         }
       ],
@@ -12679,7 +12679,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/konstytucyja"
+            "zip": "https://www.fontsquirrel.com/fonts/download/konstytucyja"
           }
         }
       ],
@@ -12721,7 +12721,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Kontrapunkt"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Kontrapunkt"
           }
         }
       ],
@@ -12763,7 +12763,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/la-unica"
+            "zip": "https://www.fontsquirrel.com/fonts/download/la-unica"
           }
         }
       ],
@@ -12805,7 +12805,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/labor-union"
+            "zip": "https://www.fontsquirrel.com/fonts/download/labor-union"
           }
         }
       ],
@@ -12847,7 +12847,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/lack"
+            "zip": "https://www.fontsquirrel.com/fonts/download/lack"
           }
         }
       ],
@@ -12889,7 +12889,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/laconic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/laconic"
           }
         }
       ],
@@ -12931,7 +12931,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Lacuna-Regular"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Lacuna-Regular"
           }
         }
       ],
@@ -12973,7 +12973,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/LakeshoreDrive"
+            "zip": "https://www.fontsquirrel.com/fonts/download/LakeshoreDrive"
           }
         }
       ],
@@ -13015,7 +13015,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Landliebe"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Landliebe"
           }
         }
       ],
@@ -13057,7 +13057,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Lane"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Lane"
           }
         }
       ],
@@ -13099,7 +13099,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/langdon"
+            "zip": "https://www.fontsquirrel.com/fonts/download/langdon"
           }
         }
       ],
@@ -13141,7 +13141,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/lapsus-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/lapsus-pro"
           }
         }
       ],
@@ -13183,7 +13183,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Latin-Modern-Mono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Latin-Modern-Mono"
           }
         }
       ],
@@ -13225,7 +13225,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Latin-Modern-Roman"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Latin-Modern-Roman"
           }
         }
       ],
@@ -13267,7 +13267,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Latin-Modern-Sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Latin-Modern-Sans"
           }
         }
       ],
@@ -13309,7 +13309,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Latinia"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Latinia"
           }
         }
       ],
@@ -13351,7 +13351,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Leafy-glade"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Leafy-glade"
           }
         }
       ],
@@ -13393,7 +13393,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/league-script-1"
+            "zip": "https://www.fontsquirrel.com/fonts/download/league-script-1"
           }
         }
       ],
@@ -13435,7 +13435,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/leander"
+            "zip": "https://www.fontsquirrel.com/fonts/download/leander"
           }
         }
       ],
@@ -13477,7 +13477,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Lemiesz"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Lemiesz"
           }
         }
       ],
@@ -13519,7 +13519,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/LemonChicken"
+            "zip": "https://www.fontsquirrel.com/fonts/download/LemonChicken"
           }
         }
       ],
@@ -13561,7 +13561,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/liberation-mono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/liberation-mono"
           }
         }
       ],
@@ -13603,7 +13603,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/liberation-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/liberation-sans"
           }
         }
       ],
@@ -13645,7 +13645,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/liberation-serif"
+            "zip": "https://www.fontsquirrel.com/fonts/download/liberation-serif"
           }
         }
       ],
@@ -13687,7 +13687,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/libertinus"
+            "zip": "https://www.fontsquirrel.com/fonts/download/libertinus"
           }
         }
       ],
@@ -13729,7 +13729,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/library-3-am"
+            "zip": "https://www.fontsquirrel.com/fonts/download/library-3-am"
           }
         }
       ],
@@ -13771,7 +13771,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/libre-caslon"
+            "zip": "https://www.fontsquirrel.com/fonts/download/libre-caslon"
           }
         }
       ],
@@ -13813,7 +13813,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Lilac-Malaria"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Lilac-Malaria"
           }
         }
       ],
@@ -13855,7 +13855,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Lilly"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Lilly"
           }
         }
       ],
@@ -13897,7 +13897,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/linguistics-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/linguistics-pro"
           }
         }
       ],
@@ -13939,7 +13939,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Lintsec"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Lintsec"
           }
         }
       ],
@@ -13981,7 +13981,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/linux-biolinum"
+            "zip": "https://www.fontsquirrel.com/fonts/download/linux-biolinum"
           }
         }
       ],
@@ -14023,7 +14023,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/linux-libertine"
+            "zip": "https://www.fontsquirrel.com/fonts/download/linux-libertine"
           }
         }
       ],
@@ -14065,7 +14065,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/literata-book"
+            "zip": "https://www.fontsquirrel.com/fonts/download/literata-book"
           }
         }
       ],
@@ -14107,7 +14107,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Little-Trouble-Girl"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Little-Trouble-Girl"
           }
         }
       ],
@@ -14149,7 +14149,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/loaded"
+            "zip": "https://www.fontsquirrel.com/fonts/download/loaded"
           }
         }
       ],
@@ -14191,7 +14191,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/londrina"
+            "zip": "https://www.fontsquirrel.com/fonts/download/londrina"
           }
         }
       ],
@@ -14233,7 +14233,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/lucien-schoenschriftv-cat"
+            "zip": "https://www.fontsquirrel.com/fonts/download/lucien-schoenschriftv-cat"
           }
         }
       ],
@@ -14275,7 +14275,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/luiss"
+            "zip": "https://www.fontsquirrel.com/fonts/download/luiss"
           }
         }
       ],
@@ -14317,7 +14317,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/lunchtype"
+            "zip": "https://www.fontsquirrel.com/fonts/download/lunchtype"
           }
         }
       ],
@@ -14359,7 +14359,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Luxi-Mono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Luxi-Mono"
           }
         }
       ],
@@ -14401,7 +14401,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Luxi-Sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Luxi-Sans"
           }
         }
       ],
@@ -14443,7 +14443,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Luxi-Serif"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Luxi-Serif"
           }
         }
       ],
@@ -14485,7 +14485,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/M-1c"
+            "zip": "https://www.fontsquirrel.com/fonts/download/M-1c"
           }
         }
       ],
@@ -14527,7 +14527,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/M-1m"
+            "zip": "https://www.fontsquirrel.com/fonts/download/M-1m"
           }
         }
       ],
@@ -14569,7 +14569,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/MadisonSquare"
+            "zip": "https://www.fontsquirrel.com/fonts/download/MadisonSquare"
           }
         }
       ],
@@ -14611,7 +14611,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/magenta"
+            "zip": "https://www.fontsquirrel.com/fonts/download/magenta"
           }
         }
       ],
@@ -14653,7 +14653,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Major-Snafu"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Major-Snafu"
           }
         }
       ],
@@ -14695,7 +14695,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/margherita"
+            "zip": "https://www.fontsquirrel.com/fonts/download/margherita"
           }
         }
       ],
@@ -14737,7 +14737,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Matchbook"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Matchbook"
           }
         }
       ],
@@ -14779,7 +14779,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/mathlete"
+            "zip": "https://www.fontsquirrel.com/fonts/download/mathlete"
           }
         }
       ],
@@ -14821,7 +14821,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Matiz"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Matiz"
           }
         }
       ],
@@ -14863,7 +14863,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Medio"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Medio"
           }
         }
       ],
@@ -14905,7 +14905,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/membra"
+            "zip": "https://www.fontsquirrel.com/fonts/download/membra"
           }
         }
       ],
@@ -14947,7 +14947,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Metro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Metro"
           }
         }
       ],
@@ -14989,7 +14989,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Miama"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Miama"
           }
         }
       ],
@@ -15031,7 +15031,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/mikodacs"
+            "zip": "https://www.fontsquirrel.com/fonts/download/mikodacs"
           }
         }
       ],
@@ -15073,7 +15073,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Millennia"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Millennia"
           }
         }
       ],
@@ -15115,7 +15115,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/minipax"
+            "zip": "https://www.fontsquirrel.com/fonts/download/minipax"
           }
         }
       ],
@@ -15157,7 +15157,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Minotaur"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Minotaur"
           }
         }
       ],
@@ -15199,7 +15199,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/MinstrelPosterWHG"
+            "zip": "https://www.fontsquirrel.com/fonts/download/MinstrelPosterWHG"
           }
         }
       ],
@@ -15241,7 +15241,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/mirror-82"
+            "zip": "https://www.fontsquirrel.com/fonts/download/mirror-82"
           }
         }
       ],
@@ -15283,7 +15283,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/modern-pictograms"
+            "zip": "https://www.fontsquirrel.com/fonts/download/modern-pictograms"
           }
         }
       ],
@@ -15325,7 +15325,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/moinho"
+            "zip": "https://www.fontsquirrel.com/fonts/download/moinho"
           }
         }
       ],
@@ -15367,7 +15367,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Molot"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Molot"
           }
         }
       ],
@@ -15409,7 +15409,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/MomsTypewriter"
+            "zip": "https://www.fontsquirrel.com/fonts/download/MomsTypewriter"
           }
         }
       ],
@@ -15451,7 +15451,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/MonospaceTypewriter"
+            "zip": "https://www.fontsquirrel.com/fonts/download/MonospaceTypewriter"
           }
         }
       ],
@@ -15493,7 +15493,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/moonless-sc"
+            "zip": "https://www.fontsquirrel.com/fonts/download/moonless-sc"
           }
         }
       ],
@@ -15535,7 +15535,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/MothproofScript"
+            "zip": "https://www.fontsquirrel.com/fonts/download/MothproofScript"
           }
         }
       ],
@@ -15577,7 +15577,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/muli"
+            "zip": "https://www.fontsquirrel.com/fonts/download/muli"
           }
         }
       ],
@@ -15619,7 +15619,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/munson"
+            "zip": "https://www.fontsquirrel.com/fonts/download/munson"
           }
         }
       ],
@@ -15661,7 +15661,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Mutlu"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Mutlu"
           }
         }
       ],
@@ -15703,7 +15703,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/My-Underwood"
+            "zip": "https://www.fontsquirrel.com/fonts/download/My-Underwood"
           }
         }
       ],
@@ -15745,7 +15745,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Myndraine"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Myndraine"
           }
         }
       ],
@@ -15787,7 +15787,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/nanumgothic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/nanumgothic"
           }
         }
       ],
@@ -15829,7 +15829,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/nautilus-pompilius"
+            "zip": "https://www.fontsquirrel.com/fonts/download/nautilus-pompilius"
           }
         }
       ],
@@ -15871,7 +15871,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Negotiate"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Negotiate"
           }
         }
       ],
@@ -15913,7 +15913,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/NeoRetroDraw"
+            "zip": "https://www.fontsquirrel.com/fonts/download/NeoRetroDraw"
           }
         }
       ],
@@ -15955,7 +15955,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/neris"
+            "zip": "https://www.fontsquirrel.com/fonts/download/neris"
           }
         }
       ],
@@ -15997,7 +15997,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Nervous-Rex"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Nervous-Rex"
           }
         }
       ],
@@ -16039,7 +16039,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/neumann"
+            "zip": "https://www.fontsquirrel.com/fonts/download/neumann"
           }
         }
       ],
@@ -16081,7 +16081,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/new-athena-unicode"
+            "zip": "https://www.fontsquirrel.com/fonts/download/new-athena-unicode"
           }
         }
       ],
@@ -16123,7 +16123,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/New-Cicle"
+            "zip": "https://www.fontsquirrel.com/fonts/download/New-Cicle"
           }
         }
       ],
@@ -16165,7 +16165,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/newt-serif"
+            "zip": "https://www.fontsquirrel.com/fonts/download/newt-serif"
           }
         }
       ],
@@ -16207,7 +16207,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/nimbus-mono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/nimbus-mono"
           }
         }
       ],
@@ -16249,7 +16249,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/nimbus-roman-no9-l"
+            "zip": "https://www.fontsquirrel.com/fonts/download/nimbus-roman-no9-l"
           }
         }
       ],
@@ -16291,7 +16291,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/nimbus-sans-l"
+            "zip": "https://www.fontsquirrel.com/fonts/download/nimbus-sans-l"
           }
         }
       ],
@@ -16333,7 +16333,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/norwester"
+            "zip": "https://www.fontsquirrel.com/fonts/download/norwester"
           }
         }
       ],
@@ -16375,7 +16375,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/nosifer-caps"
+            "zip": "https://www.fontsquirrel.com/fonts/download/nosifer-caps"
           }
         }
       ],
@@ -16417,7 +16417,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/NotCourierSans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/NotCourierSans"
           }
         }
       ],
@@ -16459,7 +16459,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Note-this"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Note-this"
           }
         }
       ],
@@ -16501,7 +16501,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Notice"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Notice"
           }
         }
       ],
@@ -16543,7 +16543,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/NotMaryKate"
+            "zip": "https://www.fontsquirrel.com/fonts/download/NotMaryKate"
           }
         }
       ],
@@ -16585,7 +16585,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/noto-mono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/noto-mono"
           }
         }
       ],
@@ -16627,7 +16627,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/nymphette"
+            "zip": "https://www.fontsquirrel.com/fonts/download/nymphette"
           }
         }
       ],
@@ -16669,7 +16669,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/odstemplik"
+            "zip": "https://www.fontsquirrel.com/fonts/download/odstemplik"
           }
         }
       ],
@@ -16711,7 +16711,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/office-code-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/office-code-pro"
           }
         }
       ],
@@ -16753,7 +16753,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/ohio-kraft"
+            "zip": "https://www.fontsquirrel.com/fonts/download/ohio-kraft"
           }
         }
       ],
@@ -16795,7 +16795,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/okolaks"
+            "zip": "https://www.fontsquirrel.com/fonts/download/okolaks"
           }
         }
       ],
@@ -16837,7 +16837,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Old-Stamper"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Old-Stamper"
           }
         }
       ],
@@ -16879,7 +16879,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/open-sans-condensed"
+            "zip": "https://www.fontsquirrel.com/fonts/download/open-sans-condensed"
           }
         }
       ],
@@ -16921,7 +16921,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Origicide"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Origicide"
           }
         }
       ],
@@ -16963,7 +16963,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/orkney"
+            "zip": "https://www.fontsquirrel.com/fonts/download/orkney"
           }
         }
       ],
@@ -17005,7 +17005,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Orotund"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Orotund"
           }
         }
       ],
@@ -17047,7 +17047,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/osp-din"
+            "zip": "https://www.fontsquirrel.com/fonts/download/osp-din"
           }
         }
       ],
@@ -17089,7 +17089,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/ostrich-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/ostrich-sans"
           }
         }
       ],
@@ -17131,7 +17131,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/ostrich-sans-inline"
+            "zip": "https://www.fontsquirrel.com/fonts/download/ostrich-sans-inline"
           }
         }
       ],
@@ -17173,7 +17173,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/otama-ep"
+            "zip": "https://www.fontsquirrel.com/fonts/download/otama-ep"
           }
         }
       ],
@@ -17215,7 +17215,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/outgunned"
+            "zip": "https://www.fontsquirrel.com/fonts/download/outgunned"
           }
         }
       ],
@@ -17257,7 +17257,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Paete-Round"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Paete-Round"
           }
         }
       ],
@@ -17299,7 +17299,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/paint-the-sky"
+            "zip": "https://www.fontsquirrel.com/fonts/download/paint-the-sky"
           }
         }
       ],
@@ -17341,7 +17341,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/palitoon"
+            "zip": "https://www.fontsquirrel.com/fonts/download/palitoon"
           }
         }
       ],
@@ -17383,7 +17383,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/palo-alto"
+            "zip": "https://www.fontsquirrel.com/fonts/download/palo-alto"
           }
         }
       ],
@@ -17425,7 +17425,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/panefresco"
+            "zip": "https://www.fontsquirrel.com/fonts/download/panefresco"
           }
         }
       ],
@@ -17467,7 +17467,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/PaulMaul"
+            "zip": "https://www.fontsquirrel.com/fonts/download/PaulMaul"
           }
         }
       ],
@@ -17509,7 +17509,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/peace-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/peace-sans"
           }
         }
       ],
@@ -17551,7 +17551,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/pecita"
+            "zip": "https://www.fontsquirrel.com/fonts/download/pecita"
           }
         }
       ],
@@ -17593,7 +17593,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/permian-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/permian-sans"
           }
         }
       ],
@@ -17635,7 +17635,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/permian-serif"
+            "zip": "https://www.fontsquirrel.com/fonts/download/permian-serif"
           }
         }
       ],
@@ -17677,7 +17677,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/permian-slab"
+            "zip": "https://www.fontsquirrel.com/fonts/download/permian-slab"
           }
         }
       ],
@@ -17719,7 +17719,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Perspective-Sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Perspective-Sans"
           }
         }
       ],
@@ -17761,7 +17761,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/petahja"
+            "zip": "https://www.fontsquirrel.com/fonts/download/petahja"
           }
         }
       ],
@@ -17803,7 +17803,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Pincoyablack"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Pincoyablack"
           }
         }
       ],
@@ -17845,7 +17845,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/PixieFont"
+            "zip": "https://www.fontsquirrel.com/fonts/download/PixieFont"
           }
         }
       ],
@@ -17887,7 +17887,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/PlainBlack"
+            "zip": "https://www.fontsquirrel.com/fonts/download/PlainBlack"
           }
         }
       ],
@@ -17929,7 +17929,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Plasma-Drip-BRK"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Plasma-Drip-BRK"
           }
         }
       ],
@@ -17971,7 +17971,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/playtime-with-hot-toddies"
+            "zip": "https://www.fontsquirrel.com/fonts/download/playtime-with-hot-toddies"
           }
         }
       ],
@@ -18013,7 +18013,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Pleasantly-Plump"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Pleasantly-Plump"
           }
         }
       ],
@@ -18055,7 +18055,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Plexifont-BV"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Plexifont-BV"
           }
         }
       ],
@@ -18097,7 +18097,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Plug-NickelBlack"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Plug-NickelBlack"
           }
         }
       ],
@@ -18139,7 +18139,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/poetsen"
+            "zip": "https://www.fontsquirrel.com/fonts/download/poetsen"
           }
         }
       ],
@@ -18181,7 +18181,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/polsku"
+            "zip": "https://www.fontsquirrel.com/fonts/download/polsku"
           }
         }
       ],
@@ -18223,7 +18223,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Portcullion"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Portcullion"
           }
         }
       ],
@@ -18265,7 +18265,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/porter-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/porter-sans"
           }
         }
       ],
@@ -18307,7 +18307,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/post-no-bills"
+            "zip": "https://www.fontsquirrel.com/fonts/download/post-no-bills"
           }
         }
       ],
@@ -18349,7 +18349,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Print-Clearly"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Print-Clearly"
           }
         }
       ],
@@ -18391,7 +18391,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Printers-Ornaments-One"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Printers-Ornaments-One"
           }
         }
       ],
@@ -18433,7 +18433,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Proclamate"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Proclamate"
           }
         }
       ],
@@ -18475,7 +18475,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/ProFontWindows"
+            "zip": "https://www.fontsquirrel.com/fonts/download/ProFontWindows"
           }
         }
       ],
@@ -18517,7 +18517,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Promocyja"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Promocyja"
           }
         }
       ],
@@ -18559,7 +18559,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/pt-root-ui"
+            "zip": "https://www.fontsquirrel.com/fonts/download/pt-root-ui"
           }
         }
       ],
@@ -18601,7 +18601,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Pusab"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Pusab"
           }
         }
       ],
@@ -18643,7 +18643,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Qikki-Reg"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Qikki-Reg"
           }
         }
       ],
@@ -18685,7 +18685,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/quaerite-regnum-dei"
+            "zip": "https://www.fontsquirrel.com/fonts/download/quaerite-regnum-dei"
           }
         }
       ],
@@ -18727,7 +18727,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/quattrocento-roman"
+            "zip": "https://www.fontsquirrel.com/fonts/download/quattrocento-roman"
           }
         }
       ],
@@ -18769,7 +18769,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Quick-End-Jerk"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Quick-End-Jerk"
           }
         }
       ],
@@ -18811,7 +18811,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/QuigleyWiggly"
+            "zip": "https://www.fontsquirrel.com/fonts/download/QuigleyWiggly"
           }
         }
       ],
@@ -18853,7 +18853,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/qumpellkano12"
+            "zip": "https://www.fontsquirrel.com/fonts/download/qumpellkano12"
           }
         }
       ],
@@ -18895,7 +18895,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/railway"
+            "zip": "https://www.fontsquirrel.com/fonts/download/railway"
           }
         }
       ],
@@ -18937,7 +18937,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Rapscallion"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Rapscallion"
           }
         }
       ],
@@ -18979,7 +18979,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/rawengulk"
+            "zip": "https://www.fontsquirrel.com/fonts/download/rawengulk"
           }
         }
       ],
@@ -19021,7 +19021,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/rawengulksans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/rawengulksans"
           }
         }
       ],
@@ -19063,7 +19063,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Rechtman"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Rechtman"
           }
         }
       ],
@@ -19105,7 +19105,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/recursive-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/recursive-sans"
           }
         }
       ],
@@ -19147,7 +19147,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/red-hat"
+            "zip": "https://www.fontsquirrel.com/fonts/download/red-hat"
           }
         }
       ],
@@ -19189,7 +19189,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/resagnicto"
+            "zip": "https://www.fontsquirrel.com/fonts/download/resagnicto"
           }
         }
       ],
@@ -19231,7 +19231,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/resagokr"
+            "zip": "https://www.fontsquirrel.com/fonts/download/resagokr"
           }
         }
       ],
@@ -19273,7 +19273,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/reswysokr"
+            "zip": "https://www.fontsquirrel.com/fonts/download/reswysokr"
           }
         }
       ],
@@ -19315,7 +19315,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/riesling"
+            "zip": "https://www.fontsquirrel.com/fonts/download/riesling"
           }
         }
       ],
@@ -19357,7 +19357,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/ritaglio"
+            "zip": "https://www.fontsquirrel.com/fonts/download/ritaglio"
           }
         }
       ],
@@ -19399,7 +19399,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/roboto-2014"
+            "zip": "https://www.fontsquirrel.com/fonts/download/roboto-2014"
           }
         }
       ],
@@ -19441,7 +19441,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Roman-Caps"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Roman-Caps"
           }
         }
       ],
@@ -19483,7 +19483,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Rothenburg-Decorative"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Rothenburg-Decorative"
           }
         }
       ],
@@ -19525,7 +19525,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Rothman"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Rothman"
           }
         }
       ],
@@ -19567,7 +19567,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/route-159"
+            "zip": "https://www.fontsquirrel.com/fonts/download/route-159"
           }
         }
       ],
@@ -19609,7 +19609,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/ryujin-attack"
+            "zip": "https://www.fontsquirrel.com/fonts/download/ryujin-attack"
           }
         }
       ],
@@ -19651,7 +19651,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/iba-45"
+            "zip": "https://www.fontsquirrel.com/fonts/download/iba-45"
           }
         }
       ],
@@ -19693,7 +19693,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Salaryman"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Salaryman"
           }
         }
       ],
@@ -19735,7 +19735,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Samba"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Samba"
           }
         }
       ],
@@ -19777,7 +19777,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Sansumi"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Sansumi"
           }
         }
       ],
@@ -19819,7 +19819,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Santana"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Santana"
           }
         }
       ],
@@ -19861,7 +19861,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/sawarabi"
+            "zip": "https://www.fontsquirrel.com/fonts/download/sawarabi"
           }
         }
       ],
@@ -19903,7 +19903,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/saxMono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/saxMono"
           }
         }
       ],
@@ -19945,7 +19945,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/scheherazade"
+            "zip": "https://www.fontsquirrel.com/fonts/download/scheherazade"
           }
         }
       ],
@@ -19987,7 +19987,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Scratch"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Scratch"
           }
         }
       ],
@@ -20029,7 +20029,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Scriptina"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Scriptina"
           }
         }
       ],
@@ -20071,7 +20071,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/scriptina-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/scriptina-pro"
           }
         }
       ],
@@ -20113,7 +20113,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/sears-tower"
+            "zip": "https://www.fontsquirrel.com/fonts/download/sears-tower"
           }
         }
       ],
@@ -20155,7 +20155,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SeasideResortNF"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SeasideResortNF"
           }
         }
       ],
@@ -20197,7 +20197,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Secret-Typewriter"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Secret-Typewriter"
           }
         }
       ],
@@ -20239,7 +20239,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/sedgwick-co"
+            "zip": "https://www.fontsquirrel.com/fonts/download/sedgwick-co"
           }
         }
       ],
@@ -20281,7 +20281,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/selawik"
+            "zip": "https://www.fontsquirrel.com/fonts/download/selawik"
           }
         }
       ],
@@ -20323,7 +20323,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/selima"
+            "zip": "https://www.fontsquirrel.com/fonts/download/selima"
           }
         }
       ],
@@ -20365,7 +20365,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/seshat"
+            "zip": "https://www.fontsquirrel.com/fonts/download/seshat"
           }
         }
       ],
@@ -20407,7 +20407,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Sesquipedalian"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Sesquipedalian"
           }
         }
       ],
@@ -20449,7 +20449,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SF-Shai-Fontai"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SF-Shai-Fontai"
           }
         }
       ],
@@ -20491,7 +20491,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/ShangriLaNF"
+            "zip": "https://www.fontsquirrel.com/fonts/download/ShangriLaNF"
           }
         }
       ],
@@ -20533,7 +20533,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/simpel"
+            "zip": "https://www.fontsquirrel.com/fonts/download/simpel"
           }
         }
       ],
@@ -20575,7 +20575,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/sinkin-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/sinkin-sans"
           }
         }
       ],
@@ -20617,7 +20617,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Sjonarbok-Classic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Sjonarbok-Classic"
           }
         }
       ],
@@ -20659,7 +20659,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/slabo"
+            "zip": "https://www.fontsquirrel.com/fonts/download/slabo"
           }
         }
       ],
@@ -20701,7 +20701,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SF-Slapstick-Comic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SF-Slapstick-Comic"
           }
         }
       ],
@@ -20743,7 +20743,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/slim-jim"
+            "zip": "https://www.fontsquirrel.com/fonts/download/slim-jim"
           }
         }
       ],
@@ -20785,7 +20785,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Sling"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Sling"
           }
         }
       ],
@@ -20827,7 +20827,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Slukoni"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Slukoni"
           }
         }
       ],
@@ -20869,7 +20869,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Snickles"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Snickles"
           }
         }
       ],
@@ -20911,7 +20911,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/solveig"
+            "zip": "https://www.fontsquirrel.com/fonts/download/solveig"
           }
         }
       ],
@@ -20953,7 +20953,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/some-time-later"
+            "zip": "https://www.fontsquirrel.com/fonts/download/some-time-later"
           }
         }
       ],
@@ -20995,7 +20995,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/soria"
+            "zip": "https://www.fontsquirrel.com/fonts/download/soria"
           }
         }
       ],
@@ -21037,7 +21037,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SouciSans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SouciSans"
           }
         }
       ],
@@ -21079,7 +21079,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/soukou-mincho"
+            "zip": "https://www.fontsquirrel.com/fonts/download/soukou-mincho"
           }
         }
       ],
@@ -21121,7 +21121,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/source-sans-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/source-sans-pro"
           }
         }
       ],
@@ -21163,7 +21163,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/source-serif-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/source-serif-pro"
           }
         }
       ],
@@ -21205,7 +21205,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/spartan-mb"
+            "zip": "https://www.fontsquirrel.com/fonts/download/spartan-mb"
           }
         }
       ],
@@ -21247,7 +21247,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SF-Speakeasy"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SF-Speakeasy"
           }
         }
       ],
@@ -21289,7 +21289,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Spilt-Ink"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Spilt-Ink"
           }
         }
       ],
@@ -21331,7 +21331,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Spin-Cycle-OT"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Spin-Cycle-OT"
           }
         }
       ],
@@ -21373,7 +21373,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/spinwerad"
+            "zip": "https://www.fontsquirrel.com/fonts/download/spinwerad"
           }
         }
       ],
@@ -21415,7 +21415,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/sporting-grotesque"
+            "zip": "https://www.fontsquirrel.com/fonts/download/sporting-grotesque"
           }
         }
       ],
@@ -21457,7 +21457,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/sportrop"
+            "zip": "https://www.fontsquirrel.com/fonts/download/sportrop"
           }
         }
       ],
@@ -21499,7 +21499,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/sprat"
+            "zip": "https://www.fontsquirrel.com/fonts/download/sprat"
           }
         }
       ],
@@ -21541,7 +21541,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/st-marie"
+            "zip": "https://www.fontsquirrel.com/fonts/download/st-marie"
           }
         }
       ],
@@ -21583,7 +21583,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/stateface"
+            "zip": "https://www.fontsquirrel.com/fonts/download/stateface"
           }
         }
       ],
@@ -21625,7 +21625,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/stilu"
+            "zip": "https://www.fontsquirrel.com/fonts/download/stilu"
           }
         }
       ],
@@ -21667,7 +21667,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Studebaker"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Studebaker"
           }
         }
       ],
@@ -21709,7 +21709,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/subjectivity"
+            "zip": "https://www.fontsquirrel.com/fonts/download/subjectivity"
           }
         }
       ],
@@ -21751,7 +21751,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/suit-icons"
+            "zip": "https://www.fontsquirrel.com/fonts/download/suit-icons"
           }
         }
       ],
@@ -21793,7 +21793,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/supermercado"
+            "zip": "https://www.fontsquirrel.com/fonts/download/supermercado"
           }
         }
       ],
@@ -21835,7 +21835,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/surface"
+            "zip": "https://www.fontsquirrel.com/fonts/download/surface"
           }
         }
       ],
@@ -21877,7 +21877,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Symbol-Signs"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Symbol-Signs"
           }
         }
       ],
@@ -21919,7 +21919,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Synthetique"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Synthetique"
           }
         }
       ],
@@ -21961,7 +21961,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Tagapagsalaysay-Caps-Narrator"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Tagapagsalaysay-Caps-Narrator"
           }
         }
       ],
@@ -22003,7 +22003,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/tanohe-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/tanohe-sans"
           }
         }
       ],
@@ -22045,7 +22045,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/tarponmotel"
+            "zip": "https://www.fontsquirrel.com/fonts/download/tarponmotel"
           }
         }
       ],
@@ -22087,7 +22087,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/techna-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/techna-sans"
           }
         }
       ],
@@ -22129,7 +22129,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Technique-BRK"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Technique-BRK"
           }
         }
       ],
@@ -22171,7 +22171,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/tecnico"
+            "zip": "https://www.fontsquirrel.com/fonts/download/tecnico"
           }
         }
       ],
@@ -22213,7 +22213,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/tenderness"
+            "zip": "https://www.fontsquirrel.com/fonts/download/tenderness"
           }
         }
       ],
@@ -22255,7 +22255,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Teutonic-No1"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Teutonic-No1"
           }
         }
       ],
@@ -22297,7 +22297,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/TeX-Gyre-Adventor"
+            "zip": "https://www.fontsquirrel.com/fonts/download/TeX-Gyre-Adventor"
           }
         }
       ],
@@ -22339,7 +22339,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/TeX-Gyre-Bonum"
+            "zip": "https://www.fontsquirrel.com/fonts/download/TeX-Gyre-Bonum"
           }
         }
       ],
@@ -22381,7 +22381,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/TeX-Gyre-Cursor"
+            "zip": "https://www.fontsquirrel.com/fonts/download/TeX-Gyre-Cursor"
           }
         }
       ],
@@ -22423,7 +22423,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/TeX-Gyre-Heros"
+            "zip": "https://www.fontsquirrel.com/fonts/download/TeX-Gyre-Heros"
           }
         }
       ],
@@ -22465,7 +22465,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/TeX-Gyre-Pagella"
+            "zip": "https://www.fontsquirrel.com/fonts/download/TeX-Gyre-Pagella"
           }
         }
       ],
@@ -22507,7 +22507,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/TeX-Gyre-Schola"
+            "zip": "https://www.fontsquirrel.com/fonts/download/TeX-Gyre-Schola"
           }
         }
       ],
@@ -22549,7 +22549,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/TeX-Gyre-Termes"
+            "zip": "https://www.fontsquirrel.com/fonts/download/TeX-Gyre-Termes"
           }
         }
       ],
@@ -22591,7 +22591,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Theano-Didot"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Theano-Didot"
           }
         }
       ],
@@ -22633,7 +22633,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Theano-Modern"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Theano-Modern"
           }
         }
       ],
@@ -22675,7 +22675,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Theano-Old-Style"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Theano-Old-Style"
           }
         }
       ],
@@ -22717,7 +22717,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/tinet"
+            "zip": "https://www.fontsquirrel.com/fonts/download/tinet"
           }
         }
       ],
@@ -22759,7 +22759,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Tiresias-Infofont"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Tiresias-Infofont"
           }
         }
       ],
@@ -22801,7 +22801,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Titillium"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Titillium"
           }
         }
       ],
@@ -22843,7 +22843,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Tiza"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Tiza"
           }
         }
       ],
@@ -22885,7 +22885,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SF-Toontime"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SF-Toontime"
           }
         }
       ],
@@ -22927,7 +22927,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Top-Secret"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Top-Secret"
           }
         }
       ],
@@ -22969,7 +22969,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/TrashHand"
+            "zip": "https://www.fontsquirrel.com/fonts/download/TrashHand"
           }
         }
       ],
@@ -23011,7 +23011,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Trendy-University"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Trendy-University"
           }
         }
       ],
@@ -23053,7 +23053,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/trickster"
+            "zip": "https://www.fontsquirrel.com/fonts/download/trickster"
           }
         }
       ],
@@ -23095,7 +23095,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/TroglodyteNF"
+            "zip": "https://www.fontsquirrel.com/fonts/download/TroglodyteNF"
           }
         }
       ],
@@ -23137,7 +23137,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/troika"
+            "zip": "https://www.fontsquirrel.com/fonts/download/troika"
           }
         }
       ],
@@ -23179,7 +23179,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/True-Crimes"
+            "zip": "https://www.fontsquirrel.com/fonts/download/True-Crimes"
           }
         }
       ],
@@ -23221,7 +23221,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/trump-town-pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/trump-town-pro"
           }
         }
       ],
@@ -23263,7 +23263,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/tulia"
+            "zip": "https://www.fontsquirrel.com/fonts/download/tulia"
           }
         }
       ],
@@ -23305,7 +23305,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/typemymusic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/typemymusic"
           }
         }
       ],
@@ -23347,7 +23347,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/TypoSlabserif-Light"
+            "zip": "https://www.fontsquirrel.com/fonts/download/TypoSlabserif-Light"
           }
         }
       ],
@@ -23389,7 +23389,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Ubuntu-Titling"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Ubuntu-Titling"
           }
         }
       ],
@@ -23431,7 +23431,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Ubuntu-Title"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Ubuntu-Title"
           }
         }
       ],
@@ -23473,7 +23473,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/UglyQua"
+            "zip": "https://www.fontsquirrel.com/fonts/download/UglyQua"
           }
         }
       ],
@@ -23515,7 +23515,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Umbrage"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Umbrage"
           }
         }
       ],
@@ -23557,7 +23557,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/unb"
+            "zip": "https://www.fontsquirrel.com/fonts/download/unb"
           }
         }
       ],
@@ -23599,7 +23599,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/uncut-sans"
+            "zip": "https://www.fontsquirrel.com/fonts/download/uncut-sans"
           }
         }
       ],
@@ -23641,7 +23641,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Underwood-Champion"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Underwood-Champion"
           }
         }
       ],
@@ -23683,7 +23683,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/unifraktur-maguntia"
+            "zip": "https://www.fontsquirrel.com/fonts/download/unifraktur-maguntia"
           }
         }
       ],
@@ -23725,7 +23725,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/uppereastside"
+            "zip": "https://www.fontsquirrel.com/fonts/download/uppereastside"
           }
         }
       ],
@@ -23767,7 +23767,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Utility"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Utility"
           }
         }
       ],
@@ -23809,7 +23809,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/VAG-HandWritten"
+            "zip": "https://www.fontsquirrel.com/fonts/download/VAG-HandWritten"
           }
         }
       ],
@@ -23851,7 +23851,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Vanilla"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Vanilla"
           }
         }
       ],
@@ -23893,7 +23893,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Veggieburger"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Veggieburger"
           }
         }
       ],
@@ -23935,7 +23935,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/vegur"
+            "zip": "https://www.fontsquirrel.com/fonts/download/vegur"
           }
         }
       ],
@@ -23977,7 +23977,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Verily-Serif-Mono"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Verily-Serif-Mono"
           }
         }
       ],
@@ -24019,7 +24019,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/versa"
+            "zip": "https://www.fontsquirrel.com/fonts/download/versa"
           }
         }
       ],
@@ -24061,7 +24061,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/vg5000"
+            "zip": "https://www.fontsquirrel.com/fonts/download/vg5000"
           }
         }
       ],
@@ -24103,7 +24103,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Virgo-01"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Virgo-01"
           }
         }
       ],
@@ -24145,7 +24145,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/vladivostok"
+            "zip": "https://www.fontsquirrel.com/fonts/download/vladivostok"
           }
         }
       ],
@@ -24187,7 +24187,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/VTC-Letterer-Pro"
+            "zip": "https://www.fontsquirrel.com/fonts/download/VTC-Letterer-Pro"
           }
         }
       ],
@@ -24229,7 +24229,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/vtf-victorianna"
+            "zip": "https://www.fontsquirrel.com/fonts/download/vtf-victorianna"
           }
         }
       ],
@@ -24271,7 +24271,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Wagnasty"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Wagnasty"
           }
         }
       ],
@@ -24313,7 +24313,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Walkway"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Walkway"
           }
         }
       ],
@@ -24355,7 +24355,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/walleye"
+            "zip": "https://www.fontsquirrel.com/fonts/download/walleye"
           }
         }
       ],
@@ -24397,7 +24397,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SF-Wasabi"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SF-Wasabi"
           }
         }
       ],
@@ -24439,7 +24439,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Water-Street"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Water-Street"
           }
         }
       ],
@@ -24481,7 +24481,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/WC-Mano-Negra-Bta"
+            "zip": "https://www.fontsquirrel.com/fonts/download/WC-Mano-Negra-Bta"
           }
         }
       ],
@@ -24523,7 +24523,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/WC-Rhesus-Bta"
+            "zip": "https://www.fontsquirrel.com/fonts/download/WC-Rhesus-Bta"
           }
         }
       ],
@@ -24565,7 +24565,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/wc-roughtrad"
+            "zip": "https://www.fontsquirrel.com/fonts/download/wc-roughtrad"
           }
         }
       ],
@@ -24607,7 +24607,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/WC-Sold-Out-Bta"
+            "zip": "https://www.fontsquirrel.com/fonts/download/WC-Sold-Out-Bta"
           }
         }
       ],
@@ -24649,7 +24649,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/wc-wunderbach-bta"
+            "zip": "https://www.fontsquirrel.com/fonts/download/wc-wunderbach-bta"
           }
         }
       ],
@@ -24691,7 +24691,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/web-serveroff"
+            "zip": "https://www.fontsquirrel.com/fonts/download/web-serveroff"
           }
         }
       ],
@@ -24733,7 +24733,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/web-symbols"
+            "zip": "https://www.fontsquirrel.com/fonts/download/web-symbols"
           }
         }
       ],
@@ -24775,7 +24775,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/webhostinghub-glyphs"
+            "zip": "https://www.fontsquirrel.com/fonts/download/webhostinghub-glyphs"
           }
         }
       ],
@@ -24817,7 +24817,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/white-rabbit"
+            "zip": "https://www.fontsquirrel.com/fonts/download/white-rabbit"
           }
         }
       ],
@@ -24859,7 +24859,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Whitehall"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Whitehall"
           }
         }
       ],
@@ -24901,7 +24901,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/WinterthurCondensed"
+            "zip": "https://www.fontsquirrel.com/fonts/download/WinterthurCondensed"
           }
         }
       ],
@@ -24943,7 +24943,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/SF-Wonder-Comic"
+            "zip": "https://www.fontsquirrel.com/fonts/download/SF-Wonder-Comic"
           }
         }
       ],
@@ -24985,7 +24985,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/WoodenNickelBlack"
+            "zip": "https://www.fontsquirrel.com/fonts/download/WoodenNickelBlack"
           }
         }
       ],
@@ -25027,7 +25027,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Xenophone"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Xenophone"
           }
         }
       ],
@@ -25069,7 +25069,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Yataghan"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Yataghan"
           }
         }
       ],
@@ -25111,7 +25111,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Yellow-Magician"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Yellow-Magician"
           }
         }
       ],
@@ -25153,7 +25153,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Yew-Basturd"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Yew-Basturd"
           }
         }
       ],
@@ -25195,7 +25195,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/yokawerad"
+            "zip": "https://www.fontsquirrel.com/fonts/download/yokawerad"
           }
         }
       ],
@@ -25237,7 +25237,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/youngserif"
+            "zip": "https://www.fontsquirrel.com/fonts/download/youngserif"
           }
         }
       ],
@@ -25279,7 +25279,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Yukarimobile"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Yukarimobile"
           }
         }
       ],
@@ -25321,7 +25321,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/zambajoun"
+            "zip": "https://www.fontsquirrel.com/fonts/download/zambajoun"
           }
         }
       ],
@@ -25363,7 +25363,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/zantroke"
+            "zip": "https://www.fontsquirrel.com/fonts/download/zantroke"
           }
         }
       ],
@@ -25405,7 +25405,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Zenda"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Zenda"
           }
         }
       ],
@@ -25447,7 +25447,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/Zero-Zero-Is"
+            "zip": "https://www.fontsquirrel.com/fonts/download/Zero-Zero-Is"
           }
         }
       ],
@@ -25489,7 +25489,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/znikomit"
+            "zip": "https://www.fontsquirrel.com/fonts/download/znikomit"
           }
         }
       ],
@@ -25531,7 +25531,7 @@
             "latin"
           ],
           "files": {
-            "zip": "https://www.fontsquirrel.com/fontfacekit/znikomitno24"
+            "zip": "https://www.fontsquirrel.com/fonts/download/znikomitno24"
           }
         }
       ],

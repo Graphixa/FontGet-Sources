@@ -5,8 +5,9 @@ Font Squirrel Translator for FontGet
 Fetches font data from Font Squirrel API and transforms it to FontGet format.
 Uses Font Squirrel's public API to get font information.
 
-``/fontfacekit/{family_urlname}`` responses are ZIP webfont kits (CSS plus fonts);
-variant ``files`` use a ``zip`` key for those URLs. Direct file URLs use extension keys.
+Desktop zips use ``/fonts/download/{family_urlname}`` (OTF/TTF installable fonts).
+Do not use ``/fontfacekit/`` — those are webfont kits and can fail Windows install.
+Variant ``files`` use a ``zip`` key for download URLs (no ``.zip`` suffix; body is a zip).
 
 When ``DEDUPLICATE_GOOGLE_FONTS`` is True, families whose normalized id matches an entry in
 ``sources/google-fonts.json`` are omitted from retrieval (name/slug match, not binary identity).
@@ -51,7 +52,8 @@ def _load_google_font_family_ids(google_fonts_json: Path) -> Set[str]:
 
 
 class FontSquirrelTranslator:
-    FONTFACEKIT_PATH = "/fontfacekit/"
+    # Desktop font zip (no .zip suffix; response body is still a ZIP).
+    DOWNLOAD_PATH = "/fonts/download/"
 
     def __init__(self):
         self.base_url = "https://www.fontsquirrel.com/api"
@@ -59,17 +61,17 @@ class FontSquirrelTranslator:
         self.familyinfo_url = f"{self.base_url}/familyinfo"
 
     @staticmethod
-    def _fontfacekit_download_url(family_urlname: str) -> str:
+    def _desktop_download_url(family_urlname: str) -> str:
         if not family_urlname or not str(family_urlname).strip():
             return ""
-        return f"https://www.fontsquirrel.com/fontfacekit/{family_urlname.strip()}"
+        return f"https://www.fontsquirrel.com/fonts/download/{family_urlname.strip()}"
 
     def _is_zip_bundle_url(self, url: str) -> bool:
         if not url or not url.strip():
             return False
-        if self.FONTFACEKIT_PATH in url.lower():
-            return True
         path = urlparse(url).path.lower()
+        if self.DOWNLOAD_PATH in path:
+            return True
         return path.endswith(".zip")
 
     def _files_dict_for_download_url(self, url: str) -> Dict[str, str]:
@@ -246,7 +248,7 @@ class FontSquirrelTranslator:
 
         if not font_files:
             family_urlname = font_data.get("family_urlname", "")
-            download_url = self._fontfacekit_download_url(family_urlname)
+            download_url = self._desktop_download_url(family_urlname)
             files = self._files_dict_for_download_url(download_url)
             if files:
                 variants.append({
@@ -280,7 +282,7 @@ class FontSquirrelTranslator:
         variant_name = self._generate_variant_name(family_name, weight, style)
         
         if not download_url and family_urlname:
-            download_url = self._fontfacekit_download_url(family_urlname)
+            download_url = self._desktop_download_url(family_urlname)
         
         files = self._files_dict_for_download_url(download_url)
         if not files:
@@ -481,13 +483,13 @@ class FontSquirrelTranslator:
 
         if deduplicate_google_fonts:
             desc = (
-                "Free fonts from Font Squirrel (webfont kits as ZIP via fontfacekit URLs). "
+                "Free fonts from Font Squirrel (desktop ZIP via /fonts/download/). "
                 "Families whose normalized id matches sources/google-fonts.json are omitted "
                 "to avoid duplicating the Google Fonts catalog."
             )
         else:
             desc = (
-                "Free fonts from Font Squirrel (webfont kits as ZIP via fontfacekit URLs). "
+                "Free fonts from Font Squirrel (desktop ZIP via /fonts/download/). "
                 "All families from the Font Squirrel API are included."
             )
 
@@ -505,6 +507,17 @@ class FontSquirrelTranslator:
         }
 
         return source_data
+
+
+def _self_check() -> None:
+    t = FontSquirrelTranslator()
+    url = t._desktop_download_url("blackjack")
+    assert url == "https://www.fontsquirrel.com/fonts/download/blackjack"
+    assert t._is_zip_bundle_url(url)
+    assert t._files_dict_for_download_url(url) == {"zip": url}
+    assert not t._is_zip_bundle_url("https://www.fontsquirrel.com/fontfacekit/blackjack")
+    assert t._files_dict_for_download_url("https://www.fontsquirrel.com/fontfacekit/blackjack") == {}
+    print("font-squirrel-translator self-check OK")
 
 
 def main() -> int:
@@ -555,4 +568,9 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    exit(main())
+    import sys as _sys
+
+    if len(_sys.argv) > 1 and _sys.argv[1] == "--self-check":
+        _self_check()
+        raise SystemExit(0)
+    raise SystemExit(main())
