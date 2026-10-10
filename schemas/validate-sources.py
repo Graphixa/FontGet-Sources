@@ -32,7 +32,10 @@ def _zip_url_allowed(url: str, path_lower: str) -> bool:
         host = (urlparse(url).hostname or "").lower()
     except Exception:
         host = ""
-    if "fontshare.com" in host and "/fonts/download/" in path_lower:
+    # Extensionless desktop zip endpoints (body is still a ZIP).
+    if "/fonts/download/" in path_lower and (
+        "fontshare.com" in host or "fontsquirrel.com" in host
+    ):
         return True
     return False
 
@@ -69,7 +72,8 @@ def _validate_files_object(files: Dict[str, Any], *, context: str) -> List[str]:
         elif key == "zip":
             if not _zip_url_allowed(url, pl):
                 errs.append(
-                    f"{context}: files.zip must be .zip, fontfacekit, or Fontshare /fonts/download/: {url[:160]}"
+                    f"{context}: files.zip must be .zip, fontfacekit, or "
+                    f"Fontshare/Font Squirrel /fonts/download/: {url[:160]}"
                 )
         elif key == "tar_xz":
             if not re.search(r"\.tar\.xz$", pl):
