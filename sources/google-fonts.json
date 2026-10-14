@@ -5,7 +5,7 @@
     "url": "https://fonts.google.com",
     "api_endpoint": "https://www.googleapis.com/webfonts/v1/webfonts",
     "version": "1.0",
-    "last_updated": "2026-10-13T08:34:11.336873Z",
+    "last_updated": "2026-10-14T06:48:11.665317Z",
     "total_fonts": 1959
   },
   "fonts": {
@@ -142875,6 +142875,50 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
+    "moirai-one": {
+      "name": "Moirai One",
+      "family": "Moirai One",
+      "license": "OFL-1.1",
+      "license_url": "https://fonts.google.com/specimen/Moirai+One/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v3",
+      "description": "",
+      "categories": [
+        "Display"
+      ],
+      "tags": [
+        "display"
+      ],
+      "popularity": 25,
+      "last_modified": "2026-03-03",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/moiraione/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Moirai+One",
+      "variants": [
+        {
+          "name": "Moirai One Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/moiraione/v3/2sDbZGFUgJLJmby6xgNGT0WWB7UcfCg.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Korean",
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
     "savate": {
       "name": "Savate",
       "family": "Savate",
@@ -143095,50 +143139,6 @@
         "U+0100-017F"
       ],
       "languages": [
-        "Latin",
-        "Latin Extended"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "moirai-one": {
-      "name": "Moirai One",
-      "family": "Moirai One",
-      "license": "OFL-1.1",
-      "license_url": "https://fonts.google.com/specimen/Moirai+One/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v3",
-      "description": "",
-      "categories": [
-        "Display"
-      ],
-      "tags": [
-        "display"
-      ],
-      "popularity": 25,
-      "last_modified": "2026-03-03",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/moiraione/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Moirai+One",
-      "variants": [
-        {
-          "name": "Moirai One Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/moiraione/v3/2sDbZGFUgJLJmby6xgNGT0WWB7UcfCg.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF",
-        "U+0100-017F"
-      ],
-      "languages": [
-        "Korean",
         "Latin",
         "Latin Extended"
       ],
@@ -149959,49 +149959,6 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "noto-sans-wancho": {
-      "name": "Noto Sans Wancho",
-      "family": "Noto Sans Wancho",
-      "license": "OFL-1.1",
-      "license_url": "https://fonts.google.com/specimen/Noto+Sans+Wancho/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v19",
-      "description": "",
-      "categories": [
-        "Sans Serif"
-      ],
-      "tags": [
-        "sans-serif"
-      ],
-      "popularity": 25,
-      "last_modified": "2026-01-20",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanswancho/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Noto+Sans+Wancho",
-      "variants": [
-        {
-          "name": "Noto Sans Wancho Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/notosanswancho/v19/zrf-0GXXyfn6Fs0lH9P4cUubP0GBqAPopiRfKp8.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF",
-        "U+0100-017F"
-      ],
-      "languages": [
-        "Latin",
-        "Latin Extended"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
     "noto-sans-inscriptional-parthian": {
       "name": "Noto Sans Inscriptional Parthian",
       "family": "Noto Sans Inscriptional Parthian",
@@ -150032,6 +149989,49 @@
           ],
           "files": {
             "ttf": "https://fonts.gstatic.com/s/notosansinscriptionalparthian/v18/k3k7o-IMPvpLmixcA63oYi-yStDkgXuXncL7dzfW3P4TAJ2yklBJ2jNkLlLr.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF",
+        "U+0100-017F"
+      ],
+      "languages": [
+        "Latin",
+        "Latin Extended"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "noto-sans-wancho": {
+      "name": "Noto Sans Wancho",
+      "family": "Noto Sans Wancho",
+      "license": "OFL-1.1",
+      "license_url": "https://fonts.google.com/specimen/Noto+Sans+Wancho/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v19",
+      "description": "",
+      "categories": [
+        "Sans Serif"
+      ],
+      "tags": [
+        "sans-serif"
+      ],
+      "popularity": 25,
+      "last_modified": "2026-01-20",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanswancho/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Noto+Sans+Wancho",
+      "variants": [
+        {
+          "name": "Noto Sans Wancho Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/notosanswancho/v19/zrf-0GXXyfn6Fs0lH9P4cUubP0GBqAPopiRfKp8.ttf"
           }
         }
       ],
