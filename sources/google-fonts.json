@@ -5,7 +5,7 @@
     "url": "https://fonts.google.com",
     "api_endpoint": "https://www.googleapis.com/webfonts/v1/webfonts",
     "version": "1.0",
-    "last_updated": "2026-11-15T10:17:56.475288Z",
+    "last_updated": "2026-11-16T08:40:17.243871Z",
     "total_fonts": 1970
   },
   "fonts": {
@@ -143331,6 +143331,83 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
+    "playwrite-it-moderna": {
+      "name": "Playwrite IT Moderna",
+      "family": "Playwrite IT Moderna",
+      "license": "OFL-1.1",
+      "license_url": "https://fonts.google.com/specimen/Playwrite+IT+Moderna/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v11",
+      "description": "",
+      "categories": [
+        "Handwriting"
+      ],
+      "tags": [
+        "handwriting"
+      ],
+      "popularity": 45,
+      "last_modified": "2025-09-08",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playwriteitmoderna/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Playwrite+IT+Moderna",
+      "variants": [
+        {
+          "name": "Playwrite IT Moderna Thin",
+          "weight": 100,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/playwriteitmoderna/v11/mFTbWaYCwKPK5cx6W8jy2kwDnSUe9q45vQQi5HMFnSdEx2F5Wil8ubbffHtmMw.ttf"
+          }
+        },
+        {
+          "name": "Playwrite IT Moderna Extra Light",
+          "weight": 200,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/playwriteitmoderna/v11/mFTbWaYCwKPK5cx6W8jy2kwDnSUe9q45vQQi5HMFnSdEx2F52ih8ubbffHtmMw.ttf"
+          }
+        },
+        {
+          "name": "Playwrite IT Moderna Light",
+          "weight": 300,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/playwriteitmoderna/v11/mFTbWaYCwKPK5cx6W8jy2kwDnSUe9q45vQQi5HMFnSdEx2F5BCh8ubbffHtmMw.ttf"
+          }
+        },
+        {
+          "name": "Playwrite IT Moderna Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/playwriteitmoderna/v11/mFTbWaYCwKPK5cx6W8jy2kwDnSUe9q45vQQi5HMFnSdEx2F5Wih8ubbffHtmMw.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
     "m-plus-code-latin": {
       "name": "M PLUS Code Latin",
       "family": "M PLUS Code Latin",
@@ -143445,83 +143522,6 @@
         "Latin",
         "Latin Extended",
         "Vietnamese"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
-    "playwrite-it-moderna": {
-      "name": "Playwrite IT Moderna",
-      "family": "Playwrite IT Moderna",
-      "license": "OFL-1.1",
-      "license_url": "https://fonts.google.com/specimen/Playwrite+IT+Moderna/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v11",
-      "description": "",
-      "categories": [
-        "Handwriting"
-      ],
-      "tags": [
-        "handwriting"
-      ],
-      "popularity": 45,
-      "last_modified": "2025-09-08",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playwriteitmoderna/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Playwrite+IT+Moderna",
-      "variants": [
-        {
-          "name": "Playwrite IT Moderna Thin",
-          "weight": 100,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/playwriteitmoderna/v11/mFTbWaYCwKPK5cx6W8jy2kwDnSUe9q45vQQi5HMFnSdEx2F5Wil8ubbffHtmMw.ttf"
-          }
-        },
-        {
-          "name": "Playwrite IT Moderna Extra Light",
-          "weight": 200,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/playwriteitmoderna/v11/mFTbWaYCwKPK5cx6W8jy2kwDnSUe9q45vQQi5HMFnSdEx2F52ih8ubbffHtmMw.ttf"
-          }
-        },
-        {
-          "name": "Playwrite IT Moderna Light",
-          "weight": 300,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/playwriteitmoderna/v11/mFTbWaYCwKPK5cx6W8jy2kwDnSUe9q45vQQi5HMFnSdEx2F5BCh8ubbffHtmMw.ttf"
-          }
-        },
-        {
-          "name": "Playwrite IT Moderna Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/playwriteitmoderna/v11/mFTbWaYCwKPK5cx6W8jy2kwDnSUe9q45vQQi5HMFnSdEx2F5Wih8ubbffHtmMw.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF"
-      ],
-      "languages": [
-        "Latin"
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
@@ -158105,47 +158105,6 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "playwrite-au-qld-guides": {
-      "name": "Playwrite AU QLD Guides",
-      "family": "Playwrite AU QLD Guides",
-      "license": "OFL-1.1",
-      "license_url": "https://fonts.google.com/specimen/Playwrite+AU+QLD+Guides/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v1",
-      "description": "",
-      "categories": [
-        "Handwriting"
-      ],
-      "tags": [
-        "handwriting"
-      ],
-      "popularity": 15,
-      "last_modified": "2025-05-30",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playwriteauqldguides/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Playwrite+AU+QLD+Guides",
-      "variants": [
-        {
-          "name": "Playwrite AU QLD Guides Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/playwriteauqldguides/v1/TuGBUUJtX5tTUfQi_7kbiZZFVhl0FIKnvy00LDxlIzIU5RwD.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF"
-      ],
-      "languages": [
-        "Latin"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
     "playwrite-au-tas-guides": {
       "name": "Playwrite AU TAS Guides",
       "family": "Playwrite AU TAS Guides",
@@ -158176,6 +158135,47 @@
           ],
           "files": {
             "ttf": "https://fonts.gstatic.com/s/playwriteautasguides/v1/cY9Vfi6cVk5RvjGtQrLqjozy3ekUDtDMDX-NNjbKL4UbaDZD.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "playwrite-au-qld-guides": {
+      "name": "Playwrite AU QLD Guides",
+      "family": "Playwrite AU QLD Guides",
+      "license": "OFL-1.1",
+      "license_url": "https://fonts.google.com/specimen/Playwrite+AU+QLD+Guides/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v1",
+      "description": "",
+      "categories": [
+        "Handwriting"
+      ],
+      "tags": [
+        "handwriting"
+      ],
+      "popularity": 15,
+      "last_modified": "2025-05-30",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playwriteauqldguides/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Playwrite+AU+QLD+Guides",
+      "variants": [
+        {
+          "name": "Playwrite AU QLD Guides Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/playwriteauqldguides/v1/TuGBUUJtX5tTUfQi_7kbiZZFVhl0FIKnvy00LDxlIzIU5RwD.ttf"
           }
         }
       ],
@@ -158733,47 +158733,6 @@
       ],
       "sample_text": "The quick brown fox jumps over the lazy dog"
     },
-    "playwrite-cz-guides": {
-      "name": "Playwrite CZ Guides",
-      "family": "Playwrite CZ Guides",
-      "license": "OFL-1.1",
-      "license_url": "https://fonts.google.com/specimen/Playwrite+CZ+Guides/license",
-      "designer": "",
-      "foundry": "Google",
-      "version": "v1",
-      "description": "",
-      "categories": [
-        "Handwriting"
-      ],
-      "tags": [
-        "handwriting"
-      ],
-      "popularity": 15,
-      "last_modified": "2025-05-30",
-      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playwriteczguides/METADATA.pb",
-      "source_url": "https://fonts.google.com/specimen/Playwrite+CZ+Guides",
-      "variants": [
-        {
-          "name": "Playwrite CZ Guides Regular",
-          "weight": 400,
-          "style": "normal",
-          "subsets": [
-            "latin",
-            "latin-ext"
-          ],
-          "files": {
-            "ttf": "https://fonts.gstatic.com/s/playwriteczguides/v1/6qLcKY0NtxD-qVlIPUIPeH4lUQa6B3ZZQkseuneh7xc.ttf"
-          }
-        }
-      ],
-      "unicode_ranges": [
-        "U+0000-00FF"
-      ],
-      "languages": [
-        "Latin"
-      ],
-      "sample_text": "The quick brown fox jumps over the lazy dog"
-    },
     "playwrite-sk-guides": {
       "name": "Playwrite SK Guides",
       "family": "Playwrite SK Guides",
@@ -158804,6 +158763,47 @@
           ],
           "files": {
             "ttf": "https://fonts.gstatic.com/s/playwriteskguides/v1/P5sezYaSYdfH5z93kEFk3tyPlqxeQeo_JzruWQshcbU.ttf"
+          }
+        }
+      ],
+      "unicode_ranges": [
+        "U+0000-00FF"
+      ],
+      "languages": [
+        "Latin"
+      ],
+      "sample_text": "The quick brown fox jumps over the lazy dog"
+    },
+    "playwrite-cz-guides": {
+      "name": "Playwrite CZ Guides",
+      "family": "Playwrite CZ Guides",
+      "license": "OFL-1.1",
+      "license_url": "https://fonts.google.com/specimen/Playwrite+CZ+Guides/license",
+      "designer": "",
+      "foundry": "Google",
+      "version": "v1",
+      "description": "",
+      "categories": [
+        "Handwriting"
+      ],
+      "tags": [
+        "handwriting"
+      ],
+      "popularity": 15,
+      "last_modified": "2025-05-30",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playwriteczguides/METADATA.pb",
+      "source_url": "https://fonts.google.com/specimen/Playwrite+CZ+Guides",
+      "variants": [
+        {
+          "name": "Playwrite CZ Guides Regular",
+          "weight": 400,
+          "style": "normal",
+          "subsets": [
+            "latin",
+            "latin-ext"
+          ],
+          "files": {
+            "ttf": "https://fonts.gstatic.com/s/playwriteczguides/v1/6qLcKY0NtxD-qVlIPUIPeH4lUQa6B3ZZQkseuneh7xc.ttf"
           }
         }
       ],
